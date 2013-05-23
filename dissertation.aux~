@@ -1,0 +1,351 @@
+\relax 
+\ifx\hyper@anchor\@undefined
+\global \let \oldcontentsline\contentsline
+\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global \let \oldnewlabel\newlabel
+\gdef \newlabel#1#2{\newlabelxx{#1}#2}
+\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\let \contentsline\oldcontentsline
+\let \newlabel\oldnewlabel}
+\else
+\global \let \hyper@last\relax 
+\fi
+
+\bibstyle{plain}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\citation{Srednicki_2007}
+\citation{griffiths2008introduction}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Relevant Theoretical Issues }{5}{chapter.2}}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\newlabel{sec:theory}{{2}{5}{Relevant Theoretical Issues \label {sec:theory}\relax }{chapter.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}}
+\newlabel{sec:SM}{{2.2}{5}{Standard Model \label {sec:SM}\relax }{section.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Standard Model }{5}{section.2.2}}
+\newlabel{eq:SMGroups}{{2.1}{5}{Standard Model \label {sec:SM}\relax }{equation.2.1}{}}
+\citation{Fairbairn:2006gg}
+\citation{Martin:1997ns}
+\citation{Tata:1997uf}
+\newlabel{sec:BSM}{{2.3}{8}{Beyond Standard Model Theories and Heavy Stable Charged Particles \label {sec:BSM}\relax }{section.2.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Beyond Standard Model Theories and Heavy Stable Charged Particles }{8}{section.2.3}}
+\citation{Kraan:2004tz}
+\citation{Mackeprang:2006gx}
+\citation{Mackeprang:2009ad}
+\citation{Giudice:1998bp}
+\citation{Fairbairn:2006gg}
+\newlabel{eq:lifetime}{{2.2}{11}{Beyond Standard Model Theories and Heavy Stable Charged Particles \label {sec:BSM}\relax }{equation.2.2}{}}
+\newlabel{eq:gravmass}{{2.3}{11}{Beyond Standard Model Theories and Heavy Stable Charged Particles \label {sec:BSM}\relax }{equation.2.3}{}}
+\citation{Langacker:2011db}
+\citation{1748-0221-3-08-S08001}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Experimental Apparatus }{13}{chapter.3}}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\newlabel{sec:app}{{3}{13}{Experimental Apparatus \label {sec:app}\relax }{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Introduction}{13}{section.3.1}}
+\newlabel{sec:LHC}{{3.2}{13}{Large Hadron Collider \label {sec:LHC}\relax }{section.3.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Large Hadron Collider }{13}{section.3.2}}
+\citation{Chatrchyan:2008zzk}
+\citation{Bayatian:922757}
+\citation{Bayatian:942733}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Compact Muon Solenoid}{15}{section.3.3}}
+\newlabel{sec:subsystems}{{3.3.1}{16}{Subdetectors \label {sec:subsystems}\relax }{subsection.3.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Subdetectors }{16}{subsection.3.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Gluino1200f100 System Pt vs MET}}{17}{figure.3.1}}
+\newlabel{fig:CMSPart}{{3.1}{17}{Compact Muon Solenoid\relax }{figure.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Gluino1200f100 System Pt vs MET}}{18}{figure.3.2}}
+\newlabel{fig:CMSSlice}{{3.2}{18}{Compact Muon Solenoid\relax }{figure.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Gluino1200f100 System Pt vs MET}}{18}{figure.3.3}}
+\newlabel{fig:CMSMuOnly}{{3.3}{18}{Compact Muon Solenoid\relax }{figure.3.3}{}}
+\newlabel{sec:computing}{{3.3.2}{20}{Computing \label {sec:computing}\relax }{subsection.3.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Computing }{20}{subsection.3.3.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Muon System Timing }{24}{chapter.4}}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\newlabel{sec:timing}{{4}{24}{Muon System Timing \label {sec:timing}\relax }{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{24}{section.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}CSC Hit Timing}{25}{section.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Gluino1200f100 System Pt vs MET}}{26}{figure.4.1}}
+\newlabel{fig:hittime}{{4.1}{26}{CSC Hit Timing\relax }{figure.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Gluino1200f100 System Pt vs MET}}{27}{figure.4.2}}
+\newlabel{fig:SegTimes}{{4.2}{27}{CSC Hit Timing\relax }{figure.4.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}CSC Trigger Timing}{27}{section.4.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Gluino1200f100 System Pt vs MET}}{30}{figure.4.3}}
+\newlabel{fig:AnodevsprePost}{{4.3}{30}{CSC Trigger Timing\relax }{figure.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Gluino1200f100 System Pt vs MET}}{31}{figure.4.4}}
+\newlabel{fig:average_anodes}{{4.4}{31}{CSC Trigger Timing\relax }{figure.4.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Muon Track Timing}{31}{section.4.4}}
+\newlabel{eq:speed}{{4.1}{31}{Muon Track Timing\relax }{equation.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Gluino1200f100 System Pt vs MET}}{32}{figure.4.5}}
+\newlabel{fig:ALCTBX}{{4.5}{32}{CSC Trigger Timing\relax }{figure.4.5}{}}
+\newlabel{eq:speed}{{4.2}{32}{Muon Track Timing\relax }{equation.4.2}{}}
+\newlabel{betaerr}{{4.3}{33}{Muon Track Timing\relax }{equation.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Gluino1200f100 System Pt vs MET}}{34}{figure.4.6}}
+\newlabel{fig:invbeta}{{4.6}{34}{Muon Track Timing\relax }{figure.4.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Gluino1200f100 System Pt vs MET}}{35}{figure.4.7}}
+\newlabel{fig:vertextime}{{4.7}{35}{Muon Track Timing\relax }{figure.4.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Gluino1200f100 System Pt vs MET}}{35}{figure.4.8}}
+\newlabel{fig:vertexopptime}{{4.8}{35}{Muon Track Timing\relax }{figure.4.8}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Searches for Heavy Stable Charged Particles }{37}{chapter.5}}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\newlabel{sec:search}{{5}{37}{Searches for Heavy Stable Charged Particles \label {sec:search}\relax }{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Foreword}{37}{section.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Introduction}{38}{section.5.2}}
+\newlabel{sec:samples}{{5.3}{39}{Samples \label {sec:samples}\relax }{section.5.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Samples }{39}{section.5.3}}
+\citation{ArkaniHamed:2004fb}
+\citation{Giudice:2004tc}
+\citation{Sjostrand:2007gs}
+\citation{Giudice:1998bp}
+\citation{Allanach:2002nj}
+\citation{Paige:2003mg}
+\citation{Sjostrand:2006za}
+\citation{Sjostrand:2006za}
+\citation{CMS:2010xta}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Gluino1200f100 System Pt vs MET}}{42}{figure.5.1}}
+\newlabel{fig:PV}{{5.1}{42}{Samples \label {sec:samples}\relax }{figure.5.1}{}}
+\newlabel{sec:trigger}{{5.4}{42}{Trigger \label {sec:trigger}\relax }{section.5.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Trigger }{42}{section.5.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Gluino1200f100 System Pt vs MET}}{45}{figure.5.2}}
+\newlabel{fig:SystPtTrigger}{{5.2}{45}{Trigger \label {sec:trigger}\relax }{figure.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Gluino1200f100 System Pt vs MET}}{46}{figure.5.3}}
+\newlabel{fig:SystPtTriggerN}{{5.3}{46}{Trigger \label {sec:trigger}\relax }{figure.5.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Trigger efficiency as a function of the $\beta $ of the fastest HSCP reconstructed offline in the muon system with only the muon triggers and additionally including the PFMET trigger. Sample is 1200 GeV Gluino $f=0.1$ (left) and 800 GeV stop (right) }}{47}{figure.5.4}}
+\newlabel{fig:TriggerEffVsBetaGl}{{5.4}{47}{Trigger \label {sec:trigger}\relax }{figure.5.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Trigger efficiency for various models considered using the SingleMu, PFMET, L2Mu+MET or a combination of the three. Efficiencies with respect to events with at least one HSCP reconstructed in the muon system. }}{48}{table.5.1}}
+\newlabel{tab:triggEffSA}{{5.1}{48}{Trigger \label {sec:trigger}\relax }{table.5.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Trigger efficiency for various models considered using the SingleMu, PFMET, or a combination of the two. Efficiencies with respect to events with at least one HSCP reconstructed in both the muon system and inner tracker. }}{49}{table.5.2}}
+\newlabel{tab:triggEffGl}{{5.2}{49}{Trigger \label {sec:trigger}\relax }{table.5.2}{}}
+\citation{PDG}
+\citation{Chatrchyan:2012sp}
+\citation{Eadie}
+\citation{James}
+\newlabel{sec:SelVar}{{5.5}{50}{Selection Variables \label {sec:SelVar}\relax }{section.5.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Selection Variables }{50}{section.5.5}}
+\citation{Chatrchyan:2012sp}
+\newlabel{eq:MassFromHarmonicEstimator}{{5.1}{51}{Selection Variables \label {sec:SelVar}\relax }{equation.5.1}{}}
+\newlabel{eq:deltaqopt}{{5.2}{52}{Selection Variables \label {sec:SelVar}\relax }{equation.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Distribution of $\Delta (Q/p_T)$ for data, 500 GeV gluino, 500 GeV stop, and 494 GeV GMSB stau. }}{53}{figure.5.5}}
+\newlabel{fig:MuOnlyInvPtDiff}{{5.5}{53}{Selection Variables \label {sec:SelVar}\relax }{figure.5.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Distribution of reconstructed $p_T$ versus generator $p_T$ for Q=1e, 2e, and 4e samples. }}{54}{figure.5.6}}
+\newlabel{fig:RecoGenPt}{{5.6}{54}{Selection Variables \label {sec:SelVar}\relax }{figure.5.6}{}}
+\newlabel{sec:preselection}{{5.6}{54}{Preselection \label {sec:preselection}\relax }{section.5.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Preselection }{54}{section.5.6}}
+\newlabel{sec:muonlypreselection}{{5.6.1}{54}{Preselection for \muononly \ \label {sec:muonlypreselection}\relax }{subsection.5.6.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}Preselection for {\em  muon only}\ }{54}{subsection.5.6.1}}
+\newlabel{sec:tktofpreselection}{{5.6.2}{55}{Preselection for \tktof \ \label {sec:tktofpreselection}\relax }{subsection.5.6.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.2}Preselection for {\em  muon+track}\ }{55}{subsection.5.6.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Distribution of $\eta $ (left) and number of matched muon stations (right) for data, cosmic control sample, and signal MC in the {\em  muon only}\ analysis. }}{56}{figure.5.7}}
+\newlabel{fig:MuOnlyPreselA}{{5.7}{56}{Preselection for \muononly \ \label {sec:muonlypreselection}\relax }{figure.5.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Distribution of various prelection variables in the {\em  muon only}\ analysis for data, cosmic control sample, and signal MC. Top row: Number of degrees of freedom (left) and error (right) on the $\beta ^{-1}$\ measurement. Bottom row: Time at vertex. }}{57}{figure.5.8}}
+\newlabel{fig:MuOnlyPreselB}{{5.8}{57}{Preselection for \muononly \ \label {sec:muonlypreselection}\relax }{figure.5.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Distribution of various prelection variables in the {\em  muon only}\ analysis for data, cosmic control sample, and signal MC. Top row: Disitribution of transverse (left) and longitudinal displacement (right). Bottom row: Distribution of $\phi $ (left) and $\eta $ separation to muon segments (right). The rightmost bin in the $\eta $ separation plot includes candidates where no segments were found. }}{58}{figure.5.9}}
+\newlabel{fig:MuOnlyPreselC}{{5.9}{58}{Preselection for \muononly \ \label {sec:muonlypreselection}\relax }{figure.5.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Distribution of various prelection variables in the {\em  muon+track}\ analysis for data and signal MC. Top row: Number of tracker (left) and pixel (right) hits. Bottom row: Fraction of valid tracker hits (left) and number of measurements used for the $dE/dx$\ calculation (right). }}{59}{figure.5.10}}
+\newlabel{fig:TkMuPreselA}{{5.10}{59}{Preselection for \tktof \ \label {sec:tktofpreselection}\relax }{figure.5.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Distribution of various prelection variables in the {\em  muon+track}\ analysis for data and signal MC. Top row: Relative $p_T$ error (left) and $\chi ^2$ per degree of freedom (right). Bottom row: Displacement in the transverse (left) and longitudinal (right) directions. }}{60}{figure.5.11}}
+\newlabel{fig:TkMuPreselB}{{5.11}{60}{Preselection for \tktof \ \label {sec:tktofpreselection}\relax }{figure.5.11}{}}
+\newlabel{sec:otherpreselection}{{5.6.3}{61}{Preselection for \tkonly \ and \multi \ \label {sec:otherpreselection}\relax }{subsection.5.6.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.3}Preselection for {\em  track only}\ and {\em  multiple charge}\ }{61}{subsection.5.6.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Distribution of various prelection variables in the {\em  muon+track}\ analysis for data and signal MC. Top row: Sum momentum of tracks within 0.3 (left) and calorimeter energy within 0.3 divided by track momentum (right). Bottom row: Distribution of the $\beta ^{-1}$\ measurement error (left) and the number of degrees of freedom (right). }}{62}{figure.5.12}}
+\newlabel{fig:TkMuPreselC}{{5.12}{62}{Preselection for \tktof \ \label {sec:tktofpreselection}\relax }{figure.5.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Distribution of number of measurements passing cleaning for samples of three different charges }}{63}{figure.5.13}}
+\newlabel{fig:TkMuPreselC}{{5.13}{63}{Preselection for \tkonly \ and \multi \ \label {sec:otherpreselection}\relax }{figure.5.13}{}}
+\newlabel{sec:summarypreselection}{{5.6.4}{63}{Summary of Preselection \label {sec:summarypreselection}\relax }{subsection.5.6.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.4}Summary of Preselection }{63}{subsection.5.6.4}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Preselection criteria used in the various analyses as defined in the text. }}{64}{table.5.3}}
+\newlabel{tab:preselection}{{5.3}{64}{Summary of Preselection \label {sec:summarypreselection}\relax }{table.5.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces Distribution of selection variables for data, cosmic control sample, and signal MC. Left: Distribution of $p_T$. Right: Distribution of $\beta ^{-1}$. }}{65}{figure.5.14}}
+\newlabel{fig:MuOnlySelVar}{{5.14}{65}{Summary of Preselection \label {sec:summarypreselection}\relax }{figure.5.14}{}}
+\newlabel{sec:TagProbe}{{5.6.5}{65}{Tag and Probe Studies \label {sec:TagProbe}\relax }{subsection.5.6.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.5}Tag and Probe Studies }{65}{subsection.5.6.5}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces Preselection efficiency for a few benchmark SUSY samples in each analysis. This efficiency is with respect to the reconstructed HSCP candidate (i.e. muon system track for the {\em  muon only}\ analysis and muon system plus inner tracker for the {\em  muon+track}\ analysis). The fraction of glueballs assumed for the gluino samples is given in parantheses at the end of the signal name. }}{66}{table.5.4}}
+\newlabel{tab:preselectionEff}{{5.4}{66}{Summary of Preselection \label {sec:summarypreselection}\relax }{table.5.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces Preselection efficiency for a few benchmark modified DY samples in each analysis. This efficiency is with respect to the reconstructed HSCP candidate (i.e. muon system plus inner track for the {\em  multiple charge}\ analysis and inner track for the {\em  track only}\ analysis). }}{67}{table.5.5}}
+\newlabel{tab:preselectionEffA}{{5.5}{67}{Summary of Preselection \label {sec:summarypreselection}\relax }{table.5.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces Distribution of section variables for data and signal MC. Top row: Distribution of $p_T$ (left) and $\beta ^{-1}$\ (right). Bottom row: Distribution of $I_{as}$\ (left) and $I_{h}$\ (right). }}{68}{figure.5.15}}
+\newlabel{fig:TkMuSelVar}{{5.15}{68}{Summary of Preselection \label {sec:summarypreselection}\relax }{figure.5.15}{}}
+\newlabel{BackPred}{{5.7}{70}{Background Prediction \label {BackPred}\relax }{section.5.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.7}Background Prediction }{70}{section.5.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.16}{\ignorespaces Example fits to invariant mass distributions in the tag and probe procedure for the {\em  muon only}\ analysis for data. Top left: Mass distribution and fit for probes passing the preselection. Top right: Mass distribution and fit for probes failing the preselection. Bottom left: Mass distribution and fit for all probes. Bottom right: Parameters extracted from the fit. }}{71}{figure.5.16}}
+\newlabel{fig:MuOnlyTagProbeFitData}{{5.16}{71}{Tag and Probe Studies \label {sec:TagProbe}\relax }{figure.5.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces Same as Fig.\nobreakspace  {}\ref  {fig:MuOnlyTagProbeFitData} but for MC. }}{72}{figure.5.17}}
+\newlabel{fig:MuOnlyTagProbeFitMC}{{5.17}{72}{Tag and Probe Studies \label {sec:TagProbe}\relax }{figure.5.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces Efficiency to pass preselection cuts for the {\em  muon only}\ analysis. Top row: Versus $p_T$ (left) and $\eta $ (right) Bottom row: Versus number of primary vertices (right). }}{73}{figure.5.18}}
+\newlabel{fig:MuOnlyTagProbeEff}{{5.18}{73}{Tag and Probe Studies \label {sec:TagProbe}\relax }{figure.5.18}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.6}{\ignorespaces Bin naming convention. The signal region is always the D region.}}{75}{table.5.6}}
+\newlabel{tab:BinNames}{{5.6}{75}{Background Prediction \label {BackPred}\relax }{table.5.6}{}}
+\newlabel{eq:variance}{{5.3}{76}{Background Prediction \label {BackPred}\relax }{equation.5.3}{}}
+\newlabel{sec:MuOnlyPred}{{5.7.1}{77}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{subsection.5.7.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.1}Prediction for {\em  muon only}\ analysis }{77}{subsection.5.7.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces Distribution of $p_T$ and $\beta ^{-1}$\ for data for six different regions depending on whether the candidate is in the barrel (Bar) or forward (For) region of CMS and number of muon stations used in the fit. }}{78}{figure.5.19}}
+\newlabel{fig:SelVarBinned}{{5.19}{78}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{figure.5.19}{}}
+\newlabel{eq:CosmicPred}{{5.4}{78}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{equation.5.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces Distribution of $\beta ^{-1}$\ for different momentum regions for four of the six different bins that are used to make the prediction. The left column shows the barrel region while the right column shows the forward region. The top (bottom) row are for 2 (3) stations. }}{79}{figure.5.20}}
+\newlabel{fig:MuOnlyControl}{{5.20}{79}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{figure.5.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces Distribution of $\beta ^{-1}$\ for different momentum regions for four station tracks. The left column shows the barrel region while the right column shows the forward region. }}{80}{figure.5.21}}
+\newlabel{fig:MuOnlyControl4}{{5.21}{80}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{figure.5.21}{}}
+\newlabel{eq:CosmicRatio}{{5.5}{80}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{equation.5.5}{}}
+\newlabel{eq:CosmicSide}{{5.6}{80}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{equation.5.6}{}}
+\newlabel{eq:CosmicSignal}{{5.7}{80}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{equation.5.7}{}}
+\newlabel{eq:CosmicDetail}{{5.8}{81}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{equation.5.8}{}}
+\newlabel{eq:ReducedCosmicPred}{{5.9}{81}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{equation.5.9}{}}
+\newlabel{eq:ReducedCosmicPredRatio}{{5.10}{81}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{equation.5.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces Number of predicted and observed events in the $\beta ^{-1}$\ $<$ 1 region for two different $p_T$ thresholds. Threshold for $\beta ^{-1}$\ set by X-axis. }}{82}{figure.5.22}}
+\newlabel{fig:PredFlipPt230}{{5.22}{82}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{figure.5.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces Distributions of the number of predicted events and their statistical uncertainty with different prediction formulae for different set of thresholds. The $p_{T}$ threshold is defined by the x-axis. Left column: $1/\beta >1.1$ ($<0.9$ for low $1/\beta $ regions). Right column: $1/\beta >1.2$ ($<0.8$ for low $1/\beta $ regions). }}{83}{figure.5.23}}
+\newlabel{fig:MuOnlycorrelation}{{5.23}{83}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{figure.5.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.24}{\ignorespaces  Calculation of uncertainty in the {\em  muon only}\ analysis. Left: Ratio of the quadratic mean of the statistical uncertainties of the three possible background estimations to the mean of these estimations vs the $p_T$ threshold. Middle: Ratio of the variance to the mean of the three background estimations vs $p_T$. Right: Ratio of the square root of the difference between the variance and the quadratic mean of the statistical uncertainties of the three possible background estimations and the mean vs $p_T$. }}{84}{figure.5.24}}
+\newlabel{fig:MuOnlyUnc}{{5.24}{84}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{figure.5.24}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.7}{\ignorespaces Predicted numbers of cosmic events for the {\em  muon only}\ analysis.}}{85}{table.5.7}}
+\newlabel{tab:CosmicPred}{{5.7}{85}{Prediction for \muononly \ analysis \label {sec:MuOnlyPred}\relax }{table.5.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.2}Prediction for {\em  muon+track}\ analysis}{85}{subsection.5.7.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.25}{\ignorespaces Top row: Measured $I_{as}$\ distributions for several momentum ranges (left) and $\beta ^{-1}$\ distributions for several momentum ranges (right). Bottom row: Measured $\beta ^{-1}$\ distributions for several $I_{as}$\ ranges. Results are for the {\em  muon+track}\ selection. }}{87}{figure.5.25}}
+\newlabel{fig:correlation}{{5.25}{87}{Prediction for \tktof \ analysis\relax }{figure.5.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.26}{\ignorespaces Number of observed and predicted events and their statistical error in the $D^\prime $ region for $p_T>55, I_{as}>0.1$ (left) and $p_T>85, I_{as}>0.2$ (right). Threshold on $1/\beta $ defined by the x-axis in the {\em  muon+track}\ analysis. }}{88}{figure.5.26}}
+\newlabel{fig:PredFlipTkTOF}{{5.26}{88}{Prediction for \tktof \ analysis\relax }{figure.5.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.27}{\ignorespaces Distribution for data of the candidate $\eta $ for various combinations of being above or below selection thresholds of 50 GeV for $p_T$, 1.05 for $\beta ^{-1}$, and 0.05 for $I_{as}$. Top left: Combinations of flipping $p_T$ and $\beta ^{-1}$\ thresholds. Top Right: Combinations of flipping $\beta ^{-1}$\ and $I_{as}$\ thresholds. Bottom: Combinations of flipping $p_T$ and $I_{as}$\ thresholds. For all plots the variable not flipped is required to be below the threshold. }}{90}{figure.5.27}}
+\newlabel{fig:etacorrelation}{{5.27}{90}{Prediction for \tktof \ analysis\relax }{figure.5.27}{}}
+\newlabel{eq:MassPrediction}{{5.11}{91}{Prediction for \tktof \ analysis\relax }{equation.5.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.28}{\ignorespaces Observed and predicted mass spectrum for candidates in the $D^\prime $ region in the {\em  muon+track}\ subanalysis. Left: Thresholds of $p_T > 55$ GeV, $I_{as} > 0.1$ and $1/\beta < 0.95$. Right: Thresholds of $p_T > 85$ GeV, $I_{as} > 0.1$ and $1/\beta < 0.8$. The error bands are only statistical. }}{92}{figure.5.28}}
+\newlabel{fig:FlipMassDistribution}{{5.28}{92}{Prediction for \tktof \ analysis\relax }{figure.5.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.29}{\ignorespaces Number of predicted candidates from four different background predictions. Top Left: $p_T$ and $I_{as}$\ threshold of 50 GeV and 0.05, respectively. Threshold on $\beta ^{-1}$\ set by X-axis. Top Right: Threshold on $\beta ^{-1}$\ and $I_{as}$\ of 1.05 and 0.05, respectively. Threshold on $p_T$ set by X-axis. Bottom: Threshold on $\beta ^{-1}$\ and $p_T$ of 1.05 and 50 GeV, respectively. Threshold on $I_{as}$\ set by X-axis. }}{94}{figure.5.29}}
+\newlabel{fig:TkMuMultPred}{{5.29}{94}{Prediction for \tktof \ analysis\relax }{figure.5.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.30}{\ignorespaces  Calculation of uncertainty in the {\em  muon+track}\ analysis. Left: Ratio of the quadratic mean of the statistical uncertainties of the four background estimations to the mean of these estimations vs the $p_T$ threshold. Middle: ratio of the variance to the mean of the four background estimations vs $p_T$. Right: ratio of the square root of the difference between the variance and the quadratic mean of the statistical uncertainties of the four possible background estimations and the mean vs $p_T$. }}{95}{figure.5.30}}
+\newlabel{fig:TkMuUnc}{{5.30}{95}{Prediction for \tktof \ analysis\relax }{figure.5.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.3}Prediction for {\em  track only}\ analysis}{96}{subsection.5.7.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.4}Prediction for {\em  multiple charge}\ analysis}{96}{subsection.5.7.4}}
+\citation{Chatrchyan:2013lba}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.31}{\ignorespaces Predicted and observed number of events in the $D^{\prime }$ region for different $\beta ^{-1}$\ thresholds with the X-axis indicating the $I_{as}$\ threshold. }}{97}{figure.5.31}}
+\newlabel{fig:MultiPred}{{5.31}{97}{Prediction for \multi \ analysis\relax }{figure.5.31}{}}
+\newlabel{sec:stats}{{5.8}{97}{Statistical Technique \label {sec:stats}\relax }{section.5.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.8}Statistical Technique }{97}{section.5.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.32}{\ignorespaces Distribution of the number of predicted events and their statistical error computed for the {\em  multiple charge}\ analysis using different regions for two values of the $1/\beta $ threshold. The $I_{as}$\ threshold is defined by the x-axis. Left column: $1/\beta >1.05$ ($<0.95$ for low $1/\beta $ regions). Right column: $1/\beta >1.15$ ($<0.85$ for low $1/\beta $ regions).}}{98}{figure.5.32}}
+\newlabel{fig:mCHAMPcorr}{{5.32}{98}{Prediction for \multi \ analysis\relax }{figure.5.32}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.33}{\ignorespaces  Calculation of uncertainty in the {\em  multiple charge}\ analysis. Left: Ratio of the quadratic mean of the statistical uncertainties of the three background estimations to the mean of these estimations vs the $I_{as}$\ threshold. Middle: ratio of the variance to the mean of the three background estimations vs $I_{as}$. Right: ratio of the square root of the difference between the variance and the quadratic mean of the statistical uncertainties of the three possible background estimations and the mean vs $I_{as}$. }}{99}{figure.5.33}}
+\newlabel{fig:mCHAMPcorr2}{{5.33}{99}{Prediction for \multi \ analysis\relax }{figure.5.33}{}}
+\citation{Read:451614}
+\citation{Cowan:2010js}
+\citation{Eadie}
+\citation{James}
+\citation{SMP-12-008}
+\newlabel{eq:sigma}{{5.12}{100}{Statistical Technique \label {sec:stats}\relax }{equation.5.12}{}}
+\newlabel{sec:Optim}{{5.9}{101}{Cut Optimization \label {sec:Optim}\relax }{section.5.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.9}Cut Optimization }{101}{section.5.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.34}{\ignorespaces Number of predicted and observed events for two different thresholds. Left: For the {\em  muon only}\ analysis. Threshold for $\beta ^{-1}$\ set by X-axis. Right: For the {\em  track only}\ analysis. Threshold for $I_{as}$\ set by X-axis. }}{102}{figure.5.34}}
+\newlabel{fig:PredPt230}{{5.34}{102}{Cut Optimization \label {sec:Optim}\relax }{figure.5.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.35}{\ignorespaces Number of predicted and observed events for two different $p_T$ thresholds. Threshold for $I_{as}$\ set by X-axis. Left: For the {\em  multiple charge}\ analysis. Right: For the {\em  track only}\ analysis. }}{102}{figure.5.35}}
+\newlabel{fig:PredMF}{{5.35}{102}{Cut Optimization \label {sec:Optim}\relax }{figure.5.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.36}{\ignorespaces Observed and predicted mass spectrum for candidates in the $D$ region with loose thresholds. Left: For the {\em  muon+track}\ analysis with thresholds of $p_T^{cut}>55$ GeV, $I_{as}>0.05$ and $1/\beta >1.05$. Right: For the {\em  track only}\ analysis with thresholds of $p_T^{cut}>55$ GeV and $I_{as}>0.1$ The error bands are only statistical. }}{103}{figure.5.36}}
+\newlabel{fig:MassDistribution}{{5.36}{103}{Cut Optimization \label {sec:Optim}\relax }{figure.5.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.37}{\ignorespaces Observed and predicted mass spectrum for candidates in the $D$ region in the {\em  muon+track}\ analysis with the tight selection. The error bands are only statistical. Left: For the {\em  muon+track}\ analysis. Right: For the {\em  track only}\ analysis. }}{106}{figure.5.37}}
+\newlabel{fig:TightMassDistribution}{{5.37}{106}{Cut Optimization \label {sec:Optim}\relax }{figure.5.37}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.8}{\ignorespaces Results of the final selections for predicted background and observed number of events. Results for representative mass cuts are given for the {\em  track only}\ and {\em  muon+track}\ analyses. Uncertainties are statistical and systematic. }}{107}{table.5.8}}
+\newlabel{tab:finalsel}{{5.8}{107}{Cut Optimization \label {sec:Optim}\relax }{table.5.8}{}}
+\citation{2012JInst...7P0002T}
+\newlabel{sec:SystUnc}{{5.10}{108}{Signal Efficiency Systematic Uncertainties \label {sec:SystUnc}\relax }{section.5.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.10}Signal Efficiency Systematic Uncertainties }{108}{section.5.10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.10.1}Trigger Efficiency Uncertainty}{108}{subsection.5.10.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.10.2}Uncertainty on Selection Variables}{109}{subsection.5.10.2}}
+\citation{2012JInst...7P0002T}
+\citation{2012JInst...7P0002T}
+\citation{CMS-PAS-TRK-10-002}
+\citation{2010JInst...5T3021C}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.10.3}Other Uncertaintis on Signal Efficiency}{111}{subsection.5.10.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.10.4}Total Signal Efficiency Uncertainty}{112}{subsection.5.10.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.11}Final Results}{112}{section.5.11}}
+\newlabel{tab:SummaryMuOnly}{{5.9}{113}{Final Results\relax }{table.5.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.9}{Summary table of results for all the considered signal points for the {\em  muon only}\ analysis. The signal efficiency and observed and expected limits on the cross section (in $pb$) at $\sqrt  {s} = 8$ TeV are presented. Also the observed and expected limits on the signal strength at $\sqrt  {s} = 8$ TeV. }}{113}{table.5.9}}
+\gdef \LT@i {\LT@entry 
+    {1}{44.38857pt}\LT@entry 
+    {5}{32.88867pt}\LT@entry 
+    {5}{44.63855pt}\LT@entry 
+    {5}{44.63855pt}\LT@entry 
+    {5}{64.79149pt}\LT@entry 
+    {5}{64.79149pt}}
+\newlabel{tab:SummaryTkTOF}{{5.10}{116}{Final Results\relax }{table.5.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.10}{Summary table of results for all the considered signal points for the {\em  muon+track}\ analysis. The signal efficiency and observed and expected limits on the cross section (in $pb$) at $\sqrt  {s} = 8$ TeV. Also the observed and expected limits on the signal strength at $\sqrt  {s} = 7 + 8$ TeV. }}{116}{table.5.10}}
+\gdef \LT@ii {\LT@entry 
+    {1}{44.38857pt}\LT@entry 
+    {1}{44.38857pt}\LT@entry 
+    {5}{32.88867pt}\LT@entry 
+    {5}{64.79149pt}\LT@entry 
+    {5}{64.79149pt}\LT@entry 
+    {6}{64.79149pt}\LT@entry 
+    {6}{64.79149pt}}
+\newlabel{tab:SummaryTkOnly}{{5.11}{120}{Final Results\relax }{table.5.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.11}{Summary table of results for some of the considered signal points for the {\em  track only}\ analysis. The signal efficiency and observed and expected limits on the cross section (in $pb$) at $\sqrt  {s} = 8$ TeV. Also the observed and expected limits on the signal strength at $\sqrt  {s} = 7 + 8$ TeV. }}{120}{table.5.11}}
+\gdef \LT@iii {\LT@entry 
+    {1}{44.38857pt}\LT@entry 
+    {1}{44.38857pt}\LT@entry 
+    {5}{32.88867pt}\LT@entry 
+    {5}{64.79149pt}\LT@entry 
+    {5}{64.79149pt}\LT@entry 
+    {5}{64.79149pt}\LT@entry 
+    {5}{64.79149pt}}
+\newlabel{tab:SummaryMulti}{{5.12}{123}{Final Results\relax }{table.5.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.12}{Summary table of results for some of the considered signal points for the {\em  multiple charge}\ analysis. The signal efficiency and observed and expected limits on the cross section (in $pb$) at $\sqrt  {s} = 8$ TeV. Also the observed and expected limits on the signal strength at $\sqrt  {s} = 7 + 8$ TeV. }}{123}{table.5.12}}
+\gdef \LT@iv {\LT@entry 
+    {1}{44.38857pt}\LT@entry 
+    {5}{32.88867pt}\LT@entry 
+    {5}{64.79149pt}\LT@entry 
+    {5}{64.79149pt}\LT@entry 
+    {5}{44.63855pt}\LT@entry 
+    {1}{48.3489pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.12}Conclusion}{126}{section.5.12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.38}{\ignorespaces Relative efficiency change seen for the various sources of uncertainty in the {\em  muon only}\ analysis. Top row: Gluino with $f=1.0$ (left) and $f=0.5$ (right). Bottom row: Gluino with $f=0.1$ (left) and stop (right) }}{127}{figure.5.38}}
+\newlabel{fig:MuOnlyUncSource}{{5.38}{127}{Total Signal Efficiency Uncertainty\relax }{figure.5.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.39}{\ignorespaces Relative efficiency change seen for the various sources of uncertainty for stau models in the {\em  muon+track}\ analysis. GMSB (left) and Pair Prod. (right) models. }}{128}{figure.5.39}}
+\newlabel{fig:TkMuStauUncSource}{{5.39}{128}{Total Signal Efficiency Uncertainty\relax }{figure.5.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.40}{\ignorespaces Relative efficiency change seen for the various sources of uncertainty for $R-hadron$ models in the {\em  muon+track}\ analysis. Top row: Gluino with $f=0.5$ (left) and $f=0.1$ (right). Bottom row: Stop }}{129}{figure.5.40}}
+\newlabel{fig:TkMuRHadUncSource}{{5.40}{129}{Total Signal Efficiency Uncertainty\relax }{figure.5.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.41}{\ignorespaces Relative efficiency change seen for the various sources of uncertainty. Top row: Charge suppressed Gluino with $f=0.1$ (left) and charge suppressed stop (right) in the {\em  track only}\ analysis. Bottom row: Q = 4e (left) and 7e (right) in the {\em  multiple charge}\ analysis. }}{130}{figure.5.41}}
+\newlabel{fig:TkOnMCUncSource}{{5.41}{130}{Total Signal Efficiency Uncertainty\relax }{figure.5.41}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.42}{\ignorespaces Total signal efficiency uncertainty for all considered models. Top: For the {\em  muon only}\ (left) and {\em  muon+track}\ (right) analyses. Bottom: For the {\em  track only}\ (left) and {\em  multiple charge}\ (right) analyses. }}{131}{figure.5.42}}
+\newlabel{fig:TotalUnc}{{5.42}{131}{Total Signal Efficiency Uncertainty\relax }{figure.5.42}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.43}{\ignorespaces Cross-section limits obtained from 8 TeV data for all considered models in the {\em  muon only}\ (top left), {\em  muon+track}\ (top right), {\em  track only}\ (bottom left), and {\em  multiple charge}\ analyses. }}{132}{figure.5.43}}
+\newlabel{fig:Exclusion}{{5.43}{132}{Final Results\relax }{figure.5.43}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.44}{\ignorespaces Limits on the relative signal strength, $\sigma /\sigma _{th}$, in the {\em  muon only}\ (top left), {\em  muon+track}\ (top right), {\em  track only}\ (bottom left), and {\em  multiple charge}\ analyses. The {\em  muon only}\ limit uses only 8 TeV data while the others use a combination of 7 and 8 TeV. }}{133}{figure.5.44}}
+\newlabel{fig:RelExclusion}{{5.44}{133}{Final Results\relax }{figure.5.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.45}{\ignorespaces Lower mass limits at 95\% CL on various SUSY models compared with previously published results. The model type is defined by the x-axis (left). Mass limits for Drell--Yan like production of multiply charged particles versus electric charge (right). }}{134}{figure.5.45}}
+\newlabel{fig:masslimits}{{5.45}{134}{Final Results\relax }{figure.5.45}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion }{135}{chapter.6}}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\newlabel{sec:conclusion}{{6}{135}{Conclusion \label {sec:conclusion}\relax }{chapter.6}{}}
+\bibdata{references}
+\bibcite{Bayatian:922757}{1}
+\bibcite{Bayatian:942733}{2}
+\bibcite{CMS-PAS-TRK-10-002}{3}
+\bibcite{CMS:2010xta}{4}
+\bibcite{Allanach:2002nj}{5}
+\bibcite{ArkaniHamed:2004fb}{6}
+\bibcite{PDG}{7}
+\bibcite{Chatrchyan:2008zzk}{8}
+\bibcite{Chatrchyan:2012sp}{9}
+\bibcite{Chatrchyan:2013lba}{10}
+\bibcite{2010JInst...5T3021C}{11}
+\bibcite{SMP-12-008}{12}
+\bibcite{Cowan:2010js}{13}
+\bibcite{Eadie}{14}
+\bibcite{1748-0221-3-08-S08001}{15}
+\bibcite{Fairbairn:2006gg}{16}
+\@writefile{toc}{\contentsline {chapter}{References}{137}{chapter*.4}}
+\bibcite{Giudice:1998bp}{17}
+\bibcite{Giudice:2004tc}{18}
+\bibcite{griffiths2008introduction}{19}
+\bibcite{James}{20}
+\bibcite{Kraan:2004tz}{21}
+\bibcite{Langacker:2011db}{22}
+\bibcite{Mackeprang:2009ad}{23}
+\bibcite{Mackeprang:2006gx}{24}
+\bibcite{Martin:1997ns}{25}
+\bibcite{Paige:2003mg}{26}
+\bibcite{Read:451614}{27}
+\bibcite{Sjostrand:2006za}{28}
+\bibcite{Sjostrand:2007gs}{29}
+\bibcite{Srednicki_2007}{30}
+\bibcite{Tata:1997uf}{31}
+\bibcite{2012JInst...7P0002T}{32}

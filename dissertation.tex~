@@ -1,0 +1,161 @@
+\documentclass [PhD] {uclathes}
+
+
+
+% \input {mymacros}                         % personal LaTeX macros
+\usepackage{amsmath,amssymb}% for advanced math typesetting
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{oldlfont}
+%\usepackage{natbib}
+\usepackage{longtable}
+\DeclareMathOperator{\sgn}{sgn}% Declare the sgn operator 
+\DeclareMathOperator{\sign}{sign}% for those who insist on sign instead
+\setcounter{tocdepth}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Usually things live in separate flies.
+%
+% \input {prelim}                           % preliminary page info
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%                          PRELIMINARY PAGES                           %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title          {asdfasdfg Optimization of muon timing and searches for heavy
+                long-lived charged particles with the
+                Compact Muon Solenoid detector at the
+                Large Hadron Collider}
+\author         {Christopher Patrick Farrell}
+\department     {Physics and Astronomy}
+% Note:  degreeyear should be optional, but as of  5-Feb-96
+% it seems required or you get a year of ``2''.   -johnh
+\degreeyear     {2013}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chair          {Jay Hauser}
+\member         {David Saltzberg}
+\member         {Michael Gutperle}
+\member         {Peter Felker}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\dedication     {\textsl{To my parents who have always been supportive of me}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\acknowledgments {
+I want to say thank you to my advisor Jay Hauser whose teaching and advice allowed me to grow into a contributing member of the scientific community.
+%for showing me how to investigate physics in a thorough and detailed manner.
+Jay has always been available to aid in my understanding of problems and to give ideas when I was unsure of what to do going foward.
+I could not have completed this work without him.
+
+My development as a physicist has been shaped by discussions and guidance by my colleagues on CMS. 
+The list includes but is not limited to 
+Greg Rakness, Amanda Deisher, Mikhael Ignatenko, Chad Jarvis, Loic Quertenmont, and Todd Adams.
+
+I am also grateful to David Saltzberg, Michael Gutperle, and Peter Felker for being willing to be on my committee and review my dissertation.
+
+Finally I want to thank my family for their constant support. Especially, I want to thank my parents who have always worked to make my life as happy and fulfilling as possible.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vitaitem{1985}{Born, New Jersey, USA.}
+\vitaitem{2008}{B.S.~Physics, University of Florida.}
+\vitaitem{2008--present}{Research Assistant, University of California, Los Angeles.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\publication{
+S.~Chatrchyan {\it et~al.} [CMS Collaboration],
+``Search for heavy long-lived charged particles in $pp$ collisions at
+  $\sqrt{s}=7$ TeV.''
+{\em Phys.Lett.}, B713:408--433, 2012.
+}
+
+\publication{
+The CMS Collaboration.
+``Performance of CMS muon reconstruction in pp collision events at
+  $\sqrt{s}=7$ TeV.''
+{\em Journal of Instrumentation}, 7:2P, October 2012.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\rad}{rad}
+\newcommand{\ias}{$I_{as}$}
+\newcommand{\iasp}{$I_{as}^\prime$}
+%\newcommand{\id}{$I_{d}$}                                                                                                                                                         
+\newcommand{\ih}{$I_{h}$}
+\newcommand{\dedx}{$dE/dx$}
+\newcommand{\tof}{TOF}
+\newcommand{\pt}{$p_{T}$}
+\newcommand{\invbeta}{$\beta^{-1}$}
+\newcommand{\invbetac}{$1/\beta, $}
+\newcommand{\invbetap}{$1/\beta. $}
+\newcommand{\tkonly}{{\em track only}}
+\newcommand{\tktof}{{\em muon+track}}
+\newcommand{\multi}{{\em multiple charge}}
+\newcommand{\muononly}{{\em muon only}}
+\newcommand{\fract}{{\em fractional charge}}
+
+\newcommand{\stau}{$\tilde \tau _1 \ $}
+\newcommand{\smu}{$\tilde \mu _1 \ $}
+\newcommand{\sel}{$\tilde e _1 \ $}
+\newcommand{\stp}{$\tilde t _1 \ $}
+\newcommand{\gluino}{$\tilde g \ $}
+\newcommand{\ETM}{$E_t^{miss} \ $}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\abstract       {
+Proton--proton collisions at the Large Hadron Collider at $\sqrt{s} =$ 7 and 8 TeV are studied using the Compact Muon Solenoid (CMS) detector.
+The measurement and inmprovements to the arrival time of particles to the muon system of CMS is detailed.
+The timing is used to associate the particle with the correct proton--proton crossing and to classify the particle.
+%One type of particle timing can help identify is new long-lived charged particles predicted in many theories of new physics, such as supersymmetry.
+Additionally, four analyses are presented that use timing and ionization energy loss to search for the production of long-lived charged particles 
+predicted in many theories of new physics. The searches are sensistive to a variety of signatures,
+including the possibility that the particles will only be detectable during part of their passage through the CMS detector.
+Limits are placed on the production of long-lived gluinos, stops, staus, and multiply charged particles.
+The limits are the most stringent in the world to date.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin {document}
+%\bibliographystyle{plain}
+\makeintropages
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Ordinarily each chapter (at least) is in a separate file.
+\input{introduction}
+
+\input{theory}
+
+\input{apparatus}
+
+\input{timing}
+
+\input{search}
+
+\input{conclusion}
+
+%\input{bibliography}
+
+\newpage
+\bibliographystyle{unsrt}
+%\bibliographystyle{uclathes}
+\bibliography{references}
+
+
+\end {document}
+

@@ -1,0 +1,85 @@
+\chapter{Conclusion \label{sec:conclusion}}
+
+%Our understanding of the universe on a fundamental level has evolved greatly over the last century with the discoveries of new particles and forces.
+%In that time, many different theories have been put forward to explain experimental results and give predictions of future observations.
+%As discussed in Ch.~\ref{sec:theory}, the current theoretical framework used is the Standard Model (SM).
+%%Over the last few decades, numerous experiments have confirmed predictions made by the SM. 
+%All particles predicted in the SM have been confirmed except for the Higgs Boson.
+%However, in July 2012, two of the experiments at the Large Hadron Collider (LHC) observed the existence of a particle with Higgs like properties.
+
+%As discussed in Ch.~\ref{sec:app}, the LHC accelerates protons to very high energies and then collides them with each other
+%%is a 26.7 km ring located underneath the Swiss--French countryside outside of Geneva, Switzerland.
+%%The LHC uses superconducting magnets to accelerate
+%%protons in two counter-rotating rings to high energy, the design energy is 7 TeV but running so far has only gotten up to 4 TeV.
+%%The protons are then brought to a collision 
+%at a few designated points. Located at one of these points is the Compact Muon Solenoid (CMS) detector.
+
+%CMS is a general purpose detector designed to search for a wide variety of different physics signatures.
+%%with its core feature being 3.8T superconducting solenoid.
+%CMS is split into numerous different subsystems, two that are of special importantance in this work are an all silicon inner tracker and an outer muon system.
+%Over the last few years, CMS has collected a large amount from LHC collisions with 2012 collisions at the highest energy and rate.
+
+%A major goal in building the LHC and CMS was the discovery of the Higgs Boson. However, they were also built in hopes of finding physics beyond the SM.
+%Despite the success of the SM, there are reasons to believe it will not properly describe all physics at the high energy of the LHC.
+%%These reasons include run away corrections without a large degree of fine tuning and an explanation of astronomical dark matter observed in the universe.
+%Numerous theories have been put forward to explain physics beyond the SM, with one of the most popular being supersymmetry.
+%In some versions of supersymmetry, such as split supersymmetry or gauge mediated supersymmetry, new heavy charged particles 
+%are created with lifetimes longer than tens of nanoseconds allowing them to interact directly with the CMS detector. 
+%The particles can become long-lived for different reasons, for example gluinos in split supersymmetry are long-lived
+
+%The high mass of these new Heavy Stable Charged Particles (HSCP) would result in them traveling with speed appreciably less than the speed of light.
+%That is in contrast to all the long-lived particles in the SM which would be traveling at very nearly the speed of light at the high energies of the LHC.
+%HSCP can then be identified by looking for the signatures slow moving particles leave in CMS, their long time of flight to the muon system and increased
+%ionization energy loss in the inner tracker.
+
+The measurement of the arrival time of hits in the CMS muon system is important for two reasons.
+The first is to quickly associate hits in the muon system with the appropriate LHC bunch crossing so that the data in the other subdetectors about this
+collision can be read out. A method was developed to measure the time offset of CSC chambers with respect to a determined optimal time that would give
+the best performance. 
+%The method was done offline in comparison to the previous method which required dedicated running of CMS during which the data collected
+%could not be used for physics analyses. 
+The efficiency for chambers to correctly identify the right bunch crossing was brought to 99\%,
+exceeding the design requirement of 92\%. The second reason timing is important is to help identify different types of particles.
+
+One of the particles timing can help identify is new heavy long-lived charged particles which would live long enough to interact directly with CMS
+and would be traveling at an appreciably slower speed than muons. Four searches were performed looking
+for particles of this type, each being sensitive to different signatures HSCP could have inside of CMS. 
+The searches were performed by looking for tracks with some combination of high momentum, late arrival time in the muon system,
+or large ionization energy loss in the inner tracker.
+% Specialty triggers were developed in order to collect potential signal events,
+Backgrounds to the searches were muons form the collisions and in one of the searches muons from cosmic rays.
+%and the prediction of their presence in the .
+%The background from collision muons was predicted from data by using the lack of correlation between the selection criteria
+The background in the signal region was predicted using control regions in data and the 
+robustness of the prediction was checked by looking in the control region where particles would be traveling faster than the speed of light.
+%The systematic uncertainty on the signal efficiency was checked by numerous studies in control regions.
+
+No excess above the expected background from SM processes in any of the four searches was found. Limits were placed on the production of long-lived charged
+particles created in many different theories, including versions of supersymmetry. These limits place important bounds on the theories
+of physics beyond the SM. While no discovery of new long-lived charged particles was found in the data searched there may be other signs of
+new physics present. Careful study of the recently discovered Higgs Boson-like particle is underway and many other searches are ongoing looking for the production
+of new particles. In addition, after a two year shutdown, the LHC will restart operations at a higher collision energy and rate which will allowing for probing
+the production of new physics at even smaller rates. 
+The LHC and other experiments, present and future, will continue to explore all aspects about the building blocks of matter and how they interact,
+from the smallest scale to the largest, continually revising our understanding of nature.
+Thus, the story of particle physics still has many chapters to go.
+
+%One of the searches 
+%%consists almost entirely of my own work and 
+%looks for the very unusual signature of a particle becoming charged only after traversing the inner tracker portion of CMS.
+%The lack of inner tracker information leads to many difficulties not found in other CMS searches.  
+%The momentum measurement, now coming from the muon system instead of the inner tracker, becomes much worse
+%and the background from muons from cosmic rays becomes much larger
+%To deal with the poor momentum determination a specialty trigger was developed to collect potential signal events and the collision muon background
+%determination
+%This was dealt with by developing a specialty trigger to collect events, developing other experimental handles, such as timing, to put less emphasis on the \pt\ measurement,
+%and splitting background events by how likely 
+
+%My work included the development and study of triggers used to collect the signal events, optimiza
+
+%The second use is to identify different types of particles.
+%% The timing of hits in the muon system is used to build higher level variables about particles.
+%Muons from collisions in the LHC, muons from cosmic rays, and HSCPs would all have different timing signatures in the muon system.
+%Multiple variables are built from the timing of hits in the muon system to aid in the identification of the particles, the variable used to search
+%for HSCP is \invbeta.
+

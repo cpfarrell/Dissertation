@@ -1,0 +1,122 @@
+\begin{thebibliography}{10}
+
+\bibitem{SMP}
+M. Fairbairn et Stable massive particles at , Phys. Rept. 438 (2007) 1,
+doi:10.1016/j.physrep.2006.10.002, arXiv:hep-ph/0611040.collidersal., 
+
+\bibitem{SUSY1}
+S.P. Martin, (1997), hep-ph/9709356.
+
+\bibitem{SUSY2}
+X. Tata, (1997), hep-ph/9706307.
+
+\bibitem{StopBG}
+C. Balazs, M. Carena and C.E.M. Wagner, Phys. Rev. D70 (2004) 015007,
+hep-ph/0403224.
+
+\bibitem{PDG}
+Beringer, J. and others
+``Review of Particle Physics (RPP)''
+Phys.\ Rev.\ {\bf D86} (2012) 010001
+
+\bibitem{2011HSCP}
+Chatrchyan et al.
+``Search for heavy long-lived charged particles in pp collisions at $\sqrt{s}$=7 TeV''
+Phys.\ Lett.\ {\bf B713} (2012) 408
+
+\bibitem{2012PAS}
+``Need to cite something here''
+
+\bibitem{CMS-PAS-JME-10-003}
+CMS Collaboration
+``Jet Performance in pp Collisions at $\sqrt{s}$=7 {TeV}''
+CMS Physics Analysis Summary CMS-PAS-JME-10-003 (2010)
+
+\bibitem{LHC}
+L. Evans and P. Bryant ``LHC Machine''  JINST 3 (2008) S08001.
+
+\bibitem{CMSpaper}
+S.~Chatrchyan et~al.,
+``The CMS experiment at the CERN LHC,''
+JINST {\bf 3} (2008) S08004.
+
+\bibitem{CMSTDR}
+G.~L. Bayatian et~al.,
+``CMS physics: technical design report,'',
+%CERN-LHCC-2006-001, \url{http://cdsweb.cern.ch/record/922757}, 2006.
+
+\bibitem{SplitSUSY1}
+N. Arkani-Hamed and S. Dimopoulos,
+``Supersymmetric unification without low energy supersymmetry and signatures for fine-tuning at the LHC'',
+JHEP 06 (2005) 073,
+doi:10.1088/1126-6708/2005/06/073, arXiv:hep-th/0405159.
+
+\bibitem{SplitSUSY2}
+G. Giudice and A. Romanino, 
+``Split supersymmetry''
+Nucl. Phys. B 699 (2004) 65-89 doi:10.1016/j.nuclphysb.2004.11.048, arXiv:hep-ph/0406088
+
+\bibitem{GMSB}
+G. F. Giudice and R. Rattazzi
+``Theories with gauge mediated supersymmetry breaking'',
+Phys. Rept. 322 (1999) 419-499, arXiv:hep-ph/9801271
+
+\bibitem{slopes}
+B. Allanach et al., 
+``The Snowmass points and slopes: Benchmarks for SUSY searches'',
+Eur. Phys. J. C 25 (2002) 113-123 doi:10.1007/s10052-002-0949-3, arXiv:hep-ph/0202233.
+
+\bibitem{Pythia64}
+T. Sjostrand, S. Mrenna, and P. Z. Skands 
+``PYTHIA 6.4 Physics and Manual'', 
+JHEP 05 (2006) 026, doi:10.1088/1126-6708/2006/05/026, arXiv:hep-ph/0603175.
+
+\bibitem{ISAJET}
+F. E. Paige et al.,
+``ISAJET 7.69: A Monte Carlo event generator for SUSY pp, and $e^+e^-$ reactions'',
+arXiv:hep-ph/0312045.
+
+\bibitem{DYStau}
+J. Heisig and J. Kersten 
+``Production of long-lived staus in the Drell-Yan Process'',
+Phys.Rev. D84 (2011) 115009,
+doi:10.1103/PhysRevD.84.115009, arXiv:1106.0764.
+
+\bibitem{HybridCLs}
+A. L. Read,
+``Modified frequentist analysis of search results (The CL(s) method)''.
+
+\bibitem{Lognormal1}
+W. T. Eadie et al.,
+``Statistical Methods in Experimental Physics'', 
+North Holland, Amsterdam, 1971,
+
+\bibitem{Lognormal2}
+F. James, 
+``Statistical Methods in Experimental Physics'',
+World Scientific, Singapore, 2006.
+
+\bibitem{Cloud}
+A. C. Interactions of heavy stable hadronizing , Eur. Phys. J. C37 (2004)
+91, doi:10.1140/epjc/s2004-01997-7, arXiv:hep-ex/0404001.
+ 
+\bibitem{Cloud2}
+R. Mackeprang and A. Interactions of coloured heavy stable particles in ,
+Eur. Phys. J. C50 (2007) 353, doi:10.1140/epjc/s10052-007-0252-4,
+arXiv:hep-ph/0612161.matterRizzi, particlesKraan, 
+
+\bibitem{ChargeSuppress}
+R. Mackeprang and D. An updated description of heavy-hadron interactions
+in , Eur. Phys. J. C 66 (2010) 493,
+doi:10.1140/epjc/s10052-010-1262-1, arXiv:0908.1868.GEANT4Milstead, 
+
+\bibitem{GasGain}
+E. Measurement of the wire gain of cells of the barrel muon drift ,
+(2002). CMS Note 2002/002.chambersConti, 
+
+\bibitem{HCAL}
+CMS Collaboration Precise Mapping of the Magnetic Field in the CMS
+Barrel Yoke using Cosmic , JINST 5 (2010) T03021,
+doi:10.1088/1748-0221/5/03/T03021, arXiv:0910.5530.RaysCollaboration, 
+
+\end{thebibliography}

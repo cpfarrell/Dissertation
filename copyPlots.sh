@@ -13,10 +13,9 @@
 PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/
 
 
-#DIRIN=$PROJECT/UsefulScripts/TimingComp/pictures
-#DIROUT=figures/timing/
-
-#cp $DIRIN/*.pdf $DIROUT/
+DIRIN=$PROJECT/UsefulScripts/ThesisTimingCh/pictures
+DIROUT=figures/timing/
+cp $DIRIN/*.pdf $DIROUT/
 
 PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/Old_CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/
 DIRIN=$PROJECT/UsefulScripts/TriggerStudy/pictures

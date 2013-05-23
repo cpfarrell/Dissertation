@@ -37,10 +37,21 @@ Mark Srednicki.
 \newblock {\em Quantum Field Theory}.
 \newblock Cambridge University Press, 1 edition, February 2007.
 
+\bibitem{Chatrchyan:2012ufa}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Phys.Lett.}, B716:30--61, 2012.
+
 \bibitem{Fairbairn:2006gg}
 M.~Fairbairn, A.C. Kraan, D.A. Milstead, T.~Sjostrand, Peter~Z. Skands, et~al.
 \newblock {Stable massive particles at colliders}.
 \newblock {\em Phys.Rept.}, 438:1--63, 2007.
+
+\bibitem{Mackeprang:2009ad}
+Rasmus Mackeprang and David Milstead.
+\newblock {An Updated Description of Heavy-Hadron Interactions in GEANT-4}.
+\newblock {\em Eur.Phys.J.}, C66:493--501, 2010.
 
 \bibitem{Kraan:2004tz}
 Aafke~Christine Kraan.
@@ -52,11 +63,6 @@ Rasmus Mackeprang and Andrea Rizzi.
 \newblock {Interactions of Coloured Heavy Stable Particles in Matter}.
 \newblock {\em Eur.Phys.J.}, C50:353--362, 2007.
 
-\bibitem{Mackeprang:2009ad}
-Rasmus Mackeprang and David Milstead.
-\newblock {An Updated Description of Heavy-Hadron Interactions in GEANT-4}.
-\newblock {\em Eur.Phys.J.}, C66:493--501, 2010.
-
 \bibitem{Giudice:1998bp}
 G.F. Giudice and R.~Rattazzi.
 \newblock {Theories with gauge mediated supersymmetry breaking}.
@@ -67,17 +73,47 @@ Paul Langacker and Gary Steigman.
 \newblock {Requiem for an FCHAMP? Fractionally CHArged, Massive Particle}.
 \newblock {\em Phys.Rev.}, D84:065040, 2011.
 
+\bibitem{PDG}
+J.~Beringer et~al.
+\newblock {Review of Particle Physics (RPP)}.
+\newblock {\em Phys.\ Rev.}, D 86:010001, 2012.
+
+\bibitem{PublicLumi}
+CMS Collaboration.
+\newblock {CMS Luminosity --- Public Results}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
+\newblock Accessed: 2013-05-16.
+
 \bibitem{Chatrchyan:2008zzk}
 S.~Chatrchyan et~al.
 \newblock The {CMS} experiment at the {CERN} {LHC}.
 \newblock {\em JINST}, 3:S08004, 2008.
 
 \bibitem{Bayatian:922757}
-G.~BBayatian et~al.
+G.~Bayatian et~al.
 \newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
   Performance and Software}}.
 \newblock Technical Design Report CMS. CERN, Geneva, 2006.
 \newblock There is an error on cover due to a technical problem for some items.
+
+\bibitem{2012JInst...7P0002T}
+{The CMS Collaboration}.
+\newblock {Performance of CMS muon reconstruction in pp collision events at
+  $\sqrt{s}=7$ TeV}.
+\newblock {\em Journal of Instrumentation}, 7:2P, October 2012.
+
+\bibitem{2003physics...6117A}
+D.~Acosta et~al.
+\newblock A 3-d track-finding processor for the cms level-1 muon trigger.
+\newblock {\em ArXiv Physics e-prints}, June 2003.
+
+\bibitem{2007AN049}
+A~Rizzi et~al.
+\newblock Search for heavy stable charged particles with 100 pb$^{-1}$ and 1
+  fb$^{-1}$ at cms experiment.
+\newblock 2007.
+\newblock CMS AN2007/049.
 
 \bibitem{Barate:1997dr}
 R.~Barate et~al.
@@ -226,11 +262,6 @@ Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 {Jet Performance in pp Collisions at 7 TeV}.
 \newblock 2010.
 
-\bibitem{PDG}
-J.~Beringer et~al.
-\newblock {Review of Particle Physics (RPP)}.
-\newblock {\em Phys.\ Rev.}, D 86:010001, 2012.
-
 \bibitem{Eadie}
 W.~T. Eadie, D.~Drijard, F.~E. James, M.~Roos, and B.~Sadoulet.
 \newblock {\em Statistical methods in experimental physics}.
@@ -257,12 +288,6 @@ Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock Absolute calibration of the luminosity measurement at {CMS}: {W}inter
   2012 update.
 \newblock CMS Physics Analysis Summary CMS-PAS-SMP-12-008, CMS, 2012.
-
-\bibitem{2012JInst...7P0002T}
-{The CMS Collaboration}.
-\newblock {Performance of CMS muon reconstruction in pp collision events at
-  $\sqrt{s}=7$ TeV}.
-\newblock {\em Journal of Instrumentation}, 7:2P, October 2012.
 
 \bibitem{CMS-PAS-TRK-10-002}
 Measurement of tracking efficiency.

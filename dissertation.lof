@@ -1,67 +1,67 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Cross-section view of CMS detector}}{16}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Expected interactions of SM particles as they propagate through CMS. }}{17}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces HSCP produced neutral and only becoming charged after interacting with the CMS detector.}}{18}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces HSCP produced charged and becoming neutral after interacting with the CMS detector.}}{19}{figure.3.4}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cross-section view of CMS detector}}{17}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A drawing of a cross section of CMS along with the expected interactions of SM particles as they propagate through CMS. Shown are a muon as solid line in light blue, an electron as solid line in red, a charged hadron as a solid line in green, a neutral hadron as a dashed green line, and a photon as a dashed line in dark blue. }}{18}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces An example of an HSCP produced neutral and only becoming charged after interacting with the CMS detector.}}{19}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An example of an HSCP produced charged and becoming neutral after interacting with the CMS detector.}}{20}{figure.3.4}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of time of anode and cathode hits}}{27}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Distribution of times of segments associated with high quality muons}}{28}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces CSC pretriggering and posttriggering versus average anode time for LCTs and expected behavior at CSCTF}}{31}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Average anode time of chambers relative to optimal values.}}{32}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Fraction of LCTs versus LCT bunch crossing window assignment relative to collision event}}{33}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution of $\beta ^{-1}$\ and the uncertainty on $\beta ^{-1}$}}{35}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Distribution of time at vertex and the uncertainty on time at vertex}}{36}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Distribution of time at vertex out in and the uncertainty on time at vertex out in}}{37}{figure.4.8}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of time of anode and cathode hits}}{29}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Distribution of times of segments}}{30}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces CSC pre-triggering and post-triggering versus average anode time for LCTs and expected behavior at CSCTF}}{33}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Average anode time of chambers relative to optimal values.}}{35}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Fraction of LCTs versus LCT bunch crossing window assignment relative to collision event}}{36}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution of $\beta ^{-1}$\ and the uncertainty on $\beta ^{-1}$}}{39}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Distribution of time at vertex and the uncertainty on time at vertex}}{40}{figure.4.7}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for various gluino samples at generation}}{43}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for various stop samples at generation}}{44}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for various GMSB stau samples at generation}}{46}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for various Pair Prod. stau samples at generation}}{47}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for modified DY samples with various charges and masses at generation}}{48}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of di-HSCP system $\phi $ and $p_{T}$\ with online PFMET for a 1200 GeV Gluino $f=1.0$ sample in events with at least 150 GeV of online PFMET.}}{51}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of di-HSCP system $\phi $ and $p_{T}$\ with online PFMET for a 1200 GeV Gluino $f=0.1$ charge suppressed sample in events with at least 150 GeV of online PFMET}}{52}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Trigger efficiency as a function of the $\beta $ of the fastest HSCP reconstructed offline in the muon system with only the muon triggers and additionally including the PFMET trigger.}}{54}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Distribution of $\Delta (Q/p_T)$ for data, 500 GeV gluino, 500 GeV stop, and 494 GeV GMSB stau. }}{60}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Distribution of reconstructed $p_T$ versus generator $p_T$ for Q=1e, 2e, and 4e samples. }}{61}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Distribution of $\eta $ and number of matched muon stations for data, cosmic ray muon control sample, and signal MC in the {\em muon only}\ analysis.}}{62}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Distribution of number of degrees of freedom (left) and uncertainty (right) on the $\beta ^{-1}$\ measurement and time at vertex in the {\em muon only}\ analysis for data, cosmic ray muon control sample, and signal MC.}}{63}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Distribution of transverse and longitudinal displacement, $\phi $, and $\eta $ separation to muon segments in the {\em muon only}\ analysis for data, cosmic ray muon control sample, and signal MC.}}{64}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Distribution of number of tracker and pixel hits, fraction of valid tracker hits, and number of $dE/dx$\ measurements in the {\em muon+track}\ analysis for data and signal MC.}}{66}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Distribution of relative $p_{T}$\ uncertainty, $\chi ^2$ per degree of freedom, and transverse and longitudinal displacement in the {\em muon+track}\ analysis for data and signal MC.}}{67}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Distribution of tracker and calorimeter isolation as well as the $\beta ^{-1}$\ measurement number of degrees of freedom and uncertainty in the {\em muon+track}\ analysis for data and signal MC.}}{69}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Distribution of number of $dE/dx$\ measurements passing cleaning for samples of three different charges }}{70}{figure.5.17}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Distribution of $\beta ^{-1}$\ and $p_{T}$\ in the {\em muon only}\ analysis for data, cosmic ray muon control sample, and signal MC}}{74}{figure.5.18}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Distribution of selection variables in the {\em muon+track}\ analysis for data and signal MC.}}{75}{figure.5.19}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Example fits to invariant mass distributions in the tag and probe procedure for the {\em muon only}\ analysis for data.}}{78}{figure.5.20}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Example fits to invariant mass distributions in the tag and probe procedure for the {\em muon only}\ analysis for MC.}}{79}{figure.5.21}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Efficiency to pass preselection cuts for the {\em muon only}\ analysis versus $p_{T}$, $\eta $, and number of primary vertices}}{80}{figure.5.22}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Distribution of $p_T$ and $\beta ^{-1}$\ for data in different prediction regions in the {\em muon only}\ analysis}}{85}{figure.5.23}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Distribution of $\beta ^{-1}$\ for different momentum regions for two and three station tracks in the {\em muon only}\ analysis.}}{86}{figure.5.24}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Distribution of $\beta ^{-1}$\ for different momentum regions for four station tracks in the {\em muon only}\ analysis.}}{87}{figure.5.25}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Number of predicted and observed events in the $\beta ^{-1}$\ $<$ 1 region in the {\em muon only}\ analysis}}{89}{figure.5.26}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Distributions of the number of predicted events with different prediction formulae for different sets of thresholds in the {\em muon only}\ analysis.}}{90}{figure.5.27}
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Statistical and systematic uncertainties in the background prediction for different sets of thresholds in the {\em muon only}\ analysis.}}{92}{figure.5.28}
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Distribution of selection variables in the {\em muon+track}\ analysis for different ranges of the other variables}}{94}{figure.5.29}
-\contentsline {figure}{\numberline {5.30}{\ignorespaces Number of observed and predicted events in the $\beta ^{-1}$\ $<$ 1 region in the {\em muon+track}\ analysis.}}{95}{figure.5.30}
-\contentsline {figure}{\numberline {5.31}{\ignorespaces Distribution for data of the candidate $\eta $ for various combinations of being above or below selection thresholds in the {\em muon+track}\ analysis}}{97}{figure.5.31}
-\contentsline {figure}{\numberline {5.32}{\ignorespaces Observed and predicted mass spectrum for candidates in the $\beta ^{-1}$\ $<$ 1 region in the {\em muon+track}\ analysis.}}{99}{figure.5.32}
-\contentsline {figure}{\numberline {5.33}{\ignorespaces Number of predicted candidates from four different background predictions in the {\em muon+track}\ analysis}}{102}{figure.5.33}
-\contentsline {figure}{\numberline {5.34}{\ignorespaces Statistical and systematic uncertainty in the background prediction for different sets of thresholds in the {\em muon+track}\ analysis.}}{103}{figure.5.34}
-\contentsline {figure}{\numberline {5.35}{\ignorespaces Predicted and observed number of events in the $\beta ^{-1}$\ $<$ 1 region for different sets of thresholds in the {\em multiple charge}\ analysis.}}{104}{figure.5.35}
-\contentsline {figure}{\numberline {5.36}{\ignorespaces Distribution of the number of predicted events from different predictions in the {\em multiple charge}\ analysis}}{105}{figure.5.36}
-\contentsline {figure}{\numberline {5.37}{\ignorespaces Statistical and systematic uncertainty in the background prediction for different sets of thresholds in the {\em multiple charge}\ analysis}}{106}{figure.5.37}
-\contentsline {figure}{\numberline {5.38}{\ignorespaces Number of predicted and observed events for two different thresholds in the {\em muon only}\ and {\em muon+track}\ analyses.}}{109}{figure.5.38}
-\contentsline {figure}{\numberline {5.39}{\ignorespaces Number of predicted and observed events for two different thresholds in the {\em track only}\ and {\em multiple charge}\ analyses.}}{109}{figure.5.39}
-\contentsline {figure}{\numberline {5.40}{\ignorespaces Observed and predicted mass spectrum for candidates in the signal region with loose thresholds in the {\em muon+track}\ and {\em track only}\ analyses.}}{110}{figure.5.40}
-\contentsline {figure}{\numberline {5.41}{\ignorespaces Observed and predicted mass spectrum for candidates in the signal region with the final selection thresholds in the {\em muon+track}\ and {\em track only}\ analyses.}}{115}{figure.5.41}
-\contentsline {figure}{\numberline {5.42}{\ignorespaces Relative signal efficiency change seen for the various sources of uncertainty in the {\em muon only}\ analysis}}{134}{figure.5.42}
-\contentsline {figure}{\numberline {5.43}{\ignorespaces Relative signal efficiency change seen for the various sources of uncertainty for stau models in the {\em muon+track}\ analysis}}{135}{figure.5.43}
-\contentsline {figure}{\numberline {5.44}{\ignorespaces Relative efficiency change seen for the various sources of uncertainty for $R-hadron$ models in the {\em muon+track}\ analysis}}{136}{figure.5.44}
-\contentsline {figure}{\numberline {5.45}{\ignorespaces Relative signal efficiency change seen for the various sources of uncertainty for some of the models considered in the {\em track only}\ and {\em muon+track}\ analyses}}{137}{figure.5.45}
-\contentsline {figure}{\numberline {5.46}{\ignorespaces Total signal efficiency uncertainty for all considered models}}{138}{figure.5.46}
-\contentsline {figure}{\numberline {5.47}{\ignorespaces Cross-section limits obtained from 8 TeV data for all considered models in the analyses}}{139}{figure.5.47}
-\contentsline {figure}{\numberline {5.48}{\ignorespaces Limits on the relative signal strength, $\sigma /\sigma _{th}$, set by the analyses}}{140}{figure.5.48}
-\contentsline {figure}{\numberline {5.49}{\ignorespaces Lower mass limits on HSCP produced in various models of new physics compared with previously published results}}{141}{figure.5.49}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for various gluino samples at generation}}{46}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for various stop samples at generation}}{47}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for various GMSB stau samples at generation}}{49}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for various Pair Prod. stau samples at generation}}{50}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Distribution of $p_{T}$, $\eta $, and $\beta $ for modified DY samples with various charges and masses at generation}}{51}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Distribution of number of primary vertices in data and various MC simulation samples}}{52}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of di-HSCP system $\phi $ and $p_{T}$\ with online PFMET for a 1200\nobreakspace {}GeV Gluino $f=1.0$ sample in events with at least 150\nobreakspace {}GeV of online PFMET.}}{54}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of di-HSCP system $\phi $ and $p_{T}$\ with online PFMET for a 1200\nobreakspace {}GeV Gluino $f=0.1$ charge suppressed sample in events with at least 150\nobreakspace {}GeV of online PFMET}}{55}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Trigger efficiency as a function of the $\beta $ of the fastest HSCP reconstructed offline in the muon system with only the muon triggers and additionally including the PFMET trigger.}}{57}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Distribution of $\Delta (Q/p_T)$ for data, 500 GeV gluino, 500 GeV stop, and 494 GeV GMSB stau. }}{63}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Distribution of reconstructed $p_T$ versus generator $p_T$ for Q=1e, 2e, and 4e samples. }}{64}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Distribution of $\eta $ and number of matched muon stations for data, cosmic-ray muon control sample, and signal MC in the {\em muon only}\ analysis.}}{66}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Distribution of number of degrees of freedom (left) and uncertainty (right) on the $\beta ^{-1}$\ measurement and time at vertex in the {\em muon only}\ analysis for data, cosmic-ray muon control sample, and signal MC.}}{67}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Distribution of transverse and longitudinal displacement, $\phi $, and $\eta $ separation to muon segments in the {\em muon only}\ analysis for data, cosmic-ray muon control sample, and signal MC.}}{68}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Distribution of number of tracker and pixel hits, fraction of valid tracker hits, and number of $dE/dx$\ measurements in the {\em muon+track}\ analysis for data and signal MC.}}{69}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Distribution of relative $p_{T}$\ uncertainty, $\chi ^2$ per degree of freedom, and transverse and longitudinal displacement in the {\em muon+track}\ analysis for data and signal MC.}}{70}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Distribution of tracker and calorimeter isolation as well as the $\beta ^{-1}$\ measurement number of degrees of freedom and uncertainty in the {\em muon+track}\ analysis for data and signal MC.}}{72}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Distribution of number of $dE/dx$\ measurements passing cleaning for samples of three different charges }}{73}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Distribution of $\beta ^{-1}$\ and $p_{T}$\ in the {\em muon only}\ analysis for data, cosmic-ray muon control sample, and signal MC}}{77}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Distribution of selection variables in the {\em muon+track}\ analysis for data and signal MC.}}{78}{figure.5.20}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Example fits to invariant mass distributions in the tag and probe procedure for the {\em muon only}\ analysis for data.}}{81}{figure.5.21}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Example fits to invariant mass distributions in the tag and probe procedure for the {\em muon only}\ analysis for MC.}}{82}{figure.5.22}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Efficiency to pass preselection cuts for the {\em muon only}\ analysis versus $p_{T}$, $\eta $, and number of primary vertices}}{83}{figure.5.23}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Distribution of $p_T$ and $\beta ^{-1}$\ for data in different prediction regions in the {\em muon only}\ analysis}}{88}{figure.5.24}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Distribution of $\beta ^{-1}$\ for different momentum regions for two and three station tracks in the {\em muon only}\ analysis.}}{89}{figure.5.25}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Distribution of $\beta ^{-1}$\ for different momentum regions for four station tracks in the {\em muon only}\ analysis.}}{90}{figure.5.26}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Number of predicted and observed events in the $\beta ^{-1}$\ $<$ 1 region in the {\em muon only}\ analysis}}{92}{figure.5.27}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Distributions of the number of predicted events with different prediction formulae for different sets of thresholds in the {\em muon only}\ analysis.}}{93}{figure.5.28}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Statistical and systematic uncertainties in the background prediction for different sets of thresholds in the {\em muon only}\ analysis.}}{95}{figure.5.29}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Distribution of selection variables in the {\em muon+track}\ analysis for different ranges of the other variables}}{97}{figure.5.30}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces Number of observed and predicted events in the $\beta ^{-1}$\ $<$ 1 region in the {\em muon+track}\ analysis.}}{98}{figure.5.31}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces Distribution for data of the candidate $\eta $ for various combinations of being above or below selection thresholds in the {\em muon+track}\ analysis}}{100}{figure.5.32}
+\contentsline {figure}{\numberline {5.33}{\ignorespaces Observed and predicted mass spectrum for candidates in the $\beta ^{-1}$\ $<$ 1 region in the {\em muon+track}\ analysis.}}{102}{figure.5.33}
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Number of predicted candidates from four different background predictions in the {\em muon+track}\ analysis}}{104}{figure.5.34}
+\contentsline {figure}{\numberline {5.35}{\ignorespaces Statistical and systematic uncertainty in the background prediction for different sets of thresholds in the {\em muon+track}\ analysis.}}{105}{figure.5.35}
+\contentsline {figure}{\numberline {5.36}{\ignorespaces Predicted and observed number of events in the $\beta ^{-1}$\ $<$ 1 region for different sets of thresholds in the {\em multiple charge}\ analysis.}}{107}{figure.5.36}
+\contentsline {figure}{\numberline {5.37}{\ignorespaces Distribution of the number of predicted events from different predictions in the {\em multiple charge}\ analysis}}{108}{figure.5.37}
+\contentsline {figure}{\numberline {5.38}{\ignorespaces Statistical and systematic uncertainty in the background prediction for different sets of thresholds in the {\em multiple charge}\ analysis}}{109}{figure.5.38}
+\contentsline {figure}{\numberline {5.39}{\ignorespaces Number of predicted and observed events for two different thresholds in the {\em muon only}\ and {\em muon+track}\ analyses.}}{112}{figure.5.39}
+\contentsline {figure}{\numberline {5.40}{\ignorespaces Number of predicted and observed events for two different thresholds in the {\em track only}\ and {\em multiple charge}\ analyses.}}{112}{figure.5.40}
+\contentsline {figure}{\numberline {5.41}{\ignorespaces Observed and predicted mass spectrum for candidates in the signal region with loose thresholds in the {\em muon+track}\ and {\em track only}\ analyses.}}{113}{figure.5.41}
+\contentsline {figure}{\numberline {5.42}{\ignorespaces Observed and predicted mass spectrum for candidates in the signal region with the final selection thresholds in the {\em muon+track}\ and {\em track only}\ analyses.}}{117}{figure.5.42}
+\contentsline {figure}{\numberline {5.43}{\ignorespaces Relative signal efficiency change seen for the various sources of uncertainty in the {\em muon only}\ analysis}}{137}{figure.5.43}
+\contentsline {figure}{\numberline {5.44}{\ignorespaces Relative signal efficiency change seen for the various sources of uncertainty for stau models in the {\em muon+track}\ analysis}}{138}{figure.5.44}
+\contentsline {figure}{\numberline {5.45}{\ignorespaces Relative efficiency change seen for the various sources of uncertainty for $R-hadron$ models in the {\em muon+track}\ analysis}}{139}{figure.5.45}
+\contentsline {figure}{\numberline {5.46}{\ignorespaces Relative signal efficiency change seen for the various sources of uncertainty for some of the models considered in the {\em track only}\ and {\em muon+track}\ analyses}}{140}{figure.5.46}
+\contentsline {figure}{\numberline {5.47}{\ignorespaces Total signal efficiency uncertainty for all considered models}}{141}{figure.5.47}
+\contentsline {figure}{\numberline {5.48}{\ignorespaces Cross-section limits obtained from 8\nobreakspace {}TeV data for all considered models in the analyses}}{142}{figure.5.48}
+\contentsline {figure}{\numberline {5.49}{\ignorespaces Limits on the relative signal strength, $\sigma /\sigma _{th}$, set by the analyses}}{143}{figure.5.49}
+\contentsline {figure}{\numberline {5.50}{\ignorespaces Lower mass limits on HSCP produced in various models of new physics compared with previously published results}}{144}{figure.5.50}
 \addvspace {10pt}

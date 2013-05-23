@@ -5,7 +5,7 @@ of background considered in the analyses.
 
 The first is muons, or for the \tkonly\ analysis any charged SM particle, from the collisions in the LHC. Muons can pass the thresholds on the selection variables
 for a variety of reasons.
-All muons at the LHC will be travelling at very nearly the speed of light,
+All muons at the LHC will be traveling at very nearly the speed of light,
 but finite detector resolution results in a smearing of the measured time of hits. This can cause muons to have a high measured \invbeta.
 While muons in the momentum region of interest all deposit approximately
 the same amount of energy in the tracker on average, the amount deposited in each interaction is subject to large variations. This can lead to muons
@@ -72,7 +72,7 @@ The following variables are defined:
 \begin{equation}
 \centering
 \begin{split}
-V^{syst+stat}_{N} &= \sqrt{\sum_i \left( x_i - <x> \right) ^2/(N-1)} \\
+V^{syst+stat}_{N} &= \sqrt{\sum_i \left( x_i - \langle x \rangle  \right) ^2/(N-1)} \\
 V^{stat}_{N} &= \sqrt{\sum_i \left( \sigma _i \right) ^2/N} \\
 V^{syst} &= \sqrt{V_{syst+stat}^2-V_{stat}^2} \\
 \end{split}
@@ -82,10 +82,10 @@ where N is the number of estimates considered,
 the sum is over N, $x_i$ is the value of the $i^{th}$ background estimate,
 and $\sigma_i$ is the statistical uncertainty on
 the $i^{th}$ background estimate. The first quantity is an estimator of the
-variance of the background estimates, which takes both statistical
+standard deviation of the background estimates, which takes both statistical
 and systematic contributions. The second quantity is adopted as an
 estimator of the contribution of the statistical uncertainties
-to the variance. Finally, the contribution of the
+to the standard deviation. Finally, the contribution of the
 systematic uncertainty to the background estimates is taken assuming
 that the latter adds in quadrature to the statistical uncertainty and
 is therefore obtained from the last expression.
@@ -155,7 +155,7 @@ shows the forward region.}
 
 To predict the cosmic ray muon background sidebands in the $|\delta_z|$ distribution and the pure cosmic ray muon sample are used. The number of candidates, $N$, 
 in a sideband region of $|\delta_z|$ are counted. The candidates are required to pass the full selection except the $|\delta_z|$ requirement 
-is changed to $70 < |\delta_z| <$ 120cm and
+is changed to $70 < |\delta_z| <$~120~cm and
 the requirements on $|\delta_{xy}|$, $\phi,$ segment $\eta$ separation, and $p_T$ are removed to increase the number of cosmic ray muons in the sideband region. 
 Additionally the candidates
 are required not to be reconstructed in the inner tracker to decrease the contamination from collision muons. The ratio, $R$, of candidates in the $|\delta_z|$ sideband region 
@@ -173,39 +173,30 @@ Numerous effects cancel in this ratio making the prediction robust. The number o
 $C = F \times T \times \epsilon$, where C is the number of cosmic ray muons observed, F is the flux of cosmic ray muons per second, T is the amount of time that CMS was collecting data,
 and $\epsilon$ is the efficiency of the detector to reconstruct and select cosmic ray muons in the region including detector acceptance effects. 
 The ratio R can then be written as
-
 \begin{equation}
 \begin{split}
 R = F \times T_{Control} \times \epsilon_{Control}^{Signal} / (F \times T_{Control} \times \epsilon_{Control}^{Sideband}) \\
 \end{split}
 \label{eq:CosmicRatio}
 \end{equation}
-
 where Control refers to the cosmic ray muon control trigger
 and signal and sideband represent the $|d_z|$ signal and sideband regions, respectively.
-
 The number N in the sideband region is written as 
-
 \begin{equation}
 \begin{split}
 N = F \times T_{Main} \times \epsilon_{Main}^{Sideband}
 \end{split}
 \label{eq:CosmicSide}
 \end{equation}
-
 and the number of cosmic ray muons expected in the signal region as
-
 \begin{equation}
 \begin{split}
 P_{Cosmic} = F \times T_{Main} \times \epsilon_{Main}^{Signal}
 \end{split}
 \label{eq:CosmicSignal}
 \end{equation}
-
 with Main referring to the samples gathered with the main analysis triggers.
-
 Then Eq.~\ref{eq:CosmicPred} can be restated as
-
 \begin{equation}
 \begin{split}
 & F \times T_{Main} \times \epsilon_{Main}^{Signal} = F \times T_{Main} \times \epsilon_{Main}^{Sideband} \times \\
@@ -213,23 +204,19 @@ Then Eq.~\ref{eq:CosmicPred} can be restated as
 \end{split}
 \label{eq:CosmicDetail}
 \end{equation}
-
 %where Main and Control differentiate between the main triggers used in the analysis from the cosmic control trigger, respectively,
 % and signal and sideband represent the signal region and $|d_z|$ sideband, respectively. 
 After the cancellation of numerous factors this equation reduces to 
-
 \begin{equation}
 \epsilon_{Main}^{Signal} = \epsilon_{Main}^{Sideband} \times \epsilon_{Control}^{Signal} / \epsilon_{Control}^{Sideband}
 \label{eq:ReducedCosmicPred}
 \end{equation}
 
 It is clear that as long as the relationship
-
 \begin{equation}
 \epsilon_{Main}^{Signal}/ \epsilon_{Main}^{Sideband} = \epsilon_{Control}^{Signal} / \epsilon_{Control}^{Sideband}
 \label{eq:ReducedCosmicPredRatio}
 \end{equation}
-
 holds the prediction will be accurate. The only difference between the two ratios is that one is using events collected with the main triggers while the
 other is using the cosmic ray muon control trigger. As the two triggers are essentially the same and were collected during the same run period it is likely the
 relationship holds. Thus the prediction of the number of cosmic ray muons in the signal region is likely good. Note that the relationship does not require the efficiency
@@ -256,7 +243,7 @@ and \invbeta\ thresholds. Good agreement is seen between observed and predicted.
 \centering
   \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Prediction_Data8TeV_NPredVsNObs_Flip}
   \caption[Number of predicted and observed events in the \invbeta\ $<$ 1 region in the \muononly\ analysis]
-{Number of predicted and observed events in the \invbeta\ $<$ 1 region for two different $p_T$ thresholds. Threshold for \invbeta\ set by X-axis.}
+{Number of predicted and observed events in the \invbeta\ $<$ 1 region for two different $p_T$ thresholds. Threshold for \invbeta\ set by x-axis.}
     \label{fig:PredFlipPt230}
 \end{figure}
 
@@ -282,7 +269,7 @@ Left column: $1/\beta>1.1$ ($<0.9$ for low $1/\beta$ regions). Right column: $1/
 The systematic error is extracted from the three predictions
 through Eq.~\ref{eq:variance} with N=3.
 Fig.~\ref{fig:MuOnlyUnc} shows the variation of
-$V_{syst+stat}/<x>$, $V_{stat}/<x>$ and $V_{syst}/<x>$
+$V_{syst+stat}/\langle x \rangle $, $V_{stat}/ \langle x \rangle $ and $V_{syst}/ \langle x \rangle $
 as a function of the $p_T$ threshold. The statistical uncertainty due to the number of candidates in the $B$ group is not subtracted as it is completely correlated
 between the three predictions. From the last plot
 the systematic uncertainty on the expected background in the signal
@@ -295,10 +282,10 @@ region is estimated to be 20\%.
 \includegraphics[clip=true, trim=0.0cm 0cm 3.0cm 0cm,width=0.44\textwidth]{figures/muonly/Data8TeVCollisionSyst}
 \caption[Statistical and systematic uncertainties in the background prediction for different sets of thresholds in the \muononly\ analysis.]
 {Calculation of uncertainty in the \muononly\ analysis.
-Left: Ratio of the quadratic
+Top left: Ratio of the square root of the quadratic
 mean of the statistical uncertainties of the three possible background
 estimations to the mean of these estimations vs
-the $p_T$ threshold. Middle: Ratio of the variance to the mean of the three
+the $p_T$ threshold. Top right: Ratio of the standard deviation to the mean of the three
 background estimations vs $p_T$. Right: Ratio of the
 square root of the difference between the variance and the quadratic
 mean of the statistical uncertainties  of the three possible background
@@ -310,8 +297,8 @@ estimations and the mean vs $p_T$.
 
 The systematic uncertainty on the cosmic ray muon background is determined by
 modifying the $d_z$ range used to define the control sample.  Predictions
-can also be made from candidates with $30 < |d_z| < 50$ cm, $50 < |d_z| < 70$ cm, and
-120 cm $< |d_z|$.  Table~\ref{tab:CosmicPred} shows the number of predicted cosmic ray muons
+can also be made from candidates with $30 < |d_z| < 50$~cm, $50 < |d_z| < 70$!cm, and
+120~cm~$< |d_z|$.  Table~\ref{tab:CosmicPred} shows the number of predicted cosmic ray muons
 for each $|d_z|$ region using the final selection defined in Section~\ref{sec:Optim}
 The statistical uncertainty from the number of candidates in the signal region in the
 pure cosmic ray muon sample is not included in the uncertainties listed as it is correlated
@@ -324,11 +311,11 @@ The relative systematic uncertainty is found to be 80\%.
   \caption{Predicted numbers of cosmic ray muon events for the \muononly\ analysis.}
      \label{tab:CosmicPred}
   \begin{tabular}{|l|c|c|} \hline
-   Dz Region            & Prediction  \\ \hline
-   $30 < |dz| < 50$ cm  & 3.1 $\pm$ 0.5   \\ \hline
-   $50 < |dz| < 70$ cm  & 2.6 $\pm$ 0.7   \\ \hline
-   $70 < |dz| < 120$ cm & 3.2 $\pm$ 1.0   \\ \hline
-   120 cm $< |dz|$      & 3.8 $\pm$ 0.7   \\ \hline
+   $|d_z|$ Region            & Prediction  \\ \hline
+   $30 < |dz| < 50$~cm  & 3.1 $\pm$ 0.5   \\ \hline
+   $50 < |dz| < 70$~cm  & 2.6 $\pm$ 0.7   \\ \hline
+   $70 < |dz| < 120$~cm & 3.2 $\pm$ 1.0   \\ \hline
+   120~cm~$< |dz|$      & 3.8 $\pm$ 0.7   \\ \hline
   \end{tabular}
  \end{center}
 \end{table}
@@ -497,8 +484,8 @@ and the agreement in the predicted mass spectrum a conservative systematic uncer
  \end{center}
  \caption[Number of predicted candidates from four different background predictions in the \tktof\ analysis]
 {Number of predicted candidates from four different background predictions. Top Left: $p_T$ and \ias\ threshold of 50 GeV and 0.05, respectively.
-Threshold on \invbeta\ set by X-axis. Top Right: Threshold on \invbeta\  and \ias\ of 1.05 and 0.05, respectively. Threshold on $p_T$ set by X-axis.
-Bottom: Threshold on \invbeta\ and $p_T$ of 1.05 and 50 GeV, respectively. Threshold on \ias\ set by X-axis. }
+Threshold on \invbeta\ set by x-axis. Top Right: Threshold on \invbeta\  and \ias\ of 1.05 and 0.05, respectively. Threshold on $p_T$ set by x-axis.
+Bottom: Threshold on \invbeta\ and $p_T$ of 1.05 and 50 GeV, respectively. Threshold on \ias\ set by x-axis. }
 \label{fig:TkMuMultPred}
 \end{figure}
 
@@ -509,14 +496,15 @@ Bottom: Threshold on \invbeta\ and $p_T$ of 1.05 and 50 GeV, respectively. Thres
 \includegraphics[clip=true, trim=0.0cm 0cm 3.0cm 0cm,width=0.44\textwidth]{figures/tkmu/Systematics_Data8TeV_pT_Syst}
 \caption[Statistical and systematic uncertainty in the background prediction for different sets of thresholds in the \tktof\ analysis.]
 {Calculation of uncertainty in the \tktof\ analysis.
-Left: Ratio of the quadratic
-mean of the statistical uncertainties of the four background
+Top left: Ratio of the square root of the quadratic
+mean of the statistical uncertainties of the three possible background
 estimations to the mean of these estimations vs
-the $p_T$ threshold. Middle: ratio of the variance to the mean of the four
-background estimations vs $p_T$. Right: ratio of the
+the $p_T$ threshold. Top right: Ratio of the standard deviation to the mean of the three
+background estimations vs $p_T$. Right: Ratio of the
 square root of the difference between the variance and the quadratic
-mean of the statistical uncertainties  of the four possible background
-estimations and the mean vs $p_T$.}
+mean of the statistical uncertainties  of the three possible background
+estimations and the mean vs $p_T$.
+}
 \label{fig:TkMuUnc}
 \end{center}
 \end{figure}
@@ -547,7 +535,7 @@ Figure~\ref{fig:MultiPred} shows the predicted and observed number of tracks for
   \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm,width=0.44\textwidth]{figures/multi/Prediction_Data8TeV_NPredVsNObs_Flip}
  \end{center}
  \caption[Predicted and observed number of events in the \invbeta\ $<$ 1 region for different sets of thresholds in the \multi\ analysis.]
-{Predicted and observed number of events in the $D^{\prime}$ region for different \invbeta\ thresholds with the X-axis indicating the \ias\ threshold.}
+{Predicted and observed number of events in the $D^{\prime}$ region for different \invbeta\ thresholds with the x-axis indicating the \ias\ threshold.}
 \label{fig:MultiPred}
 \end{figure}
 
@@ -582,24 +570,14 @@ From the last plot a 20\% systematic uncertainty is taken on the background esti
 \caption[Statistical and systematic uncertainty in the background prediction for different sets of thresholds in the \multi\ analysis]
 {
 Calculation of uncertainty in the \multi\ analysis.
-Left: Ratio of the quadratic
-mean of the statistical uncertainties of the three background
+Top left: Ratio of the square root of the quadratic
+mean of the statistical uncertainties of the three possible background
 estimations to the mean of these estimations vs
-the \ias\ threshold. Middle: ratio of the variance to the mean of the three
-background estimations vs \ias. Right: ratio of the
+the \ias\ threshold. Top right: Ratio of the standard deviation to the mean of the three
+background estimations vs \ias. Right: Ratio of the
 square root of the difference between the variance and the quadratic
 mean of the statistical uncertainties  of the three possible background
 estimations and the mean vs \ias.
-%Variations on the estimates of the background to the
-%\multi\ analysis as a function of \ias, shown are
-%the ratio of the quadratic mean of the statistical uncertainties of the
-%three background estimations ($CH/G$, $CH^\prime /G^\prime$, and
-%$CD^\prime /C^\prime$) to the mean of
-%these estimations (left column), the ratio of the variance to the mean of
-%the three background estimations (middle column), and the ratio of the
-%square root of the difference between the variance and the quadratic
-%mean of the statistical uncertainties  of the three possible background
-%estimations and the mean (right column).
 }
 \label{fig:mCHAMPcorr2}
 \end{figure}
