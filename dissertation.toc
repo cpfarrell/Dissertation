@@ -16,31 +16,31 @@
 \contentsline {section}{\numberline {4.4}CSC Trigger Timing}{31}{section.4.4}
 \contentsline {section}{\numberline {4.5}DT Timing}{35}{section.4.5}
 \contentsline {section}{\numberline {4.6}Offline Muon Track Timing}{36}{section.4.6}
-\contentsline {chapter}{\numberline {5}Searches for Heavy Stable Charged Particles }{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Foreword}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}Introduction}{42}{section.5.2}
-\contentsline {section}{\numberline {5.3}Samples }{43}{section.5.3}
-\contentsline {section}{\numberline {5.4}Trigger }{52}{section.5.4}
-\contentsline {section}{\numberline {5.5}Selection Variables }{60}{section.5.5}
-\contentsline {section}{\numberline {5.6}Preselection }{63}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Preselection for {\em muon only}\ }{64}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Preselection for {\em muon+track}\ }{65}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Preselection for {\em track only}\ and {\em multiple charge}\ }{71}{subsection.5.6.3}
-\contentsline {subsection}{\numberline {5.6.4}Summary of Preselection }{73}{subsection.5.6.4}
-\contentsline {subsection}{\numberline {5.6.5}Tag and Probe Studies }{79}{subsection.5.6.5}
-\contentsline {section}{\numberline {5.7}Background Prediction }{80}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Prediction for {\em muon only}\ analysis }{87}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Prediction for {\em muon+track}\ analysis}{94}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}Prediction for {\em track only}\ analysis}{103}{subsection.5.7.3}
-\contentsline {subsection}{\numberline {5.7.4}Prediction for {\em multiple charge}\ analysis}{106}{subsection.5.7.4}
-\contentsline {section}{\numberline {5.8}Statistical Technique }{107}{section.5.8}
-\contentsline {section}{\numberline {5.9}Cut Optimization }{111}{section.5.9}
-\contentsline {section}{\numberline {5.10}Signal Efficiency Systematic Uncertainties }{118}{section.5.10}
-\contentsline {subsection}{\numberline {5.10.1}Trigger Efficiency Uncertainty}{118}{subsection.5.10.1}
-\contentsline {subsection}{\numberline {5.10.2}Uncertainty on Selection Variables}{119}{subsection.5.10.2}
-\contentsline {subsection}{\numberline {5.10.3}Other Uncertaintis on Signal Efficiency}{121}{subsection.5.10.3}
-\contentsline {subsection}{\numberline {5.10.4}Total Signal Efficiency Uncertainty}{122}{subsection.5.10.4}
-\contentsline {section}{\numberline {5.11}Final Results}{122}{section.5.11}
-\contentsline {section}{\numberline {5.12}Conclusion}{136}{section.5.12}
-\contentsline {chapter}{\numberline {6}Conclusion }{145}{chapter.6}
-\contentsline {chapter}{References}{147}{chapter*.4}
+\contentsline {chapter}{\numberline {5}Searches for Heavy Stable Charged Particles }{44}{chapter.5}
+\contentsline {section}{\numberline {5.1}Foreword}{44}{section.5.1}
+\contentsline {section}{\numberline {5.2}Introduction}{45}{section.5.2}
+\contentsline {section}{\numberline {5.3}Samples }{46}{section.5.3}
+\contentsline {section}{\numberline {5.4}Trigger }{55}{section.5.4}
+\contentsline {section}{\numberline {5.5}Selection Variables }{63}{section.5.5}
+\contentsline {section}{\numberline {5.6}Preselection }{66}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Preselection for {\em muon only}\ }{67}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Preselection for {\em muon+track}\ }{68}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Preselection for {\em track only}\ and {\em multiple charge}\ }{74}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Summary of Preselection }{76}{subsection.5.6.4}
+\contentsline {subsection}{\numberline {5.6.5}Tag and Probe Studies }{82}{subsection.5.6.5}
+\contentsline {section}{\numberline {5.7}Background Prediction }{83}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Prediction for {\em muon only}\ analysis }{90}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Prediction for {\em muon+track}\ analysis}{97}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Prediction for {\em track only}\ analysis}{106}{subsection.5.7.3}
+\contentsline {subsection}{\numberline {5.7.4}Prediction for {\em multiple charge}\ analysis}{109}{subsection.5.7.4}
+\contentsline {section}{\numberline {5.8}Statistical Technique }{110}{section.5.8}
+\contentsline {section}{\numberline {5.9}Cut Optimization }{114}{section.5.9}
+\contentsline {section}{\numberline {5.10}Signal Efficiency Systematic Uncertainties }{121}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Trigger Efficiency Uncertainty}{121}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Uncertainty on Selection Variables}{122}{subsection.5.10.2}
+\contentsline {subsection}{\numberline {5.10.3}Other Uncertainties on Signal Efficiency}{124}{subsection.5.10.3}
+\contentsline {subsection}{\numberline {5.10.4}Total Signal Efficiency Uncertainty}{125}{subsection.5.10.4}
+\contentsline {section}{\numberline {5.11}Final Results}{125}{section.5.11}
+\contentsline {section}{\numberline {5.12}Conclusion}{139}{section.5.12}
+\contentsline {chapter}{\numberline {6}Conclusion }{148}{chapter.6}
+\contentsline {chapter}{References}{150}{chapter*.4}

@@ -107,7 +107,7 @@ This leads to an uncertainty of less than 4\% for all samples.
 
 Multiply charged particles deposit a large amount of energy in the calorimeter and if the particle does not have enough energy it may come to a stop in the calorimeter.
 This is particularly important for high charge, low mass samples, because if the particle has enough energy to pass through the calorimeter then it will
-be travelling at a high speed and be unlikely to pass the threshold on \invbeta. Uncertainty on the amount of detector material, determined mostly by the
+be traveling at a high speed and be unlikely to pass the threshold on \invbeta. Uncertainty on the amount of detector material, determined mostly by the
 HCAL, affects the number of HSCP that will stop. There is a conservative 5\% uncertainty on the material budget as measured by energy loss of cosmic ray muons
 passing through CMS~\cite{2010JInst...5T3021C}. Shifting the material density by this amount for a few signal samples has at most a 20\% effect. This 20\% uncertainty is
 conservatively taken for all multiply charged samples.

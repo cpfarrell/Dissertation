@@ -5,7 +5,7 @@ of background considered in the analyses.
 
 The first is muons, or for the \tkonly\ analysis any charged SM particle, from the collisions in the LHC. Muons can pass the thresholds on the selection variables
 for a variety of reasons.
-All muons at the LHC will be travelling at very nearly the speed of light,
+All muons at the LHC will be traveling at very nearly the speed of light,
 but finite detector resolution results in a smearing of the measured time of hits. This can cause muons to have a high measured \invbeta.
 While muons in the momentum region of interest all deposit approximately
 the same amount of energy in the tracker on average, the amount deposited in each interaction is subject to large variations. This can lead to muons

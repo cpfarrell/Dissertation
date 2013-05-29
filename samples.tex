@@ -1,7 +1,7 @@
 \section{Samples \label{sec:samples}}
 
 Data collected with the CMS detector during 2012 running at an energy of $\sqrt{s}=8$~TeV are searched. The data collection was split into four periods labeled A, B, C, and D.
-All data collected by CMS unundergo a prompt reconstruction as described in section~\ref{sec:computing}. The first two run periods, A and B, underwent an additional
+All data collected by CMS undergo a prompt reconstruction as described in section~\ref{sec:computing}. The first two run periods, A and B, underwent an additional
 re-reconstruction so as to have the latest reconstruction improvements and calibration constants. The re-reconstructed samples are used for the A and B periods while the promptly
 reconstructed samples are used for the C and D periods.
 
@@ -11,36 +11,36 @@ and electrons are checked to make sure the data are good for physics analyses. F
 section~\ref{sec:trigger}, and so the RPC is required to be included in the L1 trigger for all data searched. This leads to the searches using slightly less data
 than most other CMS analyses on 2012 data. The data sample used by this analysis corresponds to 18.8~fb$^{-1}$.
 
-Multiple different signal Monte Carlo (MC) simulation samples are produced to account for the multiple different signatures an HSCP could have,
+Multiple different signal Monte Carlo (MC) simulation samples are produced to account for the different signatures an HSCP could have;
 more detail on the signal models can be found in Sec.~\ref{sec:BSM}.
 
-Pair production of gluino and stop samples are produced with
+Pair production of strongly--interacting gluino and stop samples are produced with
 masses in the range 300--1500~GeV$/c^2$ and 100--1000~GeV$/c^2$, respectively.
 The gluinos are generated in the split SUSY scenario~\cite{ArkaniHamed:2004fb, Giudice:2004tc}. 
-under the assumption of high squark masses of 10~TeV. The samples are generated using PYTHIAv8.153~\cite{Sjostrand:2007gs}. 
-Samples are produced with the fraction $f$ of gluinos forming glue ball $R-hadrons$ set to $f=1.0$, 0.5, and 0.1.
-The value of $f=1.0$ results in all gluino $R-hadrons$ being produced neutral.
+under the assumption of high squark masses of 10~TeV. The samples are generated using PYTHIAv8.153~\cite{Sjostrand:2007gs}
+Samples are produced with the fraction $f$ of gluinos forming neutral glueball $R-hadrons$ set to $f=1.0$, 0.5, and 0.1.
+%The value of $f=1.0$ results in all gluino $R-hadrons$ being produced neutral.
 %, the \muononly\ analysis is designed to still have sensitivity in this case.
-The samples are also produced with two different modelings of a nuclear interaction of R-hadrons with matter, the cloud interaction and charge suppressed models.
+The samples are also produced with two different modelings of the nuclear interaction of R-hadrons with matter: the cloud interaction and charge suppressed models.
 The charge suppressed model results in all $R-hadrons$ being neutral after a nuclear interaction.
 The cloud interaction model should be assumed for samples unless explicitly stated otherwise.
-Most HSCP will not have a nuclear interaction while passing through the CMS tracker, however almost all of them will have an interaction in the calorimeter.
+Most HSCP will not have a nuclear interaction while passing through the CMS tracker, however almost all of them will have such an interaction in the calorimeter.
 
 The above effects can lead to many interesting signatures in the CMS detector. R-hadrons neutral after hadronization will generally remain neutral through the tracker
-but may gain charge in the calorimeter under the cloud model and leave hits in the muon system. If the glue ball fraction is 1.0, then this would
+but may gain charge in the calorimeter under the cloud model and leave hits in the muon system. If the glueball fraction is 1.0, then this would
 be the only way to detect gluino HSCP. The \muononly\ analysis is designed to have sensitivity to HSCP of this type. On the other hand HSCP produced charged under
 the charge suppression model will likely be charged in the tracker but always neutral in the muon system. The \tkonly\ analysis is designed to be sensitive
 to HSCP of this type. A third signature is an HSCP charged in both the muon and tracker systems which would have a signature similar to a muon.
 HSCP produced neutral under the charge suppression model would never be charged during their passage through CMS and thus are outside the scope
 of an HSCP search.%, they would fall into searches for dark matter.
 
-The \pt, $\beta$, and $\eta$ distributions of gluino and stop particles at generation are shown in Figs.~\ref{fig:GenGluino} and~\ref{fig:GenStop}, respectively.
+The \pt, $\eta$, and $\beta$ distributions of gluino and stop particles at generation are shown in Figs.~\ref{fig:GenGluino} and~\ref{fig:GenStop}, respectively.
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various gluino samples at generation]
 {Distribution of various kinematic variables for various gluino samples at generation.
@@ -51,9 +51,9 @@ Bottom: $\beta$
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various stop samples at generation]
 {Distribution of various kinematic variables for various stop samples at generation.
@@ -65,23 +65,26 @@ Bottom: $\beta$
 %One example of this is a neutral R-meson
 %made of a a gluino, a down quark, and a down anti-quark interacting with a proton, which is composed of two up quarks
 
-Additional samples are produced creating lepton-like HSCP. Pair production of stau samples
-are produced under the minimal gauge-mediated symmetry breaking (mGMSB) scenario~\cite{Giudice:1998bp} using the SPS7 slope~\cite{Allanach:2002nj}.
-The ISASUGRA version 7.69~\cite{Paige:2003mg} program is used to set the particle mass scale and decay table. 
-The program fixes a number of mGMSB parameters. The number of messenger particles 
-is set to to three, $tan \beta = 10$ ($\beta$ used differently than for speed above), $\mu>0$, $c_{Grav}>10000$, and $M_{Mes}/\Lambda=2$.
-The high value of $C_{Grav}$ results in the stau being long-lived while varying $\Lambda$ from 31 to 160~TeV gives staus within a mass range of 100--494~GeV$/c^2$. The produced
-mass spectrum and decay table are passed to PYTHIAv6.426~\cite{Sjostrand:2006za}. Stau production proceeds either by direct electroweak production or from the cascade
+Additional samples are produced creating lepton-like HSCP. Stau pair samples
+are produced under the minimal gauge-mediated supersymmetry breaking (mGMSB) scenario~\cite{Giudice:1998bp} using the SPS7 slope~\cite{Allanach:2002nj}.
+The ISASUGRA version 7.69~\cite{Paige:2003mg} program is used to set the particle mass scale and decay chains by specifying six parameters.
+%Six parameters are set to specify the exact mGMSB scenario used. 
+The number of messenger particles is set to three; the ratio of the mass of the messenger particles to the effective SUSY breaking mass scale is set to two;
+$tan \beta = 10$, this $\beta$ being the ratio of the vacuum expectation values of the neutral Higgses;
+the sign of the supersymmetric Higgs mass parameter is made greater than zero; and $c_{Grav}$ is greater than 10000.
+The low number of messenger particles results in the stau being the NLSP.
+The high value of $C_{Grav}$ results in the stau being long-lived while varying $\Lambda$ from 31 to 160~TeV gives staus within a mass range of 100--494~GeV$/c^2$. 
+The produced mass spectrum and decay chains are passed to PYTHIAv6.426~\cite{Sjostrand:2006za}. Stau production proceeds either by direct electroweak production or from the cascade
 decay of other particles (usually through the pair production of gluinos and squarks). Cascade decay is dominant due to the strong nature of the production mechanism.
-In order to give the best results while maintaining model independence two stau samples are used. One using all production mechanisms (GMSB) and one with staus only
-produced through direct production (PP). The second sample is less dependent on the model parameters. The distribution of \pt, $\eta$, and $\beta$ at generation
-are shown in Figs~\ref{fig:GenGMStau} and~\ref{fig:GenPPStau} for various GMSB and PP stau samples, respectively.
+In order to give the best results while maintaining model independence, two stau samples are used; one using all production mechanisms (GMSB) and one with staus only
+produced through direct production (DP). The second sample is less dependent on the model parameters. The distribution of \pt, $\eta$, and $\beta$ at generation
+are shown in Figs~\ref{fig:GenGMStau} and~\ref{fig:GenPPStau} for various GMSB and DP stau samples, respectively.
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various GMSB stau samples at generation]
 {Distribution of various kinematic variables for various GMSB stau samples at generation.
@@ -92,9 +95,9 @@ Bottom: $\beta$
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various Pair Prod. stau samples at generation]
 {Distribution of various kinematic variables for various stau samples with only direct production at generation.
@@ -105,7 +108,7 @@ Bottom: $\beta$
 
 The last of the signal samples used is modified Drell-Yan production of long-lived leptons with different electrical charges.
 As all SM particles that reach CMS have electrical charge, Q, equal to $\pm1e$ or
-are neutral, the possbility of HSCPs with non-unit charge is interesting. 
+are neutral, the possibility of HSCPs with non-unit charge is interesting. 
 %Here and in the rest of this work, Q is meant to be the absolute value of the charge unless explicitly stated.
 %The particles can generically be divided by whether they have Q<1e or Q>=1e.
 The production of these particles is simulated with PYTHIAv6.426~\cite{Sjostrand:2006za}. 
@@ -118,9 +121,9 @@ The distribution of \pt, $\eta$, and $\beta$ at generation for various charges a
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for modified DY samples with various charges and masses at generation]
 {Distribution of various kinematic for modified DY samples with various charges and masses at generation.
@@ -131,11 +134,11 @@ Bottom: $\beta$}
 
 All MC simulation events are overlaid with additional proton-proton collisions, see Section~\ref{sec:LHC}.
 Weights are given to the events so that the distribution of additional collisions in the MC simulation samples matches what is observed in data.
-After this reweighting there is a good agreement in the number of primary vartices, a proxy for the number of collisions, between data and MC simulation as seen in Figure~\ref{fig:PV}
+After this reweighting there is a good agreement in the number of primary vertices, a proxy for the number of collisions, between data and MC simulation as seen in Figure~\ref{fig:PV}
 
 \begin{figure}
   \begin{center}
-      \includegraphics[clip=true, trim=0.0cm 0cm 3.0cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Signal_8TeV_PV_BS} \\
+      \includegraphics[clip=false, trim=0.0cm 0cm 3.0cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Signal_8TeV_PV_BS} \\
   \end{center}
         \caption[Distribution of number of primary vertices in data and various MC simulation samples]
 {Distribution of number of primary vertices in data and various MC simulation samples

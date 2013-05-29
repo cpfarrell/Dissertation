@@ -18,8 +18,8 @@ Only in proton-proton operational mode is there a possibility to discover HSCPs 
 
 The LHC was designed to accelerate protons to an energy of seven TeV and collide them at a center of mass energy($\sqrt{s}$) of 
 fourteen TeV. The protons are brought
-to a collision at four points along the LHC beamline. Surrounding two of these interaction points sit the general purpose detectors of CMS and ATLAS. These detectors are 
-designed to recieve the highest instantaneous luminosity the LHC can supply of $10^{34}$~cm$^{-2}$~s$^{-1}$.
+to a collision at four points along the LHC beam line. Surrounding two of these interaction points sit the general purpose detectors of CMS and ATLAS. These detectors are 
+designed to receive the highest instantaneous luminosity the LHC can supply of $10^{34}$~cm$^{-2}$~s$^{-1}$.
 The other interaction points are surrounded by the special purpose detectors LHCb and ALICE and
 are designed to have instantaneous luminosities of $2\times10^{29}$~cm$^{-2}$~s$^{-1}$ and $10^{27}$~cm$^{-2}$~s$^{-1}$, respectively. This paper considers data collected by the
 CMS detector.
@@ -38,7 +38,7 @@ The LHC can hold a total of 2,808 bunches; in some places it is designed to have
 bunches to allow for dumping of the beam without harming the LHC.
 Each 25~ns time window is referred to as a bunch crossing window, whether there are proton bunches colliding in CMS or not.
 Each collision between the proton bunches can
-result in more than one proton-proton collision. This results in CMS and ATLAS seeing numerous proton-proton collisions overlayed on one another.
+result in more than one proton-proton collision. This results in CMS and ATLAS seeing numerous proton-proton collisions overlaid on one another.
 At collision, the bunches have a longitudinal length of 9~cm and radius of 20~$\mu$m~\cite{PDG}, both numbers are RMS values.
 This results in the collisions in a bunch crossing being spread over a time period of a few tenths of a nanosecond.
 %The effect of this on the search for HSCPs is discussed in Section~\ref{sec:SystUnc}.
@@ -49,7 +49,7 @@ to 7~TeV for both 2010 and 2011 and then to 8~TeV in 2012.
 This paper only covers the data collected at 7 and 8~TeV in 2011 and 2012. It is planned to raise the center of mass energy to its 
 design goal of 14~TeV through additional work on the LHC and the injector system.
 
-Similarly, the instantaneous luminosity was ramped up during the commisioning phase. In 2010, the maximum instantaneous luminosity achieved~\cite{PublicLumi}
+Similarly, the instantaneous luminosity was ramped up during the commissioning phase. In 2010, the maximum instantaneous luminosity achieved~\cite{PublicLumi}
 was $2.1\times10^{32}$~cm$^{-2}$~s$^{-1}$ and in 2011 it was $3.5\times10^{33}$~cm$^{-2}$~s$^{-1}$
 During the 2012 running, the maximum instantaneous luminosity reached was $7.7\times10^{33}$~cm$^{-2}$~s$^{-1}$.
 The spacing between the collisions in CMS and ATLAS has continually between shortened down to 50~ns in 2012.
@@ -134,7 +134,7 @@ and charged when it is solid. Drawing courtesy of Loic Quertenmont.
 \end{figure}
 
 \subsection{Subdetectors \label{sec:subsystems}}
-The innermost part of CMS is an all silicon tracker. Closest to the interaction point are pixel detectors with three barrel layers and two endcap disks, totalling 1,440 modules. 
+The innermost part of CMS is an all silicon tracker. Closest to the interaction point are pixel detectors with three barrel layers and two endcap disks, totaling 1,440 modules. 
 Outside of this are strip detectors with ten barrel layers and twelve endcap disks. The tracker extends up to a pseudorapidity range of 2.5 with the resolution on track
 $p_T$ being approximately 1.5\% for a 100~GeV$/c$ particle at $|\eta| = 1.6$ and growing larger at high $|\eta|$ due to the decreased lever arm. Both the strips and the
 pixels have an analog readout of the deposited charge with a maximum readout of roughly three times the charge expected to be deposited by a muon. Charge from
@@ -165,7 +165,7 @@ The CSCs are laid out with four stations with increasing $z$ from the interactio
 
 The DT chambers have two or three superlayers which themselves are composed of four layers of drift cells which are staggered by half a cell. All of the DT chambers have
 two superlayers oriented parallel to the beam line, these superlayers measure the position of particles in the $r-\phi$ plane.
-The three inner stations additionally have a superlayer running perpendicular to the beamline to measure the position of particles in the $r-z$ plane.
+The three inner stations additionally have a superlayer running perpendicular to the beam line to measure the position of particles in the $r-z$ plane.
 
 The RPC chambers are gaseous parallel plate detectors that can provide a time resolution of 2~ns, which is much smaller than the design LHC bunch spacing of 25~ns allowing for
 a very high efficiency to correctly tag hits with the correct bunch crossing. The spatial resolution is sufficient to be able to associate RPC hits with hits
@@ -185,23 +185,23 @@ the data in the 25~ns window associated with the event. This means that triggers
 This can be an issue for HSCP that are traveling so slowly that they reach the muon system in the time window associated with the next bunch crossing window.
 The muon system selects events with a high momentum track by looking for a coincidence of signals found in multiple muon stations coincident in time and consistent
 with the passage of a high momentum particle.
-A slow moving HSCP may have the signals from some stations assiciated with the correct bunch crossing window and others with the following one.
+A slow moving HSCP may have the signals from some stations associated with the correct bunch crossing window and others with the following one.
 This leads to a potential loss in efficiency to trigger events containing an HSCP due to the mismatched time windows.
 However, a special configuration of the RPC trigger exploits the fact that current running of the LHC has been done with at least 50ns spacing.
 
 All hits in the RPC are sent to the trigger electronics twice, once for the bunch crossing window they are associated with and also for the one proceeding it.
 From there, the trigger electronics treat the time advanced RPC hits in the same manner as they do all other hits. 
-This allows the RPCs to trigger the readout of the event preceeding the arrival of the particle in the RPCs.
+This allows the RPCs to trigger the readout of the event preceding the arrival of the particle in the RPCs.
 This means that HSCP which arrive to the muon system up to 37.5ns after
 a muon is expected to, could still trigger the readout of the correct data in the rest of the detector.
 % corresponding with the bunch crossing window it was created in.
 
 %Despite the RPC signaling to readout two events only one will ever be actually collected as readout of consecutive events is forbidden by the DAQ. 
 To ensure collision muons still maintain the correct behavior, accept signals sent for the bunch crossing window immediately
-preceeding a bunch crossing window with protons passing through CMS are rejected. 
-So signals from collision muons will attempt to pretrigger but this will be vetoed and the following event will be correctly readout.
+preceding a bunch crossing window with protons passing through CMS are rejected. 
+So signals from collision muons will attempt to pre-trigger but this will be vetoed and the following event will be correctly readout.
 %A schema illustrating this behavior is shown in~\ref{fig:RPC_HSCP}. 
-This configuration is only possible  when collsions are spaced by at least 50ns so that accept signals from successive 25ns
+This configuration is only possible  when collisions are spaced by at least 50ns so that accept signals from successive 25ns
 bunch crossing windows can be unambiguously classified.
 
 %\begin{figure}
@@ -243,7 +243,7 @@ and reducing the rate so that more complex and time consuming reconstruction can
 The L3 step will reconstruct tracks in the inner silicon tracker and match them
 to objects in other parts of the detector, such as tracks found in the muon system. The momentum resolution of tracks reconstructed in both the muon system and silicon tracker
 is much better than those reconstructed only in the muon system. The relative uncertainty on the momentum of muon tracks reconstructed in both systems is approximately
-2\% in the central region of CMS and up to 6\% in the forward region~\cite{2012JInst...7P0002T}. For muons reconstructed only in the muon system the resolution is approxiamtely 8\%
+2\% in the central region of CMS and up to 6\% in the forward region~\cite{2012JInst...7P0002T}. For muons reconstructed only in the muon system the resolution is approximately 8\%
 in the central region and up to 27\% in the forward region. 
 The precise tracking used in the L3 step greatly helps to identify events that are desired for offline study.
 A wide variety of different signatures are searched for; if any are found, the data is passed to computers located at CERN

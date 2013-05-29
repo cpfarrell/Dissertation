@@ -182,7 +182,7 @@ the data acquisition system.
 
 As the LHC was designed to operate with 25~ns bunch spacing, many of the subsystems, the tracker especially, only readout
 the data in the 25~ns window associated with the event. This means that triggers that pre- or post-fire will not contain much of the data from the event.
-This can be an issue for HSCP that are travelling so slowly that they reach the muon system in the time window associated with the next bunch crossing window.
+This can be an issue for HSCP that are traveling so slowly that they reach the muon system in the time window associated with the next bunch crossing window.
 The muon system selects events with a high momentum track by looking for a coincidence of signals found in multiple muon stations coincident in time and consistent
 with the passage of a high momentum particle.
 A slow moving HSCP may have the signals from some stations assiciated with the correct bunch crossing window and others with the following one.
