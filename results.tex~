@@ -54,7 +54,7 @@ Mass  & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\
 \multicolumn{6}{c}%
 {\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
 \hline
-Mass  & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
+Mass  & \multicolumn{3}{c|}{$\sigma$~(pb)} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
 (GeV$/c^2$) & \multicolumn{3}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s} = 8$~TeV} \\
       & Eff. & Obs. & Exp. & Obs. & Exp. \\
 \hline
@@ -129,7 +129,7 @@ Mass  & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\
 Also the observed and expected limits on the signal strength at $\sqrt{s} = 7 + 8$~TeV.
   \label{tab:SummaryTkTOF}}  \\
 \hline
-Mass  & Mass & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
+Mass  & Mass & \multicolumn{3}{c|}{$\sigma$~(pb)} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
 (GeV$/c^2$) & Req. & \multicolumn{3}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s} = 7 + 8$~TeV} \\
       & (GeV$/c^2$) & Eff. & Obs. & Exp. & Obs. & Exp. \\
 \hline
@@ -137,7 +137,7 @@ Mass  & Mass & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \
 \multicolumn{7}{c}%
 {\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
 \hline
-Mass  & Mass & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
+Mass  & Mass & \multicolumn{3}{c|}{$\sigma$~(pb)} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
 (GeV$/c^2$) & Req. & \multicolumn{3}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s} = 7 + 8$~TeV} \\
       & (GeV$/c^2$) & Eff. & Obs. & Exp. & Obs. & Exp. \\
 \hline
@@ -230,7 +230,7 @@ Mass  & Mass & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \
 Also the observed and expected limits on the signal strength at $\sqrt{s} = 7 + 8$~TeV.
   \label{tab:SummaryTkOnly}}  \\
 \hline
-Mass  & Mass & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
+Mass  & Mass & \multicolumn{3}{c|}{$\sigma$~(pb)} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
 (GeV$/c^2$) & Req. & \multicolumn{3}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s} = 7 + 8$~TeV} \\
       & (GeV$/c^2$) & Eff. & Obs. & Exp. & Obs. & Exp. \\
 \hline
@@ -238,7 +238,7 @@ Mass  & Mass & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \
 \multicolumn{7}{c}%
 {\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
 \hline
-Mass  & Mass & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
+Mass  & Mass & \multicolumn{3}{c|}{$\sigma$~(pb)} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
 (GeV$/c^2$) & Req. & \multicolumn{3}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s} = 7 + 8$~TeV} \\
       & (GeV$/c^2$) & Eff. & Obs. & Exp. & Obs. & Exp. \\
 \hline
@@ -295,7 +295,7 @@ Mass  & Mass & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \
 Also the observed and expected limits on the signal strength at $\sqrt{s} = 7 + 8$~TeV.
   \label{tab:SummaryMulti}}  \\
 \hline
-Mass  & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
+Mass  & \multicolumn{3}{c|}{$\sigma$~(pb)} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
 (GeV$/c^2$) & \multicolumn{3}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}= 7 + 8$~TeV} \\
       & Eff. & Obs. & Exp. & Obs. & Exp. \\
 \hline
@@ -303,7 +303,7 @@ Mass  & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\
 \multicolumn{6}{c}%
 {\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
 \hline
-Mass  & \multicolumn{3}{c|}{$\sigma (pb)$} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
+Mass  & \multicolumn{3}{c|}{$\sigma$~(pb)} & \multicolumn{2}{c|}{$\mu = \sigma/\sigma_{TH}$} \\
 (GeV$/c^2$) & \multicolumn{3}{c|}{$\sqrt{s}=8TeV$} & \multicolumn{2}{c|}{$\sqrt{s}= 7 + 8$~TeV} \\
       & Eff. & Obs. & Exp. & Obs. & Exp. \\
 \hline

@@ -272,8 +272,8 @@ It can be seen that the \invbeta\ measurement for data and SM MC are strongly pe
 the HSCP have \invbeta\ greater than one, indicating they are traveling slowly. The \invbeta\ measurement is slightly asymmetric about one for data and SM MC
 due to the production of delta rays in the muon system which result in early timing measurements in the DTs. The shape of the distribution for cosmic-ray muons
 is caused by them passing through both the top and bottom halves of CMS and possibly having tracks be reconstructed in both halves.
-The timing of hits from the two tracks will be separated by approximately 40--60~ns.
-One of the tracks will trigger the readout of CMS and thus will have timing roughly around one, these tracks form the plateau in the cosmic-ray muon \invbeta\
+The timing of hits from the two tracks will be separated by approximately 40--80~ns.
+One of the tracks will trigger the readout of CMS and thus will have \invbeta\ roughly around one, these tracks form the plateau in the cosmic-ray muon \invbeta\
 distribution between zero and two. If the other track is also reconstructed its hits will have timing before zero, if the bottom track triggered the readout of CMS, or
 after zero, if the top track triggered the readout of CMS. These two possibilities cause the adjacent plateaus at low and high \invbeta\ values.
 
@@ -286,8 +286,8 @@ after zero, if the top track triggered the readout of CMS. These two possibiliti
       \caption[Distribution of \invbeta\ and associated quantities]
       {Distribution of \invbeta\ and associated quantities for data,
 simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated HSCPs.
-Top row is the \invbeta\ measurement with linear y-axis scale (left) and log scale (right).
-Bottom row is the uncertainty on the \invbeta\ measurement (left) and the number of degrees of freedom for the measurement (right).
+The top row is the \invbeta\ measurement with linear y-axis scale (left) and log scale (right).
+The bottom row is the uncertainty on the \invbeta\ measurement (left) and the number of degrees of freedom for the measurement (right).
 For all plots the leftmost and rightmost bins contain the underflow and overflow, respectively.
         }
       \label{fig:invbeta}
@@ -301,7 +301,7 @@ to be less than 0.07 and for the measurement to have at least eight degrees of f
 
 The average \invbeta\ value as a function of $\eta$ and \pt\ is shown in Fig.~\ref{fig:invbetaQual} (bottom row) for the same data sample described above
 with the quality requirements on the \invbeta\ measurement applied.
-The average can be seen to have small fluctuation versus $\eta$ over most of the $\eta$ range with a larger deviation at the most extreme $|\eta|$ values.
+The average can be seen to have small fluctuations versus $\eta$ over most of the $\eta$ range with a larger deviation at the most extreme $|\eta|$ values.
 The average is almost completely flat against the reconstructed \pt\ of the muon.
 
 \begin{figure}
@@ -312,10 +312,10 @@ The average is almost completely flat against the reconstructed \pt\ of the muon
       \includegraphics[width=0.49\textwidth]{figures/timing/TOFVsPt} \\
       \caption[Distribution of \invbeta\ and associated quantities after applying quality requirements]
       {Distribution of \invbeta\ and associated quantities after applying quality requirements. 
-Top row is the \invbeta\ measurement with linear y-axis scale (left) and log scale (right) for data,
+The top row is the \invbeta\ measurement with linear y-axis scale (left) and log scale (right) for data,
 simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated HSCPs.
 Both plots have the underflow and overflow included in the leftmost and rightmost bins, respectively.
-Bottom row is the average \invbeta\ measurement versus $\eta$ (left) and \pt\ (right).
+The bottom row is the average \invbeta\ measurement versus $\eta$ (left) and \pt\ (right).
         }
       \label{fig:invbetaQual}
   \end{center}
@@ -342,8 +342,8 @@ Timing in the muon system could be used to identify and remove these muons.
       \caption[Distribution of vertex time and associated quantities]
       {Distribution of vertex time and associated quantities for data,
 simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated HSCPs.
-Top row is the vertex time measurement with linear y-axis scale (left) and log scale (right).
-Bottom row is the uncertainty on the vertex time measurement (left) and the number of degrees of freedom for the measurement (right).
+The top row is the vertex time measurement with linear y-axis scale (left) and log scale (right).
+The bottom row is the uncertainty on the vertex time measurement (left) and the number of degrees of freedom for the measurement (right).
 For all plots the leftmost and rightmost bins contain the underflow and overflow, respectively.
         }
       \label{fig:vertextime}
@@ -374,7 +374,7 @@ resolution worse by more than an order of magnitude and very little discriminato
 This is because the assumptions in the previous measurements allowed both of them to use information
 related to the beam spot, which is approximately three times as far away from the innermost part of the muon system as the outermost part is to the innermost part.
 The vertex time measurement assumed an error-free propagation of the time in the muon system to the interaction point while the \invbeta\ measurement
-added a new point at the interaction point with $\delta t = 0$. This assumption-free measurement is not used for any purpose in CMS.
+added a new measurement at the interaction point with $t = 0$. This assumption-free measurement is not used for any purpose in CMS.
 
 %\section{Timing in simulation} Maybe
 

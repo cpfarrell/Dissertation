@@ -9,15 +9,14 @@
 # G --> G
 # H --> B
 
+
 #PROJECT=/uscms_data/d2/farrell3/WorkArea/Final2012Analysis06Jan2012/CMSSW_5_3_7_patch4/src/SUSYBSMAnalysis/HSCP/test/
 PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/
-
-
 DIRIN=$PROJECT/UsefulScripts/ThesisTimingCh/pictures
 DIROUT=figures/timing/
 cp $DIRIN/*.pdf $DIROUT/
 
-PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/Old_CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/
+#PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/Old_CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/
 DIRIN=$PROJECT/UsefulScripts/TriggerStudy/pictures
 DIROUT=figures/search/
 
@@ -36,11 +35,21 @@ cp $DIRIN/Gluino_8TeV_M1200_f100MatchedSA.pdf $DIROUT/
 cp $DIRIN/Stop_8TeV_M800MatchedSA.pdf $DIROUT/
 cp $DIRIN/Gluino_8TeV_M1200_f10MatchedSA.pdf $DIROUT/
 
+PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/
+#DIRIN=$PROJECT/Results/Type3/
+#DIROUT=figures/muonly/
 
-PROJECT=/uscms_data/d2/farrell3/WorkArea/Final2012Analysis06Jan2012/CMSSW_5_3_7_patch4/src/SUSYBSMAnalysis/HSCP/test/
-DIRIN=$PROJECT/ICHEP_Analysis/Results/Type3/
 DIROUT=figures/muonly/
+#PROJECT=/uscms_data/d2/farrell3/WorkArea/Final2012Analysis06Jan2012/CMSSW_5_3_7_patch4/src/SUSYBSMAnalysis/HSCP/test/
+DIRIN=$PROJECT/ICHEP_Analysis/Results/Type0/
+cp $DIRIN/Selection_Comp_Gen*.pdf $DIROUT/
+#/uscms_data/d2/farrell3/WorkArea/ThesisPlots/CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Results/Type0/Selection_Comp_Gen*.pdf
+
+
+DIRIN=$PROJECT/ICHEP_Analysis/Results/Type3/
+cp $DIRIN/Selection_Comp_Gen*.pdf $DIROUT/
 cp $DIRIN/Selection_Comp_Signal_8TeV_PV_BS.pdf $DIROUT/
+cp $DIRIN/Selection_Comp_Signal_8TeV_PVLog_BS.pdf $DIROUT/
 cp $DIRIN/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS.pdf $DIROUT/
 cp $DIRIN/Selection_Comp_8TeV_Cosmic_SegMinEtaSep_BS.pdf $DIROUT/
 cp $DIRIN/Selection_Comp_8TeV_Cosmic_Dz_BS.pdf $DIROUT/
@@ -69,8 +78,8 @@ cp $DIRIN/Control_Data8TeV_Pt_TOFSpectrum_Binned_3.pdf $DIROUT/
 cp $DIRIN/Control_Data8TeV_Pt_TOFSpectrum_Binned_4.pdf $DIROUT/
 cp $DIRIN/Control_Data8TeV_Pt_TOFSpectrum_Binned_5.pdf $DIROUT/
 
-DIRIN=$PROJECT/Thesis/Results/Type3/
-cp $DIRIN/*gen*.pdf $DIROUT/
+#DIRIN=$PROJECT/Thesis/Results/Type3/
+#cp $DIRIN/*gen*.pdf $DIROUT/
 
 DIRIN=$PROJECT/ICHEP_Analysis/Results/Type2/
 DIROUT=figures/tkmu/

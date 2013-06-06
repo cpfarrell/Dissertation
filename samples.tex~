@@ -38,27 +38,25 @@ The \pt, $\eta$, and $\beta$ distributions of gluino and stop particles at gener
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Gluino_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenGluino_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenGluino_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenGluino_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various gluino samples at generation]
-{Distribution of various kinematic variables for various gluino samples at generation.
-Top: \pt\ (left) and $\eta$ (right).
-Bottom: $\beta$
+{Distribution of various kinematic variables for various gluino ($\tilde{g}$) samples at generation:
+\pt\ (top left), $\eta$ (top right), and $\beta$ (bottom).
    \label{fig:GenGluino}}
 \end{figure}
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Stop_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenStop_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenStop_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenStop_genbeta}
  \end{center}
- \caption[Distribution of \pt, $\eta$, and $\beta$ for various stop samples at generation]
-{Distribution of various kinematic variables for various stop samples at generation.
-Top: \pt\ (left) and $\eta$ (right).
-Bottom: $\beta$
+ \caption[Distribution of \pt, $\eta$, and $\beta$ for various stop ($\tilde{t}$) samples at generation]
+{Distribution of various kinematic variables for various stop samples at generation:
+\pt\ (top left), $\eta$ (top right), and $\beta$ (bottom).
    \label{fig:GenStop}}
 \end{figure}
 
@@ -76,43 +74,42 @@ The low number of messenger particles results in the stau being the NLSP.
 The high value of $C_{Grav}$ results in the stau being long-lived while varying $\Lambda$ from 31 to 160~TeV gives staus within a mass range of 100--494~GeV$/c^2$. 
 The produced mass spectrum and decay chains are passed to PYTHIAv6.426~\cite{Sjostrand:2006za}. Stau production proceeds either by direct electroweak production or from the cascade
 decay of other particles (usually through the pair production of gluinos and squarks). Cascade decay is dominant due to the strong nature of the production mechanism.
-In order to give the best results while maintaining model independence, two stau samples are used; one using all production mechanisms (GMSB) and one with staus only
-produced through direct production (DP). The second sample is less dependent on the model parameters. The distribution of \pt, $\eta$, and $\beta$ at generation
-are shown in Figs~\ref{fig:GenGMStau} and~\ref{fig:GenPPStau} for various GMSB and DP stau samples, respectively.
+In order to give the best results while maintaining model independence, two stau samples are used: one with both direct production and production from cascade decays (CD)
+and one with staus only produced through direct production (DP). The second sample is less dependent on the model parameters. The distribution of \pt, $\eta$, and $\beta$ at generation
+are shown in Figs~\ref{fig:GenGMStau} and~\ref{fig:GenPPStau} for various CD and DP stau samples, respectively.
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GMStau_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenGMStau_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenGMStau_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenGMStau_genbeta}
  \end{center}
- \caption[Distribution of \pt, $\eta$, and $\beta$ for various GMSB stau samples at generation]
-{Distribution of various kinematic variables for various GMSB stau samples at generation.
-Top: \pt\ (left) and $\eta$ (right).
-Bottom: $\beta$
+ \caption[Distribution of \pt, $\eta$, and $\beta$ for various CD stau samples at generation]
+{Distribution of various kinematic variables for various CD stau ($\tilde{\tau}$) samples at generation:
+\pt\ (top left), $\eta$ (top right), and $\beta$ (bottom)
    \label{fig:GenGMStau}}
 \end{figure}
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_PPStau_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenPPStau_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenPPStau_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenPPStau_genbeta}
  \end{center}
- \caption[Distribution of \pt, $\eta$, and $\beta$ for various Pair Prod. stau samples at generation]
-{Distribution of various kinematic variables for various stau samples with only direct production at generation.
-Top: \pt\ (left) and $\eta$ (right).
-Bottom: $\beta$
+ \caption[Distribution of \pt, $\eta$, and $\beta$ for various DP stau samples at generation]
+{Distribution of various kinematic variables for various DP stau ($\tilde{\tau}$) samples at generation:
+\pt\ (top left), $\eta$ (top right) and $\beta$ (bottom).
    \label{fig:GenPPStau}}
 \end{figure}
 
 The last of the signal samples used is modified Drell-Yan production of long-lived leptons with different electrical charges.
-As all SM particles that reach CMS have electrical charge, Q, equal to $\pm1e$ or
+In the model considered, the particles are neutral under $SU(3)_C$ and $SU(2)_L$ but still interact through $U(1)_Y$ interactions~\cite{Langacker:2011db}.
+As all SM particles that reach CMS have Q equal to $1e$ or
 are neutral, the possibility of HSCPs with non-unit charge is interesting. 
 %Here and in the rest of this work, Q is meant to be the absolute value of the charge unless explicitly stated.
 %The particles can generically be divided by whether they have Q<1e or Q>=1e.
 The production of these particles is simulated with PYTHIAv6.426~\cite{Sjostrand:2006za}. 
-Samples are produced with charge Q = 1e, 2e, 3e, 4e, 5e, 6e, 7e, and 8e for masses of 
+Samples are produced with charge Q = $1e$, $2e$, $3e$, $4e$, $5e$, $6e$, $7e$, and $8e$ for masses of 
 %100-500 GeV$/c^2$ for $Q=2e/3$;
 100-1000~GeV$/c^2$ for $1e <= Q <= 5e$ and 200-1000~GeV$/c^2$ for $Q > 5e$.
 %charge Q = 1/3, 2/3, 1, 2, 3, 4, 5, 6, 7, and 8e for masses of 100-500 GeV$/c^2$ for Q<1e, 100-1000 GeV$/c^2$ for 1e <= Q <= 5e, and 200-1000 for Q > 5e. 
@@ -121,9 +118,9 @@ The distribution of \pt, $\eta$, and $\beta$ at generation for various charges a
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_genpT}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_geneta}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_DY_genbeta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenDY_genpT}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenDY_geneta}
+  \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenDY_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for modified DY samples with various charges and masses at generation]
 {Distribution of various kinematic for modified DY samples with various charges and masses at generation.
@@ -134,14 +131,18 @@ Bottom: $\beta$}
 
 All MC simulation events are overlaid with additional proton-proton collisions, see Section~\ref{sec:LHC}.
 Weights are given to the events so that the distribution of additional collisions in the MC simulation samples matches what is observed in data.
-After this reweighting there is a good agreement in the number of primary vertices, a proxy for the number of collisions, between data and MC simulation as seen in Figure~\ref{fig:PV}
+The number of primary vertices, a proxy for the number of collisions, after the reweighting is shown in Figure~\ref{fig:PV} for data and MC simulation.
+The samples shown in the figure are required to have been collected with one of the triggers detailed in Sec.~\ref{sec:trigger}.
 
 \begin{figure}
   \begin{center}
-      \includegraphics[clip=true, trim=0.0cm 0cm 3.0cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Signal_8TeV_PV_BS} \\
+      \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Signal_8TeV_PV_BS}
+      \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_Signal_8TeV_PVLog_BS} \\
   \end{center}
         \caption[Distribution of number of primary vertices in data and various MC simulation samples]
-{Distribution of number of primary vertices in data and various MC simulation samples
+{Distribution of number of primary vertices in data and various MC simulation samples. 
+The samples shown in the figure are required to have been collected with one of the triggers detailed in Sec.~\ref{sec:trigger}.
+Left with linear y-axis scale, right with log scale.
         }
       \label{fig:PV}
 \end{figure}

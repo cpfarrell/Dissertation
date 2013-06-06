@@ -11,14 +11,14 @@ The dependence on speed for particles with $0.1 < \beta < 1$, goes as $\sim 1/\b
 SM particles with momentum 10-1000 GeV will all have roughly the same $\dedx,$ ($\approx$ 3MeV/cm) and are often referred to as minimum ionizing particles (MIPs).
 
 As in~\cite{Chatrchyan:2012sp}, two variables related to \dedx\ are calculated for each track. The first is \ih\ which is an estimator of the \dedx\ of the track.
-The second is \ias\ which is a modified version of the Smirnov-Cramer-von Mises~\cite{Eadie, James} discrimant that checks
+The second is \ias\ which is a modified version of the Smirnov-Cramer-von Mises~\cite{Eadie, James} discriminant that checks
 the probability that a MIP would produce a charge less than or equal to the charge of each of the hits
-along the track. The discrimant peaks at zero for MIPs and approaches one for high-ionizing particles. 
+along the track. The discriminant peaks at zero for MIPs and approaches one for high-ionizing particles. 
 
 %The last is \iasp\ which has the same form as \ias\ except
 %the probability is that a MIP would produce a charge more than or equal to the charge of the hits, this variable is only used in the fractionally charged analysis.
 
-An estimate of the mass m, assuming Q=1e, of a particle can be made from \ih\ and the momentum $p$ of a track. This is done by using Eq.~\ref{eq:MassFromHarmonicEstimator},
+An estimate of the mass $m$, assuming Q=1$e$, of a particle can be made from \ih\ and the momentum $p$ of a track. This is done by using Eq.~\ref{eq:MassFromHarmonicEstimator},
 also from Ref.~\cite{Chatrchyan:2012sp},
 
 \begin{equation}
@@ -61,13 +61,11 @@ average charge of the $R$-hadron as it traverses the muon system to often be les
 
 To observe this effect the function
 $\Delta(Q/p_T)$ is defined in Equation~\ref{eq:deltaqopt}
-
 \begin{equation}
 \Delta(Q/p_T) = ((Q/p_T)_{Muon} - (Q/p_T)_{Inner})/(Q/p_T)_{Inner}
 \label{eq:deltaqopt}
 \end{equation}
-
-where Muon refers to muon system track qualities and Inner refers to
+where ``Muon'' refers to muon system track qualities and ``Inner'' refers to
 inner track qualities. As the $p_T$ resolution in the tracker is an order of magnitude better than in the muon system, it is a sufficiently good approximation
 of the true particle momentum. Figure~\ref{fig:MuOnlyInvPtDiff} shows the distribution of
 $\Delta(Q/p_T)$ for tracks with inner track $p_T > 200$ GeV

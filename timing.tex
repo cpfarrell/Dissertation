@@ -69,8 +69,9 @@ The top row shows the times with a linear y-axis scale and the bottom is with lo
 \end{figure}
 
 The anode and cathode hits in a chamber are used to reconstruct a segment which is meant to represent the trajectory of the particle through the chamber. A time is
-found for each segment by averaging the anode and cathode times associated with the segment. The times are weighted by one over their variance.
-The variance is defined as the resolution of the measurement, 7~ns for cathode hits and 8.6~ns for cathode hits, squared.
+found for each segment by averaging the anode and cathode times associated with the segment. 
+%The times are weighted by one over their variance.
+%The variance is defined as the resolution of the measurement, 7~ns for cathode hits and 8.6~ns for cathode hits, squared.
 To remove the large tail in the anode time measurement,
 a cleaning procedure is applied to the anode times to remove outlier hits. The procedure calculates the average time of the segment and finds the anode hit with the largest
 difference with the average. If the difference is larger than 26~ns, equal to three times the resolution,
