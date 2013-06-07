@@ -262,6 +262,27 @@ Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 {Jet Performance in pp Collisions at 7 TeV}.
 \newblock 2010.
 
+\bibitem{CMS-PAS-JME-12-002}
+Met performance in 8 tev data.
+\newblock Technical Report CMS-PAS-JME-12-002, CERN, Geneva, 2013.
+
+\bibitem{wangler2000beam}
+Thomas Wangler and KR~Crandall.
+\newblock Beam halo in proton linac beams.
+\newblock In {\em Linac 2000 Conference Proceedings, Monterey California},
+  2000.
+
+\bibitem{CMS-PAS-TRK-10-001}
+Tracking and vertexing results from first collisions.
+\newblock Technical Report CMS-PAS-TRK-10-001, CERN, 2010. Geneva, 2010.
+
+\bibitem{Quertenmont:1361029}
+Loic Quertenmont and Giacomo Bruno.
+\newblock {\em Search for Heavy Stable Charged Particles with the CMS detector
+  at the LHC}.
+\newblock PhD thesis, Louvain U., 2010.
+\newblock presented Oct 2010.
+
 \bibitem{Eadie}
 W.~T. Eadie, D.~Drijard, F.~E. James, M.~Roos, and B.~Sadoulet.
 \newblock {\em Statistical methods in experimental physics}.
@@ -271,6 +292,10 @@ W.~T. Eadie, D.~Drijard, F.~E. James, M.~Roos, and B.~Sadoulet.
 F.~James.
 \newblock {\em Statistical methods in experimental physics}.
 \newblock World Scientific, Singapore, 2006.
+
+\bibitem{2008AN097}
+G~Abbiendi et~al.
+\newblock Muon reconstruction in the cms detector.
 
 \bibitem{Read:451614}
 A~L Read.

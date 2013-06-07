@@ -71,8 +71,9 @@ The number of messenger particles is set to three; the ratio of the mass of the 
 $tan \beta = 10$, this $\beta$ being the ratio of the vacuum expectation values of the neutral Higgses;
 the sign of the supersymmetric Higgs mass parameter is made greater than zero; and $c_{Grav}$ is greater than 10000.
 The low number of messenger particles results in the stau being the NLSP.
-The high value of $C_{Grav}$ results in the stau being long-lived while varying $\Lambda$ from 31 to 160~TeV gives staus within a mass range of 100--494~GeV$/c^2$. 
-The produced mass spectrum and decay chains are passed to PYTHIAv6.426~\cite{Sjostrand:2006za}. Stau production proceeds either by direct electroweak production or from the cascade
+The high value of $C_{Grav}$ results in the stau being long-lived while varying $\Lambda$ from 31 to 180~TeV gives staus within a mass range of 100--557~GeV$/c^2$. 
+The produced mass spectrum and decay chains are passed to PYTHIAv6.426~\cite{Sjostrand:2006za}. 
+Stau production proceeds either by direct electroweak production or from the cascade
 decay of other particles (usually through the pair production of gluinos and squarks). Cascade decay is dominant due to the strong nature of the production mechanism.
 In order to give the best results while maintaining model independence, two stau samples are used: one with both direct production and production from cascade decays (CD)
 and one with staus only produced through direct production (DP). The second sample is less dependent on the model parameters. The distribution of \pt, $\eta$, and $\beta$ at generation

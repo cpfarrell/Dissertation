@@ -2,6 +2,11 @@ This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: dissertation.aux
 The style file: unsrt.bst
 Database file #1: references.bib
+I was expecting a `,' or a `}'---line 46 of file references.bib
+ :    
+ :    year = 2008,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty journal in Chatrchyan:2013lba
 Warning--empty journal in Martin:1997ns
 Warning--empty journal in Tata:1997uf
@@ -12,48 +17,52 @@ Warning--empty note in CahillRowley:2012kx
 Warning--empty journal in Paige:2003mg
 Warning--empty author in CMS:2010xta
 Warning--empty journal in CMS:2010xta
+Warning--empty author in CMS-PAS-JME-12-002
+Warning--empty author in CMS-PAS-TRK-10-001
+Warning--empty journal in 2008AN097
+Warning--empty year in 2008AN097
 Warning--empty journal in Read:451614
 Warning--there's a number but no volume in Read:451614
 Warning--empty author in CMS-PAS-TRK-10-002
-You've used 54 entries,
+You've used 59 entries,
             1791 wiz_defined-function locations,
-            766 strings with 10989 characters,
-and the built_in function-call counts, 9980 in all, are:
-= -- 860
-> -- 437
-< -- 2
-+ -- 168
-- -- 114
-* -- 570
-:= -- 1703
-add.period$ -- 165
-call.type$ -- 54
-change.case$ -- 50
+            786 strings with 11529 characters,
+and the built_in function-call counts, 10671 in all, are:
+= -- 918
+> -- 463
+< -- 4
++ -- 179
+- -- 120
+* -- 605
+:= -- 1816
+add.period$ -- 178
+call.type$ -- 59
+change.case$ -- 54
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 460
-empty$ -- 1004
-format.name$ -- 114
-if$ -- 2204
+cite$ -- 76
+duplicate$ -- 501
+empty$ -- 1078
+format.name$ -- 120
+if$ -- 2357
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 53
-newline$ -- 274
-num.names$ -- 52
-pop$ -- 114
+int.to.str$ -- 59
+missing$ -- 55
+newline$ -- 297
+num.names$ -- 55
+pop$ -- 132
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 178
+skip$ -- 193
 stack$ -- 0
 substring$ -- 504
-swap$ -- 44
-text.length$ -- 2
+swap$ -- 49
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
-while$ -- 87
-width$ -- 56
-write$ -- 576
-(There were 13 warnings)
+warning$ -- 17
+while$ -- 90
+width$ -- 61
+write$ -- 626
+(There was 1 error message)

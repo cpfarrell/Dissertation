@@ -128,11 +128,11 @@ Another variant of supersymmetry is split SUSY. In split SUSY, scalar SUSY parti
 The gluino $\tilde{g}$ (superpartner of the gluon) decay through virtual squarks is suppressed by a factor of $\tilde{m}^{-2}$ allowing for the gluino to be quite long-lived.
 
 Gluinos and stops have color charge and as such will form composite hadrons with SM quarks and gluons after production, referred to as $R$--hadrons.
-These $R$--hadrons can be $R$--mesons, $R$--baryons, or, for gluinos, a glue-ball made of a gluino and a SM gluon.
+These $R$--hadrons can be $R$--mesons, $R$--baryons, or, for gluinos, a glueball made of a gluino and a SM gluon.
 %Examples of R-hadrons are shown in Fig.~\ref{fig:Composites}.
 $R$--hadrons can be electrically neutral or have charge $Q$, taken here and everywhere else in this paper unless otherwise stated as the absolute value of the charge,
 of 1$e$ or 2$e$, where $e$ is the charge of the electron.
-For gluinos, the fraction of gluinos forming glue-balls, which are always electrically neutral, is
+For gluinos, the fraction of gluinos forming glueballs, which are always electrically neutral, is
 a free parameter in the theory. If the fraction is 100\%, then all gluino $R$--hadrons will be produced electrically neutral.
 The mass spectrum of the $R$-hadrons is not well known.
 If there are mass gaps between the $R$--hadrons larger than the pion mass, the heavier $R$--hadron would decay to the lighter $R$--hadron via the weak force.
@@ -145,7 +145,7 @@ The fraction of the $R$--hadrons electrically charged would depend on the charge
 %  \begin{center}
 %      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=1.0\textwidth]{figures/quarks}\\
 %      {Different types of R-hadrons that color charged HSCP can form. Top left: Stop HSCP baryon with two SM quarks.
-%Top right: Stop HSCP meson with a SM anti-quark. Bottom left: Gluino HSCP baryon with three SM quarks. Bottom right: Gluino HSCP glue-ball with a SM gluon.
+%Top right: Stop HSCP meson with a SM anti-quark. Bottom left: Gluino HSCP baryon with three SM quarks. Bottom right: Gluino HSCP glueball with a SM gluon.
 %	}
 %      \label{fig:Composites}
 %  \end{center}
