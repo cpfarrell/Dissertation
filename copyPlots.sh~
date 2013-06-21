@@ -16,7 +16,7 @@ DIRIN=$PROJECT/UsefulScripts/ThesisTimingCh/pictures
 DIROUT=figures/timing/
 cp $DIRIN/*.pdf $DIROUT/
 
-PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/Old_CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/
+#PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/Old_CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/
 DIRIN=$PROJECT/UsefulScripts/TriggerStudy/pictures
 DIROUT=figures/search/
 
@@ -117,6 +117,7 @@ cp $DIRIN/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf $DIROUT/
 #cp $DIRIN/Pred_I0.10_Pt55_Data8TeV.pdf $DIROUT/Pred_I010_Pt55_Data8TeV.pdf
 #cp $DIRIN/Pred_I0.20_Pt80_Data8TeV.pdf $DIROUT/Pred_I020_Pt80_Data8TeV.pdf
 cp $DIRIN/Prediction_Data8TeV_NPredVsNObs.pdf $DIROUT/
+cp $DIRIN/Prediction_Data8TeV_NPredVsNObs_Flip.pdf $DIROUT/
 cp $DIRIN/Control_Data8TeV_Pt_IsSpectrum.pdf $DIROUT/
 cp $DIRIN/Control_Data8TeV_Pt_TOFSpectrum.pdf $DIROUT/
 cp $DIRIN/Control_Data8TeV_Is_TOFSpectrumLog.pdf $DIROUT/
@@ -136,7 +137,7 @@ cp $DIRIN/FitCanvasMCEtaBin6.pdf $DIROUT/
 #cp $DIRIN/MuonOnlyetaeff_comp.pdf $DIROUT/
 #cp $DIRIN/MuonOnlyPVeff_comp.pdf $DIROUT/
 
-DIRIN=/uscms_data/d2/farrell3/WorkArea/Final2012Analysis06Jan2012/CMSSW_5_3_7_patch4/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Results/EXCLUSION8TeV/
+DIRIN=$PROJECT/ICHEP_Analysis/Results/EXCLUSION8TeV/
 DIROUT=figures/muonly
 cp $DIRIN/MoGluino_f100Uncertainty.pdf $DIROUT/
 cp $DIRIN/MoGluino_f50Uncertainty.pdf $DIROUT/
@@ -152,6 +153,8 @@ cp $DIRIN/MuGluino_f10Uncertainty.pdf $DIROUT/
 cp $DIRIN/MuStopUncertainty.pdf $DIROUT/
 cp $DIRIN/MuUncertainty.pdf $DIROUT/
 cp $DIRIN/MuExclusionLog.pdf $DIROUT/
+cp $DIRIN/MuHadExclusionLog.pdf $DIROUT/
+cp $DIRIN/MuLepExclusionLog.pdf $DIROUT/
 DIROUT=figures/tkonly
 cp $DIRIN/TkGluinoN_f10Uncertainty.pdf $DIROUT/
 cp $DIRIN/TkStopNUncertainty.pdf $DIROUT/
@@ -161,7 +164,8 @@ DIROUT=figures/multi
 cp $DIRIN/HQDY_Q4Uncertainty.pdf $DIROUT/
 cp $DIRIN/HQDY_Q7Uncertainty.pdf $DIROUT/
 cp $DIRIN/HQUncertainty.pdf $DIROUT/
-cp $DIRIN/HQExclusionLog.pdf $DIROUT/
+cp $DIRIN/HQLowExclusionLog.pdf $DIROUT/
+cp $DIRIN/HQHighExclusionLog.pdf $DIROUT/
 
 DIRIN=$PROJECT/ICHEP_Analysis/Results/EXCLUSIONCOMB
 DIROUT=figures/muonly
@@ -173,23 +177,24 @@ cp $DIRIN/TkExclusionLog.pdf $DIROUT/TkExclusionRelLog.pdf
 DIROUT=figures/multi
 cp $DIRIN/HQExclusionLog.pdf $DIROUT/HQExclusionRelLog.pdf
 
-DIRIN=$PROJECT/WithClusterCleaning/Results/Type4/
+DIRIN=/uscms_data/d2/farrell3/WorkArea/Final2012Analysis06Jan2012/CMSSW_5_3_7_patch4/src/SUSYBSMAnalysis/HSCP/test/WithClusterCleaning/Results/Type4/
 DIROUT=figures/multi/
 cp $DIRIN/Selection_Comp_8TeV_DY_QG_NOM_BS.pdf $DIROUT/
 
 DIRIN=$PROJECT/ICHEP_Analysis/Results/Type4/
 cp $DIRIN/Prediction_Data8TeV_NPredVsNObs_Flip.pdf $DIROUT/
 cp $DIRIN/Prediction_Data8TeV_NPredVsNObs.pdf $DIROUT/
+cp $DIRIN/Prediction_Data8TeV_NPredVsNObsLinear_Flip.pdf $DIROUT/
 cp $DIRIN/Data8TeVCollisionPrediction_TOF105.pdf $DIROUT/
 cp $DIRIN/Data8TeVCollisionPrediction_TOF115.pdf $DIROUT/
 cp $DIRIN/Data8TeVCollisionStat.pdf $DIROUT/
 cp $DIRIN/Data8TeVCollisionStatSyst.pdf $DIROUT/
 cp $DIRIN/Data8TeVCollisionSyst.pdf $DIROUT/
 
-DIRIN=$PROJECT/ICHEP_Analysis/Results/Type5/
-DIROUT=figures/fract/
-cp $DIRIN/Selection_Comp_8TeV_DY_OpenAngle_BS.pdf $DIROUT/
-cp $DIRIN/Prediction_Data8TeV_NPredVsNObs.pdf $DIROUT/
+#DIRIN=$PROJECT/ICHEP_Analysis/Results/Type5/
+#DIROUT=figures/fract/
+#cp $DIRIN/Selection_Comp_8TeV_DY_OpenAngle_BS.pdf $DIROUT/
+#cp $DIRIN/Prediction_Data8TeV_NPredVsNObs.pdf $DIROUT/
 #cp $DIRIN/.pdf $DIROUT/
 
 DIRIN=$PROJECT/ICHEP_Analysis

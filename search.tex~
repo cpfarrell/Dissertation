@@ -42,11 +42,11 @@ The results from such searches have placed important bounds on BSM theories~\cit
 mass of gluinos, stops, and staus at 1098,
 737, and 223 GeV/$c^2$, respectively.
 
-Four different searches are presented here, one requires only that a track be found in the muon system, this is referred to as the \muononly\ analysis. 
+Four different searches are presented here. The \muononly\ analysis requires only that a track be found in the muon system.
 This analysis is expected to still have sensitivity when all particles are produced electrically neutral. The
-second analysis requires that the muon system track be matched to a track in the inner tracker, referred to as the \tktof\ analysis. This analysis is especially
+\tktof\ analysis requires that the muon system track be matched to a track in the inner tracker. This analysis is especially
 powerful for lepton-like HSCP. The third analysis is the \tkonly\ analysis that only requires a track be found in the inner tracker so that it can be sensitive to particles
-becoming neutral in the calorimeter and leaving no hits in the muon system. The last analysis, referred to as the \multi\ analysis, looks 
+becoming neutral in the calorimeter and leaving no hits in the muon system. The \multi\ analysis looks 
 for particles with $Q > 1e$ and reconstructed like in the \tktof\ analysis.
 % and the \fract\ analysis which looks for fractionally charged analysis with
 %a reconstruction signature like the \tkonly\ analysis.

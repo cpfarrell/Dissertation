@@ -15,7 +15,7 @@ of light even with a momentum of several hundred~GeV/$c$. For example, an HSCP w
 Thus, a measurement of timing in the muon system can be used to separate HSCP from SM muons.
 
 Additionally, as described in Section~\ref{sec:computing}, one of the main responsibilities  of the muon system is to trigger the readout of the data in the detector
-when a high momentum track is found. The muon system must be able to associate the tracks with a given bunch crossing to make sure the correct data is readout from CMS.
+when a high momentum track is found. The muon system must be able to associate the tracks with a given bunch crossing to make sure the correct data are readout from CMS.
 The method to determine the timing synchronization of the CSC subsystem is described below.
 
 The commissioning of the muon system timing was done during 2010 and early 2011 running at a center--of--mass energy of 7~TeV.
@@ -79,7 +79,7 @@ a cleaning procedure is applied to the anode times to remove outlier hits. The p
 difference with the average. If the difference is larger than 26~ns, equal to three times the resolution,
 that hit is removed from the average. The process is then repeated until the
 anode hit with the largest difference is less than 26~ns.
-The times of segments in data is shown in Fig.~\ref{fig:SegTimes}. 
+The distribution of the times of segments in data is shown in Fig.~\ref{fig:SegTimes}. 
 The data sample used was collected at 7~TeV center--of--mass energy after the full commissioning of the timing measurement and has a \pt\ threshold of 20~GeV.
 The resolution on the segment times is 3.0ns.
 
@@ -232,7 +232,7 @@ is assumed to come entirely from the time measurement.
 
 The first variable is the speed of the particle assuming it left the origin at $t_0 = 0$ reducing Eq.~\ref{eq:speedred} to 
 $\beta^{-1} = tc/d + 1$. The measurement of \invbeta\ comes from the weighted average of this quantity for all the
-CSC and DT hits associated with the track.
+CSC and DT timing measurements associated with the track.
 The weight $w$ for CSC measurements is
 \begin{equation}
 w = \left(\frac{d}{\sigma c}\right)^2
@@ -252,6 +252,9 @@ $n$ measurements (the minimum number of hits in a DT chamber
 needed for a residual calculation is $n=3$).
 % in the same manner as was done to caluclate their segment times.
 Outlier times from anode hits are again cleaned in the same manner as per the segment times. 
+A track will normally have two measurements for each CSC layer allowing for up to twelve measurements in a CSC chamber, all of which are independent.
+Each DT $\phi$ layer can provide a measurement but the times are not independent, the number of degrees of freedom in a DT chamber is two less than the number of $\phi$ layers
+hit in the chamber.
 %The weighting by one over variance and outlier cleaning is performed for all three measurements.
 
 The motivation for using \invbeta\ now becomes clear; the \invbeta\ measurement

@@ -40,6 +40,13 @@ b@phdthesis{Quertenmont:1361029,
    note = {CMS AN2007/049}
 }
 
+@ARTICLE{2008AN097,
+   author = "Abbiendi, G and others",
+   title = {Muon Reconstruction in the CMS Detector}
+   year = 2008,
+   note = {CMS AN2008/097}
+}
+
 @ARTICLE{2003physics...6117A,
    author = "Acosta, D. and others",
     title = {A 3-D Track-Finding Processor for the CMS Level-1 Muon Trigger},

@@ -21,19 +21,20 @@ The observed and predicted mass spectrum with loose thresholds is shown in Figur
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.4cm 0cm, width=0.44\textwidth]{figures/muonly/Prediction_Data8TeV_NPredVsNObs}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm,width=0.44\textwidth]{figures/tkmu/Prediction_Data8TeV_NPredVsNObs}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Prediction_Data8TeV_NPredVsNObs}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Prediction_Data8TeV_NPredVsNObs}
   \caption[Number of predicted and observed events for two different thresholds in the \muononly\ and \tktof\ analyses.]
 {Number of predicted and observed events for two different thresholds. 
 Left: For the \muononly\ analysis. Threshold for \invbeta\ set by X-axis.
-Right: For the \tkonly\ analysis. Threshold for \ias\ set by X-axis.}
+Right: For the \tktof\ analysis. The loose threshold is defined as \pt\ $>$ 55 GeV/$c$ and \invbeta\ $>$ 1.075.
+The tight threshold is defined as \pt\ $>$ 80 GeV/$c$ and \invbeta\ $>$ 1.125.  Threshold for \ias\ set by X-axis.}
     \label{fig:PredPt230}
 \end{figure}
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm,width=0.44\textwidth]{figures/tkonly/Prediction_Data8TeV_NPredVsNObs}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/multi/Prediction_Data8TeV_NPredVsNObs}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/Prediction_Data8TeV_NPredVsNObs}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/multi/Prediction_Data8TeV_NPredVsNObs}
   \caption[Number of predicted and observed events for two different thresholds in the \tkonly\ and \multi\ analyses.]
 {Number of predicted and observed events for two different $p_T$ thresholds. Threshold for \ias\ set by X-axis.
 Left: For the \tkonly\ analysis. Right: For the \multi\ analysis.}
@@ -42,8 +43,8 @@ Left: For the \tkonly\ analysis. Right: For the \multi\ analysis.}
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm,width=0.44\textwidth]{figures/tkmu/RescaleNoRatio_Mass_8TeV_LooseNoSMMC}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm,width=0.44\textwidth]{figures/tkonly/RescaleNoRatio_Mass_8TeV_LooseNoSMMC}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/RescaleNoRatio_Mass_8TeV_LooseNoSMMC}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/RescaleNoRatio_Mass_8TeV_LooseNoSMMC}
  \end{center}
  \caption[Observed and predicted mass spectrum for candidates in the signal region with loose thresholds in the \tktof\ and \tkonly\ analyses.]
 {Observed and predicted mass spectrum for candidates in the $D$ region with loose thresholds.
@@ -125,9 +126,13 @@ understood by others then it can not have an impact on the scientific community 
 For these reasons a second step is taken attempting to make the thresholds the same for the various mass/model points. If the harm to mass/model points in having the
 same thresholds is too large then using more than one set of thresholds is possible. 
 However this was found not to be necessary and a single cut value is used in all analyses. 
+
 The final thresholds used as well as the number of
-observed and predicted events is shown in Table~\ref{tab:finalsel}. The predicted and observed mass distributions for the \tkonly\ and \tktof\ analyses
-with the final thresholds are shown in Figure~\ref{fig:TightMassDistribution}.
+observed and predicted events is shown in Table~\ref{tab:finalsel}. 
+The number of observed events is found to be consistent with the expected background.
+The largest excess for any of the selections shown in the table is 1.0 sigma in the \tkonly\ analysis with no mass cut.
+The predicted and observed mass distributions for the \tkonly\ and \tktof\ analyses
+with the final thresholds are shown in Figure~\ref{fig:TightMassDistribution}. 
 
 \begin{table}
  \caption[Results of the final selections for predicted background and
@@ -160,8 +165,8 @@ $|Q|>1e$                &           $-$           &       $> 0.500$            &
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm,width=0.44\textwidth]{figures/tkmu/RescaleNoRatio_Mass_8TeV_TightNoSMMC}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm,width=0.44\textwidth]{figures/tkonly/RescaleNoRatio_Mass_8TeV_TightNoSMMC}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/RescaleNoRatio_Mass_8TeV_TightNoSMMC}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/RescaleNoRatio_Mass_8TeV_TightNoSMMC}
  \end{center}
  \caption[Observed and predicted mass spectrum for candidates in the signal region with the final selection thresholds in the \tktof\ and \tkonly\ analyses.]
 {Observed and predicted mass spectrum for candidates in the $D$ region in the \tktof\ analysis with the tight selection.

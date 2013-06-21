@@ -1,9 +1,9 @@
 \section{Preselection \label{sec:preselection}}
-Candidates for the \muononly\ analysis are tracks reconstructed in the muon system. Candidates for the \tktof\ and \multi\ analyses are tracks found in both the muon
-system and the inner tracker. The \tkonly\
+Candidates for the \muononly\ analysis are tracks identified as stand-alone muons. Candidates for the \tktof\ and \multi\ analyses are tracks identified
+as global muons. The candidates for the \tkonly\
 %and fract\ analyses require  
-analysis requires only that the tracks be found in the inner tracker.
-Various requirements are applied to the candidate in order to reduce tracks from background process while maintaining good efficiency for HSCP.
+analysis are tracker muons.
+Various requirements are applied to the candidates in order to reduce tracks from background processes while maintaining good efficiency for HSCP.
 %For all plots shown in this section the first and last bins contain the underflow and overflow, respectively.
 
 \subsection{Preselection for \muononly\ \label{sec:muonlypreselection}}
@@ -15,37 +15,37 @@ The discontinuities in the $\eta$ distribution are due to interfaces between the
 
 Quality cuts on the \invbeta\ measurement are applied. The measurement must have at least eight degrees of freedom and the uncertainty must be less than 0.07.
 Additionally the candidate must have \invbeta\ greater than one.
-A potential background source is muons coming from bunch crossing windows in adjacent beam crossings. 
-Candidates are required to have a measured time at vertex not be within 5ns of an expected adjacent collision.
+A potential background source is muons coming from adjacent bunch crossings.
+Candidates are required to have a measured time at vertex not be within $\pm5$~ns of an expected adjacent collision.
 Figure~\ref{fig:MuOnlyPreselB} shows the distribution of these quantities for data, cosmic-ray muon control sample, and signal MC.
 
-Additional cuts are used to control the background from cosmic-ray muons. The displacement of the track
-with respect to the beam spot is required to be less than 15cm in both the longitudinal and transverse direction relative to the beam line. 
+Additional cuts are used to control the background from cosmic-ray muons. Candidates are vetoed if the displacement of the track
+with respect to the beam spot is larger than 15cm in either the longitudinal or transverse direction relative to the beam line. 
 The candidate $|\phi|$ must not be within 1.2--1.9 radians, this region represents tracks pointing in the vertical
 direction, as is expected of cosmic-ray muons. Cosmic-ray muons travel 
 through the top and bottom halves of the detector leaving hits in the muon system opposite of the candidate.
-Thus, it is required that  there be no muon segments with $\eta$ within 0.1 of $-\eta_{candidate}$. Only segments separated from the candidate by at least 0.5 in $\phi$
-are used to prevent candidates in the central portion of the detector to match to their own segments.
+Thus, it is required that  there be no muon segments with $\eta$ within 0.1 of $-\eta_{candidate}$. The requirement is only applied to 
+segments separated from the candidate by at least 0.5 in $\phi$ so that candidates with $\eta$ close to zero do not match to their own segments.
 Figure~\ref{fig:MuOnlyPreselC} shows the distribution of these quantities.
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Eta_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_MatchedStations_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Eta_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_MatchedStations_BS} \\
 \caption[Distribution of $\eta$ and number of matched muon stations for data, cosmic-ray muon control sample, and signal MC in the \muononly\ analysis.]
-{Distribution of $\eta$ (left) and number of matched muon stations (right) for data, cosmic-ray muon control sample, and signal MC in the \muononly\ analysis.}
+{Distribution of $\eta$ (left) and number of matched muon stations (right) for candidates in the \muononly\ analysis
+for data, cosmic-ray muon control sample, and signal MC.}
     \label{fig:MuOnlyPreselA}
 \end{figure}
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_nDof_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_TOFError_BS} \\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_TimeAtIP_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_nDof_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_TOFError_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_TimeAtIP_BS} \\
 \caption[Distribution of number of degrees of freedom (left) and uncertainty (right) on the \invbeta\ measurement and time at vertex in 
 the \muononly\ analysis for data, cosmic-ray muon control sample, and signal MC.]
 {Distribution of various preselection variables in the \muononly\ analysis for data, cosmic-ray muon control sample, and signal MC.
-%Top row: Disitribution of number of matched stations (left) and time at vertex (right).
 Top row: Number of degrees of freedom (left) and uncertainty (right) on the \invbeta\ measurement.
 Bottom row: Time at vertex.}
     \label{fig:MuOnlyPreselB}
@@ -53,10 +53,10 @@ Bottom row: Time at vertex.}
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Dxy_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Dz_BS} \\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Phi_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_SegMinEtaSep_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Dxy_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Dz_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Phi_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_SegMinEtaSep_BS}
   \caption[Distribution of transverse and longitudinal displacement, $\phi$, and $\eta$ separation to muon segments
 in the \muononly\ analysis for data, cosmic-ray muon control sample, and signal MC.]
 {Distribution of various preselection variables in the \muononly\ analysis for data, cosmic-ray muon control sample, and signal MC.
@@ -72,15 +72,17 @@ The \tktof\ analysis applies cuts on the inner tracker track, which has a much b
 The candidate is required to have $p_T > 45$~GeV and  $|\eta| < 2.1$ to match the trigger level requirements. 
 Quality cuts are applied as low quality background tracks can have mismeasured momentum and potentially high fluctuations in \dedx.
 The inner track is required to have at least eight hits in the inner tracker with at least two coming from the pixel detector. At least 80\% of the hits associated with the track
-must be considered valid. A cleaning procedure is applied to the hits before calculating \dedx\ and there must be at least six measurements passing this cleaning.
+must be considered valid. As in~\cite{Chatrchyan:2012sp}, a cleaning procedure is applied to the hits before calculating \dedx\ that is 
+intended to remove anomalous energy loss from overlapping tracks, nuclear interactions, and hard $\delta$-rays.
+There must be at least six measurements passing this cleaning.
 Figure~\ref{fig:TkMuPreselA} shows these variables for data and signal MC.
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_NOH_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_NOPH_BS} \\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_NOHFraction_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_NOM_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_NOH_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_NOPH_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_NOHFraction_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_NOM_BS}
   \caption[Distribution of number of tracker and pixel hits, fraction of valid tracker hits, and number of \dedx\ measurements in the \tktof\ analysis for data and signal MC.]
 {Distribution of various preselection variables in the \tktof\ analysis for data and signal MC.
 Top row: Number of tracker (left) and pixel (right) hits.
@@ -92,15 +94,16 @@ The relative uncertainty on the candidate $p_T$ ($\sigma_{p_T}/p_T$) must be les
 While cosmic-ray muons are expected to be a negligible background in the \tktof\ analysis loose cuts are placed on the impact parameter of the track, 
 these cuts are nearly 100\% efficient for signal particles.
 The displacement of the track with respect to the primary vertex
-with the smallest longitudinal displacement must be less than 0.5~cm in both the transverse and longitudinal directions.
+with the smallest longitudinal displacement must be less than 0.5~cm in both the transverse and longitudinal directions with respect to the vertex with the smallest
+longitudinal displacement.
 Figure~\ref{fig:TkMuPreselB} shows $p_T$ uncertainty, $\chi^2$ per degree of freedom, and the $d_z$ and $d_{xy}$ displacement for data and signal MC.
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Pterr_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Chi2_BS} \\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Dxy_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Dz_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Pterr_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Chi2_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Dxy_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Dz_BS}
   \caption[Distribution of relative \pt\ uncertainty, $\chi^2$ per degree of freedom, and transverse and longitudinal
 displacement in the \tktof\ analysis for data and signal MC.]
 {Distribution of various preselection variables in the \tktof\ analysis for data and signal MC.
@@ -109,21 +112,22 @@ Bottom row: Displacement in the transverse (left) and longitudinal (right) direc
     \label{fig:TkMuPreselB}
 \end{figure}
 
-Isolation cuts are also applied in the \tktof\ analysis. Isolated means that there not be many high energy particles near the candidate.
+Isolation cuts are also applied in the \tktof\ analysis. Isolated means that there not be high energy particles near the candidate.
 This is required to reduce the background from jets where overlapping tracks could give
 anomalously high \dedx\ values. The isolation cuts are kept very loose as the goal is not to find isolated particles but just to reject very high energy jets.
-The sum of the momentum of the tracks within 0.3 in $\eta-\phi$ space of the candidate (excluding the candidate itself) is required to be less than 50 GeV. Additionally the total
-amount of energy measured in the calorimeter within a radius of 0.3 in $\eta-\phi$ space to the candidate divided by the candidate momentum must be less than 0.3.
+Specifically, the sum of the momentum of the tracks within 0.3 in $\eta-\phi$ 
+space of the candidate (excluding the candidate itself) is required to be less than 50 GeV. Additionally, the ratio of the total
+amount of energy measured in the calorimeter within a radius of 0.3 in $\eta-\phi$ space to the candidate to the candidate momentum must be less than 0.3.
 
 Additionally, the \tktof\ analysis uses the same cuts on the \invbeta\ uncertainty and number of measurements as the \muononly\ analysis.
 Figure~\ref{fig:TkMuPreselC} shows the isolation and \invbeta\ variables for data and signal MC.
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_IsolT_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_IsolE_BS} \\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_TOFError_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_nDof_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_IsolT_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_IsolE_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_TOFError_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_nDof_BS}
   \caption[Distribution of tracker and calorimeter isolation as well as the \invbeta\ measurement number of degrees of freedom and uncertainty
 in the \tktof\ analysis for data and signal MC.]
 {Distribution of various preselection variables in the \tktof\ analysis for data and signal MC.
@@ -134,7 +138,7 @@ Bottom row: Distribution of the \invbeta\ measurement uncertainty (left) and the
 
 \subsection{Preselection for \tkonly\ and \multi\ \label{sec:otherpreselection}}
 
-The \tkonly\ analysis applies the same preselection as the \tktof\ analysis except the cuts on the timing measurement are not applied as the candidates
+The \tkonly\ analysis applies the same preselection as the \tktof\ analysis except the cuts on the timing measurement are not applied, as the candidates
 are not required to be reconstructed in the muon system. 
 %The \fract\ analysis uses preselection like \tkonly\ but inverting the \ih\ requirement
 %to be less than 2.8 and requiring no tracks with \pt\ greater than 45 GeV to have an opening angle with the candidate greater than 2.8 radians.
@@ -142,16 +146,16 @@ are not required to be reconstructed in the muon system.
 The \multi\ analysis applies
 the same selection criteria as the \tktof\ analysis except the cut on relative isolation less than 0.3 and the cleaning of the hits used for the \dedx\ calculation
 is not done. The cleaning procedure is not applied because the amount of charge deposited is proportional to $Q^2$ meaning that even a $Q=2e$ HSCP will
-deposit four times as much charge as a $Q=1e$ HSCP. As the tracker saturates for a charge approximately three times that expected for a MIP many of the hits from $Q>1e$ HSCP
-will be saturated and this can confuse the cleaning procedure. Additionally, as the high charge samples deposit so much charge, 
+deposit four times as much charge as a $Q=1e$ HSCP. As the tracker saturates for a energy loss approximately three times that expected for a MIP, many of the hits from $Q>1e$ HSCP
+will be saturated; this can confuse the cleaning procedure. Additionally, as the high charge samples deposit so much charge, 
 there will still be good signal/background separation even with longer tails in the \dedx\ distribution.
 Figure~\ref{fig:Multi} shows the number of measurements passing the cleaning for multiply charged samples.
 % and the opening angle described above for fractionally charged samples.
 
 \begin{figure}
 \centering
-%  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/fract/Selection_Comp_8TeV_DY_OpenAngle_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/multi/Selection_Comp_8TeV_DY_QG_NOM_BS}
+%  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/fract/Selection_Comp_8TeV_DY_OpenAngle_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/multi/Selection_Comp_8TeV_DY_QG_NOM_BS}
   \caption{Distribution of number of \dedx\ measurements passing cleaning for samples of three different charges
     \label{fig:Multi}}
 \end{figure}
@@ -195,7 +199,7 @@ The preselection criteria applied on the track in the inner tracker used in the 
 
 \begin{table}
  \begin{center}
-  \caption{Preselection criteria on the muon system track used in the various analyses as defined in the text.
+  \caption{Summary of preselection criteria on muon system qualities used in the various analyses as defined in the text.
      \label{tab:preselectionSA}}
   \begin{tabular}{|l|c|c|c|} \hline
                                             & \muononly\ & \tktof\  &  $|Q|>1e$    \\ \hline
@@ -215,7 +219,7 @@ The preselection criteria applied on the track in the inner tracker used in the 
 
 \begin{table}
  \begin{center}
-  \caption{Preselection criteria on the inner tracker track used in the various analyses as defined in the text.
+  \caption{Summary of preselection criteria on the silicon tracker qualities used in the various analyses as defined in the text.
      \label{tab:preselectionTk}}
   \begin{tabular}{|l|c|c|c|} \hline
                                             & \tktof\ & \tkonly\  &  $|Q|>1e$    \\ \hline
@@ -338,8 +342,8 @@ distributions after applying the \tktof\ preselection cuts for data and various 
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Pt_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_TOF_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_Pt_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Selection_Comp_8TeV_Cosmic_TOF_BS} \\
   \caption[Distribution of \invbeta\ and \pt\ in the \muononly\ analysis for data, cosmic-ray muon control sample, and signal MC]
 {Distribution of selection variables for data, cosmic-ray muon control sample, and signal MC.
 Left: Distribution of $p_T$. Right: Distribution of \invbeta.}
@@ -348,10 +352,10 @@ Left: Distribution of $p_T$. Right: Distribution of \invbeta.}
 
 \begin{figure}
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Pt_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_TOF_BS} \\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Is_BS}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Im_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Pt_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_TOF_BS} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Is_BS}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Selection_Comp_8TeV_GMStau_Im_BS}
   \caption[Distribution of selection variables in the \tktof\ analysis for data and signal MC.]
 {Distribution of section variables for data and signal MC.
 Top row: Distribution of $p_T$ (left) and \invbeta\ (right).
@@ -389,31 +393,32 @@ mass window is accounted for by a fit described below. The MC sample used only c
 
 A simultaneous fit to pairs originating from Z bosons and pairs from background is performed using the
 sum of two Voigtians to represent Z bosons and an exponential for the background.
-Figures~\ref{fig:MuOnlyTagProbeFitData} and ~\ref{fig:MuOnlyTagProbeFitMC} show sample fits to data and MC, respectively.
-It can be seen that the fits match well. The efficiency is extracted from these fits using a procedure from the muon POG.
+The fit is found to agree well with the data.
+%Figures~\ref{fig:MuOnlyTagProbeFitData} and ~\ref{fig:MuOnlyTagProbeFitMC} show sample fits to data and MC, respectively.
+%It can be seen that the fits match well. The efficiency is extracted from these fits using a procedure from the muon POG.
 
-\begin{figure}
- \begin{center}
-  \includegraphics[width=0.95\textwidth]{figures/muonly/FitCanvasDataPtBin0}
- \end{center}
- \caption[Example fits to invariant mass distributions
-in the tag and probe procedure for the \muononly\ analysis for data.]
-{Example fits to invariant mass distributions
-in the tag and probe procedure for the \muononly\ analysis for data.
-Top left: Mass distribution and fit for probes passing the preselection. Top right: Mass distribution and fit for probes failing the preselection.
-Bottom left: Mass distribution and fit for all probes. Bottom right: Parameters extracted from the fit.}
-    \label{fig:MuOnlyTagProbeFitData}
-\end{figure}
+%\begin{figure}
+% \begin{center}
+%  \includegraphics[width=0.95\textwidth]{figures/muonly/FitCanvasDataPtBin0}
+% \end{center}
+% \caption[Example fits to invariant mass distributions
+%in the tag and probe procedure for the \muononly\ analysis for data.]
+%{Example fits to invariant mass distributions
+%in the tag and probe procedure for the \muononly\ analysis for data.
+%Top left: Mass distribution and fit for probes passing the preselection. Top right: Mass distribution and fit for probes failing the preselection.
+%Bottom left: Mass distribution and fit for all probes. Bottom right: Parameters extracted from the fit.}
+%    \label{fig:MuOnlyTagProbeFitData}
+%\end{figure}
 
-\begin{figure}
- \begin{center}
-  \includegraphics[width=0.95\textwidth]{figures/muonly/FitCanvasMCEtaBin6}
- \end{center}
- \caption[Example fits to invariant mass distributions
-in the tag and probe procedure for the \muononly\ analysis for MC.]
-{Same as Fig.~\ref{fig:MuOnlyTagProbeFitData} but for MC.}
-    \label{fig:MuOnlyTagProbeFitMC}
-\end{figure}
+%\begin{figure}
+% \begin{center}
+%  \includegraphics[width=0.95\textwidth]{figures/muonly/FitCanvasMCEtaBin6}
+% \end{center}
+% \caption[Example fits to invariant mass distributions
+%in the tag and probe procedure for the \muononly\ analysis for MC.]
+%{Same as Fig.~\ref{fig:MuOnlyTagProbeFitData} but for MC.}
+%    \label{fig:MuOnlyTagProbeFitMC}
+%\end{figure}
 
 Figure~\ref{fig:MuOnlyTagProbeEff} shows the efficiency for the probes
 to pass the preselection, except for the selection on $p_T$, against the probe
@@ -424,9 +429,9 @@ on $\eta$.  MC is scaled by an $\eta$ dependent scale factor to correct for the 
 
 \begin{figure}
  \begin{center}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/pteff_Comp}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/etaeff_Comp}
-  \includegraphics[clip=true, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/PVeff_Comp}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0cm 0cm, width=0.44\textwidth]{figures/muonly/pteff_Comp}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0cm 0cm, width=0.44\textwidth]{figures/muonly/etaeff_Comp}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0cm 0cm, width=0.44\textwidth]{figures/muonly/PVeff_Comp}
  \end{center}
  \caption[Efficiency to pass preselection cuts for the \muononly\ analysis versus \pt, $\eta$, and number of primary vertices]
 {Efficiency to pass preselection cuts for the \muononly\ analysis.

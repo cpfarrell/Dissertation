@@ -1,5 +1,5 @@
 \section{Selection Variables \label{sec:SelVar}}
-HSCPs can be distinguished from SM particles due to their high momentum and slow speed.
+HSCPs can be distinguished from SM particles in CMS due to their high momentum and slow speed.
 The momentum of a particle can be determined by its bending in the magnetic field of CMS.
 The slow speed of HSCPs lead to two interesting detector signatures. The first is that the particles will arrive at the detector elements later than SM particles will.
 The muon system, being the furthest detector element from the interaction point, has the largest timing difference. The measurement of the arrival time of particles in the
@@ -9,16 +9,16 @@ than SM particles of the same momentum as discussed below.
 
 \subsection{Transverse Momentum Measurement \label{sec:PMeasurement}}
 A muon passing through CMS will likely be reconstructed three times~\cite{2012JInst...7P0002T}; once only in the silicon tracker, referred to as a tracker track;
-once only in the muon system, referred to as a standalone muon; and once as a combined track found in both the muon system and silicon tracker, referred
+once only in the muon system, referred to as a stand-alone muon; and once as a combined track found in both the muon system and silicon tracker, referred
 to as a global muon. CMS measures the curvature of a track which is proportional to and can be used to determine the $Q/p_T$ of the track.
 In the central region of CMS, tracker tracks have a resolution on $Q/p_T$ of 1\% for muons at intermediate momentum and 7\% at
 high momentum with the resolution being approximately
 twice as large in the forward region. Intermediate momentum is defined as 15--100~GeV and high momentum is defined as 400--1000 GeV.
-Standalone muons in the central region have a resolution on $Q/p_T$ of 8\% for intermediate momentum and 25\%~\cite{2008AN097} for high momentum with the uncertainty again
+Stand-Alone muons in the central region have a resolution on $Q/p_T$ of 8\% for intermediate momentum and 25\%~\cite{2008AN097} for high momentum with the uncertainty again
 being about twice as large in the forward region. The resolution for global muons is the same as for tracker muons for intermediate momentum and is slightly better
 than tracker muons at high momentum at 6\% in the central region.
 
-The \muononly\ analysis uses the $p_T$ measurement coming from the standalone muon while the rest of the analyses use the measurement from the tracker track.
+The \muononly\ analysis uses the $p_T$ measurement coming from the stand-alone muon while the rest of the analyses use the measurement from the tracker track.
 The tracker track momentum is used even when the global muon is available due to issues specific to $R$-hadrons.
 $R$-hadrons are unlikely to undergo a nuclear interaction while traversing the silicon tracker so they would have the same electric charge at all points in the tracker.
 While passing through the muon system however, $R$-hadrons will often undergo a nuclear interaction with the steel return yoke located between the muon stations
@@ -47,10 +47,10 @@ $\Delta(Q/p_T)$ is defined in Equation~\ref{eq:deltaqopt}
 \Delta(Q/p_T) = ((Q/p_T)_{SA} - (Q/p_T)_{Tk})/(Q/p_T)_{Tk}
 \label{eq:deltaqopt}
 \end{equation}
-where ``SA'' refers to standalone muon qualities and ``Tk'' refers to
-tracker track qualities. As the $p_T$ resolution of tracker tracks is much better than for standalone muons, it is a sufficiently good approximation
+where ``SA'' refers to stand-alone muon qualities and ``Tk'' refers to
+tracker track qualities. As the $p_T$ resolution of tracker tracks is much better than for stand-alone muons, it is a sufficiently good approximation
 of the true particle momentum. Figure~\ref{fig:MuOnlyInvPtDiff} shows the distribution of
-reconstructed $\Delta(Q/p_T)$ for tracks with inner track $p_T > 200$ GeV
+$\Delta(Q/p_T)$ for tracks with inner track $p_T > 200$ GeV
 for data and various simulated HSCP signal samples.
 A value of zero in this plot indicates the $p_T$ was reconstructed correctly
 while negative one indicates the reconstructed $p_T$ approaches infinity.
@@ -62,7 +62,7 @@ between one sign and zero, is centered at zero but with a slightly wider
 width than data or CD stau.
 The gluino sample, which can flip charge, is centered closer to negative one meaning that
 the reconstructed $p_T$ is normally larger than what is generated, sometimes
-to a very large degree. 
+to a very large degree. This increases the differences between gluino HSCPs and the background.
 
 \begin{figure}
  \begin{center}
@@ -73,7 +73,7 @@ to a very large degree.
     \label{fig:MuOnlyInvPtDiff}}
 \end{figure}
 
-For the lepton like samples with non-unit charge, the \pt\ will be mismeasured by a factor of $1/Q$. This mean that multiply 
+For the lepton like samples with non-unit charge, the \pt\ will be mismeasured by a factor of $1/Q$. This means that multiply 
 charged particles will have their \pt\ underestimated making them somewhat harder to separate from backgrounds.
 This effect can be seen in Figure~\ref{fig:RecoGenPt}.
 %For the lepton like samples with non-unit charge the \pt\ will be mismeasured by a factor of 1/Q, meaning fractionally charged particles will have their \pt\ overestimated
