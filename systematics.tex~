@@ -122,10 +122,10 @@ Figure~\ref{fig:TkOnMCUncSource} shows the sources of systematic uncertainty for
 
 \begin{figure}[ht]
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/MoGluino_f100Uncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/MoGluino_f50Uncertainty} \\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/MoGluino_f10Uncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/MoStopUncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/MoGluino_f100Uncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/MoGluino_f50Uncertainty} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/MoGluino_f10Uncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/MoStopUncertainty}
 \caption[Relative signal efficiency change seen for the various sources of uncertainty in the \muononly\ analysis]
 {Relative signal efficiency change seen for the various sources of uncertainty in the \muononly\ analysis.
 Top row: Gluino with $f=1.0$ (left) and $f=0.5$ (right).
@@ -135,8 +135,8 @@ Bottom row: Gluino with $f=0.1$ (left) and stop (right)}
 
 \begin{figure}[ht]
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/MuGMStauUncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/MuPPStauUncertainty} \\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/MuGMStauUncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/MuPPStauUncertainty} \\
 \caption[Relative signal efficiency change seen for the various sources of uncertainty for stau models in the \tktof\ analysis]
 {Relative signal efficiency change seen for the various sources of uncertainty for stau models in the \tktof\ analysis.
 CD (left) and DP (right) models.}
@@ -145,9 +145,9 @@ CD (left) and DP (right) models.}
 
 \begin{figure}[ht]
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/MuGluino_f50Uncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/MuGluino_f10Uncertainty}\\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/MuStopUncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/MuGluino_f50Uncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/MuGluino_f10Uncertainty}\\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/MuStopUncertainty}
 \caption[Relative efficiency change seen for the various sources of uncertainty for $R-hadron$ models in the \tktof\ analysis]
 {Relative efficiency change seen for the various sources of uncertainty for $R-hadron$ models in the \tktof\ analysis.
 Top row: Gluino with $f=0.5$ (left) and $f=0.1$ (right).
@@ -157,10 +157,10 @@ Bottom row: Stop}
 
 \begin{figure}[ht]
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkonly/TkGluinoN_f10Uncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkonly/TkStopNUncertainty}\\
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/multi/HQDY_Q4Uncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/multi/HQDY_Q7Uncertainty}\\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/TkGluinoN_f10Uncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/TkStopNUncertainty}\\
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/multi/HQDY_Q4Uncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/multi/HQDY_Q7Uncertainty}\\
 \caption[Relative signal efficiency change seen for the various sources of uncertainty for some of the models considered in the \tkonly\ and \tktof\ analyses]
 {Relative signal efficiency change seen for the various sources of uncertainty.
 Top row: Charge suppressed Gluino with $f=0.1$ (left) and charge suppressed stop (right) in the \tkonly\ analysis.
@@ -175,10 +175,10 @@ The large uncertainty on the amount of detector material results in the uncertai
 
 \begin{figure}[ht]
 \centering
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/muonly/MOUncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkmu/MuUncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/tkonly/TkUncertainty}
-  \includegraphics[clip=true, trim=0.0cm 0cm 2.8cm 0cm, width=0.44\textwidth]{figures/multi/HQUncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/MOUncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/MuUncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/TkUncertainty}
+  \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/multi/HQUncertainty}
 \caption[Total signal efficiency uncertainty for all considered models]
 {Total signal efficiency uncertainty for all considered models.
 Top:  For the \muononly\ (left) and \tktof\ (right) analyses.

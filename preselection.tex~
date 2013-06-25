@@ -364,64 +364,65 @@ Bottom row: Distribution of \ias\ (left) and \ih\ (right).}
 \end{figure}
 
 \subsection{Tag and Probe Studies \label{sec:TagProbe}}
-The study of the agreement between data and MC for numerous muon qualities is done by the Muon Physics Object Group (POG) inside of CMS.
+The study of the agreement between data and MC for numerous muon qualities is done by the Muon Physics Object Group (POG) of CMS.
 The group provides scale factors for correcting MC to match data.
 For all of the analyses except for \muononly\  it is sufficient to use results obtained from this group as the muon qualities
-they use are common within CMS.
-However, as the \muononly\ analysis uses numerous variables which are unique to it, the results from the muon POG are not applicable.
+those analyses use are common within CMS.
+However, as the \muononly\ analysis uses numerous variables which are unique to it, the results from the muon POG are not applicable to it.
 
 For this reason, additional studies were performed to test the agreement of MC with data.
-The efficiency of the selections was checked with a tag and probe procedure
-(from the Muon POG) using muons from the decay of the Z boson. Z bosons decay to a particle and its anti-particle with the invariant mass of the particle--anti-particle
-pair equal to the mass of the Z boson they were created from.
+The efficiency of the selections was checked with a tag-and-probe technique~\cite{2012JInst...7P0002T} using muons from Z boson decays.
+% Z bosons decay to a particle and its anti-particle with the invariant mass of the particle--anti-particle
+%pair equal to the mass of the Z boson they were created from.
+The tag-and-probe procedure proceeds by requiring one muon, the ``tag'' muon, be found with a stringent selection while the other muon, the ``probe'' muon,
+is required to be found with only a loose selection using only the silicon tracker. The efficiency to pass the preselection in the \muononly\ analysis
+can then be estimated as the fraction of of the probes that pass the preselection. The background from processes other than Z bosons is small and is subtracted by
+a simultaneous fit to the tag-probe invariant mass distributions of signal and background around the Z boson mass.
+The efficiency estimated in data is compared with that found in MC. Scale factors are used to correct MC for any discrepancy observed between the efficiencies.
+The MC sample used does not contain any production from background processes.
 
-The tag and probe procedure proceeds by
-requiring one muon, the tag muon, be found with a very stringent selection trying to assure that this is a good muon. The tag muon is required to pass
-a tight selection recommended by the Muon POG and to match to an object that triggered the readout of CMS. 
-The last requirement assures that no bias is introduced by the need for the event to readout.
+The tag muon is required to pass a tight selection recommended by the Muon POG and to match to an object that triggered the read out of CMS. 
+The last requirement assures that no bias is introduced in the efficiency measurement by the need for the event to have been read out.
 Additionally, the tag must pass the requirements of a skim that was used to reduce the data size to a level
 making processing reasonable. The skim requirements are at least three \dedx\ measurements and \ih\ $> 3.0$ or \ih\ $< 2.8$.
 
-Then a set of probe candidates are defined as tracks reconstructed in the inner tracker with no requirement
-of muon system activity. The probes are required to have $p_T > 40$ GeV, $|\eta| < 2.1$, and the opposite charge of the tag muon. The invariant mass of the tag and
-probe is then required to be within 10 GeV of the mass of the Z boson, 91 GeV.
+A set of probe candidates is defined as tracks reconstructed in the inner tracker with no requirement
+of muon system activity. The probes are required to have $p_T > 40$ GeV, $|\eta| < 2.1$, and the opposite charge of the tag muon.
+The invariant mass of the tag-probe pair is then required to be within 10 GeV of the mass of the Z boson, 91 GeV.
+The invariant mass distribution of the tag-probe pairs is fit using the
+sum of two Voigtians (the convolution of a Lorentzian and a Gaussian) to represent the signal and an exponential for the background.
 
-There are few processes other than Z boson decay that will lead to tag and probe pairs having an invariant mass around the mass of the Z boson. Thus it is likely that the
-probe is a muon. The efficiency that a muon passes the preselection in the \muononly\ analysis can then be found by looking at the efficiency that the probe
-passes the preselection. The efficiencies in data and MC can be compared and any possible scale factors calculated. The residual background from non Z boson decay in the
-mass window is accounted for by a fit described below. The MC sample used only contains the creation of Z bosons, background processes are not included.
+%The fit is found to agree well with the data.
+%Figures~\ref{fig:MuOnlyTagProbeFitData} and ~\ref{fig:MuOnlyTagProbeFitMC} show sample fits to data and MC, respectively.
+%It can be seen that the fits match well.
+%The efficiency is extracted from these fits using a procedure from the muon POG.
 
-A simultaneous fit to pairs originating from Z bosons and pairs from background is performed using the
-sum of two Voigtians to represent Z bosons and an exponential for the background.
-Figures~\ref{fig:MuOnlyTagProbeFitData} and ~\ref{fig:MuOnlyTagProbeFitMC} show sample fits to data and MC, respectively.
-It can be seen that the fits match well. The efficiency is extracted from these fits using a procedure from the muon POG.
+%\begin{figure}
+% \begin{center}
+%  \includegraphics[clip=true, trim=0.0cm 7.0cm 0.0cm 0.0cm, width=0.95\textwidth]{figures/muonly/FitCanvasDataPtBin0}
+% \end{center}
+% \caption[Example fits to invariant mass distributions
+%in the tag-and-probe procedure for the \muononly\ analysis for data.]
+%{Example fits to invariant mass distributions
+%in the tag-and-probe procedure for the \muononly\ analysis for data.
+%Top left: Mass distribution and fit for probes passing the preselection. Top right: Mass distribution and fit for probes failing the preselection.
+%Bottom left: Mass distribution and fit for all probes. Bottom right: Parameters extracted from the fit.}
+%    \label{fig:MuOnlyTagProbeFitData}
+%\end{figure}
 
-\begin{figure}
- \begin{center}
-  \includegraphics[width=0.95\textwidth]{figures/muonly/FitCanvasDataPtBin0}
- \end{center}
- \caption[Example fits to invariant mass distributions
-in the tag and probe procedure for the \muononly\ analysis for data.]
-{Example fits to invariant mass distributions
-in the tag and probe procedure for the \muononly\ analysis for data.
-Top left: Mass distribution and fit for probes passing the preselection. Top right: Mass distribution and fit for probes failing the preselection.
-Bottom left: Mass distribution and fit for all probes. Bottom right: Parameters extracted from the fit.}
-    \label{fig:MuOnlyTagProbeFitData}
-\end{figure}
-
-\begin{figure}
- \begin{center}
-  \includegraphics[width=0.95\textwidth]{figures/muonly/FitCanvasMCEtaBin6}
- \end{center}
- \caption[Example fits to invariant mass distributions
-in the tag and probe procedure for the \muononly\ analysis for MC.]
-{Same as Fig.~\ref{fig:MuOnlyTagProbeFitData} but for MC.}
-    \label{fig:MuOnlyTagProbeFitMC}
-\end{figure}
+%\begin{figure}
+% \begin{center}
+%  \includegraphics[width=0.95\textwidth]{figures/muonly/FitCanvasMCEtaBin6}
+% \end{center}
+% \caption[Example fits to invariant mass distributions
+%in the tag-and-probe procedure for the \muononly\ analysis for MC.]
+%{Same as Fig.~\ref{fig:MuOnlyTagProbeFitData} but for MC.}
+%    \label{fig:MuOnlyTagProbeFitMC}
+%\end{figure}
 
 Figure~\ref{fig:MuOnlyTagProbeEff} shows the efficiency for the probes
 to pass the preselection, except for the selection on $p_T$, against the probe
-$p_T$, $\eta$, and the number of vertices in the event.
+$p_T$, $\eta$, and the number of primary vertices in the event.
 Overall the efficiency is approximately 75\% in data and 80\% in MC.
 The efficiency is mostly flat versus $p_T$ and number of vertices but does depend
 on $\eta$.  MC is scaled by an $\eta$ dependent scale factor to correct for the discrepancy.
@@ -432,9 +433,9 @@ on $\eta$.  MC is scaled by an $\eta$ dependent scale factor to correct for the 
   \includegraphics[clip=false, trim=0.0cm 0cm 0cm 0cm, width=0.44\textwidth]{figures/muonly/etaeff_Comp}
   \includegraphics[clip=false, trim=0.0cm 0cm 0cm 0cm, width=0.44\textwidth]{figures/muonly/PVeff_Comp}
  \end{center}
- \caption[Efficiency to pass preselection cuts for the \muononly\ analysis versus \pt, $\eta$, and number of primary vertices]
+ \caption[Efficiency to pass preselection cuts for the \muononly\ analysis as a function of \pt, $\eta$, and number of primary vertices]
 {Efficiency to pass preselection cuts for the \muononly\ analysis.
-Top row: Versus $p_T$ (left) and $\eta$ (right)
-Bottom row: Versus number of primary vertices (right).}
+Top row: As a function of $p_T$ (left) and $\eta$ (right)
+Bottom row: As a function of number of primary vertices.}
    \label{fig:MuOnlyTagProbeEff}
 \end{figure}

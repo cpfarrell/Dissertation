@@ -1,4 +1,21 @@
-b@phdthesis{Quertenmont:1361029,
+@article{Chatrchyan:2012sp,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Search for heavy long-lived charged particles in $pp$
+                        collisions at $\sqrt{s}=7$ TeV}",
+      collaboration  = "CMS Collaboration",
+      journal        = "Phys.Lett.",
+      volume         = "B713",
+      pages          = "408-433",
+      doi            = "10.1016/j.physletb.2012.06.023",
+      year           = "2012",
+      eprint         = "1205.0272",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-EXO-11-022, CERN-PH-EP-2012-093",
+      SLACcitation   = "%%CITATION = ARXIV:1205.0272;%%",
+}
+
+@phdthesis{Quertenmont:1361029,
       author       = "Quertenmont, Loic and Bruno, Giacomo",
       title        = "Search for Heavy Stable Charged Particles with the CMS
                       detector at the LHC",

@@ -2,10 +2,14 @@ This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: dissertation.aux
 The style file: unsrt.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 46 of file references.bib
+I was expecting a `,' or a `}'---line 61 of file references.bib
  :    
  :    year = 2008,
 (Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 776 of file references.bib
+ : @article{Chatrchyan:2012sp
+ :                           ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Chatrchyan:2013lba
 Warning--empty journal in Martin:1997ns
@@ -18,7 +22,6 @@ Warning--empty journal in Paige:2003mg
 Warning--empty author in CMS:2010xta
 Warning--empty journal in CMS:2010xta
 Warning--empty author in CMS-PAS-JME-12-002
-Warning--empty author in CMS-PAS-TRK-10-001
 Warning--empty journal in 2008AN097
 Warning--empty year in 2008AN097
 Warning--empty journal in Read:451614
@@ -26,43 +29,43 @@ Warning--there's a number but no volume in Read:451614
 Warning--empty author in CMS-PAS-TRK-10-002
 You've used 59 entries,
             1791 wiz_defined-function locations,
-            786 strings with 11529 characters,
-and the built_in function-call counts, 10671 in all, are:
-= -- 918
-> -- 463
-< -- 4
-+ -- 179
-- -- 120
-* -- 605
-:= -- 1816
-add.period$ -- 178
+            790 strings with 11776 characters,
+and the built_in function-call counts, 10922 in all, are:
+= -- 930
+> -- 497
+< -- 3
++ -- 190
+- -- 131
+* -- 635
+:= -- 1865
+add.period$ -- 179
 call.type$ -- 59
 change.case$ -- 54
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 501
-empty$ -- 1078
-format.name$ -- 120
-if$ -- 2357
+cite$ -- 75
+duplicate$ -- 503
+empty$ -- 1091
+format.name$ -- 131
+if$ -- 2405
 int.to.chr$ -- 0
 int.to.str$ -- 59
-missing$ -- 55
-newline$ -- 297
-num.names$ -- 55
-pop$ -- 132
+missing$ -- 56
+newline$ -- 298
+num.names$ -- 56
+pop$ -- 131
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 193
+skip$ -- 194
 stack$ -- 0
-substring$ -- 504
+substring$ -- 531
 swap$ -- 49
-text.length$ -- 4
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 17
-while$ -- 90
+warning$ -- 16
+while$ -- 92
 width$ -- 61
-write$ -- 626
-(There was 1 error message)
+write$ -- 627
+(There were 2 error messages)

@@ -1,6 +1,6 @@
 \section{Statistical Technique \label{sec:stats}}
 CMS has a Statistics Committee which provides advice on statistics issues as well tools which can be used to perform statistical calculations.
-Tools developed in the search for the Higgs Boson were used
+Tools developed in the recent CMS search for the Higgs Boson were used
 in this analysis to determine the significance of any observed excess and if no excess is observed to place bounds on the signal cross-section.
 More information about the tools and statistical technique can be found in~\cite{Chatrchyan:2013lba}.
 
@@ -13,16 +13,17 @@ The probability is returned in the form of a one-sided Gaussian sigma. For a giv
 p = \int_x^{\infty} \frac{1}{\sqrt{2\pi}}e^{\frac{-x^2}{2}} \mathrm{d} x.
 \label{eq:sigma}
 \end{equation}
-the function being integrated over is a normalized gaussian with unit variance. Particle physics has a convention that one claims a discovery when the significance
-is greater than five sigma and evidence when it is greater than three. A five sigma discovery means that there is a one in 3.5 million probability that
+The function being integrated over is a normalized gaussian with unit variance. Particle physics has a somewhat arbitrary 
+convention that one claims a discovery when the significance
+is greater than five sigma, and evidence when it is greater than three. A five sigma discovery is equivalent to there being a one in 3.5 million probability that
 observed data come from background only.
 
-This tool can also be used find the expected reach of the analysis. The expected reach of the analysis is defined as the signal cross-section
+This tool can also be used to find the expected reach of the analysis. The expected reach of the analysis is defined as the signal cross-section
 for which there is a 50\% chance of being able to claim a discovery.
 This is of particular interest when designing the analysis to determine optimum thresholds on the selection variables.
 
 Another tool returns the expected and observed limits on the signal cross-section. The tool is passed the different sources of background with their uncertainties,
 the signal efficiency with its uncertainty, and finally the integrated luminosity with its uncertainty. The tool then proceeds to calculate the cross section limits with
 a hybrid $CL_s$ approach~\cite{Read:451614} using a profile likelihood technique~\cite{Cowan:2010js} with the predicted background, signal efficiency, and integrated luminosity
-as nuisance parameters using lognormal pdfs~\cite{Eadie,James}. The uncertainty on the predicted background is discussed in Section~\ref{BackPred} and the
+as nuisance parameters using lognormal pdfs~\cite{Eadie,James}. The uncertainty on the predicted background was discussed in Section~\ref{BackPred} and the
 signal efficiency uncertainty is discussed in Section~\ref{sec:SystUnc}. The uncertainty on integrated luminosity is 4.4\%~\cite{SMP-12-008}.

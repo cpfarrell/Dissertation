@@ -88,10 +88,10 @@ This effect can be seen in Figure~\ref{fig:RecoGenPt}.
 \end{figure}
 
 \subsection{Energy Loss Measurement \label{sec:DedxMeasurement}}
-The amount of ionization energy a particle looses can be measured by the silicon tracker.
+The amount of ionization energy a particle deposits can be measured by the silicon tracker.
 %that a slow moving HSCP will have a larger ionization energy loss in the silicon tracker than SM particles will.
 For paticles with 0.1 $\gtrsim \beta \gamma \lesssim$ 1000, where $\gamma$ is $1/\sqrt{1 - \beta^2}$,
-the average amount of the ionization energy lost per unit length in a given material, \dedx, is to a large degree dependent only on the velocity of the particle
+the average amount of the ionization energy deposited per unit length in a given material, \dedx, is to a large degree dependent only on the velocity of the particle
 and its charge as described by the Bethe-Bloch formula~\cite{PDG}.
 The dependence of \dedx\  on charge varies approximately as $Q^2$, meaning that even a $Q=2e$ HSCP will have almost four times as much energy loss as a SM particle. 
 The dependence on speed for particles with $0.1 < \beta < 0.9$ varies approximately as $1/\beta^2$; so slow moving HSCP would have large \dedx\ values.
@@ -128,8 +128,9 @@ where $P_i$ is the probability for a MIP to
 produce a charge smaller or equal to that of the $i$th measurement in the silicon-strip tracker
 for the observed path length in the detector, and the sum is over the
 measurements ordered in terms of increasing $P_i$. The probabilities are found from tracks with momentum greater than five~GeV collected with a trigger requiring only
-that a proton collision occured inside CMS. The discriminant is designed to give the best separation between MIPs and high-ionizing particles
-with MIPs peaked at zero and high-ionizing particles approaching one. The same measurements are used to determine \ih\ and \ias\ so the variables are not independent. 
+that a proton collision occured inside CMS. The discriminant is designed to give the best separation between MIPs and high-ionizing particles.
+The discriminant is peaked at zero for MIPs and approaches one for high-ionizing particles.
+The same measurements are used to determine \ih\ and \ias\ so the variables are not independent. 
 
 An estimate of the mass $m$, assuming Q=1$e$, of a particle can be made from \ih\ and the momentum $p$ of a track. This is done by using Eq.~\ref{eq:MassFromHarmonicEstimator};
 \begin{equation}

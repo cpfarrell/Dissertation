@@ -132,7 +132,8 @@ Bottom: $\beta$}
 
 All MC simulation events are overlaid with additional proton-proton collisions, see Section~\ref{sec:LHC}.
 Weights are given to the events so that the distribution of additional collisions in the MC simulation samples matches what is observed in data.
-The number of primary vertices, a proxy for the number of collisions, after the reweighting is shown in Figure~\ref{fig:PV} for data and MC simulation.
+The reconstruction of the event by CMSSW tries to identify each proton-proton collision as a primary vertex~\cite{2010EPJC...70.1165K}.
+The number of primary vertices after the reweighting is shown in Figure~\ref{fig:PV} for data and MC simulation.
 The samples shown in the figure are required to have been collected with one of the triggers detailed in Sec.~\ref{sec:trigger}.
 
 \begin{figure}
@@ -142,7 +143,7 @@ The samples shown in the figure are required to have been collected with one of 
   \end{center}
         \caption[Distribution of number of primary vertices in data and various MC simulation samples]
 {Distribution of number of primary vertices in data and various MC simulation samples. 
-The samples shown in the figure are required to have been collected with one of the triggers detailed in Sec.~\ref{sec:trigger}.
+The samples shown in the figure are required to have been collected with one of the three triggers detailed in Sec.~\ref{sec:trigger}.
 Left with linear y-axis scale, right with log scale.
         }
       \label{fig:PV}

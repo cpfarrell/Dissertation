@@ -258,6 +258,13 @@ Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 \newblock {PYTHIA 6.4 Physics and Manual}.
 \newblock {\em JHEP}, 0605:026, 2006.
 
+\bibitem{2010EPJC...70.1165K}
+V.~{Khachatryan}, A.~M. {Sirunyan}, A.~{Tumasyan}, W.~{Adam}, T.~{Bergauer},
+  M.~{Dragicevic}, J.~{Er{\"o}}, C.~{Fabjan}, M.~{Friedl}, R.~{Fr{\"u}hwirth},
+  and et~al.
+\newblock {CMS tracking performance results from early LHC operation}.
+\newblock {\em European Physical Journal C}, 70:1165--1192, December 2010.
+
 \bibitem{CMS:2010xta}
 {Jet Performance in pp Collisions at 7 TeV}.
 \newblock 2010.
@@ -272,9 +279,9 @@ Thomas Wangler and KR~Crandall.
 \newblock In {\em Linac 2000 Conference Proceedings, Monterey California},
   2000.
 
-\bibitem{CMS-PAS-TRK-10-001}
-Tracking and vertexing results from first collisions.
-\newblock Technical Report CMS-PAS-TRK-10-001, CERN, 2010. Geneva, 2010.
+\bibitem{2008AN097}
+G~Abbiendi et~al.
+\newblock Muon reconstruction in the cms detector.
 
 \bibitem{Quertenmont:1361029}
 Loic Quertenmont and Giacomo Bruno.
@@ -292,10 +299,6 @@ W.~T. Eadie, D.~Drijard, F.~E. James, M.~Roos, and B.~Sadoulet.
 F.~James.
 \newblock {\em Statistical methods in experimental physics}.
 \newblock World Scientific, Singapore, 2006.
-
-\bibitem{2008AN097}
-G~Abbiendi et~al.
-\newblock Muon reconstruction in the cms detector.
 
 \bibitem{Read:451614}
 A~L Read.
