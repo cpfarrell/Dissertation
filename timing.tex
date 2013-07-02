@@ -4,7 +4,7 @@
 This chapter details the measurement of the arrival time of particles in the muon system of CMS. A particular focus is put on the measurement in the CSC subsystem
 with a description of the measurements in the whole of the muon system given at the end. 
 
-\section{Introduction}
+\section{Introduction \label{sec:timingintro}}
 Particles that are produced at high momentum, greater than at least 10~GeV/$c$, by the LHC are of interest as they can be an indicator of physics
 beyond the SM. Muons have a mass of only 106 MeV/$c^2$ which means that even at a momentum of 10~GeV/$c$, muons will be traveling at a speed higher than 0.9999
 times the speed of light. The difference between this speed and the speed of light is much too small to be detected by CMS, so it can be
@@ -25,7 +25,8 @@ To cover this whole period of time,
 multiple different data samples are used in this chapter. They were collected during different time periods of CMS running from 2010--2012, both before and after commissioning.
 All of the samples were collected by triggers looking for high momentum muons. A comparison with events collected by random sampling showed there to be no
 bias in the timing variables investigated due to the use of muon triggered events.
-The muons in the events are required to pass tight selection criteria which are determined by the Muon Physics Object Group (POG) inside of the CMS collaboration.
+The muons in the events are required to pass a Tight Muon~\cite{2012JInst...7P0002T} selection 
+criteria which are determined by the Muon Physics Object Group (POG) inside of the CMS collaboration.
 %The Muon POG is charged with studying all aspects of the use of muons in CMS.
 The tight selection criteria results in a very pure collection of muons from the LHC collisions.
 Additionally, the muons are required to have a high momentum. The momentum threshold was continually raised from 2010--2012 due to higher trigger thresholds
@@ -94,7 +95,7 @@ The resolution on the segment times is 3.0ns.
   \end{center}
 \end{figure}
 
-\section{CSC Trigger Timing}
+\section{CSC Trigger Timing \label{sec:trigtime}}
 
 The CSCs are a key component of the L1 trigger system and it is important that they associate tracks in the system with the correct LHC bunch crossing window.
 The CSCs build tracks for the L1 trigger with the CSC Track Finder (CSCTF)~\cite{2003physics...6117A} by combining track stubs coming from the CSC chambers. 
@@ -274,8 +275,8 @@ data collected in 2012 at 8~TeV, dominated by collision muons;
 muons from the simulated Drell-Yan production of Z bosons and photons at 8~TeV; cosmic-ray muons, the sample is defined in Section~\ref{sec:samples};
 and HSCPs, again the sample is defined in Section~\ref{sec:samples}. All of the samples are required to pass the tight requirements on track quality
 as defined by the Muon POG except for the cosmic-ray muon sample for which the only requirement is that the track be reconstructed in the muon system.
-It can be seen that the \invbeta\ measurement for data and SM MC are strongly peaked at one, the cosmic-ray muons are roughly flat, while
-the HSCP have \invbeta\ greater than one, indicating they are traveling slowly. The \invbeta\ measurement is slightly asymmetric about one for data and SM MC
+It can be seen that the \invbeta\ measurement for data and simulated muons are strongly peaked at one, the cosmic-ray muons are roughly flat, while
+the HSCP have \invbeta\ greater than one, indicating they are traveling slowly. The \invbeta\ measurement is slightly asymmetric about one for data and simulated muons
 due to the production of delta rays in the muon system which result in early timing measurements in the DTs. The shape of the distribution for cosmic-ray muons
 is caused by them passing through both the top and bottom halves of CMS and possibly having tracks be reconstructed in both halves.
 The timing of hits from the two tracks will be separated by approximately 40--80~ns.

@@ -11,9 +11,9 @@
 \contentsline {subsection}{\numberline {3.3.2}Trigger and Computing }{22}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Muon System Timing }{26}{chapter.4}
 \contentsline {section}{\numberline {4.1}Foreword}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Introduction}{26}{section.4.2}
+\contentsline {section}{\numberline {4.2}Introduction }{26}{section.4.2}
 \contentsline {section}{\numberline {4.3}CSC Hit Timing}{28}{section.4.3}
-\contentsline {section}{\numberline {4.4}CSC Trigger Timing}{30}{section.4.4}
+\contentsline {section}{\numberline {4.4}CSC Trigger Timing }{30}{section.4.4}
 \contentsline {section}{\numberline {4.5}DT Timing}{35}{section.4.5}
 \contentsline {section}{\numberline {4.6}Offline Muon Track Timing}{36}{section.4.6}
 \contentsline {chapter}{\numberline {5}Searches for Heavy Stable Charged Particles }{44}{chapter.5}
@@ -40,9 +40,9 @@
 \contentsline {section}{\numberline {5.10}Signal Efficiency Systematic Uncertainties }{121}{section.5.10}
 \contentsline {subsection}{\numberline {5.10.1}Trigger Efficiency Uncertainty}{121}{subsection.5.10.1}
 \contentsline {subsection}{\numberline {5.10.2}Uncertainty on Selection Variables}{123}{subsection.5.10.2}
-\contentsline {subsection}{\numberline {5.10.3}Other Uncertainties on Signal Efficiency}{124}{subsection.5.10.3}
-\contentsline {subsection}{\numberline {5.10.4}Total Signal Efficiency Uncertainty}{125}{subsection.5.10.4}
+\contentsline {subsection}{\numberline {5.10.3}Other Uncertainties on Signal Efficiency}{125}{subsection.5.10.3}
+\contentsline {subsection}{\numberline {5.10.4}Total Signal Efficiency Uncertainty}{126}{subsection.5.10.4}
 \contentsline {section}{\numberline {5.11}Final Results}{126}{section.5.11}
 \contentsline {section}{\numberline {5.12}Conclusion}{139}{section.5.12}
-\contentsline {chapter}{\numberline {6}Conclusion }{150}{chapter.6}
-\contentsline {chapter}{References}{152}{chapter*.4}
+\contentsline {chapter}{\numberline {6}Conclusion }{152}{chapter.6}
+\contentsline {chapter}{References}{154}{chapter*.4}

@@ -32,9 +32,9 @@ The bottom left plot shows the limits for the \multi\ analysis for charges $<= 4
 The CMS results for all the analyses except for \muononly\ combine the 8~TeV data collected in 2012 with 7~TeV data collected in 2011.
 The combined result places limits on
 the relative signal strength, $\sigma/\sigma_{th}$. The 7~TeV results are simply added here without further description.
-The limit on the relative cross-section
+The limits on the relative cross-section
 for the \muononly\ and \tktof\ analyses is shown in Figure~\ref{fig:MuRelExclusion}. For the \muononly\ analysis the limit on signal strength uses only 8~TeV data.
-The limit on the relative cross-section for the \tkonly\ and \multi\ analyses is shown in Figure~\ref{fig:TkRelExclusion}.
+The limits on the relative cross-section for the \tkonly\ and \multi\ analyses is shown in Figure~\ref{fig:TkRelExclusion}.
 
 \begin{figure}
 \centering
@@ -374,23 +374,55 @@ Mass  & \multicolumn{3}{c|}{$\sigma$~(pb)} & \multicolumn{2}{c|}{$\mu = \sigma/\
 \end{longtable}
 \end{center}
 
-Mass limits are placed on the various models by all analyses. 
-The mass limit is found by where the limit on the relative signal strength crosses one. 
-The \muononly\ analysis gives mass limits of 1258, 1283, and 1300~GeV$/c^2$ for gluino production with the fraction, f, of $\tilde{g}g$ set to
-$f=100\%$, $f=50\%$, and $f=10\%$, respectively. The mass limit on stop production is placed at 853~GeV$/c^2$. The \tktof\ analysis sets a mass limit on gluino production with
-$f=50\%$ ($f=10\%$) of 1224 (1291)~GeV$/c^2$. The limit on stop production is placed at 910~GeV$/c^2$. A limit of 435 and 339~GeV$/c^2$ is placed on the CS 
-and DP stau scenarios, respectively. Drell-Yan production of Q=1e particles has a limit set at 574~GeV$/c^2$. 
+Signal models are excluded if the limit on the relative signal strength is less than one.
+The \muononly\ analysis excludes gluino masses below 1258, 1283, and 1300~GeV$/c^2$ for a fraction $f$ of neutral $\tilde{g}g$ of
+$f=100\%$, $f=50\%$, and $f=10\%$, respectively. Stop masses are excluded below 853~GeV$/c^2$. The \tktof\ anaysis excludes gluino masses with
+$f=50\%$ ($f=10\%$) below 1224 (1291)~GeV$/c^2$. The lower limit on stop masses is placed at 910~GeV$/c^2$. Masses below 435 and 339~GeV$/c^2$ are excluded for the CS 
+and DP stau scenarios, respectively. Drell-Yan production of Q=1e particles has a lower mass limit set at 574~GeV$/c^2$. 
 
-The \tkonly\ analysis excludes f=10\% gluino production for masses below 1320 (1239)~GeV$/c^2$ in the cloud interaction (charge suppression) model. 
-The mass limit on stop production is placed at 934 (820)~GeV$/c^2$ for the cloud interaction (charge suppression) model.
-The \multi\ analysis sets limits on Q= 1e, 2e, 3e, 4e, 5e, 6e, 7e, and 8e production at 517, 685, 752, 793, 796, 781, 757, and 737~GeV$/c^2$, respectively.
+The \tkonly\ analysis excludes $f=10\%$ gluino production for masses below 1320 (1239)~GeV$/c^2$ in the cloud interaction (charge suppression) model. 
+The lower mass limit on stop production is placed at 934 (820)~GeV$/c^2$ for the cloud interaction (charge suppression) model.
+The \multi\ analysis sets lower mass limits on Q= 1e, 2e, 3e, 4e, 5e, 6e, 7e, and 8e production at 517, 685, 752, 793, 796, 781, 757, and 737~GeV$/c^2$, respectively.
 
 The mass limits for the various signals and electric charges can be seen in Fig.~\ref{fig:masslimits} as well as limits from previously published searches by CMS and others.
 The mass limit obtained with the \multi\ analysis for Drell--Yan like production of
 particles  with non-unit charge in the range $1e<|Q|\leq8e$ can be parametrized
- as $M^{95\%}(Q) = 404.9 + 154.6 |Q/e| - 14.8 |Q/e|^2$~GeV$/c^2$
+as $M^{95\%}(Q) = 404.9 + 154.6 |Q/e| - 14.8 |Q/e|^2$~GeV$/c^2$
 
-As can be seen the limits presented here are the most stringent in the world to date. These limits put important constraints on many versions of supersymmetry
+\begin{table}
+ \begin{center}
+  \caption{Mass limits on the considered model. }
+     \label{tab:MassLimits}
+  \begin{tabular}{|l|c|c|c|} \hline
+  Model                            &  analysis used               & $\sqrt{s}=7+8$ TeV \\ \hline
+  Gluino $f=1.0$                   & \muononly                    & -                        \\ \hline
+  \multirow{2}{*}{Gluino $f=0.5$}  & \muononly                    & -                        \\
+                                   & \tktof                       & $M>1224$ GeV             \\ \hline
+  \multirow{3}{*}{Gluino $f=0.1$}  & \muononly                    & -                        \\ \hline
+                                   & \tktof                       & $M>1294$ GeV             \\
+                                   & \tkonly                      & $M>1320$ GeV             \\ \hline
+  GluinoN $f=0.1$                  & \tkonly                      & $M>1233$ GeV             \\ \hline
+  \multirow{3}{*}{Stop}            & \muononly                    & -                        \\
+                                   & \tktof                       & $M> 910$ GeV             \\
+                                   & \tkonly                      & $M> 935$ GeV             \\ \hline
+                                   & \muononly                    & -                        \\ \hline
+  StopN                            & \tkonly                      & $M> 818$ GeV             \\ \hline 
+  CD Stau                          & \tktof                       & $M> 435$ GeV             \\ 
+  DP Stau                          & \tktof                       & $M> 339$ GeV             \\ 
+  \multirow{2}{*}{DY $Q=1e$}       & \tktof                       & $M> 654$ GeV             \\
+                                   & \multi                 & $M> 604$ GeV             \\ \hline 
+  DY $Q=2e$                        & \multi                 & $M> 728$ GeV             \\ \hline
+  DY $Q=3e$                        & \multi                 & $M> 792$ GeV             \\ \hline
+  DY $Q=4e$                        & \multi                 & $M> 816$ GeV             \\ \hline
+  DY $Q=5e$                        & \multi                 & $M> 817$ GeV             \\ \hline
+  DY $Q=6e$                        & \multi                 & $M> 805$ GeV             \\ \hline
+  DY $Q=7e$                        & \multi                 & $M> 790$ GeV             \\ \hline
+  DY $Q=8e$                        & \multi                 & $M> 746$ GeV             \\ \hline
+  \end{tabular}
+ \end{center}
+\end{table}
+
+The lower mass limits presented in this paper are the most stringent in the world to date. These limits put important constraints on many versions of supersymmetry
 and the production of multiply charged particles as discussed in Section~\ref{sec:BSM}.
 The results also apply to a wide range of other theories not directly considered here that can include the production of long-lived charged particles.
 

@@ -15,7 +15,7 @@ of light even with a momentum of several hundred~GeV/$c$. For example, an HSCP w
 Thus, a measurement of timing in the muon system can be used to separate HSCP from SM muons.
 
 Additionally, as described in Section~\ref{sec:computing}, one of the main responsibilities  of the muon system is to trigger the readout of the data in the detector
-when a high momentum track is found. The muon system must be able to associate the tracks with a given bunch crossing to make sure the correct data is readout from CMS.
+when a high momentum track is found. The muon system must be able to associate the tracks with a given bunch crossing to make sure the correct data are readout from CMS.
 The method to determine the timing synchronization of the CSC subsystem is described below.
 
 The commissioning of the muon system timing was done during 2010 and early 2011 running at a center--of--mass energy of 7~TeV.
@@ -79,7 +79,7 @@ a cleaning procedure is applied to the anode times to remove outlier hits. The p
 difference with the average. If the difference is larger than 26~ns, equal to three times the resolution,
 that hit is removed from the average. The process is then repeated until the
 anode hit with the largest difference is less than 26~ns.
-The times of segments in data is shown in Fig.~\ref{fig:SegTimes}. 
+The distribution of the times of segments in data is shown in Fig.~\ref{fig:SegTimes}. 
 The data sample used was collected at 7~TeV center--of--mass energy after the full commissioning of the timing measurement and has a \pt\ threshold of 20~GeV.
 The resolution on the segment times is 3.0ns.
 
@@ -94,7 +94,7 @@ The resolution on the segment times is 3.0ns.
   \end{center}
 \end{figure}
 
-\section{CSC Trigger Timing}
+\section{CSC Trigger Timing \label{sec:trigtime}}
 
 The CSCs are a key component of the L1 trigger system and it is important that they associate tracks in the system with the correct LHC bunch crossing window.
 The CSCs build tracks for the L1 trigger with the CSC Track Finder (CSCTF)~\cite{2003physics...6117A} by combining track stubs coming from the CSC chambers. 
@@ -274,8 +274,8 @@ data collected in 2012 at 8~TeV, dominated by collision muons;
 muons from the simulated Drell-Yan production of Z bosons and photons at 8~TeV; cosmic-ray muons, the sample is defined in Section~\ref{sec:samples};
 and HSCPs, again the sample is defined in Section~\ref{sec:samples}. All of the samples are required to pass the tight requirements on track quality
 as defined by the Muon POG except for the cosmic-ray muon sample for which the only requirement is that the track be reconstructed in the muon system.
-It can be seen that the \invbeta\ measurement for data and SM MC are strongly peaked at one, the cosmic-ray muons are roughly flat, while
-the HSCP have \invbeta\ greater than one, indicating they are traveling slowly. The \invbeta\ measurement is slightly asymmetric about one for data and SM MC
+It can be seen that the \invbeta\ measurement for data and simulated muons are strongly peaked at one, the cosmic-ray muons are roughly flat, while
+the HSCP have \invbeta\ greater than one, indicating they are traveling slowly. The \invbeta\ measurement is slightly asymmetric about one for data and simulated muons
 due to the production of delta rays in the muon system which result in early timing measurements in the DTs. The shape of the distribution for cosmic-ray muons
 is caused by them passing through both the top and bottom halves of CMS and possibly having tracks be reconstructed in both halves.
 The timing of hits from the two tracks will be separated by approximately 40--80~ns.
