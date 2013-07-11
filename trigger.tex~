@@ -192,3 +192,8 @@ of the proton bunch to form a halo around the bunch. If the radius is large enou
 proton bunch reaches the center of CMS.
 The muon system track reconstruction used for the cosmic ray muon trigger is slightly different than for the collision trigger.
 However both reconstructions are required offline as discussed in section~\ref{sec:preselection} so no bias is introduced.
+
+Throughout the rest of this chapter, the data sample is defined to be events collected with the L2Mu+MET, Mu40, or PFMET150 triggers if in reference to the \muononly\ analysis
+For the other analyses it is defined to be events collected with either the Mu40 or PFMET150 triggers. The cosmic-ray control sample used in the \muononly\ analysis
+is defined to be events collected with cosmic-ray trigger discussed above. In all following discussions or figures, simulated samples must have passed one of the triggers
+associated with the relevant analysis.

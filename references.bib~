@@ -1,18 +1,29 @@
-@article{Chatrchyan:2012sp,
-      author         = "Chatrchyan, Serguei and others",
-      title          = "{Search for heavy long-lived charged particles in $pp$
-                        collisions at $\sqrt{s}=7$ TeV}",
-      collaboration  = "CMS Collaboration",
-      journal        = "Phys.Lett.",
-      volume         = "B713",
-      pages          = "408-433",
-      doi            = "10.1016/j.physletb.2012.06.023",
-      year           = "2012",
-      eprint         = "1205.0272",
-      archivePrefix  = "arXiv",
-      primaryClass   = "hep-ex",
-      reportNumber   = "CMS-EXO-11-022, CERN-PH-EP-2012-093",
-      SLACcitation   = "%%CITATION = ARXIV:1205.0272;%%",
+@article{PhysRevLett.13.508,
+  title = {Broken Symmetries and the Masses of Gauge Bosons},
+  author = {Higgs, Peter W.},
+  journal = {Phys. Rev. Lett.},
+  volume = {13},
+  issue = {16},
+  pages = {508--509},
+  year = {1964},
+  month = {Oct},
+  doi = {10.1103/PhysRevLett.13.508},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.13.508},
+  publisher = {American Physical Society}
+}
+
+@article{PhysRevLett.13.321,
+  title = {Broken Symmetry and the Mass of Gauge Vector Mesons},
+  author = {Englert, F. and Brout, R.},
+  journal = {Phys. Rev. Lett.},
+  volume = {13},
+  issue = {9},
+  pages = {321--323},
+  year = {1964},
+  month = {Aug},
+  doi = {10.1103/PhysRevLett.13.321},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.13.321},
+  publisher = {American Physical Society}
 }
 
 @phdthesis{Quertenmont:1361029,
@@ -23,8 +34,6 @@
       year         = "2010",
       note         = "presented Oct 2010",
 }
-
-
 
 
 @techreport{CMS-PAS-TRK-10-001,
@@ -778,7 +787,7 @@ archivePrefix = "arXiv",
 @article{Chatrchyan:2012sp,
       author         = "Chatrchyan, Serguei and others",
       title          = "{Search for heavy long-lived charged particles in $pp$
-                        collisions at $\sqrt{s}=7$ TeV}",
+                        collisions at $\sqrt{s} = 7$ TeV}",
       collaboration  = "CMS Collaboration",
       journal        = "Phys.Lett.",
       volume         = "B713",
@@ -816,4 +825,27 @@ archivePrefix = "arXiv",
       year         = "2006",
       note         = "There is an error on cover due to a technical problem for
                       some items",
+}
+
+
+
+
+
+
+@ARTICLE{2010EPJC...70.1165K,
+   author = {{Khachatryan}, V. and {Sirunyan}, A.~M. and {Tumasyan}, A. and 
+        {Adam}, W. and {Bergauer}, T. and {Dragicevic}, M. and {Er{\"o}}, J. and
+        {Fabjan}, C. and {Friedl}, M. and {Fr{\"u}hwirth}, R. and et al.},
+    title = "{CMS tracking performance results from early LHC operation}",
+  journal = {European Physical Journal C},
+archivePrefix = "arXiv",
+   eprint = {1007.1988},
+ primaryClass = "physics.ins-det",
+     year = 2010,
+    month = dec,
+   volume = 70,
+    pages = {1165-1192},
+      doi = {10.1140/epjc/s10052-010-1491-3},
+   adsurl = {http://adsabs.harvard.edu/abs/2010EPJC...70.1165K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }

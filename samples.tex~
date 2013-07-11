@@ -54,8 +54,8 @@ The \pt, $\eta$, and $\beta$ distributions of gluino and stop particles at gener
   \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenStop_geneta}
   \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenStop_genbeta}
  \end{center}
- \caption[Distribution of \pt, $\eta$, and $\beta$ for various stop ($\tilde{t}$) samples at generation]
-{Distribution of various kinematic variables for various stop samples at generation:
+ \caption[Distribution of \pt, $\eta$, and $\beta$ for various stop samples at generation]
+{Distribution of various kinematic variables for various stop ($\tilde{t}$) samples at generation:
 \pt\ (top left), $\eta$ (top right), and $\beta$ (bottom).
    \label{fig:GenStop}}
 \end{figure}
@@ -132,8 +132,8 @@ Bottom: $\beta$}
 
 All MC simulation events are overlaid with additional proton-proton collisions, see Section~\ref{sec:LHC}.
 Weights are given to the events so that the distribution of additional collisions in the MC simulation samples matches what is observed in data.
-The reconstruction of the event by CMSSW tries to identify each proton-proton collision as a primary vertex~\cite{2010EPJC...70.1165K}.
-The number of primary vertices after the reweighting is shown in Figure~\ref{fig:PV} for data and MC simulation.
+The reconstruction of the event by CMSSW tries to identify each proton-proton collision as a separate primary vertex~\cite{2010EPJC...70.1165K}.
+The distribution of the number of primary vertices found in events after the reweighting is shown in Figure~\ref{fig:PV} for data and MC simulation.
 The samples shown in the figure are required to have been collected with one of the triggers detailed in Sec.~\ref{sec:trigger}.
 
 \begin{figure}

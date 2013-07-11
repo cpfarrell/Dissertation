@@ -8,14 +8,14 @@ with a description of the measurements in the whole of the muon system given at 
 Particles that are produced at high momentum, greater than at least 10~GeV/$c$, by the LHC are of interest as they can be an indicator of physics
 beyond the SM. Muons have a mass of only 106 MeV/$c^2$ which means that even at a momentum of 10~GeV/$c$, muons will be traveling at a speed higher than 0.9999
 times the speed of light. The difference between this speed and the speed of light is much too small to be detected by CMS, so it can be
-taken that all high momentum muons have the same time of flight (TOF) from their production at the center of CMS to a given point in the muon system.
+taken that all high-momentum muons have the same time of flight (TOF) from their production at the center of CMS to a given point in the muon system.
 This time ranges from 20-40~ns depending on where in the muon system is being considered. An HSCP on the other hand, will still have a speed appreciably less than the speed
 of light even with a momentum of several hundred~GeV/$c$. For example, an HSCP with a mass of 300~GeV/$c$ and momentum of 500~GeV/$c$ will have a speed of
 0.86 times the speed of light, an experimentally observable difference from the speed of light.
 Thus, a measurement of timing in the muon system can be used to separate HSCP from SM muons.
 
 Additionally, as described in Section~\ref{sec:computing}, one of the main responsibilities  of the muon system is to trigger the readout of the data in the detector
-when a high momentum track is found. The muon system must be able to associate the tracks with a given bunch crossing to make sure the correct data are readout from CMS.
+when a high-momentum track is found. The muon system must be able to associate the tracks with a given bunch crossing to make sure the correct data are readout from CMS.
 The method to determine the timing synchronization of the CSC subsystem is described below.
 
 The commissioning of the muon system timing was done during 2010 and early 2011 running at a center--of--mass energy of 7~TeV.
@@ -23,7 +23,7 @@ In Chapter~\ref{sec:search}, searches for HSCP are presented which use
 timing measurements to identify HSCP based on data taken in 2012 at 8~TeV.
 To cover this whole period of time,
 multiple different data samples are used in this chapter. They were collected during different time periods of CMS running from 2010--2012, both before and after commissioning.
-All of the samples were collected by triggers looking for high momentum muons. A comparison with events collected by random sampling showed there to be no
+All of the samples were collected by triggers looking for high-momentum muons. A comparison with events collected by random sampling showed there to be no
 bias in the timing variables investigated due to the use of muon triggered events.
 The muons in the events are required to pass a Tight Muon~\cite{2012JInst...7P0002T} selection 
 criteria which are determined by the Muon Physics Object Group (POG) inside of the CMS collaboration.
@@ -41,16 +41,18 @@ As stated in Section~\ref{sec:subsystems}, the charge on cathode strips is sampl
 %The online measurement finds the peak of the charge distribution and associates it with the particular bunch crossing window. 
 %For offline determination of the position and 
 %time of the hits, the charge on cathode strips is sampled every 50ns.
-The time of the hits is estimated with a fit to the charge distribution. Calibration constants are subtracted from the times during reconstruction to center the times at zero.
-The constants are found for each chamber and are derived from times associated with high-quality, high-momentum muons. Cathode times have an RMS of approximately 7.0ns.
+The time of the hits is estimated with a fit to the charge distribution. Calibration constants are subtracted from the times during reconstruction 
+so that hits from high-momentum muons will have an average time of zero.
+%The constants are found for each chamber and are derived from times associated with high-quality, high-momentum muons.
+Cathode times have an RMS of approximately 7.0~ns.
 
 Signals from the anode wires are passed to a constant fraction discriminator which outputs a 40ns pulse
 that is then digitized every 25ns. Depending on when the pulse starts, the hit can have either one or two sequential time bits being high. Given the same
 first high bit, it can be inferred that hits with the next bit low arrived earlier than hits with the next bit high.
 Hits with only one high bit are estimated to have arrived at the time of that bit while those with two high are estimated to be from the average of the two bits, i.e. 12.5~ns
 later.
-Thus, it is possible to estimate the time of anode hits with a 12.5 ns quantization. The anode times are calibrated to have a mean of zero in the same method as
-per the cathode times. The resolution of the anode hit timing is approximately 8.6 ns.
+Thus, it is possible to estimate the time of anode hits with a 12.5 ns quantization. The anode times are calibrated to have a mean of zero 
+for high-momentum muons. The resolution of the anode hit timing is approximately 8.6 ns.
 
 
 The distribution of the time of anode and cathode hits in data is shown in Fig~\ref{fig:hittime}.
@@ -63,8 +65,8 @@ As can be seen in the right plot the anode time has a large tail of positive tim
       \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/timing/AnodeTime} \\
       \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/timing/CathodeTimeLog}
       \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/timing/AnodeTimeLog} \\
-      \caption[Distribution of time of anode and cathode hits]
-      {Distribution of time measured from cathode (left) and anode (right) hits.
+      \caption[Distribution of times of anode and cathode hits.]
+      {Distribution of times measured from cathode (left) and anode (right) hits.
 The top row shows the times with a linear y-axis scale and the bottom is with log scale.
 	}
       \label{fig:hittime}
@@ -88,8 +90,8 @@ The resolution on the segment times is 3.0ns.
   \begin{center}
       \includegraphics[width=0.44\textwidth]{figures/timing/StripAndWireSegmentTime}
       \includegraphics[width=0.44\textwidth]{figures/timing/StripAndWireSegmentTimeLog}
-      \caption[Distribution of times of segments]
-      {Times of segments associated with high-quality muons. Left with linear y-axis scale, right with log scale.
+      \caption[Distribution of times of segments.]
+      {Distribution of times of segments. Left with linear y-axis scale, right with log scale.
         }
       \label{fig:SegTimes}
   \end{center}
@@ -114,7 +116,7 @@ to arrive to the ALCT circuit board. A common offset per chamber can be applied 
 anode hits to give the best timing synchronization of the ALCTs. To determine the offset, the arrival time of the anode hits is studied offline. The average time of the anode
 hits from a chamber can be correlated with the probability that the same chamber will produce an ALCT in the bunch crossing 
 window before it should (pre-trigger) and after it should (post-trigger).
-This can be seen in Fig~\ref{fig:AnodevsprePost} (left), which shows the probabilities for each chamber to pre-trigger and post-trigger as a function of the average
+This can be seen in Figs~\ref{fig:AnodevsprePostLCT} which shows the probabilities for each chamber to pre-trigger and post-trigger as a function of the average
 anode time of each chamber. The data used in the plot was collected in 2010 before the full commissioning of the trigger timing was complete.
 The offsets for each chamber can be tuned to give an expected pre-trigger and post-trigger probability.
 The chambers are split into three categories depending on which station and ring they belong to. One category is chambers in the
@@ -124,18 +126,28 @@ slightly different so it is allowed for them to have different optimal times.
 \begin{figure}
   \begin{center}
       \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/ME11_Anode_vs_all3}
-      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/ME11_Anode_vs_TF_all} \\
-      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/Ring1_not11_Anode_vs_all3}
-      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/Ring1_not11_Anode_vs_TF_all} \\
-      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/Ring2_Anode_vs_all3}
-      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/Ring2_Anode_vs_TF_all} \\
-      \caption[CSC pre-triggering and post-triggering versus average anode time for LCTs and expected behavior at CSCTF]
-      {Pre-triggering and post-triggering probability versus average anode time. Left column shows the pre-triggering and post-triggering for LCTs.
-Right column shows what would be expected at the CSCTF when only two track stubs are found.
-Top row for chambers in the innermost ring and station. Middle row is for all other chambers in the innermost ring.
-Last row is for all other chambers.
+      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/Ring1_not11_Anode_vs_all3} \\
+      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/Ring2_Anode_vs_all3} \\
+      \caption[LCT pre-triggering and post-triggering probability versus average anode time.]
+      {LCT pre-triggering and post-triggering probability versus average anode time. 
+Top left for chambers in the innermost ring and station. Top right is for all other chambers in the innermost ring.
+Bottom is for all other chambers.
         }
-      \label{fig:AnodevsprePost}
+      \label{fig:AnodevsprePostLCT}
+  \end{center}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/ME11_Anode_vs_TF_all} 
+      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/Ring1_not11_Anode_vs_TF_all} \\
+      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=0.44\textwidth]{figures/timing/Ring2_Anode_vs_TF_all} \\
+      \caption[Excpected CSCTF pre-triggering and post-triggering probability versus average anode time]
+      {Expected CSCTF pre-triggering and post-triggering probability versus average anode time when only two track stubs are found.
+Top left for chambers in the innermost ring and station. Top right is for all other chambers in the innermost ring.
+Bottom is for all otherchambers.
+        }
+      \label{fig:AnodevsprePostCSCTF}
   \end{center}
 \end{figure}
 
@@ -146,7 +158,7 @@ bunch crossing window.  In order to pre-trigger the readout of the event, more t
 On the other hand, if it receives one LCT in the correct bunch crossing window and one in the proceeding bunch crossing window, the track will be associated with the
 bunch crossing window following the collision. Thus, the probability to pre-trigger the event can be written as $P_{-}^2$ while the post-trigger probability can be written as
 $2 \times P_{+} - P_{+}^2$ where $P_{-}$ is the probability to pre-trigger and $P_{+}$ is the probability to post-trigger.
-Figure~\ref{fig:AnodevsprePost} (right) shows the expected probability to pre-trigger and post-trigger at the CSCTF assuming it receives two track stubs versus
+Figure~\ref{fig:AnodevsprePostCSCTF} shows the expected probability to pre-trigger and post-trigger at the CSCTF assuming it receives two track stubs versus
 the average anode time of a chamber.
 
 From these plots an optimal value of 204~ns is chosen for the chambers in the first ring not in the first station and 205~ns for all other chambers.
@@ -160,7 +172,7 @@ For these reasons slightly later times that still have very low post-triggering 
 The offsets can be moved in roughly 2~ns steps in the chamber electronics with the actual number possibly being different chamber to chamber. Shifting the offsets is a
 somewhat complicated procedure and carries the risk of accidentally shifting the timing of a chamber by a large amount. Thus, the offsets are changed only
 when deemed necessary and iterations to get a perfect synchronization are minimized. The synchronization with respect to the optimal values for all chambers
-is shown in Fig.~\ref{fig:average_anodes} in data taken in 2010 after the offsets had been adjusted.
+is shown in Fig.~\ref{fig:average_anodes} using data taken in 2010 after the offsets had been adjusted.
 Most of the chambers are within one ns of the optimal time with none more than three ns off.
 
 \begin{figure}
@@ -174,13 +186,13 @@ Most of the chambers are within one ns of the optimal time with none more than t
 \end{figure}
 
 After this synchronization procedure is performed the timing of the LCTs is very good. This can be seen in Fig.~\ref{fig:ALCTBX} which shows the bunch crossing window
-assigned to LCTs matched to high-quality muons. The distribution is purposefully made asymmetric to account for the CSCTF logic used further downstream.
+assigned to LCTs. The distribution is purposefully made asymmetric to account for the CSCTF logic used further downstream.
 The efficiency to associate the LCT with the correct bunch crossing is 99\%, better than the 92\% design requirement from~\cite{Chatrchyan:2008zzk}.
 
 \begin{figure}
   \begin{center}
       \includegraphics[clip=true, width=0.44\textwidth]{figures/timing/ALCT_Bx}
-      \caption[Fraction of LCTs versus LCT bunch crossing window assignment relative to collision event]
+      \caption[Fraction of LCTs versus LCT bunch crossing window assignment.]
       {Fraction of LCTs versus LCT bunch cross assignment relative to collision event
         }
       \label{fig:ALCTBX}
@@ -228,7 +240,7 @@ t = d/v - d/c + t_0 = (d / c) \times (\beta^{-1} - 1) + t_0 \\
 Different assumptions can be taken on how the \invbeta\ and $t_0$ parameters are fixed, producing two different variables.
 %The three assumptions relate to how the \invbeta\ and $t_0$ parameters are fixed and produce three different variables. 
 The formula has two pieces of input datum: time and distance. The distance
-from the interaction point to the hit location is known to a much better degree than the time of the hit so the uncertainty on the variables
+from the interaction point to the hit location is known to a much better degree than the time of the hit, so the uncertainty on the variables
 is assumed to come entirely from the time measurement.
 
 The first variable is the speed of the particle assuming it left the origin at $t_0 = 0$ reducing Eq.~\ref{eq:speedred} to 
@@ -258,7 +270,7 @@ Each DT $\phi$ layer can provide a measurement but the times are not independent
 hit in the chamber.
 %The weighting by one over variance and outlier cleaning is performed for all three measurements.
 
-The motivation for using \invbeta\ now becomes clear; the \invbeta\ measurement
+The motivation for using \invbeta\ can now be seen; the \invbeta\ measurement
 is linear with t, the source of its uncertainty. This means that \invbeta\ will have a much more normal shape than $\beta$ which would be skewed.
 An important point here is that the distribution will be close to symmetrical for near speed-of-light muons coming from the LHC.
 
@@ -273,7 +285,7 @@ The speed of the particle is very useful in separating SM muons from HSCP produc
 Figure~\ref{fig:invbeta} shows the \invbeta\ measurement, its uncertainty, and the number of degrees of freedom (d.o.f.) for the measurement for:
 data collected in 2012 at 8~TeV, dominated by collision muons; 
 muons from the simulated Drell-Yan production of Z bosons and photons at 8~TeV; cosmic-ray muons, the sample is defined in Section~\ref{sec:samples};
-and HSCPs, again the sample is defined in Section~\ref{sec:samples}. All of the samples are required to pass the tight requirements on track quality
+and a 494~GeV stau HSCP sample, again the sample is defined in Section~\ref{sec:samples}. All of the samples are required to pass the tight requirements on track quality
 as defined by the Muon POG except for the cosmic-ray muon sample for which the only requirement is that the track be reconstructed in the muon system.
 It can be seen that the \invbeta\ measurement for data and simulated muons are strongly peaked at one, the cosmic-ray muons are roughly flat, while
 the HSCP have \invbeta\ greater than one, indicating they are traveling slowly. The \invbeta\ measurement is slightly asymmetric about one for data and simulated muons
@@ -290,9 +302,9 @@ after zero, if the top track triggered the readout of CMS. These two possibiliti
       \includegraphics[width=0.49\textwidth]{figures/timing/TOFLog} \\
       \includegraphics[width=0.49\textwidth]{figures/timing/TOFErr}
       \includegraphics[width=0.49\textwidth]{figures/timing/TOFNDof} \\
-      \caption[Distribution of \invbeta\ and associated quantities]
+      \caption[Distribution of \invbeta\ and associated quantities.]
       {Distribution of \invbeta\ and associated quantities for data,
-simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated HSCPs.
+simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated stau HSCP.
 The top row is the \invbeta\ measurement with linear y-axis scale (left) and log scale (right).
 The bottom row is the uncertainty on the \invbeta\ measurement (left) and the number of degrees of freedom for the measurement (right).
 For all plots the leftmost and rightmost bins contain the underflow and overflow, respectively.
@@ -308,7 +320,8 @@ to be less than 0.07 and for the measurement to have at least eight degrees of f
 
 The average \invbeta\ value as a function of $\eta$ and \pt\ is shown in Fig.~\ref{fig:invbetaQual} (bottom row) for the same data sample described above
 with the quality requirements on the \invbeta\ measurement applied.
-The average can be seen to have small fluctuations versus $\eta$ over most of the $\eta$ range with a larger deviation at the most extreme $|\eta|$ values.
+The average can be seen to have small fluctuations versus $\eta$ over the $\eta$ range.
+The deviations are due to segmentations in the muon system.
 The average is almost completely flat against the reconstructed \pt\ of the muon.
 
 \begin{figure}
@@ -317,10 +330,10 @@ The average is almost completely flat against the reconstructed \pt\ of the muon
       \includegraphics[width=0.49\textwidth]{figures/timing/TOFQualLog} \\
       \includegraphics[width=0.49\textwidth]{figures/timing/TOFVsEta}
       \includegraphics[width=0.49\textwidth]{figures/timing/TOFVsPt} \\
-      \caption[Distribution of \invbeta\ and associated quantities after applying quality requirements]
+      \caption[Distribution of \invbeta\ and associated quantities after applying quality requirements.]
       {Distribution of \invbeta\ and associated quantities after applying quality requirements. 
 The top row is the \invbeta\ measurement with linear y-axis scale (left) and log scale (right) for data,
-simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated HSCPs.
+simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated stau HSCP.
 Both plots have the underflow and overflow included in the leftmost and rightmost bins, respectively.
 The bottom row is the average \invbeta\ measurement versus $\eta$ (left) and \pt\ (right).
         }
@@ -346,9 +359,9 @@ Timing in the muon system could be used to identify and remove these muons.
       \includegraphics[width=0.49\textwidth]{figures/timing/VertexLog} \\
       \includegraphics[width=0.49\textwidth]{figures/timing/VertexErr}
       \includegraphics[width=0.49\textwidth]{figures/timing/VertexNDof} \\
-      \caption[Distribution of vertex time and associated quantities]
+      \caption[Distribution of vertex time and associated quantities.]
       {Distribution of vertex time and associated quantities for data,
-simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated HSCPs.
+simulated Drell-Yan production of photons and Z bosons decaying to muons (DY), muons from cosmic-rays, and simulated stau HSCP.
 The top row is the vertex time measurement with linear y-axis scale (left) and log scale (right).
 The bottom row is the uncertainty on the vertex time measurement (left) and the number of degrees of freedom for the measurement (right).
 For all plots the leftmost and rightmost bins contain the underflow and overflow, respectively.
@@ -356,25 +369,6 @@ For all plots the leftmost and rightmost bins contain the underflow and overflow
       \label{fig:vertextime}
   \end{center}
 \end{figure}
-
-%The last variable, time at vertex out in, is similar but it assumes the particle is traveling into CMS, such that the parameter $t_0$ represents the time an incoming particle
-%would have crossed the interaction point. This can be an interesting property because tracks can be found in the inner tracker within a small time window so an incoming
-%cosmic reconstructed in the inner tracker would likely have a $t_0$ from this measurement near zero. 
-%The measurement assumes \invbeta\ = -1 reducing~\ref{eq:speed} to $t = -2 (d / c) + t_0$ which can be written to $t_0 = -2 (d / c) + t$ which makes it clear that
-%$t_0$ can be found as the average of this quantity with weights like the previous measurement. Figure~\ref{fig:vertexopptime} shows the distribution of this time
-%for the same three samples as above.
-
-%\begin{figure}
-%  \begin{center}
-%      \includegraphics[width=0.44\textwidth]{figures/timing/VertexOpp}
-%      \includegraphics[width=0.44\textwidth]{figures/timing/VertexOppErr} \\
-%      \caption[Distribution of time at vertex out in and the uncertainty on time at vertex out in]
-%     {Distribution of time at vertex out in and the uncertainty on time at vertex out in for data,
-%simulated Drell-Yan production of photons and Z boson decaying to muons (DY), muons from cosmic-rays, and simulated HSCPs
-%}
-%      \label{fig:vertexopptime}
-%  \end{center}
-%\end{figure}
 
 The question may be asked why not to make a measurement without making any assumptions on $t_0$ or \invbeta. This was checked but it was found to have
 resolution worse by more than an order of magnitude and very little discriminatory power.

@@ -395,7 +395,7 @@
 	    \large \scshape
 	    \if@pubs
 	       \if@pres Publications and Presentations
-	       \else    Publications
+	       \else    Selected Publications
 	       \fi
 	    \else       Presentations
 	    \fi

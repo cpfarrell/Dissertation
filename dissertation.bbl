@@ -37,6 +37,16 @@ Mark Srednicki.
 \newblock {\em Quantum Field Theory}.
 \newblock Cambridge University Press, 1 edition, February 2007.
 
+\bibitem{PhysRevLett.13.508}
+Peter~W. Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock {\em Phys. Rev. Lett.}, 13:508--509, Oct 1964.
+
+\bibitem{PhysRevLett.13.321}
+F.~Englert and R.~Brout.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
+
 \bibitem{Chatrchyan:2012ufa}
 Serguei Chatrchyan et~al.
 \newblock {Observation of a new boson at a mass of 125 GeV with the CMS
@@ -102,6 +112,22 @@ G.~Bayatian et~al.
 \newblock {Performance of CMS muon reconstruction in pp collision events at
   $\sqrt{s}=7$ TeV}.
 \newblock {\em Journal of Instrumentation}, 7:2P, October 2012.
+
+\bibitem{Sjostrand:2007gs}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput.Phys.Commun.}, 178:852--867, 2008.
+
+\bibitem{Paige:2003mg}
+Frank~E. Paige, Serban~D. Protopopescu, Howard Baer, and Xerxes Tata.
+\newblock {ISAJET 7.69: A Monte Carlo event generator for pp, anti-p p, and
+  e+e- reactions}.
+\newblock 2003.
+
+\bibitem{Lefebure:1999wja}
+Veronique Lefebure, Sudeshna Banerjee, and I.~Gonzalez.
+\newblock {CMS Simulation Software Using Geant4}.
+\newblock 1999.
 
 \bibitem{2003physics...6117A}
 D.~Acosta et~al.
@@ -201,7 +227,7 @@ Serguei Chatrchyan et~al.
 \bibitem{Chatrchyan:2012sp}
 Serguei Chatrchyan et~al.
 \newblock {Search for heavy long-lived charged particles in $pp$ collisions at
-  $\sqrt{s}=7$ TeV}.
+  $\sqrt{s} = 7$ TeV}.
 \newblock {\em Phys.Lett.}, B713:408--433, 2012.
 
 \bibitem{Aad:2012vd}
@@ -237,21 +263,10 @@ G.F. Giudice and A.~Romanino.
 \newblock {Split supersymmetry}.
 \newblock {\em Nucl.Phys.}, B699:65--89, 2004.
 
-\bibitem{Sjostrand:2007gs}
-Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
-\newblock {A Brief Introduction to PYTHIA 8.1}.
-\newblock {\em Comput.Phys.Commun.}, 178:852--867, 2008.
-
 \bibitem{Allanach:2002nj}
 B.C. Allanach, M.~Battaglia, G.A. Blair, Marcela~S. Carena, A.~De~Roeck, et~al.
 \newblock {The Snowmass points and slopes: Benchmarks for SUSY searches}.
 \newblock {\em Eur.Phys.J.}, C25:113--123, 2002.
-
-\bibitem{Paige:2003mg}
-Frank~E. Paige, Serban~D. Protopopescu, Howard Baer, and Xerxes Tata.
-\newblock {ISAJET 7.69: A Monte Carlo event generator for pp, anti-p p, and
-  e+e- reactions}.
-\newblock 2003.
 
 \bibitem{Sjostrand:2006za}
 Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.

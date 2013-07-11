@@ -2,12 +2,13 @@
 
 \section{Introduction}
 Our understanding of particles and how they interact is constantly evolving through new experimental results and theoretical breakthroughs.
-In this chapter, the current theoretical framework in particle physics is briefly described. Also, theories of physics beyond this framework are introduced,
-with a focus on theories which predict the existence of new long-lived charged particles.
+In this chapter, the current theoretical framework in particle physics and theories of physics beyond this framework are briefly described.
+The discussion is focused towards the theoretical background for searches for new long-lived charged particles with the Compact Muon Solenoid (CMS) experiment
+at the Large Hadron Collider (LHC) (see Ch.~\ref{sec:app}).
 
 \section{Standard Model \label{sec:SM}}
-The Standard Model (SM) of particle physics is a framework for describing fundamental and composite particles and the forces that govern how they interact. 
-More information about the Standard Model can be found in~\cite{griffiths2008introduction, Srednicki_2007}.
+The standard model (SM) of particle physics is a framework for describing fundamental and composite particles and the forces that govern how they interact. 
+A summary of the SM is given below, more information can be found in~\cite{griffiths2008introduction, Srednicki_2007}.
 
 Particles in the SM are split into two types: bosons, which have integer spin, and fermions, which have half integer spin.
 The bosons are the carriers of the forces of the SM while the fermions act as the matter fields.
@@ -27,16 +28,17 @@ A mixture of the weak isospin and hypercharge groups are responsible for the wea
 isospin group while the right handed fermions are singlets as they do not interact with the raising and lowering operators of the SU(2) group.
 The weak force is carried by the $W$ and $Z$ bosons while the electromagnetic force is carried by the photon.
 
-The last of the bosons in the SM to be discovered is the Higgs Boson. The Higgs Boson is a scalar which allows it to have a non-zero vacuum expectation value (VEV).
+The last of the bosons in the SM to be discovered is the Higgs Boson. The Higgs Boson is a scalar which allows it to have a non-zero vacuum expectation value 
+(VEV)~\cite{PhysRevLett.13.508, PhysRevLett.13.321}.
 This non-zero VEV breaks the electroweak symmetry and results in the $W$ and $Z$ bosons acquiring mass while the photon remains massless.
 The Higgs Boson's non-zero VEV also gives mass to the fermions by allowing for a coupling between the singlet right handed fermions and doublet left handed fermions
 which is otherwise not allowed.
 %Describe the Higgs mechanism in this paragraph, don't really know how to do it currently.
-In July 2012, the CMS and ATLAS experiments at the Large Hadron Collider
-(see Ch.~\ref{sec:app}) announced the discovery of a new particle with properties similar to the Higgs Boson~\cite{Chatrchyan:2012ufa, Aad:2012tfa}.
+In July 2012, the CMS and ATLAS experiments at the LHC
+announced the discovery of a new particle with properties similar to the Higgs Boson~\cite{Chatrchyan:2012ufa, Aad:2012tfa}.
 %If the particle is confirmed to be the Higgs Boson, this would represent the final particle of the SM to be discovered.
 
-The fermions in the standard model are split between quarks and leptons. Both the quarks and leptons are arranged into three families,
+The fermions in the SM are split between quarks and leptons. Both the quarks and leptons are arranged into three families,
 with each family containing two quarks and two leptons. 
 %Figure~\ref{fig:SM} (source CERN) shows all the confirmed particles in the SM along with their mass, electric charge, and spin.
 The first family contains the up and down quarks, the electron, and the electron neutrino.
@@ -57,8 +59,8 @@ an antiparticle with the opposite charge.
 The quarks and gluons have color charge and interact through the strong force. There are three copies of each quark for each of the three different color charges.
 The strength of the strong force increases with distance leading to color confinement where no free particles can exist with color charge.
 Thus all quarks and gluons will form composite particles that are color neutral, called hadrons. There are two types of hadrons that have experimentally observed.
-The first is a quark and an anti-quark referred to as mesons such as a charged pion which is made of an up quark and and down antiquark.
-The second is three quarks (or anti-quarks) referred to as baryons and includes the proton and neutron.
+The first is a quark and an anti-quark referred to as a meson, such as a charged pion which is made of an up quark and a down antiquark.
+The second is three quarks (or anti-quarks) referred to as a baryon, such as the proton and neutron.
 Mesons and baryons can be either electrically charged or neutral.
 Other combinations of quarks and gluons would be color neutral but have not been observed in nature.
 One example is a pair of gluons that would always be electrically neutral.
@@ -78,7 +80,7 @@ The proton-proton collisions at the LHC will create vast numbers of these SM par
 a large majority of the events will be the production of light quarks and gluons. A small fraction of the events (though a large total number given the very
 high rate of collisions at the LHC) will produce particles such as $W$ and $Z$ bosons, top quarks, and the Higgs Boson.
 These particles will quickly decay into other SM particles like muons, electrons, and b quarks. This production of stable and long lived SM particles,
-particularly muons, form part of the background for the search for HSCP detailed in Chapter~\ref{sec:search}.
+particularly muons, form part of the background for the search for new heavy long-lived particles detailed in Chapter~\ref{sec:search}.
 
 %\subsection{Cosmic rays \label{sec:cosmics}}
 The production of SM particles proceeds not only in the proton-proton collisions at the LHC but also through astrophysical processes.
@@ -105,7 +107,7 @@ charged particles (HSCP) with lifetimes greater than a few nanoseconds, long eno
 One of the most popular BSM theories is supersymmetry (SUSY). A new symmetry is added that gives
 each SM particle a superpartner particle with spin different by one half. The SUSY particles interact with the same coupling as their SM particles.
 The names of the SUSY particles are generally found by prepending an s (for scalar) to the SUSY partners of spin 1/2 particles;
-so the SUSY partner of the electron is the selectron. The names of other particles is found by adding --ino to the end of their names,
+so the SUSY partner of the electron is the selectron. The names of other particles are found by adding --ino to the end of their names,
 so the higgs SUSY partner is the higgsino.
 As no SUSY particles have yet been discovered the
 symmetry must be broken at some scale giving the SUSY particles masses larger than SM particles. In order to address the unresolved issues in the SM, this mass gap is
@@ -125,7 +127,8 @@ a bottom quark to be kinematically allowed.
 Then the stop decay happens via the radiative decay to a charm quark and neutralino making the stop very long-lived.
 
 Another variant of supersymmetry is split SUSY. In split SUSY, scalar SUSY particles have very large masses while other particles remain at the TeV scale.
-The gluino $\tilde{g}$ (superpartner of the gluon) decay through virtual squarks is suppressed by a factor of $\tilde{m}^{-2}$ allowing for the gluino to be quite long-lived.
+The gluino $\tilde{g}$ (superpartner of the gluon) then decays through virtual squarks which 
+is suppressed by a factor of $\tilde{m}^{-2}$ allowing for the gluino to be quite long-lived.
 
 Gluinos and stops have color charge and as such will form composite hadrons with SM quarks and gluons after production, referred to as $R$--hadrons.
 These $R$--hadrons can be $R$--mesons, $R$--baryons, or, for gluinos, a glueball made of a gluino and a SM gluon.

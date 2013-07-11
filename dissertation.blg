@@ -2,23 +2,24 @@ This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: dissertation.aux
 The style file: unsrt.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 61 of file references.bib
+I was expecting a `,' or a `}'---line 72 of file references.bib
  :    
  :    year = 2008,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 776 of file references.bib
- : @article{Chatrchyan:2012sp
- :                           ,
+Repeated entry---line 764 of file references.bib
+ : @article{Paige:2003mg
+ :                      ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Chatrchyan:2013lba
 Warning--empty journal in Martin:1997ns
 Warning--empty journal in Tata:1997uf
+Warning--empty journal in Paige:2003mg
+Warning--empty journal in Lefebure:1999wja
 Warning--empty journal in 2007AN049
 Warning--empty note in Chatrchyan::2012dr
 Warning--empty note in ATLASmCHAMPs
 Warning--empty note in CahillRowley:2012kx
-Warning--empty journal in Paige:2003mg
 Warning--empty author in CMS:2010xta
 Warning--empty journal in CMS:2010xta
 Warning--empty author in CMS-PAS-JME-12-002
@@ -27,45 +28,45 @@ Warning--empty year in 2008AN097
 Warning--empty journal in Read:451614
 Warning--there's a number but no volume in Read:451614
 Warning--empty author in CMS-PAS-TRK-10-002
-You've used 59 entries,
+You've used 62 entries,
             1791 wiz_defined-function locations,
-            790 strings with 11776 characters,
-and the built_in function-call counts, 10922 in all, are:
-= -- 930
-> -- 497
+            809 strings with 12162 characters,
+and the built_in function-call counts, 11537 in all, are:
+= -- 988
+> -- 520
 < -- 3
-+ -- 190
-- -- 131
-* -- 635
-:= -- 1865
-add.period$ -- 179
-call.type$ -- 59
-change.case$ -- 54
++ -- 199
+- -- 137
+* -- 677
+:= -- 1965
+add.period$ -- 188
+call.type$ -- 62
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 503
-empty$ -- 1091
-format.name$ -- 131
-if$ -- 2405
+cite$ -- 79
+duplicate$ -- 529
+empty$ -- 1151
+format.name$ -- 137
+if$ -- 2536
 int.to.chr$ -- 0
-int.to.str$ -- 59
-missing$ -- 56
-newline$ -- 298
-num.names$ -- 56
-pop$ -- 131
+int.to.str$ -- 62
+missing$ -- 59
+newline$ -- 313
+num.names$ -- 59
+pop$ -- 138
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 194
+skip$ -- 204
 stack$ -- 0
-substring$ -- 531
-swap$ -- 49
+substring$ -- 581
+swap$ -- 51
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 16
-while$ -- 92
-width$ -- 61
-write$ -- 627
+warning$ -- 17
+while$ -- 99
+width$ -- 64
+write$ -- 658
 (There were 2 error messages)
