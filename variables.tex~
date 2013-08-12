@@ -4,17 +4,17 @@ The momentum of a particle can be determined by its bending in the magnetic fiel
 The slow speed of HSCPs lead to two interesting detector signatures. The first is that the particles will arrive at the detector elements later than SM particles will.
 The muon system, being the furthest detector element from the interaction point, has the largest timing difference. The measurement of the arrival time of particles in the
 muon system is discussed in Ch.~\ref{sec:timing}. The \invbeta\ variable is used in the searches to discriminate between HSCPs and SM particles.
-The second interesting signature is that HSCP have a larger amount of ionization energy loss per unit length 
+The second interesting signature is that HSCPs have a larger amount of ionization energy loss per unit length 
 than SM particles of the same momentum as discussed below.
 
 \subsection{Transverse Momentum Measurement \label{sec:PMeasurement}}
 A muon passing through CMS will likely be reconstructed three times~\cite{2012JInst...7P0002T}; once only in the silicon tracker, referred to as a tracker track;
 once only in the muon system, referred to as a stand-alone muon; and once as a combined track found in both the muon system and silicon tracker, referred
-to as a global muon. CMS measures the curvature of a track which is proportional to and can be used to determine the $Q/p_T$ of the track.
+to as a global muon. CMS measures the curvature of a track which is proportional to, and can be used to determine, the $Q/p_T$ of the track.
 In the central region of CMS, tracker tracks have a resolution on $Q/p_T$ of 1\% for muons at intermediate momentum and 7\% at
 high momentum with the resolution being approximately
 twice as large in the forward region. Intermediate momentum is defined as 15--100~GeV and high momentum is defined as 400--1000 GeV.
-Stand-Alone muons in the central region have a resolution on $Q/p_T$ of 8\% for intermediate momentum and 25\%~\cite{2008AN097} for high momentum with the uncertainty again
+Stand-alone muons in the central region have a resolution on $Q/p_T$ of 8\% for intermediate momentum and 25\%~\cite{2008AN097} for high momentum with the uncertainty again
 being about twice as large in the forward region. The resolution for global muons is the same as for tracker muons for intermediate momentum and is slightly better
 than tracker muons at high momentum at 6\% in the central region.
 
@@ -60,7 +60,8 @@ The slight discontinuity at negative one is due to particularities of the recons
 The stop sample, which is not able to flip charge but merely to switch
 between one sign and zero, is centered at zero but with a slightly wider
 width than data or CD stau.
-The gluino sample, which can flip charge, is centered closer to negative one meaning that
+The gluino sample, which can flip charge, is centered closer to negative one.
+This means that
 the reconstructed $p_T$ is normally larger than what is generated, sometimes
 to a very large degree. This increases the differences between gluino HSCPs and the background.
 
@@ -103,7 +104,7 @@ Techniques described below are used to help mitigate the effect of this radiativ
 %SM particles with a momentum above 10~GeV will all have mean \dedx\ close to the minimum value
 %($\approx$ 3MeV/cm) and are referred to as minimum ionizing particles (MIPs).
 
-A short description of the \dedx\ measurement is included here, a more detailed description can be found in~\cite{CMS-PAS-TRK-10-001, Khachatryan:2011ts, Quertenmont:1361029}.
+A short description of the \dedx\ measurement is included here, a more detailed description can be found in~\cite{2010EPJC...70.1165K, Khachatryan:2011ts, Quertenmont:1361029}.
 As in~\cite{Chatrchyan:2012sp}, two variables related to \dedx\ are calculated for each track. 
 The first is a harmonic mean of the \dedx\ measurements along the track;
 \begin{equation}

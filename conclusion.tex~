@@ -1,4 +1,6 @@
 \chapter{Conclusion \label{sec:conclusion}}
+The optimization of the measuement of the arrival time of particles in the CMS muon system and multiple searches for heavy long-lived charged particles
+are presented in this paper.
 
 The measurement of the arrival time of hits in the CMS muon system is important for two reasons.
 The first is to quickly associate hits in the muon system with the appropriate LHC bunch crossing so that the data in the other subdetectors about this
@@ -12,7 +14,7 @@ and would be traveling at an appreciably slower speed than muons. Four searches 
 for particles of this type, each being sensitive to different signatures inside of CMS. 
 The searches were performed by looking for tracks with some combination of high momentum, late arrival time in the muon system,
 or large ionization energy loss in the inner tracker.
-Backgrounds to the searches were muons form the collisions and in one of the searches, muons from cosmic rays.
+Backgrounds to the searches were muons from the collisions and, in one of the searches, muons from cosmic rays.
 The background in the signal region was predicted using control regions in data and the 
 robustness of the prediction was checked by looking in the control region where particles would be traveling faster than the speed of light.
 

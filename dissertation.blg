@@ -1,72 +1,55 @@
 This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: dissertation.aux
-The style file: unsrt.bst
+The style file: JHEP.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 72 of file references.bib
- :    
- :    year = 2008,
-(Error may have been on previous line)
+Repeated entry---line 321 of file references.bib
+ : @article{Aad:2011hz
+ :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 764 of file references.bib
- : @article{Paige:2003mg
- :                      ,
-I'm skipping whatever remains of this entry
-Warning--empty journal in Chatrchyan:2013lba
-Warning--empty journal in Martin:1997ns
-Warning--empty journal in Tata:1997uf
-Warning--empty journal in Paige:2003mg
-Warning--empty journal in Lefebure:1999wja
-Warning--empty journal in 2007AN049
-Warning--empty note in Chatrchyan::2012dr
-Warning--empty note in ATLASmCHAMPs
-Warning--empty note in CahillRowley:2012kx
-Warning--empty author in CMS:2010xta
-Warning--empty journal in CMS:2010xta
 Warning--empty author in CMS-PAS-JME-12-002
-Warning--empty journal in 2008AN097
-Warning--empty year in 2008AN097
-Warning--empty journal in Read:451614
-Warning--there's a number but no volume in Read:451614
-Warning--empty author in CMS-PAS-TRK-10-002
+Warning--empty author in SMP-12-008
+Warning--empty institution in SMP-12-008
+Warning--empty author in CMS:2010mua
+Warning--empty institution in CMS:2010mua
 You've used 62 entries,
-            1791 wiz_defined-function locations,
-            809 strings with 12162 characters,
-and the built_in function-call counts, 11537 in all, are:
-= -- 988
-> -- 520
-< -- 3
-+ -- 199
-- -- 137
-* -- 677
-:= -- 1965
-add.period$ -- 188
+            2195 wiz_defined-function locations,
+            929 strings with 12435 characters,
+and the built_in function-call counts, 17593 in all, are:
+= -- 1842
+> -- 502
+< -- 1
++ -- 192
+- -- 130
+* -- 1371
+:= -- 2372
+add.period$ -- 76
 call.type$ -- 62
-change.case$ -- 57
+change.case$ -- 59
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 529
-empty$ -- 1151
-format.name$ -- 137
-if$ -- 2536
+cite$ -- 67
+duplicate$ -- 986
+empty$ -- 1709
+format.name$ -- 130
+if$ -- 4552
 int.to.chr$ -- 0
 int.to.str$ -- 62
-missing$ -- 59
-newline$ -- 313
-num.names$ -- 59
-pop$ -- 138
+missing$ -- 194
+newline$ -- 201
+num.names$ -- 58
+pop$ -- 244
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 204
+skip$ -- 673
 stack$ -- 0
-substring$ -- 581
-swap$ -- 51
-text.length$ -- 3
+substring$ -- 844
+swap$ -- 403
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 17
-while$ -- 99
+warning$ -- 5
+while$ -- 121
 width$ -- 64
-write$ -- 658
-(There were 2 error messages)
+write$ -- 671
+(There was 1 error message)

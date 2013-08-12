@@ -2,8 +2,8 @@
 
 The signal efficiency for all the analyses is determined from MC simulation. To assess how well simulation matches data, numerous studies were performed using control samples.
 The largest uncertainty for most of the signals is the trigger efficiency uncertainty. For low mass samples, the uncertainty on the selection variables becomes
-dominant as the HSCP become more relativistic. For multiply charged samples, the uncertainty on the amount of material in CMS, which affects the fraction of $Q>e$ particles
-to stop before the muon system, is dominant.
+dominant as the HSCPs become more relativistic. For multiply charged samples, the uncertainty on the amount of material in CMS, which affects the fraction of $Q>e$ particles
+that stop before the muon system, is dominant.
 
 \subsection{Trigger Efficiency Uncertainty}
 
@@ -113,7 +113,7 @@ Multiply charged particles deposit a large amount of energy in the calorimeter a
 This is particularly important for high charge, low mass samples, because if the particle has enough energy to pass through the calorimeter then it will
 be traveling at a high speed and be unlikely to pass the threshold on \invbeta. Uncertainty on the amount of detector material, determined mostly by the
 HCAL, affects the number of HSCP that will stop. There is a conservative 5\% uncertainty on the material budget as measured by energy loss of cosmic ray muons
-passing through CMS~\cite{2010JInst...5T3021C}. Shifting the material density by this amount for a few signal samples has at most a 20\% effect
+passing through CMS~\cite{Chatrchyan:2009si}. Shifting the material density by this amount for a few signal samples has at most a 20\% effect
 for the lowest mass, highest $Q$ samples. This 20\% uncertainty is conservatively taken for all multiply charged samples.
 
 \subsection{Total Signal Efficiency Uncertainty}
@@ -179,7 +179,7 @@ Bottom row: Q = 4e (left) and 7e (right) in the \multi\ analysis.}
 The total signal efficiency uncertainty for all considered models is shown in
 Figure~\ref{fig:TotalUnc} for the four analyses. The signal efficiency uncertainty used for each signal point is what is shown in this figure.
 For all analyses except for the \multi\ analysis, the uncertainty is less than 15\% for all signal points and less than 10\% for a large majority of signal points.
-The large uncertainty on the amount of detector material results in the uncertainty for the multiply charged particles to be between 20\% and 30\%.
+For multiply charged samples, the uncertainty on the amount of detector material results in the total uncertainty to be between 20\% and 30\%.
 
 \begin{figure}[ht]
 \centering

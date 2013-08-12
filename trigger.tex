@@ -1,7 +1,7 @@
 \section{Trigger \label{sec:trigger}}
 As discussed in Sec.~\ref{sec:computing}, in order for an event to be triggered for readout it must pass one of a collection of algorithms.
-The data used in this chapter is required to have been collected by algorithms looking for a high momentum track to be found
-and/or missing transverse energy, MET, as calculated by the particle flow algorithm~\cite{CMS:2010xta}. 
+The data used in this chapter is required to have been collected by triggers looking for a high momentum track to be found
+and/or missing transverse energy, MET, as calculated by the particle flow algorithm~\cite{Chatrchyan:2011tn}. 
 
 The particle flow algorithm attempts
 to reconstruct all particles in an event, then calculates MET as the magnitude of the negative vector sum of the transverse momenta of the particles. 
@@ -89,15 +89,15 @@ down to a few Hertz. The momentum measurement by the muon system suffers from lo
 Events collected with this trigger are only used in the \muononly\ analysis.
 
 The second trigger used, Mu40, requires a high momentum track matched in both the silicon tracker and muon system be found.
-During the L1 and L2 steps, the algorithm follows the same procedure as the above trigger, with the only difference being that $p_T$ threshold on the L2 track
+During the L1 and L2 steps, the algorithm follows the same procedure as the L2Mu+MET trigger, with the only difference being the $p_T$ threshold on the L2 track
 is reduced to 16~GeV and only one muon station is required to have hits.
 During the L3 step, the L2 track is used to seed the reconstruction of tracks that span from the silicon tracker to the muon system.
 A track must be found with momentum greater than 40~GeV and $|\eta|$ less than 2.1. The very good resolution of the silicon tracker allows for an acceptable trigger rate
-without any further requirements. Events collected with this trigger are only used in all analyses.
+without any further requirements. Events collected with this trigger are used in all analyses.
 
 The third trigger used, PFMET150, requires at least 150~GeV of PFMET be found at the L3 step. The L1 and L2 steps of the trigger calculate the MET in the event using
-only the energy deposits in the calorimeter, a faster method than particle flow, and apply looser requirements on the MET of 40? and 80?~GeV, respectively.
-Events collected with this trigger are only used in all analyses.
+only the energy deposits in the calorimeter, a faster method than particle flow, and apply looser requirements on the MET of 40 and 80~GeV, respectively.
+Events collected with this trigger are used in all analyses.
 
 The decision to use the pure PFMET trigger even when a muon signature is required offline is prompted by the late arrival of the HSCPs in the muon system.
 Even with the RPC configuration described above, very slow moving HSCP can trigger the readout of the wrong event but still be reconstructed offline
@@ -189,7 +189,7 @@ proton bunch reaches the center of CMS.
 The muon system track reconstruction used for the cosmic ray muon trigger is slightly different than for the collision trigger.
 However both reconstructions are required offline as discussed in section~\ref{sec:preselection} so no bias is introduced.
 
-Throughout the rest of this chapter, the data sample is defined to be events collected with the L2Mu+MET, Mu40, or PFMET150 triggers if in reference to the \muononly\ analysis
+Throughout the rest of this chapter, the data sample is defined to be events collected with the L2Mu+MET, Mu40, or PFMET150 triggers if in reference to the \muononly\ analysis.
 For the other analyses it is defined to be events collected with either the Mu40 or PFMET150 triggers. The cosmic-ray control sample used in the \muononly\ analysis
 is defined to be events collected with cosmic-ray trigger discussed above. In all following discussions or figures, simulated samples must have passed one of the triggers
 associated with the relevant analysis.

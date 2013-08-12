@@ -31,13 +31,13 @@ Interactions with the CMS detector may change the SM constituents of the particl
 The HSCPs will be produced with high momentum but their large mass means that
 a majority will have a velocity, $\beta \equiv v/c,$ less than 0.9. 
 As no heavy long-lived SM particles are expected to be produced at the LHC, HSCPs would be the only high-momentum particles with $\beta$ not very close to one.
-Detector signatures unique to slow moving particles are exploited to search for HSCP. 
+Detector signatures unique to slow-moving particles are exploited to search for HSCP. 
 The backgrounds to the searches are SM particles with detector mismeasurement and in some cases
 muons coming from cosmic rays.
 
 Previous collider searches for HSCPs have been performed at LEP~\cite{Barate:1997dr, Abreu:2000tn, Achard:2001qw, Abbiendi:2003yd}, HERA~\cite{Aktas:2004pq},
 the Tevatron~\cite{Abazov:2008qu, Aaltonen:2009kea, Abazov:2011pf,Abazov:2012ab},
-and the LHC~\cite{Khachatryan:2011ts, Aad:2011mb,  Aad:2011yf, Aad:2011hz, Chatrchyan::2012dr, Chatrchyan:2012sp, Aad:2012vd, ATLASmCHAMPs}.
+and the LHC~\cite{Khachatryan:2011ts, Aad:2011mb,  Aad:2011yf, Aad:2011hz, CMS:2012xi, Chatrchyan:2012sp, Aad:2012vd, ATLASmCHAMPs}.
 The results from such searches have placed important bounds on BSM theories~\cite{Berger:2008cq, CahillRowley:2012kx}, such as lower limits on the
 mass of gluinos, stops, and staus at 1098,
 737, and 223 GeV/$c^2$, respectively.
@@ -79,9 +79,9 @@ during the entirety of their passage through the CMS detector. The third search 
 to particles becoming neutral before reaching the muon system. The last search is optimized to look for particles with electric charge greater than that of
 an electron.
 
-The signatures of new long-lived charged particles, long time of flight, high momentum, and large ionization
-energy loss, are used to separate the signal from the large background of SM particles.
+The signatures of new long-lived charged particles (long time of flight, high momentum, and large ionization
+energy loss) are used to separate the signal from the large background of SM particles.
 A data-driven procedure is used to estimate the SM background in the final selection region. 
 The efficiency for signal particles to be accepted in the selection region is evaluated by numerous studies in control regions.
 Data are found to agree with the predicted background and limits are placed on the production rates of various models of new physics that predict
-the existence of long-lived particles. All of the limits are the best produced to date and these limits put important constraints on physics beyond the Standard Model.
+the existence of long-lived particles. All of the limits are the best produced to date and these limits put important constraints on physics beyond the SM.

@@ -41,13 +41,15 @@ PROJECT=/uscms_data/d2/farrell3/WorkArea/ThesisPlots/CMSSW_5_3_7_patch5/src/SUSY
 
 DIROUT=figures/muonly/
 #PROJECT=/uscms_data/d2/farrell3/WorkArea/Final2012Analysis06Jan2012/CMSSW_5_3_7_patch4/src/SUSYBSMAnalysis/HSCP/test/
-DIRIN=$PROJECT/ICHEP_Analysis/Results/Type0/
+DIRIN=$PROJECT/ICHEP_Analysis/Results/Type2/
+cp $DIRIN/Selection_Comp_Gen*.pdf $DIROUT/
+DIRIN=$PROJECT/ICHEP_Analysis/Results/Type4/
 cp $DIRIN/Selection_Comp_Gen*.pdf $DIROUT/
 #/uscms_data/d2/farrell3/WorkArea/ThesisPlots/CMSSW_5_3_7_patch5/src/SUSYBSMAnalysis/HSCP/test/ICHEP_Analysis/Results/Type0/Selection_Comp_Gen*.pdf
 
 
 DIRIN=$PROJECT/ICHEP_Analysis/Results/Type3/
-cp $DIRIN/Selection_Comp_Gen*.pdf $DIROUT/
+#cp $DIRIN/Selection_Comp_Gen*.pdf $DIROUT/
 cp $DIRIN/Selection_Comp_Signal_8TeV_PV_BS.pdf $DIROUT/
 cp $DIRIN/Selection_Comp_Signal_8TeV_PVLog_BS.pdf $DIROUT/
 cp $DIRIN/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS.pdf $DIROUT/

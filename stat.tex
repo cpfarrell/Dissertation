@@ -8,14 +8,14 @@ One of the tools calculates the significance of a signal by taking in the predic
 The tool calculates a test statistic, $q_0$ comparing the likelihood that observed data came from background only or signal plus background.
 Then the probability of observing a test statistic at least as large as $q_0$ is found.
 The smaller the probability the less likely the observed data came from background only.
-The probability is returned in the form of a one-sided Gaussian sigma. For a given sigma $x$ the probability $p$ is found from Equation~\ref{eq:sigma},
+The probability is returned in the form of a one-sided Gaussian sigma. For a given sigma $x$ the probability $p$ is found as
 \begin{equation}
 p = \int_x^{\infty} \frac{1}{\sqrt{2\pi}}e^{\frac{-x^2}{2}} \mathrm{d} x.
 \label{eq:sigma}
 \end{equation}
 The function being integrated over is a normalized gaussian with unit variance. Particle physics has a somewhat arbitrary 
 convention that one claims a discovery when the significance
-is greater than five sigma, and evidence when it is greater than three. A five sigma discovery is equivalent to there being a one in 3.5 million probability that
+is greater than five sigma, and evidence when it is greater than three. A five sigma discovery is equivalent to there being a one in 3.5 million chance that
 observed data come from background only.
 
 This tool can also be used to find the expected reach of the analysis. The expected reach of the analysis is defined as the signal cross-section

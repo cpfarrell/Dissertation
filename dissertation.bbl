@@ -1,345 +1,327 @@
-\begin{thebibliography}{10}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
 \bibitem{griffiths2008introduction}
-D.~Griffiths.
-\newblock {\em Introduction to Elementary Particles}.
+D.~Griffiths, {\em Introduction to Elementary Particles}.
 \newblock Physics Textbook. Wiley, 2008.
 
 \bibitem{1748-0221-3-08-S08001}
-Lyndon Evans and Philip Bryant.
-\newblock Lhc machine.
-\newblock {\em Journal of Instrumentation}, 3(08):S08001, 2008.
+L.~Evans and P.~Bryant, {\it Lhc machine},  {\em Journal of Instrumentation}
+  {\bf 3} (2008), no.~08 S08001.
 
 \bibitem{Chatrchyan:2013lba}
-Serguei Chatrchyan et~al.
-\newblock {Observation of a new boson with mass near 125 GeV in pp collisions
-  at sqrt(s) = 7 and 8 TeV}.
-\newblock 2013.
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Observation of a new boson
+  with mass near 125 GeV in pp collisions at $\sqrt{s}$ = 7 and 8 TeV}},  {\em
+  JHEP} {\bf 06} (2013) 081, [\href{http://xxx.lanl.gov/abs/1303.4571}{{\tt
+  arXiv:1303.4571}}].
 
 \bibitem{Aad:2012tfa}
-Georges Aad et~al.
-\newblock {Observation of a new particle in the search for the Standard Model
-  Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Phys.Lett.}, B716:1--29, 2012.
+{\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Observation of a new particle
+  in the search for the Standard Model Higgs boson with the ATLAS detector at
+  the LHC}},  {\em Phys.\ Lett.} {\bf B716} (2012) 1--29,
+  [\href{http://xxx.lanl.gov/abs/1207.7214}{{\tt arXiv:1207.7214}}].
 
 \bibitem{Martin:1997ns}
-Stephen~P. Martin.
-\newblock {A Supersymmetry primer}.
-\newblock 1997.
+S.~P. Martin, {\it {A Supersymmetry primer}},
+  \href{http://xxx.lanl.gov/abs/hep-ph/9709356}{{\tt hep-ph/9709356}}.
 
 \bibitem{Tata:1997uf}
-Xerxes Tata.
-\newblock {What is supersymmetry and how do we find it?}
-\newblock 1997.
+X.~Tata, {\it {What is supersymmetry and how do we find it?}},  in {\em Campos
+  do Jordao 1997, Particles and fields}, 1997.
+\newblock \href{http://xxx.lanl.gov/abs/hep-ph/9706307}{{\tt hep-ph/9706307}}.
 
 \bibitem{Srednicki_2007}
-Mark Srednicki.
-\newblock {\em Quantum Field Theory}.
-\newblock Cambridge University Press, 1 edition, February 2007.
+M.~Srednicki, {\em Quantum Field Theory}.
+\newblock Cambridge University Press, 1~ed., February, 2007.
 
 \bibitem{PhysRevLett.13.508}
-Peter~W. Higgs.
-\newblock Broken symmetries and the masses of gauge bosons.
-\newblock {\em Phys. Rev. Lett.}, 13:508--509, Oct 1964.
+P.~W. Higgs, {\it Broken symmetries and the masses of gauge bosons},  {\em
+  Phys. Rev. Lett.} {\bf 13} (Oct, 1964) 508--509.
 
 \bibitem{PhysRevLett.13.321}
-F.~Englert and R.~Brout.
-\newblock Broken symmetry and the mass of gauge vector mesons.
-\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
+F.~Englert and R.~Brout, {\it Broken symmetry and the mass of gauge vector
+  mesons},  {\em Phys. Rev. Lett.} {\bf 13} (Aug, 1964) 321--323.
 
 \bibitem{Chatrchyan:2012ufa}
-Serguei Chatrchyan et~al.
-\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
-  experiment at the LHC}.
-\newblock {\em Phys.Lett.}, B716:30--61, 2012.
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Observation of a new boson
+  at a mass of 125 GeV with the CMS experiment at the LHC}},  {\em Phys.\
+  Lett.} {\bf B716} (2012) 30--61,
+  [\href{http://xxx.lanl.gov/abs/1207.7235}{{\tt arXiv:1207.7235}}].
 
 \bibitem{Fairbairn:2006gg}
-M.~Fairbairn, A.C. Kraan, D.A. Milstead, T.~Sjostrand, Peter~Z. Skands, et~al.
-\newblock {Stable massive particles at colliders}.
-\newblock {\em Phys.Rept.}, 438:1--63, 2007.
+M.~Fairbairn, A.~Kraan, D.~Milstead, T.~Sjostrand, P.~Z. Skands, et~al., {\it
+  {Stable massive particles at colliders}},  {\em Phys.\ Rept.} {\bf 438}
+  (2007) 1--63, [\href{http://xxx.lanl.gov/abs/hep-ph/0611040}{{\tt
+  hep-ph/0611040}}].
 
 \bibitem{Mackeprang:2009ad}
-Rasmus Mackeprang and David Milstead.
-\newblock {An Updated Description of Heavy-Hadron Interactions in GEANT-4}.
-\newblock {\em Eur.Phys.J.}, C66:493--501, 2010.
+R.~Mackeprang and D.~Milstead, {\it {An Updated Description of Heavy-Hadron
+  Interactions in GEANT-4}},  {\em Eur.\ Phys.\ J.} {\bf C66} (2010) 493--501,
+  [\href{http://xxx.lanl.gov/abs/0908.1868}{{\tt arXiv:0908.1868}}].
 
 \bibitem{Kraan:2004tz}
-Aafke~Christine Kraan.
-\newblock {Interactions of heavy stable hadronizing particles}.
-\newblock {\em Eur.Phys.J.}, C37:91--104, 2004.
+A.~C. Kraan, {\it {Interactions of heavy stable hadronizing particles}},  {\em
+  Eur.\ Phys.\ J.} {\bf C37} (2004) 91--104,
+  [\href{http://xxx.lanl.gov/abs/hep-ex/0404001}{{\tt hep-ex/0404001}}].
 
 \bibitem{Mackeprang:2006gx}
-Rasmus Mackeprang and Andrea Rizzi.
-\newblock {Interactions of Coloured Heavy Stable Particles in Matter}.
-\newblock {\em Eur.Phys.J.}, C50:353--362, 2007.
+R.~Mackeprang and A.~Rizzi, {\it {Interactions of Coloured Heavy Stable
+  Particles in Matter}},  {\em Eur.\ Phys.\ J.} {\bf C50} (2007) 353--362,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/0612161}{{\tt hep-ph/0612161}}].
 
 \bibitem{Giudice:1998bp}
-G.F. Giudice and R.~Rattazzi.
-\newblock {Theories with gauge mediated supersymmetry breaking}.
-\newblock {\em Phys.Rept.}, 322:419--499, 1999.
+G.~Giudice and R.~Rattazzi, {\it {Theories with gauge mediated supersymmetry
+  breaking}},  {\em Phys.\ Rept.} {\bf 322} (1999) 419--499,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/9801271}{{\tt hep-ph/9801271}}].
 
 \bibitem{Langacker:2011db}
-Paul Langacker and Gary Steigman.
-\newblock {Requiem for an FCHAMP? Fractionally CHArged, Massive Particle}.
-\newblock {\em Phys.Rev.}, D84:065040, 2011.
+P.~Langacker and G.~Steigman, {\it {Requiem for an FCHAMP? Fractionally
+  CHArged, Massive Particle}},  {\em Phys.\ Rev.} {\bf D84} (2011) 065040,
+  [\href{http://xxx.lanl.gov/abs/1107.3131}{{\tt arXiv:1107.3131}}].
 
 \bibitem{PDG}
-J.~Beringer et~al.
-\newblock {Review of Particle Physics (RPP)}.
-\newblock {\em Phys.\ Rev.}, D 86:010001, 2012.
+{\bf Particle Data Group} Collaboration, J.~Beringer et~al., {\it {Review of
+  Particle Physics (RPP)}},  {\em Phys.\ Rev.} {\bf D 86} (2012) 010001.
 
 \bibitem{PublicLumi}
-CMS Collaboration.
-\newblock {CMS Luminosity --- Public Results}.
-\newblock
+{\bf CMS} Collaboration, ``{CMS Luminosity --- Public Results}.''
   \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
 \newblock Accessed: 2013-05-16.
 
 \bibitem{Chatrchyan:2008zzk}
-S.~Chatrchyan et~al.
-\newblock The {CMS} experiment at the {CERN} {LHC}.
-\newblock {\em JINST}, 3:S08004, 2008.
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it The {CMS} experiment at the
+  {CERN} {LHC}},  {\em JINST} {\bf 3} (2008) S08004.
 
 \bibitem{Bayatian:922757}
-G.~Bayatian et~al.
-\newblock {\em {CMS Physics: Technical Design Report Volume 1: Detector
-  Performance and Software}}.
+G.~Bayatian et~al., {\em {CMS Physics: Technical Design Report Volume 1:
+  Detector Performance and Software}}.
 \newblock Technical Design Report CMS. CERN, Geneva, 2006.
 \newblock There is an error on cover due to a technical problem for some items.
 
 \bibitem{2012JInst...7P0002T}
-{The CMS Collaboration}.
-\newblock {Performance of CMS muon reconstruction in pp collision events at
-  $\sqrt{s}=7$ TeV}.
-\newblock {\em Journal of Instrumentation}, 7:2P, October 2012.
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Performance of CMS muon
+  reconstruction in $pp$ collision events at $\sqrt{s}=7$ TeV}},  {\em JINST}
+  {\bf 7} (2012) P10002, [\href{http://xxx.lanl.gov/abs/1206.4071}{{\tt
+  arXiv:1206.4071}}].
 
 \bibitem{Sjostrand:2007gs}
-Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
-\newblock {A Brief Introduction to PYTHIA 8.1}.
-\newblock {\em Comput.Phys.Commun.}, 178:852--867, 2008.
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, {\it {A Brief Introduction to PYTHIA
+  8.1}},  {\em Comput.\ Phys.\ Commun.} {\bf 178} (2008) 852--867,
+  [\href{http://xxx.lanl.gov/abs/0710.3820}{{\tt arXiv:0710.3820}}].
 
 \bibitem{Paige:2003mg}
-Frank~E. Paige, Serban~D. Protopopescu, Howard Baer, and Xerxes Tata.
-\newblock {ISAJET 7.69: A Monte Carlo event generator for pp, anti-p p, and
-  e+e- reactions}.
-\newblock 2003.
+F.~E. Paige, S.~D. Protopopescu, H.~Baer, and X.~Tata, {\it {ISAJET 7.69: A
+  Monte Carlo event generator for pp, anti-p p, and e+e- reactions}},
+  \href{http://xxx.lanl.gov/abs/hep-ph/0312045}{{\tt hep-ph/0312045}}.
 
 \bibitem{Lefebure:1999wja}
-Veronique Lefebure, Sudeshna Banerjee, and I.~Gonzalez.
-\newblock {CMS Simulation Software Using Geant4}.
-\newblock 1999.
+V.~Lefebure, S.~Banerjee, and I.~Gonzalez, ``{CMS Simulation Software Using
+  Geant4}.'' CMS-NOTE-1999-072, CERN-CMS-NOTE-1999-072, 1999.
 
-\bibitem{2003physics...6117A}
-D.~Acosta et~al.
-\newblock A 3-d track-finding processor for the cms level-1 muon trigger.
-\newblock {\em ArXiv Physics e-prints}, June 2003.
+\bibitem{Chatrchyan:2009ab}
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Performance of the CMS
+  Level-1 Trigger during Commissioning with Cosmic Ray Muons}},  {\em JINST}
+  {\bf 5} (2010) T03002, [\href{http://xxx.lanl.gov/abs/0911.5422}{{\tt
+  arXiv:0911.5422}}].
 
 \bibitem{2007AN049}
-A~Rizzi et~al.
-\newblock Search for heavy stable charged particles with 100 pb$^{-1}$ and 1
-  fb$^{-1}$ at cms experiment.
-\newblock 2007.
-\newblock CMS AN2007/049.
+A.~Rizzi et~al., ``Search for heavy stable charged particles with 100 pb$^{-1}$
+  and 1 fb$^{-1}$ at cms experiment.'' CMS-AN2007/049, 2007.
 
 \bibitem{Barate:1997dr}
-R.~Barate et~al.
-\newblock {Search for pair production of longlived heavy charged particles in
-  $e^+ e^-$ annihilation}.
-\newblock {\em Phys.\ Lett. B}, 405:379, 1997.
+{\bf ALEPH} Collaboration, R.~Barate et~al., {\it {Search for pair production
+  of long-lived heavy charged particles in $e^+ e^-$ annihilation}},  {\em
+  Phys.\ Lett. B} {\bf 405} (1997) 379,
+  [\href{http://xxx.lanl.gov/abs/hep-ex/9706013}{{\tt hep-ex/9706013}}].
 
 \bibitem{Abreu:2000tn}
-P.~Abreu et~al.
-\newblock {Search for heavy stable and longlived particles in $e^+ e^-$
-  collisions at $\sqrt{s} = 189$GeV}.
-\newblock {\em Phys.\ Lett. B}, 478:65, 2000.
+{\bf DELPHI} Collaboration, P.~Abreu et~al., {\it {Search for heavy stable and
+  long-lived particles in $e^+ e^-$ collisions at $\sqrt{s} = 189$ GeV}},  {\em
+  Phys.\ Lett. B} {\bf 478} (2000) 65,
+  [\href{http://xxx.lanl.gov/abs/hep-ex/0103038}{{\tt hep-ex/0103038}}].
 
 \bibitem{Achard:2001qw}
-P.~Achard et~al.
-\newblock {Search for heavy neutral and charged leptons in $e^{+} e^{-}$
-  annihilation at LEP}.
-\newblock {\em Phys.\ Lett. B}, 517:75, 2001.
+{\bf L3} Collaboration, P.~Achard et~al., {\it {Search for heavy neutral and
+  charged leptons in $e^{+} e^{-}$ annihilation at LEP}},  {\em Phys.\ Lett. B}
+  {\bf 517} (2001) 75, [\href{http://xxx.lanl.gov/abs/hep-ex/0107015}{{\tt
+  hep-ex/0107015}}].
 
 \bibitem{Abbiendi:2003yd}
-G.~Abbiendi et~al.
-\newblock {Search for stable and longlived massive charged particles in $e^+
-  e^-$ collisions at $\sqrt{s} = $ 130GeV to 209GeV}.
-\newblock {\em Phys.\ Lett. B}, 572:8, 2003.
+{\bf OPAL} Collaboration, G.~Abbiendi et~al., {\it {Search for stable and
+  long-lived massive charged particles in $e^+ e^-$ collisions at $\sqrt{s} = $
+  130 GeV to 209 GeV}},  {\em Phys.\ Lett. B} {\bf 572} (2003) 8,
+  [\href{http://xxx.lanl.gov/abs/hep-ex/0305031}{{\tt hep-ex/0305031}}].
 
 \bibitem{Aktas:2004pq}
-A.~Aktas et~al.
-\newblock {Measurement of anti-deuteron photoproduction and a search for heavy
-  stable charged particles at HERA}.
-\newblock {\em Eur.\ Phys.\ J.\ C}, 36:413, 2004.
+{\bf H1} Collaboration, A.~Aktas et~al., {\it {Measurement of anti-deuteron
+  photoproduction and a search for heavy stable charged particles at HERA}},
+  {\em Eur.\ Phys.\ J.\ C} {\bf 36} (2004) 413,
+  [\href{http://xxx.lanl.gov/abs/hep-ex/0403056}{{\tt hep-ex/0403056}}].
 
 \bibitem{Abazov:2008qu}
-V.~M. Abazov et~al.
-\newblock {Search for long-lived charged massive particles with the D0
-  detector}.
-\newblock {\em Phys.\ Rev.\ Lett.}, 102:161802, 2009.
+{\bf D0} Collaboration, V.~M. Abazov et~al., {\it {Search for long-lived
+  charged massive particles with the D0 detector}},  {\em Phys.\ Rev.\ Lett.}
+  {\bf 102} (2009) 161802, [\href{http://xxx.lanl.gov/abs/0809.4472}{{\tt
+  arXiv:0809.4472}}].
 
 \bibitem{Aaltonen:2009kea}
-T.~Aaltonen et~al.
-\newblock {Search for long-lived massive charged particles in 1.96TeV
-  $\bar{p}p$ collisions}.
-\newblock {\em Phys.\ Rev.\ Lett.}, 103:021802, 2009.
+{\bf CDF} Collaboration, T.~Aaltonen et~al., {\it {Search for long-lived
+  massive charged particles in 1.96 TeV $\bar{p}p$ collisions}},  {\em Phys.\
+  Rev.\ Lett.} {\bf 103} (2009) 021802,
+  [\href{http://xxx.lanl.gov/abs/0902.1266}{{\tt arXiv:0902.1266}}].
 
 \bibitem{Abazov:2011pf}
-V.M. Abazov et~al.
-\newblock {A search for charged massive long-lived particles}.
-\newblock {\em Phys.\ Rev.\ Lett.}, 108:121802, 2012.
+{\bf D0} Collaboration, V.~Abazov et~al., {\it {A search for charged massive
+  long-lived particles}},  {\em Phys.\ Rev.\ Lett.} {\bf 108} (2012) 121802,
+  [\href{http://xxx.lanl.gov/abs/1110.3302}{{\tt arXiv:1110.3302}}].
 
 \bibitem{Abazov:2012ab}
-Victor~Mukhamedovich Abazov et~al.
-\newblock Search for charged massive long-lived particles at
-  $\sqrt{s}\mathbf{=}1.96\text{\,}\text{\,}\mathrm{TeV}$.
-\newblock {\em Phys.\ Rev.\ D}, 87:052011, 2013.
+{\bf D0} Collaboration, V.~M. Abazov et~al., {\it {Search for charged massive
+  long-lived particles at $\sqrt{s}$ = 1.96 TeV}},  {\em Phys.\ Rev.\ D} {\bf
+  87} (2013) 052011, [\href{http://xxx.lanl.gov/abs/1211.2466}{{\tt
+  arXiv:1211.2466}}].
 
 \bibitem{Khachatryan:2011ts}
-Vardan Khachatryan et~al.
-\newblock {Search for heavy stable charged particles in pp collisions at
-  $\sqrt{s}=7$TeV}.
-\newblock {\em JHEP}, 03:024, 2011.
+{\bf CMS} Collaboration, V.~Khachatryan et~al., {\it {Search for heavy stable
+  charged particles in pp collisions at $\sqrt{s}=7$ TeV}},  {\em JHEP} {\bf
+  03} (2011) 024, [\href{http://xxx.lanl.gov/abs/1101.1645}{{\tt
+  arXiv:1101.1645}}].
 
 \bibitem{Aad:2011mb}
-Georges Aad et~al.
-\newblock {Search for Massive Long-lived Highly Ionising Particles with the
-  ATLAS Detector at the LHC}.
-\newblock {\em Phys.Lett.}, B698:353--370, 2011.
+{\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Search for Massive Long-lived
+  Highly Ionising Particles with the ATLAS Detector at the LHC}},  {\em
+  Phys.Lett.} {\bf B698} (2011) 353--370,
+  [\href{http://xxx.lanl.gov/abs/1102.0459}{{\tt arXiv:1102.0459}}].
 
 \bibitem{Aad:2011yf}
-Georges Aad et~al.
-\newblock {Search for stable hadronising squarks and gluinos with the ATLAS
-  experiment at the LHC}.
-\newblock {\em Phys.Lett.}, B701:1--19, 2011.
+{\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Search for stable hadronising
+  squarks and gluinos with the ATLAS experiment at the LHC}},  {\em Phys.\
+  Lett.} {\bf B701} (2011) 1--19,
+  [\href{http://xxx.lanl.gov/abs/1103.1984}{{\tt arXiv:1103.1984}}].
 
 \bibitem{Aad:2011hz}
-Georges Aad et~al.
-\newblock {Search for Heavy Long-Lived Charged Particles with the ATLAS
-  detector in $pp$ collisions at $\sqrt{s}=7$ TeV}.
-\newblock {\em Phys.Lett.}, B703:428--446, 2011.
+{\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Search for Heavy Long-Lived
+  Charged Particles with the ATLAS detector in $pp$ collisions at $\sqrt{s}=7$
+  TeV}},  {\em Phys.\ Lett.} {\bf B703} (2011) 428--446,
+  [\href{http://xxx.lanl.gov/abs/1106.4495}{{\tt arXiv:1106.4495}}].
 
-\bibitem{Chatrchyan::2012dr}
-Serguei Chatrchyan et~al.
-\newblock {Search for fractionally charged particles in $pp$ collisions at
-  $\sqrt{s}=7$TeV}.
-\newblock 2012.
+\bibitem{CMS:2012xi}
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Search for fractionally
+  charged particles in $pp$ collisions at $\sqrt{s}=7$ TeV}},  {\em Phys.Rev.}
+  {\bf D87} (2013) 092008, [\href{http://xxx.lanl.gov/abs/1210.2311}{{\tt
+  arXiv:1210.2311}}].
 
 \bibitem{Chatrchyan:2012sp}
-Serguei Chatrchyan et~al.
-\newblock {Search for heavy long-lived charged particles in $pp$ collisions at
-  $\sqrt{s} = 7$ TeV}.
-\newblock {\em Phys.Lett.}, B713:408--433, 2012.
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Search for heavy
+  long-lived charged particles in $pp$ collisions at $\sqrt{s} = 7$ TeV}},
+  {\em Phys.\ Lett.} {\bf B713} (2012) 408--433,
+  [\href{http://xxx.lanl.gov/abs/1205.0272}{{\tt arXiv:1205.0272}}].
 
 \bibitem{Aad:2012vd}
-Georges Aad et~al.
-\newblock {Searches for heavy long-lived sleptons and R-Hadrons with the ATLAS
-  detector in $pp$ collisions at $\sqrt{s}=7$ TeV}.
-\newblock {\em Phys.\ Lett. B}, 720:277, 2013.
+{\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Searches for heavy long-lived
+  sleptons and R-Hadrons with the ATLAS detector in $pp$ collisions at
+  $\sqrt{s}=7$ TeV}},  {\em Phys.\ Lett. B} {\bf 720} (2013) 277,
+  [\href{http://xxx.lanl.gov/abs/1211.1597}{{\tt arXiv:1211.1597}}].
 
-\bibitem{ATLASmCHAMPs}
-Georges Aad et~al.
-\newblock {Search for long-lived, multi-charged particles in pp collisions at
-  $\sqrt{s} = 7$TeV using the ATLAS detector}.
-\newblock 2013.
+\bibitem{Aad:2013pqd}
+{\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Search for long-lived,
+  multi-charged particles in pp collisions at $\sqrt{s}$=7 TeV using the ATLAS
+  detector}},  {\em Phys.Lett.} {\bf B722} (2013) 305--323,
+  [\href{http://xxx.lanl.gov/abs/1301.5272}{{\tt arXiv:1301.5272}}].
 
 \bibitem{Berger:2008cq}
-Carola~F. Berger, James~S. Gainer, JoAnne~L. Hewett, and Thomas~G. Rizzo.
-\newblock {Supersymmetry Without Prejudice}.
-\newblock {\em JHEP}, 02:023, 2009.
+C.~F. Berger, J.~S. Gainer, J.~L. Hewett, and T.~G. Rizzo, {\it {Supersymmetry
+  Without Prejudice}},  {\em JHEP} {\bf 02} (2009) 023,
+  [\href{http://xxx.lanl.gov/abs/0812.0980}{{\tt arXiv:0812.0980}}].
 
 \bibitem{CahillRowley:2012kx}
-Matthew~W. Cahill-Rowley, JoAnne~L. Hewett, Ahmed Ismail, and Thomas~G. Rizzo.
-\newblock {More energy, more searches, but the pMSSM lives on}.
-\newblock 2012.
+M.~W. Cahill-Rowley, J.~L. Hewett, A.~Ismail, and T.~G. Rizzo, {\it {More
+  Energy, More Searches, but the pMSSM Lives On}},
+  \href{http://xxx.lanl.gov/abs/1211.1981}{{\tt arXiv:1211.1981}}.
 
 \bibitem{ArkaniHamed:2004fb}
-Nima Arkani-Hamed and Savas Dimopoulos.
-\newblock {Supersymmetric unification without low energy supersymmetry and
-  signatures for fine-tuning at the LHC}.
-\newblock {\em JHEP}, 0506:073, 2005.
+N.~Arkani-Hamed and S.~Dimopoulos, {\it {Supersymmetric unification without low
+  energy supersymmetry and signatures for fine-tuning at the LHC}},  {\em JHEP}
+  {\bf 0506} (2005) 073, [\href{http://xxx.lanl.gov/abs/hep-th/0405159}{{\tt
+  hep-th/0405159}}].
 
 \bibitem{Giudice:2004tc}
-G.F. Giudice and A.~Romanino.
-\newblock {Split supersymmetry}.
-\newblock {\em Nucl.Phys.}, B699:65--89, 2004.
+G.~Giudice and A.~Romanino, {\it {Split supersymmetry}},  {\em Nucl.\ Phys.}
+  {\bf B699} (2004) 65--89, [\href{http://xxx.lanl.gov/abs/hep-ph/0406088}{{\tt
+  hep-ph/0406088}}].
 
 \bibitem{Allanach:2002nj}
-B.C. Allanach, M.~Battaglia, G.A. Blair, Marcela~S. Carena, A.~De~Roeck, et~al.
-\newblock {The Snowmass points and slopes: Benchmarks for SUSY searches}.
-\newblock {\em Eur.Phys.J.}, C25:113--123, 2002.
+B.~Allanach, M.~Battaglia, G.~Blair, M.~S. Carena, A.~De~Roeck, et~al., {\it
+  {The Snowmass points and slopes: Benchmarks for SUSY searches}},  {\em Eur.\
+  Phys.\ J.} {\bf C25} (2002) 113--123,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/0202233}{{\tt hep-ph/0202233}}].
 
 \bibitem{Sjostrand:2006za}
-Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
-\newblock {PYTHIA 6.4 Physics and Manual}.
-\newblock {\em JHEP}, 0605:026, 2006.
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, {\it {PYTHIA 6.4 Physics and
+  Manual}},  {\em JHEP} {\bf 0605} (2006) 026,
+  [\href{http://xxx.lanl.gov/abs/hep-ph/0603175}{{\tt hep-ph/0603175}}].
 
 \bibitem{2010EPJC...70.1165K}
-V.~{Khachatryan}, A.~M. {Sirunyan}, A.~{Tumasyan}, W.~{Adam}, T.~{Bergauer},
-  M.~{Dragicevic}, J.~{Er{\"o}}, C.~{Fabjan}, M.~{Friedl}, R.~{Fr{\"u}hwirth},
-  and et~al.
-\newblock {CMS tracking performance results from early LHC operation}.
-\newblock {\em European Physical Journal C}, 70:1165--1192, December 2010.
+{\bf CMS} Collaboration, V.~Khachatryan et~al., {\it {CMS Tracking Performance
+  Results from early LHC Operation}},  {\em Eur. Phys. J.} {\bf C70} (2010)
+  1165--1192, [\href{http://xxx.lanl.gov/abs/1007.1988}{{\tt
+  arXiv:1007.1988}}].
 
-\bibitem{CMS:2010xta}
-{Jet Performance in pp Collisions at 7 TeV}.
-\newblock 2010.
+\bibitem{Chatrchyan:2011tn}
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Missing transverse energy
+  performance of the CMS detector}},  {\em JINST} {\bf 6} (2011) P09001,
+  [\href{http://xxx.lanl.gov/abs/1106.5048}{{\tt arXiv:1106.5048}}].
 
 \bibitem{CMS-PAS-JME-12-002}
-Met performance in 8 tev data.
-\newblock Technical Report CMS-PAS-JME-12-002, CERN, Geneva, 2013.
+{\bf CMS} Collaboration, {\it {MET performance in 8 TeV data}},  Tech. Rep.
+  CMS-PAS-JME-12-002, CERN, Geneva, 2013.
 
 \bibitem{wangler2000beam}
-Thomas Wangler and KR~Crandall.
-\newblock Beam halo in proton linac beams.
-\newblock In {\em Linac 2000 Conference Proceedings, Monterey California},
-  2000.
+T.~Wangler and K.~Crandall, {\it Beam halo in proton linac beams},  in {\em
+  Linac 2000 Conference Proceedings, Monterey California}, 2000.
 
 \bibitem{2008AN097}
-G~Abbiendi et~al.
-\newblock Muon reconstruction in the cms detector.
+G.~Abbiendi et~al., ``{Muon Reconstruction in the CMS Detector}.''
+  CMS-AN2008/097, 2008.
 
 \bibitem{Quertenmont:1361029}
-Loic Quertenmont and Giacomo Bruno.
-\newblock {\em Search for Heavy Stable Charged Particles with the CMS detector
-  at the LHC}.
+L.~Quertenmont and G.~Bruno, {\em Search for Heavy Stable Charged Particles
+  with the CMS detector at the LHC}.
 \newblock PhD thesis, Louvain U., 2010.
-\newblock presented Oct 2010.
+\newblock Presented Oct 2010.
 
 \bibitem{Eadie}
-W.~T. Eadie, D.~Drijard, F.~E. James, M.~Roos, and B.~Sadoulet.
-\newblock {\em Statistical methods in experimental physics}.
+W.~T. Eadie, D.~Drijard, F.~E. James, M.~Roos, and B.~Sadoulet, {\em
+  Statistical methods in experimental physics}.
 \newblock North Holland, Amsterdam, 1971.
 
 \bibitem{James}
-F.~James.
-\newblock {\em Statistical methods in experimental physics}.
+F.~James, {\em Statistical methods in experimental physics}.
 \newblock World Scientific, Singapore, 2006.
 
 \bibitem{Read:451614}
-A~L Read.
-\newblock Modified frequentist analysis of search results (the $cl_{s}$
-  method).
-\newblock (CERN-OPEN-2000-205), 2000.
+A.~L. Read, {\it {Modified frequentist analysis of search results (The CL(s)
+  method)}},  in {\em Geneva 2000, Confidence limits}, 2000.
 
 \bibitem{Cowan:2010js}
-Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
-\newblock {Asymptotic formulae for likelihood-based tests of new physics}.
-\newblock {\em Eur.Phys.J.}, C71:1554, 2011.
+G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, {\it {Asymptotic formulae for
+  likelihood-based tests of new physics}},  {\em Eur.\ Phys.\ J.} {\bf C71}
+  (2011) 1554, [\href{http://xxx.lanl.gov/abs/1007.1727}{{\tt
+  arXiv:1007.1727}}].
 
 \bibitem{SMP-12-008}
-{CMS Collaboration}.
-\newblock Absolute calibration of the luminosity measurement at {CMS}: {W}inter
-  2012 update.
-\newblock CMS Physics Analysis Summary CMS-PAS-SMP-12-008, CMS, 2012.
+{\bf CMS} Collaboration, {\it {Absolute Calibration of the Luminosity
+  Measurement at CMS: Winter 2012 Update}},  tech. rep., 2012.
+\newblock CMS-PAS-SMP-12-008.
 
-\bibitem{CMS-PAS-TRK-10-002}
-Measurement of tracking efficiency.
-\newblock Technical Report CMS-PAS-TRK-10-002, CERN, 2010. Geneva, 2010.
+\bibitem{CMS:2010mua}
+{\bf CMS} Collaboration, {\it {Measurement of Tracking Efficiency}},  tech.
+  rep., 2010.
+\newblock CMS-PAS-TRK-10-002.
 
-\bibitem{2010JInst...5T3021C}
-{CMS Collaboration}.
-\newblock {Precise mapping of the magnetic field in the CMS barrel yoke using
-  cosmic rays}.
-\newblock {\em Journal of Instrumentation}, 5:3021, March 2010.
+\bibitem{Chatrchyan:2009si}
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Precise Mapping of the
+  Magnetic Field in the CMS Barrel Yoke using Cosmic Rays}},  {\em JINST} {\bf
+  5} (2010) T03021, [\href{http://xxx.lanl.gov/abs/0910.5530}{{\tt
+  arXiv:0910.5530}}].
 
-\end{thebibliography}
+\end{thebibliography}\endgroup

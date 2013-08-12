@@ -8,7 +8,7 @@ reconstructed samples are used for the C and D periods.
 CMS has a Data Certification team which checks all data collected and certifies the data as good for analysis. The certification requires all detector subsystems to be
 operating at full ability, or at least close enough to full ability to not have a detrimental effect on offline analyses. Additionally, higher level objects such as muons
 and electrons are checked to make sure the data are good for physics analyses. For this particular analysis, the RPC trigger plays an important role, as discussed in
-section~\ref{sec:trigger}, and so the RPC is required to be included in the L1 trigger for all data searched. This leads to the searches using slightly less data
+section~\ref{sec:computing}, and so the RPC is required to be included in the L1 trigger for all data searched. This leads to the searches using slightly less data
 than most other CMS analyses on 2012 data. The data sample used by this analysis corresponds to 18.8~fb$^{-1}$.
 
 Multiple different signal Monte Carlo (MC) simulation samples are produced to account for the different signatures an HSCP could have;
@@ -16,20 +16,21 @@ more detail on the signal models can be found in Sec.~\ref{sec:BSM}.
 
 Pair production of strongly--interacting gluino and stop samples are produced with
 masses in the range 300--1500~GeV$/c^2$ and 100--1000~GeV$/c^2$, respectively.
-The gluinos are generated in the split SUSY scenario~\cite{ArkaniHamed:2004fb, Giudice:2004tc}. 
-under the assumption of high squark masses of 10~TeV. The samples are generated using PYTHIAv8.153~\cite{Sjostrand:2007gs}
-Samples are produced with the fraction $f$ of gluinos forming neutral glueball $R-hadrons$ set to $f=1.0$, 0.5, and 0.1.
-%The value of $f=1.0$ results in all gluino $R-hadrons$ being produced neutral.
+The gluinos are generated in the split SUSY scenario~\cite{ArkaniHamed:2004fb, Giudice:2004tc}
+under the assumption of high squark masses of 10~TeV. The samples are generated using PYTHIAv8.153~\cite{Sjostrand:2007gs}.
+Samples are produced with the fraction $f$ of gluinos forming neutral glueball $R$-hadrons set to $f=1.0$, 0.5, and 0.1.
+%The value of $f=1.0$ results in all gluino $R$-hadrons being produced neutral.
 %, the \muononly\ analysis is designed to still have sensitivity in this case.
 The samples are also produced with two different modelings of the nuclear interaction of R-hadrons with matter: the cloud interaction and charge suppressed models.
-The charge suppressed model results in all $R-hadrons$ being neutral after a nuclear interaction.
+The charge suppressed model results in all $R$-hadrons being neutral after a nuclear interaction while the cloud interaction model allows for $R$-hadrons
+to be charged or neutral after a nuclear interaction.
 The cloud interaction model should be assumed for samples unless explicitly stated otherwise.
 Most HSCP will not have a nuclear interaction while passing through the CMS tracker, however almost all of them will have such an interaction in the calorimeter.
 
-The above effects can lead to many interesting signatures in the CMS detector. R-hadrons neutral after hadronization will generally remain neutral through the tracker
+The above effects can lead to many interesting signatures in the CMS detector. A $R$-hadron neutral after hadronization will be neutral while it traverses the silicon tracker
 but may gain charge in the calorimeter under the cloud model and leave hits in the muon system. If the glueball fraction is 1.0, then this would
 be the only way to detect gluino HSCP. The \muononly\ analysis is designed to have sensitivity to HSCP of this type. On the other hand HSCP produced charged under
-the charge suppression model will likely be charged in the tracker but always neutral in the muon system. The \tkonly\ analysis is designed to be sensitive
+the charge suppression model will be charged in the silicon tracker but always neutral in the muon system. The \tkonly\ analysis is designed to be sensitive
 to HSCP of this type. A third signature is an HSCP charged in both the muon and tracker systems which would have a signature similar to a muon.
 HSCP produced neutral under the charge suppression model would never be charged during their passage through CMS and thus are outside the scope
 of an HSCP search.%, they would fall into searches for dark matter.
@@ -43,7 +44,7 @@ The \pt, $\eta$, and $\beta$ distributions of gluino and stop particles at gener
   \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenGluino_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various gluino samples at generation]
-{Distribution of various kinematic variables for various gluino ($\tilde{g}$) samples at generation:
+{Distribution of kinematic variables for various gluino ($\tilde{g}$) samples at generation:
 \pt\ (top left), $\eta$ (top right), and $\beta$ (bottom).
    \label{fig:GenGluino}}
 \end{figure}
@@ -55,7 +56,7 @@ The \pt, $\eta$, and $\beta$ distributions of gluino and stop particles at gener
   \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenStop_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various stop samples at generation]
-{Distribution of various kinematic variables for various stop ($\tilde{t}$) samples at generation:
+{Distribution of kinematic variables for various stop ($\tilde{t}$) samples at generation:
 \pt\ (top left), $\eta$ (top right), and $\beta$ (bottom).
    \label{fig:GenStop}}
 \end{figure}
@@ -64,19 +65,20 @@ The \pt, $\eta$, and $\beta$ distributions of gluino and stop particles at gener
 %made of a a gluino, a down quark, and a down anti-quark interacting with a proton, which is composed of two up quarks
 
 Additional samples are produced creating lepton-like HSCP. Stau pair samples
-are produced under the minimal gauge-mediated supersymmetry breaking (mGMSB) scenario~\cite{Giudice:1998bp} using the SPS7 slope~\cite{Allanach:2002nj}.
+are produced under the minimal gauge-mediated supersymmetry breaking scenario~\cite{Giudice:1998bp} using the SPS7 slope~\cite{Allanach:2002nj}.
 The ISASUGRA version 7.69~\cite{Paige:2003mg} program is used to set the particle mass scale and decay chains by specifying six parameters.
 %Six parameters are set to specify the exact mGMSB scenario used. 
 The number of messenger particles is set to three; the ratio of the mass of the messenger particles to the effective SUSY breaking mass scale is set to two;
 $tan \beta = 10$, this $\beta$ being the ratio of the vacuum expectation values of the neutral Higgses;
-the sign of the supersymmetric Higgs mass parameter is made greater than zero; and $c_{Grav}$ is greater than 10000.
+the sign of the supersymmetric Higgs mass parameter is made positive; and $c_{Grav}$ is greater than 10000.
 The low number of messenger particles results in the stau being the NLSP.
-The high value of $C_{Grav}$ results in the stau being long-lived while varying $\Lambda$ from 31 to 180~TeV gives staus within a mass range of 100--557~GeV$/c^2$. 
-The produced mass spectrum and decay chains are passed to PYTHIAv6.426~\cite{Sjostrand:2006za}. 
+The high value of $c_{Grav}$ results in the stau being long-lived while varying $\Lambda$ from 31 to 180~TeV gives staus within a mass range of 100--557~GeV$/c^2$. 
+The produced mass spectrum and decay chains are passed to PYTHIA v6.426~\cite{Sjostrand:2006za}. 
 Stau production proceeds either by direct electroweak production or from the cascade
 decay of other particles (usually through the pair production of gluinos and squarks). Cascade decay is dominant due to the strong nature of the production mechanism.
 In order to give the best results while maintaining model independence, two stau samples are used: one with both direct production and production from cascade decays (CD)
-and one with staus only produced through direct production (DP). The second sample is less dependent on the model parameters. The distribution of \pt, $\eta$, and $\beta$ at generation
+and one with staus only produced through direct production (DP). The second sample is less dependent on the model parameters. The distributions
+ of \pt, $\eta$, and $\beta$ at generation
 are shown in Figs~\ref{fig:GenGMStau} and~\ref{fig:GenPPStau} for various CD and DP stau samples, respectively.
 
 \begin{figure}
@@ -86,7 +88,7 @@ are shown in Figs~\ref{fig:GenGMStau} and~\ref{fig:GenPPStau} for various CD and
   \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenGMStau_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various CD stau samples at generation]
-{Distribution of various kinematic variables for various CD stau ($\tilde{\tau}$) samples at generation:
+{Distribution of kinematic variables for various CD stau ($\tilde{\tau}$) samples at generation:
 \pt\ (top left), $\eta$ (top right), and $\beta$ (bottom)
    \label{fig:GenGMStau}}
 \end{figure}
@@ -98,7 +100,7 @@ are shown in Figs~\ref{fig:GenGMStau} and~\ref{fig:GenPPStau} for various CD and
   \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenPPStau_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for various DP stau samples at generation]
-{Distribution of various kinematic variables for various DP stau ($\tilde{\tau}$) samples at generation:
+{Distribution of kinematic variables for various DP stau ($\tilde{\tau}$) samples at generation:
 \pt\ (top left), $\eta$ (top right) and $\beta$ (bottom).
    \label{fig:GenPPStau}}
 \end{figure}
@@ -109,13 +111,13 @@ As all SM particles that reach CMS have Q equal to $1e$ or
 are neutral, the possibility of HSCPs with non-unit charge is interesting. 
 %Here and in the rest of this work, Q is meant to be the absolute value of the charge unless explicitly stated.
 %The particles can generically be divided by whether they have Q<1e or Q>=1e.
-The production of these particles is simulated with PYTHIAv6.426~\cite{Sjostrand:2006za}. 
+The production of these particles is simulated with PYTHIA v6.426~\cite{Sjostrand:2006za}. 
 Samples are produced with charge Q = $1e$, $2e$, $3e$, $4e$, $5e$, $6e$, $7e$, and $8e$ for masses of 
 %100-500 GeV$/c^2$ for $Q=2e/3$;
 100-1000~GeV$/c^2$ for $1e <= Q <= 5e$ and 200-1000~GeV$/c^2$ for $Q > 5e$.
 %charge Q = 1/3, 2/3, 1, 2, 3, 4, 5, 6, 7, and 8e for masses of 100-500 GeV$/c^2$ for Q<1e, 100-1000 GeV$/c^2$ for 1e <= Q <= 5e, and 200-1000 for Q > 5e. 
 %The samples can generically be divided by whether they have Q<1e or Q>=1e.
-The distribution of \pt, $\eta$, and $\beta$ at generation for various charges and masses are shown in Fig.~\ref{fig:GenDY}.
+The distributions of \pt, $\eta$, and $\beta$ at generation for various charges and masses are shown in Fig.~\ref{fig:GenDY}.
 
 \begin{figure}
  \begin{center}
@@ -124,7 +126,7 @@ The distribution of \pt, $\eta$, and $\beta$ at generation for various charges a
   \includegraphics[clip=false, trim=0.0cm 0cm 1.4cm 0cm, width=0.44\textwidth]{figures/muonly/Selection_Comp_GenDY_genbeta}
  \end{center}
  \caption[Distribution of \pt, $\eta$, and $\beta$ for modified DY samples with various charges and masses at generation]
-{Distribution of various kinematic for modified DY samples with various charges and masses at generation.
+{Distribution of kinematic variables for modified DY samples with various charges and masses at generation.
 Top: \pt\ (left) and $\eta$ (right).
 Bottom: $\beta$}
    \label{fig:GenDY}

@@ -2,7 +2,7 @@
 Candidates for the \muononly\ analysis are tracks identified as stand-alone muons. Candidates for the \tktof\ and \multi\ analyses are tracks identified
 as global muons. The candidates for the \tkonly\
 %and fract\ analyses require  
-analysis are tracker muons.
+analysis are tracks found in the silicon tracker.
 Various requirements are applied to the candidates in order to reduce tracks from background processes while maintaining good efficiency for HSCP.
 %For all plots shown in this section the first and last bins contain the underflow and overflow, respectively.
 
@@ -20,7 +20,7 @@ Tracks are required to have a measured time at vertex not be within $\pm5$~ns of
 Figure~\ref{fig:MuOnlyPreselB} shows the distribution of these quantities for data, cosmic-ray muon control sample, and signal MC samples.
 
 Additional cuts are used to control the background from cosmic-ray muons. Tracks are vetoed if the displacement of the track
-with respect to the beam spot is larger than 15cm in either the longitudinal or transverse direction relative to the beam line. 
+with respect to the beam spot is larger than 15~cm in either the longitudinal or transverse direction relative to the beam line. 
 The track $|\phi|$ must not be within 1.2--1.9 radians, this region represents tracks pointing in the vertical
 direction, as is expected of cosmic-ray muons. Cosmic-ray muons travel 
 through the top and bottom halves of the detector leaving hits in the muon system opposite of the track.
@@ -91,12 +91,11 @@ Bottom row: Fraction of valid tracker hits (left) and number of measurements use
 \end{figure}
 
 The relative uncertainty on the track $p_T$ ($\sigma_{p_T}/p_T$) must be less than 0.25 and the $\chi^2$ per degree of freedom must be less than five.
-While cosmic-ray muons are expected to be a negligible background in the \tktof\ analysis loose cuts are placed on the impact parameter of the track, 
+While cosmic-ray muons are expected to be a negligible background in the \tktof\ analysis, loose cuts are placed on the impact parameter of the track;
 these cuts are nearly 100\% efficient for signal particles.
 The displacement of the track with respect to the primary vertex
-with the smallest longitudinal displacement must be less than 0.5~cm in both the transverse and longitudinal directions with respect to the vertex with the smallest
-longitudinal displacement.
-Figure~\ref{fig:TkMuPreselB} shows $p_T$ uncertainty, $\chi^2$ per degree of freedom, and the $d_z$ and $d_{xy}$ displacement for data and signal MC samples.
+with the smallest longitudinal displacement must be less than 0.5~cm in both the transverse and longitudinal directions.
+Figure~\ref{fig:TkMuPreselB} shows the $p_T$ uncertainty, $\chi^2$ per degree of freedom, and $d_z$ and $d_{xy}$ displacement for data and signal MC samples.
 
 \begin{figure}
 \centering
@@ -116,8 +115,8 @@ Isolation cuts are also applied in the \tktof\ analysis. Isolated means that the
 This is required to reduce the background from jets where overlapping tracks could give
 anomalously high \dedx\ values. The isolation cuts are kept very loose as the goal is not to find isolated particles but just to reject very high energy jets.
 Specifically, the sum of the momentum of the tracks within 0.3 in $\eta-\phi$ 
-space of the track (excluding the track itself) is required to be less than 50 GeV. Additionally, the ratio of the total
-amount of energy measured in the calorimeter within a radius of 0.3 in $\eta-\phi$ space to the track to the track momentum must be less than 0.3.
+space of the track (excluding the track itself) is required to be less than 50 GeV. Additionally, the total
+amount of energy measured in the calorimeter within a radius of 0.3 in $\eta-\phi$ space to the track divided by the track momentum must be less than 0.3.
 
 Additionally, the \tktof\ analysis uses the same cuts on the \invbeta\ uncertainty and number of measurements as the \muononly\ analysis.
 Figure~\ref{fig:TkMuPreselC} shows the isolation and \invbeta\ variables for data and signal MC samples.
@@ -364,7 +363,7 @@ Bottom row: Distribution of \ias\ (left) and \ih\ (right).}
 \end{figure}
 
 \subsection{Tag and Probe Studies \label{sec:TagProbe}}
-The study of the agreement between data and MC simulationfor numerous muon qualities is done by the Muon Physics Object Group (POG) of CMS.
+The study of the agreement between data and MC simulationfor numerous muon qualities is done by the Muon POG of CMS.
 The group provides scale factors for correcting MC samples to match data.
 For all of the analyses except for \muononly\  it is sufficient to use results obtained from this group as the muon qualities
 those analyses use are common within CMS.
@@ -381,7 +380,7 @@ a simultaneous fit to the tag-probe invariant mass distributions of signal and b
 The efficiency estimated in data is compared with that found in MC samples. Scale factors are used to correct the MC samples for any discrepancy observed between the efficiencies.
 The MC sample used does not contain any production from background processes.
 
-The tag muon is required to pass a tight selection recommended by the Muon POG and to match to an object that triggered the read out of CMS. 
+The tag muon is required to pass the tight selection (see Section.~\ref{sec:timingintro}) recommended by the Muon POG and to match to an object that triggered the read out of CMS. 
 The last requirement assures that no bias is introduced in the efficiency measurement by the need for the event to have been read out.
 Additionally, the tag must pass the requirements of a skim that was used to reduce the data size to a level
 making processing reasonable. The skim requirements are at least three \dedx\ measurements and \ih\ $> 3.0$ or \ih\ $< 2.8$.

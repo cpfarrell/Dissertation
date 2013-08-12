@@ -320,7 +320,7 @@ to be less than 0.07 and for the measurement to have at least eight degrees of f
 
 The average \invbeta\ value as a function of $\eta$ and \pt\ is shown in Fig.~\ref{fig:invbetaQual} (bottom row) for the same data sample described above
 with the quality requirements on the \invbeta\ measurement applied.
-The average can be seen to have small fluctuations versus $\eta$ over most of the $\eta$ range.
+The average can be seen to have small fluctuations versus $\eta$ over the $\eta$ range.
 The deviations are due to segmentations in the muon system.
 The average is almost completely flat against the reconstructed \pt\ of the muon.
 

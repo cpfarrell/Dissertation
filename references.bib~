@@ -32,7 +32,7 @@
                       detector at the LHC",
       school       = "Louvain U.",
       year         = "2010",
-      note         = "presented Oct 2010",
+      note         = "Presented Oct 2010",
 }
 
 
@@ -52,41 +52,30 @@
 }
 
 @techreport{CMS-PAS-JME-12-002,
-      title        = "MET performance in 8 TeV data",
+      title        = "{MET performance in 8 TeV data}",
+      collaboration  = "CMS",
       institution  = "CERN",
       address      = "Geneva",
       number       = "CMS-PAS-JME-12-002",
       year         = "2013",
 }
 
-@ARTICLE{2007AN049,
+@unpublished{2007AN049,
    author = "Rizzi, A and others",
    title = {Search for Heavy Stable Charged Particles with 100 pb$^{-1}$ and 1 fb$^{-1}$ at CMS experiment},
    year = 2007,
-   note = {CMS AN2007/049}
+   note = {CMS-AN2007/049}
 }
 
-@ARTICLE{2008AN097,
+@unpublished{2008AN097,
    author = "Abbiendi, G and others",
-   title = {Muon Reconstruction in the CMS Detector}
+   title = {Muon Reconstruction in the CMS Detector},
    year = 2008,
-   note = {CMS AN2008/097}
-}
-
-@ARTICLE{2003physics...6117A,
-   author = "Acosta, D. and others",
-    title = {A 3-D Track-Finding Processor for the CMS Level-1 Muon Trigger},
-  journal = {ArXiv Physics e-prints},
-   eprint = {arXiv:physics/0306117},
- keywords = {Physics - Instrumentation and Detectors},
-     year = 2003,
-    month = jun,
-   adsurl = {http://adsabs.harvard.edu/abs/2003physics...6117A},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+   note = {CMS-AN2008/097}
 }
 
 @misc{PublicLumi,
-  author  = "CMS Collaboration",
+  collaboration  = "CMS",
   title = "{CMS Luminosity --- Public Results}",
   howpublished = {\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}},
   note = {Accessed: 2013-05-16}
@@ -106,8 +95,8 @@
       author         = "Chatrchyan, Serguei and others",
       title          = "{Observation of a new boson at a mass of 125 GeV with the
                         CMS experiment at the LHC}",
-      collaboration  = "CMS Collaboration",
-      journal        = "Phys.Lett.",
+      collaboration  = "CMS",
+      journal        = "Phys.\ Lett.",
       volume         = "B716",
       pages          = "30-61",
       doi            = "10.1016/j.physletb.2012.08.021",
@@ -121,7 +110,7 @@
 
 @article{Barate:1997dr,
       author         = "Barate, R. and others",
-      title          = "{Search for pair production of longlived heavy charged
+      title          = "{Search for pair production of long-lived heavy charged
                         particles in $e^+ e^-$ annihilation}",
       collaboration  = "ALEPH",
       journal        = "Phys.\ Lett. B",
@@ -148,21 +137,22 @@
       SLACcitation   = "%%CITATION = ARXIV:0812.0980;%%",                                                                                                                          
 }
 
-@UNPUBLISHED{CahillRowley:2012kx,
+@article{CahillRowley:2012kx,
       author         = "Cahill-Rowley, Matthew W. and Hewett, JoAnne L. and
                         Ismail, Ahmed and Rizzo, Thomas G.",
-      title          = "{More energy, more searches, but the pMSSM lives on}",
+      title          = "{More Energy, More Searches, but the pMSSM Lives On}",
       year           = "2012",
       eprint         = "1211.1981",
+      archivePrefix  = "arXiv",
       primaryClass   = "hep-ph",
       reportNumber   = "SLAC-PUB-15273",
-      SLACcitation   = "%%CITATION = ARXIV:1211.1981;%%",                                                                                                                          
+      SLACcitation   = "%%CITATION = ARXIV:1211.1981;%%",
 }
 
 @article{Abreu:2000tn,
       author         = "Abreu, P. and others",
-      title          = "{Search for heavy stable and longlived particles
-                        in $e^+ e^-$ collisions at $\sqrt{s} = 189$GeV}",
+      title          = "{Search for heavy stable and long-lived particles
+                        in $e^+ e^-$ collisions at $\sqrt{s} = 189$ GeV}",
       collaboration  = "DELPHI",
       journal        = "Phys.\ Lett. B",
       volume         = "478",
@@ -189,8 +179,8 @@
 
 @article{Abbiendi:2003yd,
       author         = "Abbiendi, G. and others",
-      title          = "{Search for stable and longlived massive charged
-                        particles in $e^+ e^-$ collisions at $\sqrt{s} = $ 130GeV to 209GeV}",
+      title          = "{Search for stable and long-lived massive charged
+                        particles in $e^+ e^-$ collisions at $\sqrt{s} = $ 130 GeV to 209 GeV}",
       collaboration  = "OPAL",
       journal        = "Phys.\ Lett. B",
       volume         = "572",
@@ -233,7 +223,7 @@
 @Article{Aaltonen:2009kea,
      author    = "Aaltonen, T. and others",
  collaboration = "CDF",
-     title     = "{Search for long-lived massive charged particles in 1.96TeV
+     title     = "{Search for long-lived massive charged particles in 1.96 TeV
                    $\bar{p}p$ collisions}",
      journal   = "Phys.\ Rev.\ Lett.",
      volume    = "103",
@@ -260,9 +250,27 @@
      SLACcitation   = "%%CITATION = ARXIV:1110.3302;%%",                                                                                                                             
 }
 
+@article{Aad:2011hz,
+      author         = "Aad, Georges and others",
+      title          = "{Search for Heavy Long-Lived Charged Particles with the
+                        ATLAS detector in $pp$ collisions at $\sqrt{s}=7$ TeV}",
+      collaboration  = "ATLAS",
+      journal        = "Phys.\ Lett.",
+      volume         = "B703",
+      pages          = "428-446",
+      doi            = "10.1016/j.physletb.2011.08.042",
+      year           = "2011",
+      eprint         = "1106.4495",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2011-077",
+      SLACcitation   = "%%CITATION = ARXIV:1106.4495;%%",
+}
+
+
 @article{Abazov:2012ab,
-  title = {Search for charged massive long-lived particles at $\sqrt{s}\mathbf{=}1.96\text{\,}\text{\,}\mathrm{TeV}$},
   author         = "Abazov, Victor Mukhamedovich and others",
+  title = "{Search for charged massive long-lived particles at $\sqrt{s}$ = 1.96 TeV}",
   collaboration = {D0},
   journal = {Phys.\ Rev.\ D},
   volume = {87},
@@ -282,7 +290,7 @@
       author         = "Aad, Georges and others",
       title          = "{Search for Massive Long-lived Highly Ionising Particles
                         with the ATLAS Detector at the LHC}",
-      collaboration  = "ATLAS Collaboration",
+      collaboration  = "ATLAS",
       journal        = "Phys.Lett.",
       volume         = "B698",
       pages          = "353-370",
@@ -297,8 +305,7 @@
 @article{Aad:2012vd,
       author         = "Aad, Georges and others",
       title          = "{Searches for heavy long-lived sleptons and R-Hadrons
-                        with the ATLAS detector in $pp$ collisions at $\sqrt{s}=7$
-                        TeV}",
+                        with the ATLAS detector in $pp$ collisions at $\sqrt{s}=7$ TeV}",
       collaboration  = "ATLAS",
       journal        = "Phys.\ Lett. B",
       volume         = "720",
@@ -315,8 +322,8 @@
       author         = "Aad, Georges and others",
       title          = "{Search for Heavy Long-Lived Charged Particles with the
                         ATLAS detector in $pp$ collisions at $\sqrt{s}=7$ TeV}",
-      collaboration  = "ATLAS Collaboration",
-      journal        = "Phys.Lett.",
+      collaboration  = "ATLAS",
+      journal        = "Phys.\ Lett.",
       volume         = "B703",
       pages          = "428-446",
       doi            = "10.1016/j.physletb.2011.08.042",
@@ -332,8 +339,8 @@
       author         = "Aad, Georges and others",
       title          = "{Search for stable hadronising squarks and gluinos with
                         the ATLAS experiment at the LHC}",
-      collaboration  = "ATLAS Collaboration",
-      journal        = "Phys.Lett.",
+      collaboration  = "ATLAS",
+      journal        = "Phys.\ Lett.",
       volume         = "B701",
       pages          = "1-19",
       doi            = "10.1016/j.physletb.2011.05.010",
@@ -344,38 +351,48 @@
       SLACcitation   = "%%CITATION = ARXIV:1103.1984;%%",
 }
 
-@unpublished{ATLASmCHAMPs,
+@article{Aad:2013pqd,
       author         = "Aad, Georges and others",
       title          = "{Search for long-lived, multi-charged particles in pp
-                        collisions at $\sqrt{s} = 7$TeV using the
-                        ATLAS detector}",
+                        collisions at $\sqrt{s}$=7 TeV using the ATLAS detector}",
       collaboration  = "ATLAS",
+      journal        = "Phys.Lett.",
+      volume         = "B722",
+      pages          = "305-323",
+      doi            = "10.1016/j.physletb.2013.04.036",
       year           = "2013",
       eprint         = "1301.5272",
+      archivePrefix  = "arXiv",
       primaryClass   = "hep-ex",
       reportNumber   = "CERN-PH-EP-2012-360",
-      SLACcitation   = "%%CITATION = ARXIV:1301.5272;%%",                                                                                                                            
+      SLACcitation   = "%%CITATION = ARXIV:1301.5272;%%",
 }
 
-@unpublished{Chatrchyan::2012dr,
+@article{CMS:2012xi,
       author         = "Chatrchyan, Serguei and others",
       title          = "{Search for fractionally charged particles in $pp$
-                        collisions at $\sqrt{s}=7$TeV}",
+                        collisions at $\sqrt{s}=7$ TeV}",
       collaboration  = "CMS",
-      year           = "2012",
+      journal        = "Phys.Rev.",
+      volume         = "D87",
+      pages          = "092008",
+      doi            = "10.1103/PhysRevD.87.092008",
+      year           = "2013",
       eprint         = "1210.2311",
+      archivePrefix  = "arXiv",
       primaryClass   = "hep-ex",
       reportNumber   = "CMS-EXO-11-074, CERN-PH-EP-2012-282",
-      SLACcitation   = "%%CITATION = ARXIV:1210.2311;%%",                                                                                                                            
+      SLACcitation   = "%%CITATION = ARXIV:1210.2311;%%",
 }
+
 
 @article{Aad:2012tfa,
       author         = "Aad, Georges and others",
       title          = "{Observation of a new particle in the search for the
                         Standard Model Higgs boson with the ATLAS detector at the
                         LHC}",
-      collaboration  = "ATLAS Collaboration",
-      journal        = "Phys.Lett.",
+      collaboration  = "ATLAS",
+      journal        = "Phys.\ Lett.",
       volume         = "B716",
       pages          = "1-29",
       doi            = "10.1016/j.physletb.2012.08.020",
@@ -390,8 +407,12 @@
 @article{Chatrchyan:2013lba,
       author         = "Chatrchyan, Serguei and others",
       title          = "{Observation of a new boson with mass near 125 GeV in pp
-                        collisions at sqrt(s) = 7 and 8 TeV}",
-      collaboration  = " CMS Collaboration",
+                        collisions at $\sqrt{s}$ = 7 and 8 TeV}",
+      collaboration  = "CMS",
+      journal        = "JHEP",
+      volume         = "06",
+      pages          = "081",
+      doi            = "10.1007/JHEP06(2013)081",
       year           = "2013",
       eprint         = "1303.4571",
       archivePrefix  = "arXiv",
@@ -419,7 +440,7 @@
 @article{Giudice:1998bp,
       author         = "Giudice, G.F. and Rattazzi, R.",
       title          = "{Theories with gauge mediated supersymmetry breaking}",
-      journal        = "Phys.Rept.",
+      journal        = "Phys.\ Rept.",
       volume         = "322",
       pages          = "419-499",
       doi            = "10.1016/S0370-1573(99)00042-3",
@@ -436,7 +457,7 @@
       author         = "Langacker, Paul and Steigman, Gary",
       title          = "{Requiem for an FCHAMP? Fractionally CHArged, Massive
                         Particle}",
-      journal        = "Phys.Rev.",
+      journal        = "Phys.\ Rev.",
       volume         = "D84",
       pages          = "065040",
       doi            = "10.1103/PhysRevD.84.065040",
@@ -451,7 +472,7 @@
      author    = "Khachatryan, Vardan and others",
  collaboration = "CMS",
      title     = "{Search for heavy stable charged particles in pp collisions
-                  at $\sqrt{s}=7$TeV}",
+                  at $\sqrt{s}=7$ TeV}",
      journal   = "JHEP",
      volume    = "03",
      year      = "2011",
@@ -465,7 +486,7 @@
 @article{Kraan:2004tz,
       author         = "Kraan, Aafke Christine",
       title          = "{Interactions of heavy stable hadronizing particles}",
-      journal        = "Eur.Phys.J.",
+      journal        = "Eur.\ Phys.\ J.",
       volume         = "C37",
       pages          = "91-104",
       doi            = "10.1140/epjc/s2004-01997-7",
@@ -480,7 +501,7 @@
       author         = "Mackeprang, Rasmus and Rizzi, Andrea",
       title          = "{Interactions of Coloured Heavy Stable Particles in
                         Matter}",
-      journal        = "Eur.Phys.J.",
+      journal        = "Eur.\ Phys.\ J.",
       volume         = "C50",
       pages          = "353-362",
       doi            = "10.1140/epjc/s10052-007-0252-4",
@@ -495,7 +516,7 @@
       author         = "Mackeprang, Rasmus and Milstead, David",
       title          = "{An Updated Description of Heavy-Hadron Interactions in
                         GEANT-4}",
-      journal        = "Eur.Phys.J.",
+      journal        = "Eur.\ Phys.\ J.",
       volume         = "C66",
       pages          = "493-501",
       doi            = "10.1140/epjc/s10052-010-1262-1",
@@ -510,7 +531,7 @@
 @article{Balazs:2004bu,
       author         = "Balazs, C. and Carena, Marcela S. and Wagner, C.E.M.",
       title          = "{Dark matter, light stops and electroweak baryogenesis}",
-      journal        = "Phys.Rev.",
+      journal        = "Phys.\ Rev.",
       volume         = "D70",
       pages          = "015007",
       doi            = "10.1103/PhysRevD.70.015007",
@@ -526,7 +547,7 @@
       author         = "Fairbairn, M. and Kraan, A.C. and Milstead, D.A. and
                         Sjostrand, T. and Skands, Peter Z. and others",
       title          = "{Stable massive particles at colliders}",
-      journal        = "Phys.Rept.",
+      journal        = "Phys.\ Rept.",
       volume         = "438",
       pages          = "1-63",
       doi            = "10.1016/j.physrep.2006.10.002",
@@ -548,7 +569,7 @@
       SLACcitation   = "%%CITATION = HEP-PH/9709356;%%",
 }
 
-@article{Tata:1997uf,
+@inproceedings{Tata:1997uf,
       author         = "Tata, Xerxes",
       title          = "{What is supersymmetry and how do we find it?}",
       year           = "1997",
@@ -556,6 +577,7 @@
       archivePrefix  = "arXiv",
       primaryClass   = "hep-ph",
       reportNumber   = "UH-511-872-97",
+      booktitle      = {Campos do Jordao 1997, Particles and fields},
       SLACcitation   = "%%CITATION = HEP-PH/9706307;%%",
 }
 
@@ -603,44 +625,64 @@
   year={2008},
 }
 
-@ARTICLE{2010JInst...5T3021C,
-   author = {{CMS Collaboration}},
-    title = "{Precise mapping of the magnetic field in the CMS barrel yoke using cosmic rays}",
-  journal = {Journal of Instrumentation},
-archivePrefix = "arXiv",
-   eprint = {0910.5530},
- primaryClass = "physics.ins-det",
-     year = 2010,
-    month = mar,
-   volume = 5,
-    pages = {3021},
-      doi = {10.1088/1748-0221/5/03/T03021},
-   adsurl = {http://adsabs.harvard.edu/abs/2010JInst...5T3021C},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{Chatrchyan:2009ab,
+      author         = "Chatrchyan, S and others",
+      title          = "{Performance of the CMS Level-1 Trigger during
+                        Commissioning with Cosmic Ray Muons}",
+      collaboration  = "CMS",
+      journal        = "JINST",
+      volume         = "5",
+      pages          = "T03002",
+      doi            = "10.1088/1748-0221/5/03/T03002",
+      year           = "2010",
+      eprint         = "0911.5422",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CMS-CFT-09-013",
+      SLACcitation   = "%%CITATION = ARXIV:0911.5422;%%",
 }
 
-@techreport{CMS-PAS-TRK-10-002,
-      title        = "Measurement of Tracking Efficiency",
-      institution  = "CERN",
-      address      = "2010. Geneva",
-      number       = "CMS-PAS-TRK-10-002",
-      year         = "2010",
+@article{Chatrchyan:2009si,
+      author         = "Chatrchyan, S and others",
+      title          = "{Precise Mapping of the Magnetic Field in the CMS Barrel
+                        Yoke using Cosmic Rays}",
+      collaboration  = "CMS",
+      journal        = "JINST",
+      volume         = "5",
+      pages          = "T03021",
+      doi            = "10.1088/1748-0221/5/03/T03021",
+      year           = "2010",
+      eprint         = "0910.5530",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CMS-CFT-09-015",
+      SLACcitation   = "%%CITATION = ARXIV:0910.5530;%%",
 }
 
-@ARTICLE{2012JInst...7P0002T,
-   author = {{The CMS Collaboration}},
-    title = "{Performance of CMS muon reconstruction in pp collision events at $\sqrt{s}=7$ TeV}",
-  journal = {Journal of Instrumentation},
-archivePrefix = "arXiv",
-   eprint = {1206.4071},
- primaryClass = "physics.ins-det",
-     year = 2012,
-    month = oct,
-   volume = 7,
-    pages = {2P},
-      doi = {10.1088/1748-0221/7/10/P10002},
-   adsurl = {http://adsabs.harvard.edu/abs/2012JInst...7P0002T},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@techreport{CMS:2010mua,
+      key            = "925300",
+      title          = "{Measurement of Tracking Efficiency}",
+      collaboration  = "CMS",
+      year           = "2010",
+      note   = "CMS-PAS-TRK-10-002",
+      SLACcitation   = "%%CITATION = CMS-PAS-TRK-10-002 ETC.;%%",
+}
+
+@article{2012JInst...7P0002T,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Performance of CMS muon reconstruction in $pp$ collision
+                        events at $\sqrt{s}=7$ TeV}",
+      collaboration  = "CMS",
+      journal        = "JINST",
+      volume         = "7",
+      pages          = "P10002",
+      doi            = "10.1088/1748-0221/7/10/P10002",
+      year           = "2012",
+      eprint         = "1206.4071",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CMS-MUO-10-004, CERN-PH-EP-2012-173",
+      SLACcitation   = "%%CITATION = ARXIV:1206.4071;%%",
 }
 
 @article{Cowan:2010js,
@@ -648,7 +690,7 @@ archivePrefix = "arXiv",
                         Vitells, Ofer",
       title          = "{Asymptotic formulae for likelihood-based tests of new
                         physics}",
-      journal        = "Eur.Phys.J.",
+      journal        = "Eur.\ Phys.\ J.",
       volume         = "C71",
       pages          = "1554",
       doi            = "10.1140/epjc/s10052-011-1554-0",
@@ -659,29 +701,46 @@ archivePrefix = "arXiv",
       SLACcitation   = "%%CITATION = ARXIV:1007.1727;%%",                                                                                                                            
 }
 
-@TECHREPORT{SMP-12-008,
-      AUTHOR      = "{CMS Collaboration}",
-      COLLABORATION = "CMS",
-      TITLE       = "Absolute Calibration of the Luminosity Measurement at {CMS}: {W}inter 2012 Update",
-      URL         = "http://cdsweb.cern.ch/record/1434360",
-      TYPE        = "CMS Physics Analysis Summary",
-      NUMBER      = "CMS-PAS-SMP-12-008",
-      institution = "CMS",
-      YEAR        = "2012"
+@techreport{SMP-12-008,
+      key            = "1199085",
+      title          = "{Absolute Calibration of the Luminosity Measurement at
+                        CMS: Winter 2012 Update}",
+      collaboration  = "CMS",
+      year           = "2012",
+      note   = "CMS-PAS-SMP-12-008",
+      SLACcitation   = "%%CITATION = CMS-PAS-SMP-12-008 ETC.;%%",
 }
 
-@article{Read:451614,
-      author       = "Read, A L",
-      title        = "Modified frequentist analysis of search results (the
-                      $CL_{s}$ method)",
-      number       = "CERN-OPEN-2000-205",
-      year         = "2000",
+@inproceedings{Read:451614,
+      author         = "Read, Alexander L.",
+      title          = "{Modified frequentist analysis of search results (The
+                        CL(s) method)}",
+      year           = {2000},
+      booktitle={Geneva 2000, Confidence limits},
+      SLACcitation   = "%%CITATION = CERN-OPEN-2000-205 ETC.;%%",
+}
+
+@article{Chatrchyan:2011tn,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Missing transverse energy performance of the CMS
+                        detector}",
+      collaboration  = "CMS",
+      journal        = "JINST",
+      volume         = "6",
+      pages          = "P09001",
+      doi            = "10.1088/1748-0221/6/09/P09001",
+      year           = "2011",
+      eprint         = "1106.5048",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CERN-PH-EP-2011-051, CMS-JME-10-009",
+      SLACcitation   = "%%CITATION = ARXIV:1106.5048;%%",
 }
 
 @article{CMS:2010xta,
       key            = "925285",
       title          = "{Jet Performance in pp Collisions at 7 TeV}",
-      collaboration  = "CMS Collaboration",
+      collaboration  = "CMS",
       year           = "2010",
       reportNumber   = "CMS-PAS-JME-10-003",
       SLACcitation   = "%%CITATION = CMS-PAS-JME-10-003 ETC.;%%",
@@ -690,7 +749,7 @@ archivePrefix = "arXiv",
 @article{Giudice:2004tc,
       author         = "Giudice, G.F. and Romanino, A.",
       title          = "{Split supersymmetry}",
-      journal        = "Nucl.Phys.",
+      journal        = "Nucl.\ Phys.",
       volume         = "B699",
       pages          = "65-89",
       doi            = "10.1016/j.nuclphysb.2004.11.048",
@@ -707,7 +766,7 @@ archivePrefix = "arXiv",
                         Carena, Marcela S. and De Roeck, A. and others",
       title          = "{The Snowmass points and slopes: Benchmarks for SUSY
                         searches}",
-      journal        = "Eur.Phys.J.",
+      journal        = "Eur.\ Phys.\ J.",
       volume         = "C25",
       pages          = "113-123",
       doi            = "10.1007/s10052-002-0949-3",
@@ -723,23 +782,6 @@ archivePrefix = "arXiv",
       SLACcitation   = "%%CITATION = HEP-PH/0202233;%%",
 }
 
-@article{Sjostrand:2007gs,
-      author         = "Sjostrand, Torbjorn and Mrenna, Stephen and Skands, Peter
-                        Z.",
-      title          = "{A Brief Introduction to PYTHIA 8.1}",
-      journal        = "Comput.Phys.Commun.",
-      volume         = "178",
-      pages          = "852-867",
-      doi            = "10.1016/j.cpc.2008.01.036",
-      year           = "2008",
-      eprint         = "0710.3820",
-      archivePrefix  = "arXiv",
-      primaryClass   = "hep-ph",
-      reportNumber   = "CERN-LCGAPP-2007-04, LU-TP-07-28,
-                        FERMILAB-PUB-07-512-CD-T",
-      SLACcitation   = "%%CITATION = ARXIV:0710.3820;%%",
-}
-
 @article{Paige:2003mg,
       author         = "Paige, Frank E. and Protopopescu, Serban D. and Baer,
                         Howard and Tata, Xerxes",
@@ -750,6 +792,32 @@ archivePrefix = "arXiv",
       archivePrefix  = "arXiv",
       primaryClass   = "hep-ph",
       SLACcitation   = "%%CITATION = HEP-PH/0312045;%%",
+}
+
+@unpublished{Lefebure:1999wja,
+      author         = "Lefebure, Veronique and Banerjee, Sudeshna and
+                        Gonzalez, I.",
+      title          = "{CMS Simulation Software Using Geant4}",
+      year           = "1999",
+      note   = "CMS-NOTE-1999-072, CERN-CMS-NOTE-1999-072",
+      SLACcitation   = "%%CITATION = CMS-NOTE-1999-072 ETC.;%%",
+}
+
+@article{Sjostrand:2007gs,
+      author         = "Sjostrand, Torbjorn and Mrenna, Stephen and Skands, Peter
+                        Z.",
+      title          = "{A Brief Introduction to PYTHIA 8.1}",
+      journal        = "Comput.\ Phys.\ Commun.",
+      volume         = "178",
+      pages          = "852-867",
+      doi            = "10.1016/j.cpc.2008.01.036",
+      year           = "2008",
+      eprint         = "0710.3820",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-LCGAPP-2007-04, LU-TP-07-28,
+                        FERMILAB-PUB-07-512-CD-T",
+      SLACcitation   = "%%CITATION = ARXIV:0710.3820;%%",
 }
 
 @article{Sjostrand:2006za,
@@ -788,8 +856,8 @@ archivePrefix = "arXiv",
       author         = "Chatrchyan, Serguei and others",
       title          = "{Search for heavy long-lived charged particles in $pp$
                         collisions at $\sqrt{s} = 7$ TeV}",
-      collaboration  = "CMS Collaboration",
-      journal        = "Phys.Lett.",
+      collaboration  = "CMS",
+      journal        = "Phys.\ Lett.",
       volume         = "B713",
       pages          = "408-433",
       doi            = "10.1016/j.physletb.2012.06.023",
@@ -827,25 +895,18 @@ archivePrefix = "arXiv",
                       some items",
 }
 
-
-
-
-
-
-@ARTICLE{2010EPJC...70.1165K,
-   author = {{Khachatryan}, V. and {Sirunyan}, A.~M. and {Tumasyan}, A. and 
-        {Adam}, W. and {Bergauer}, T. and {Dragicevic}, M. and {Er{\"o}}, J. and
-        {Fabjan}, C. and {Friedl}, M. and {Fr{\"u}hwirth}, R. and et al.},
-    title = "{CMS tracking performance results from early LHC operation}",
-  journal = {European Physical Journal C},
-archivePrefix = "arXiv",
-   eprint = {1007.1988},
- primaryClass = "physics.ins-det",
-     year = 2010,
-    month = dec,
-   volume = 70,
-    pages = {1165-1192},
-      doi = {10.1140/epjc/s10052-010-1491-3},
-   adsurl = {http://adsabs.harvard.edu/abs/2010EPJC...70.1165K},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{2010EPJC...70.1165K,
+      author         = "Khachatryan, Vardan and others",
+      title          = "{CMS Tracking Performance Results from early LHC
+                        Operation}",
+      collaboration  = "CMS",
+      journal        = "Eur. Phys. J.",
+      volume         = "C70",
+      pages          = "1165-1192",
+      doi            = "10.1140/epjc/s10052-010-1491-3",
+      year           = "2010",
+      eprint         = "1007.1988",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1007.1988;%%",
 }
