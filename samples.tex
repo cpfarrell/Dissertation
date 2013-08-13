@@ -33,7 +33,7 @@ be the only way to detect gluino HSCP. The \muononly\ analysis is designed to ha
 the charge suppression model will be charged in the silicon tracker but always neutral in the muon system. The \tkonly\ analysis is designed to be sensitive
 to HSCP of this type. A third signature is an HSCP charged in both the muon and tracker systems which would have a signature similar to a muon.
 HSCP produced neutral under the charge suppression model would never be charged during their passage through CMS and thus are outside the scope
-of an HSCP search.%, they would fall into searches for dark matter.
+of the present CMS HSCP search.
 
 The \pt, $\eta$, and $\beta$ distributions of gluino and stop particles at generation are shown in Figs.~\ref{fig:GenGluino} and~\ref{fig:GenStop}, respectively.
 
@@ -68,14 +68,14 @@ Additional samples are produced creating lepton-like HSCP. Stau pair samples
 are produced under the minimal gauge-mediated supersymmetry breaking scenario~\cite{Giudice:1998bp} using the SPS7 slope~\cite{Allanach:2002nj}.
 The ISASUGRA version 7.69~\cite{Paige:2003mg} program is used to set the particle mass scale and decay chains by specifying six parameters.
 %Six parameters are set to specify the exact mGMSB scenario used. 
-The number of messenger particles is set to three; the ratio of the mass of the messenger particles to the effective SUSY breaking mass scale is set to two;
+The number of messenger particles is set to three; the ratio of the mass of the messenger particles to the effective SUSY breaking mass scale is set to 2.0;
 $tan \beta = 10$, this $\beta$ being the ratio of the vacuum expectation values of the neutral Higgses;
 the sign of the supersymmetric Higgs mass parameter is made positive; and $c_{Grav}$ is greater than 10000.
 The low number of messenger particles results in the stau being the NLSP.
-The high value of $c_{Grav}$ results in the stau being long-lived while varying $\Lambda$ from 31 to 180~TeV gives staus within a mass range of 100--557~GeV$/c^2$. 
+The high value of $c_{Grav}$ results in the stau being long-lived, while varying $\Lambda$ from 31 to 180~TeV gives staus within a mass range of 100--557~GeV$/c^2$. 
 The produced mass spectrum and decay chains are passed to PYTHIA v6.426~\cite{Sjostrand:2006za}. 
 Stau production proceeds either by direct electroweak production or from the cascade
-decay of other particles (usually through the pair production of gluinos and squarks). Cascade decay is dominant due to the strong nature of the production mechanism.
+decay of other particles. Cascade decay is dominant due to the strong nature of the pair production mechanism for gluinos and squarks.
 In order to give the best results while maintaining model independence, two stau samples are used: one with both direct production and production from cascade decays (CD)
 and one with staus only produced through direct production (DP). The second sample is less dependent on the model parameters. The distributions
  of \pt, $\eta$, and $\beta$ at generation
@@ -132,11 +132,12 @@ The distributions of \pt, $\eta$, and $\beta$ at generation for various charges 
    \label{fig:GenDY}
 \end{figure}
 
-All MC simulation events are overlaid with additional proton-proton collisions, see Section~\ref{sec:LHC}.
+All MC simulation events are overlaid with additional proton-proton collisions (see Section~\ref{sec:LHC}).
 Weights are given to the events so that the distribution of additional collisions in the MC simulation samples matches what is observed in data.
 The reconstruction of the event by CMSSW tries to identify each proton-proton collision as a separate primary vertex~\cite{2010EPJC...70.1165K}.
 The distribution of the number of primary vertices found in events after the reweighting is shown in Figure~\ref{fig:PV} for data and MC simulation.
-The samples shown in the figure are required to have been collected with one of the triggers detailed in Sec.~\ref{sec:trigger}.
+The samples shown in the figure are required to have been collected with one of the triggers detailed in Sec.~\ref{sec:trigger} and to have
+passed the preselection requirements for the \muononly\ analysis (see Sec.~\ref{sec:preselection}).
 
 \begin{figure}
   \begin{center}
@@ -145,7 +146,8 @@ The samples shown in the figure are required to have been collected with one of 
   \end{center}
         \caption[Distribution of number of primary vertices in data and various MC simulation samples]
 {Distribution of number of primary vertices in data and various MC simulation samples. 
-The samples shown in the figure are required to have been collected with one of the three triggers detailed in Sec.~\ref{sec:trigger}.
+The samples shown in the figure are required to have been collected with one of the three triggers detailed in Sec.~\ref{sec:trigger}
+and to have passed the preselection criteria for the \muononly\ analysis (see Sec.~\ref{sec:preselection}).
 Left with linear y-axis scale, right with log scale.
         }
       \label{fig:PV}

@@ -11,7 +11,8 @@ The standard model (SM) of particle physics is a framework for describing fundam
 A summary of the SM is given below, more information can be found in~\cite{griffiths2008introduction, Srednicki_2007}.
 
 Particles in the SM are split into two types: bosons, which have integer spin, and fermions, which have half integer spin.
-The bosons are the carriers of the forces of the SM while the fermions act as the matter fields.
+The bosons, except for the Higgs Boson, are the carriers of the forces of the SM while the fermions act as the matter fields.
+The Higgs Boson has a special role discussed below.
 
 %The forces in the SM are the electromagnetic, strong, and weak forces. The carrier of the strong force is the 
 
@@ -35,7 +36,8 @@ The Higgs Boson's non-zero VEV also gives mass to the fermions by allowing for a
 which is otherwise not allowed.
 %Describe the Higgs mechanism in this paragraph, don't really know how to do it currently.
 In July 2012, the CMS and ATLAS experiments at the LHC
-announced the discovery of a new particle with properties similar to the Higgs Boson~\cite{Chatrchyan:2012ufa, Aad:2012tfa}.
+announced the discovery of a new particle with properties similar to the Higgs Boson~\cite{Chatrchyan:2012ufa, Aad:2012tfa},
+%Updates in 2013 with more data~\cite{Chatrchyan:2013lba, }
 %If the particle is confirmed to be the Higgs Boson, this would represent the final particle of the SM to be discovered.
 
 The fermions in the SM are split between quarks and leptons. Both the quarks and leptons are arranged into three families,
@@ -80,7 +82,7 @@ The proton-proton collisions at the LHC will create vast numbers of these SM par
 a large majority of the events will be the production of light quarks and gluons. A small fraction of the events (though a large total number given the very
 high rate of collisions at the LHC) will produce particles such as $W$ and $Z$ bosons, top quarks, and the Higgs Boson.
 These particles will quickly decay into other SM particles like muons, electrons, and b quarks. This production of stable and long lived SM particles,
-particularly muons, form part of the background for the search for new heavy long-lived particles detailed in Chapter~\ref{sec:search}.
+particularly muons, form much of the background for the search for new heavy long-lived particles detailed in Chapter~\ref{sec:search}.
 
 %\subsection{Cosmic rays \label{sec:cosmics}}
 The production of SM particles proceeds not only in the proton-proton collisions at the LHC but also through astrophysical processes.
@@ -90,14 +92,14 @@ As the muons will have a large relativistic boost, they will be able to reach th
 %At sea level the flux of muons is approximately one per 10$cm^2$.
 Muons lose only a small amount of energy in interactions with matter,
 allowing the highest-energy cosmic-ray muons to penetrate through large amounts of earth.
-This allows cosmic-ray muons to pass through CMS potentially creating a background for searches for new physics.
+This allows cosmic-ray muons to pass through CMS creating another potential background for searches for new physics.
 
 \section{Beyond Standard Model Theories and Heavy Stable Charged Particles \label{sec:BSM}}
 More information about theories beyond the SM and heavy stable charged particles can be found in~\cite{Martin:1997ns, Tata:1997uf, Fairbairn:2006gg}.
 
 While the SM has proven to be a very robust theory, there are reasons to believe it is not complete. These include runaway
-radiative corrections to the Higgs mass and an inability to explain the astronomically observed dark matter.
-At a minimum, the theory must be replaced at the Planck energy scale ($10^{18}$~GeV)
+radiative corrections to the Higgs mass and an inability to explain the astronomically observed dark matter~\cite{1983SciAm.248...96R}.
+At a minimum, the theory must be replaced at the Planck energy scale ($1.22 \times 10^{19}$~GeV)
 where the gravitational force becomes as strong as the other forces. To address issues like these numerous
 theories have been put forth for physics beyond the SM (BSM). 
 If these BSM theories are accurate, evidence of them could very well be present in the high energy collisions produced at the LHC.
@@ -106,14 +108,14 @@ charged particles (HSCP) with lifetimes greater than a few nanoseconds, long eno
 
 One of the most popular BSM theories is supersymmetry (SUSY). A new symmetry is added that gives
 each SM particle a superpartner particle with spin different by one half. The SUSY particles interact with the same coupling as their SM particles.
-The names of the SUSY particles are generally found by prepending an s (for scalar) to the SUSY partners of spin 1/2 particles;
+The names of the SUSY particles are generally found by prepending an s (for scalar) to the spin zero SUSY partners of spin 1/2 particles;
 so the SUSY partner of the electron is the selectron. The names of other particles are found by adding --ino to the end of their names,
 so the higgs SUSY partner is the higgsino.
 As no SUSY particles have yet been discovered the
 symmetry must be broken at some scale giving the SUSY particles masses larger than SM particles. In order to address the unresolved issues in the SM, this mass gap is
 expected to be no larger than about 1 TeV. In addition to adding a new symmetry, most versions of SUSY have a new multiplicatively conserved quantity called R-parity
 which is added to prevent rapid proton decay.
-SUSY particles have an R-parity value of -1 while SM particles have a value of 1. This implies that the lightest SUSY particle (LSP) will be stable and in most
+SUSY particles have an R-parity value of -1 while SM particles have a value of 1. This implies that the lightest SUSY particle (LSP) will be stable, and in most
 SUSY theories it is taken to be electrically and color neutral so as to be the astronomically observed dark matter.
 
 Other SUSY particles besides the LSP could have a long lifetime in certain areas of SUSY parameter space. In the minimal supersymmetric standard model (MSSM) the LSP is the
@@ -124,24 +126,24 @@ a bottom quark to be kinematically allowed.
 %One case of interest is that of the scalar top (stop $\tilde{t}$) as the NLSP motivated by electroweak
 %baryogenesis~\cite{Balazs:2004bu}. If the mass difference between the stop and the neutralino makes the stop decay to a neutralino and a b quark kinematically not
 %allowed as arranged by non-universal squark masses, 
-Then the stop decay happens via the radiative decay to a charm quark and neutralino making the stop very long-lived.
+Then the stop decay happens via the radiative decay to a charm quark and neutralino, making the stop very long-lived.
 
-Another variant of supersymmetry is split SUSY. In split SUSY, scalar SUSY particles have very large masses while other particles remain at the TeV scale.
+Another variant of supersymmetry is split SUSY. In split SUSY, scalar SUSY particles have masses much larger than the other SUSY particles which are at the TeV scale.
 The gluino $\tilde{g}$ (superpartner of the gluon) then decays through virtual squarks which 
-is suppressed by a factor of $\tilde{m}^{-2}$ allowing for the gluino to be quite long-lived.
+is suppressed by a factor of $\tilde{m}^{-2}$, where $\tilde{m}$ is the mass of the squarks, allowing for the gluino to be quite long-lived.
 
 Gluinos and stops have color charge and as such will form composite hadrons with SM quarks and gluons after production, referred to as $R$--hadrons.
 These $R$--hadrons can be $R$--mesons, $R$--baryons, or, for gluinos, a glueball made of a gluino and a SM gluon.
 %Examples of R-hadrons are shown in Fig.~\ref{fig:Composites}.
-$R$--hadrons can be electrically neutral or have charge $Q$, taken here and everywhere else in this paper unless otherwise stated as the absolute value of the charge,
+$R$--hadrons can be electrically neutral or have charge $Q$, taken in this paper unless otherwise stated as the absolute value of the charge,
 of 1$e$ or 2$e$, where $e$ is the charge of the electron.
 For gluinos, the fraction of gluinos forming glueballs, which are always electrically neutral, is
-a free parameter in the theory. If the fraction is 100\%, then all gluino $R$--hadrons will be produced electrically neutral.
+an unknown value in the theory. If the fraction is 100\%, then all gluino $R$--hadrons will be produced electrically neutral.
 The mass spectrum of the $R$-hadrons is not well known.
 If there are mass gaps between the $R$--hadrons larger than the pion mass, the heavier $R$--hadron would decay to the lighter $R$--hadron via the weak force.
-It has historically been taken that all $R$--hadrons containing only up and down quarks are stable.
-Recently, theories have been put forth~\cite{Mackeprang:2009ad} that only one $R$--baryon will be stable and the other $R$--baryons will decay to it.
-The fraction of the $R$--hadrons electrically charged would depend on the charge of that $R$--baryon.
+It has historically been taken that all $R$--hadrons containing only gluons and up and down quarks are stable.
+Recently, theories have been put forth~\cite{Mackeprang:2009ad} that only one $R$--baryon will be stable and the other $R$--baryons will immediately decay to it.
+The fraction of $R$--hadrons emerging from the LHC collision point that are electrically charged would depend on the charge of that $R$--baryon.
 
 
 %\begin{figure}
@@ -160,36 +162,19 @@ $R$--hadron to exchange quarks with the nucleons of the detector.
 This can cause the
 electrical charge of the $R$--hadron to change, possibly going from neutral
 to charged or from charged to neutral. 
-%The process occurs through an exchange of quarks with the detector material in nuclear interactions.
-%an example of this can be seen in Fig~\ref{fig:Rhadron} taken from ref.~\cite{SMP}.
-Along with the electric charge, the baryon number of the $R$--hadron can change with $R$--mesons converting into $R$--baryons.
+
+To cover all of the possible signatures that $R$--hadrons could have, two different modelings of nuclear interactions between $R$--hadrons and the CMS detector are considered.
+The first is the model presented in~\cite{Kraan:2004tz, Mackeprang:2006gx}
+which is referred to as the cloud model and results in a mixture of charged and neutral $R$--hadrons after a nuclear interaction.
+The second model, referred to as charge-suppressed (CS), makes all $R$--hadrons neutral after a nuclear interaction.
+
+The CS model is a somewhat more pessimistic model than the one discussed in~\cite{Mackeprang:2009ad}.
+The model results in all $R$-hadrons becoming electrically neutral due to a combination of baryon exchange with the detector and the $R$-hadron mass spectrum.
+$R$--mesons can interact with protons and neutrons in the detector converting into $R$--baryons and releasing a pion.
 The reverse process is unlikely to occur due to the lack of pions in the detector material and limited phase space.
 If the mass spectrum is as in~\cite{Mackeprang:2009ad}, then this would result in all $R$--hadrons becoming the charge of the lightest $R$--baryon in the model
 after a few interactions. If this $R$--baryon is neutral, then essentially all $R$--hadrons will be neutral after passing through the calorimeter of CMS
 (see Sec.~\ref{sec:subsystems}).
-
-%As discussed above, their are large uncertainties on the behavior of $R$--hadrons.
-To cover all of the possible signatures that $R$--hadrons could have, two different modelings of nuclear interactions between $R$--hadrons and the CMS detector are considered.
-%The modeling of $R$-hadrons mass spectrum and nuclear interactions has a large uncertainty.,
-%of particular interest is the fraction of $R$--hadrons that will be electrically charged.
-%The modeling of these interactions has some uncertainty, of particular interest is the fraction of $R$--hadrons that will be electrically charged after an interaction.
-%Two models are considered in this work.
-%The models differ in the mass spectrum of the $R$-hadrons that a given HSCP can form with up and down quarks.
-The first is the model presented in~\cite{Kraan:2004tz, Mackeprang:2006gx} 
-which is referred to as the cloud model and results in a mixture of charged and neutral $R$--hadrons after a nuclear interaction.
-The second model, referred to as charge-suppressed, makes all $R$--hadrons neutral after a nuclear interaction.
-This is a slightly more pessimistic model than the one discussed in~\cite{Mackeprang:2009ad}
-%This is the most pessimistic model possible and 
-%Most HSCP will not have a nuclear interaction while passing through the CMS tracker however a very large majority will have one in the calorimeter system.
-
-%\begin{figure}
-%  \begin{center}
-%      \includegraphics[clip=true, trim=0.0cm 0cm 0.0cm 0cm, width=1.0\textwidth]{figures/Rhadron}\\
-%      {R-hadron interaction
-%	}
-%      \label{fig:Rhadron}
-%  \end{center}
-%\end{figure}
 
 A third possible type of HSCP in SUSY is the production of long-lived staus $\tilde{\tau}$ in gauge mediated symmetry breaking (GMSB)~\cite{Giudice:1998bp}. 
 In GMSB, the gravitino is very light and almost always the LSP.

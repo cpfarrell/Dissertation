@@ -2,54 +2,55 @@ This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: dissertation.aux
 The style file: JHEP.bst
 Database file #1: references.bib
-Repeated entry---line 321 of file references.bib
+Repeated entry---line 358 of file references.bib
  : @article{Aad:2011hz
  :                    ,
 I'm skipping whatever remains of this entry
+Warning--empty author and editor in CMSMuonTDR
 Warning--empty author in CMS-PAS-JME-12-002
 Warning--empty author in SMP-12-008
 Warning--empty institution in SMP-12-008
 Warning--empty author in CMS:2010mua
 Warning--empty institution in CMS:2010mua
-You've used 62 entries,
+You've used 65 entries,
             2195 wiz_defined-function locations,
-            929 strings with 12435 characters,
-and the built_in function-call counts, 17593 in all, are:
-= -- 1842
-> -- 502
+            947 strings with 12771 characters,
+and the built_in function-call counts, 18198 in all, are:
+= -- 1910
+> -- 515
 < -- 1
-+ -- 192
-- -- 130
-* -- 1371
-:= -- 2372
-add.period$ -- 76
-call.type$ -- 62
-change.case$ -- 59
++ -- 198
+- -- 133
+* -- 1414
+:= -- 2455
+add.period$ -- 81
+call.type$ -- 65
+change.case$ -- 61
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 986
-empty$ -- 1709
-format.name$ -- 130
-if$ -- 4552
+cite$ -- 71
+duplicate$ -- 1019
+empty$ -- 1771
+format.name$ -- 133
+if$ -- 4708
 int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 194
-newline$ -- 201
-num.names$ -- 58
-pop$ -- 244
+int.to.str$ -- 65
+missing$ -- 202
+newline$ -- 211
+num.names$ -- 60
+pop$ -- 254
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 673
+skip$ -- 689
 stack$ -- 0
-substring$ -- 844
-swap$ -- 403
+substring$ -- 872
+swap$ -- 411
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 121
-width$ -- 64
-write$ -- 671
+warning$ -- 6
+while$ -- 125
+width$ -- 67
+write$ -- 699
 (There was 1 error message)

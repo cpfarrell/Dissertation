@@ -7,8 +7,7 @@ Particle physics is concerned with studying what matter is made of and how it in
 The desire to understand nature at its most basic level has long been of interest to humankind, dating back to at least the ancient Greek philosophers.
 The field of particle physics began to come into its own beginning with the discovery of the electron in 1897 by J.J. Thompson~\cite{griffiths2008introduction}.
 In the more than a century since that discovery, the field has been revolutionized many times. Whenever it seemed that the final piece of the puzzle was within reach,
-a surprising result would be found: fundamental particles shown to be composites, inviolate symmetries found to be broken,
-or a universe with accelerating expansion.
+a surprising result would be found: fundamental particles shown to be composites or inviolate symmetries found to be broken.
 
 The current state of knowledge in particle physics is contained in the standard model (SM) of particle physics. The SM contains all of the known
 particles and the way that they interact with one another. The SM has been developed over the last forty years and has proven to be a very successful theory. 
@@ -22,22 +21,25 @@ producing many particles in the collisions.
 % including Higgs Bosons if they exist. 
 Surrounding the points where the LHC brings the protons to a collision
 are experiments designed to measure and reconstruct the particles emanating from the collisions. Two of these experiments, CMS and
-ATLAS, announced in June of 2012 the discovery of a new particle with properties like that of the SM Higgs Boson~\cite{Chatrchyan:2013lba, Aad:2012tfa}.
+ATLAS, announced in July of 2012 the discovery of a new particle with properties like that of the SM Higgs Boson~\cite{Chatrchyan:2012ufa, Aad:2012tfa}.
 %, possibly indicating that the last piece of the SM has been found.
 
 %However it may be that the discovered particle is not the SM Higgs but comes from another source (cite papers saying not Higgs).
 Throughout the history of particle physics, just when the theory looks to be the most stable can be when a discovery revolutionizes the field.
 There are many models which predict physics beyond the SM~\cite{Martin:1997ns, Tata:1997uf} 
 that would be produced by the LHC and could be detected by the LHC experiments.
-One of the most popular models is supersymmetry (SUSY) where all of the SM particles are given a superpartner with spin different by one half.
-Some of these models predict the production of new heavy (meta-)stable charged particles (HSCP) 
-which would directly interact with the LHC experiments. All of the long-lived SM particles produced by the LHC have a small mass, meaning that a discovery of an HSCP
-would be a clear indication that a new theory must be developed to explain these particles.
+One of the most popular models is supersymmetry (SUSY) where all of the SM particles are accompanied by a heavier superpartner with spin different by one half
+of Planck's constant.
+Some of these models predict the production of new heavy (quasi-)stable charged particles (HSCP) 
+which would directly interact with the LHC experiments. 
+If the lifetime of the HSCP is larger than a few nanoseconds, it will be able to traverse the length of typical particle detectors.
+The distinguishing feature of HSCP is a mass higher than any long-lived SM particle, for example the proton which has a mass of 0.94~GeV.
+If such a particle is observed, it would be a clear indication that a new theory must be developed to explain it.
 
-There are numerous different types of HSCP predicted in the models of new physics, and the different types can leave exotic signatures in the LHC detectors.
+There are several different types of HSCP that can be predicted in the models of new physics, and the different types can leave exotic signatures in the LHC detectors.
 Some types of HSCPs would form composite objects with SM particles and undergo nuclear interactions with the detector material
-that change the SM particles in the composite particles. This could lead to the HSCP changing its electric charge during its propagation through the detector.
-Other HSCP could be produced with electric charge not equal to $e$, the charge of an electron, unlike almost all electrically charged particles 
+that change the SM particles within the composites. This could lead to the composite changing its electric charge during its propagation through the detector.
+Other HSCP could be produced with electric charge not equal to $\pm e$, the charge of an electron, unlike almost all electrically charged particles 
 expected to be produced at the LHC.
 
 Multiple complementary searches for HSCP produced at the LHC were carried out using data collected by the CMS experiment and are presented in this work.
@@ -45,9 +47,9 @@ Each of the searches is designed to be sensitive to different signatures that HS
 common between searches. The searches exploit the experimental signatures of HSCP that allow them to be separated from the very large background of SM particles.
 Requirements are placed on these characteristics and the residual background due to SM particles is evaluated. The data are then checked to see whether
 the observation is consistent with this background. If it is not consistent, then this indicates the presence of a new particle beyond the SM while if it
-is consistent then this places limits on models of physics beyond the SM.
+is consistent then limits can be placed on models of physics beyond the SM.
 
-HSCP produced at the LHC are expected to have high momentum, likely more than 100~GeV/c. Even at this high momentum, HSCP would be traveling at a speed
+HSCP produced at the LHC are expected to have high momentum, often more than 100~GeV/c. Even at this high momentum, HSCP would be traveling at a speed
 appreciably slower than the speed of light due to their large mass. All of the long-lived SM particles produced at the LHC would be traveling at very nearly
 the speed of light, $c$, even at a momentum of 10~GeV/$c$.
 The slow speed of the HSCP means that it would arrive to the outer portion of CMS later than SM particles would.
@@ -63,7 +65,7 @@ An emphasis is placed on theories which include new long-lived charged particles
 %the SM are considered. An emphasis is placed on theories which include new long-lived charged particles as 
 %a search for these particles form the basis of this work.
 In Chapter~\ref{sec:app}, the experimental apparatus used in this work is presented. This includes the LHC and 
-CMS, in particular parts of the apparatus especially important
+CMS; in particular, parts of the apparatus especially important
 for searches for long-lived charged particles are given extra detail.
 Chapter~\ref{sec:timing} discusses the measurement of the arrival time of hits in the outer portion of CMS.
 %The timing performance is shown in both the low latency online environment and the offline determination of the timing of a particle.

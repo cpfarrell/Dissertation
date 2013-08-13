@@ -5,7 +5,7 @@ The slow speed of HSCPs lead to two interesting detector signatures. The first i
 The muon system, being the furthest detector element from the interaction point, has the largest timing difference. The measurement of the arrival time of particles in the
 muon system is discussed in Ch.~\ref{sec:timing}. The \invbeta\ variable is used in the searches to discriminate between HSCPs and SM particles.
 The second interesting signature is that HSCPs have a larger amount of ionization energy loss per unit length 
-than SM particles of the same momentum as discussed below.
+than SM particles of the same momentum, as discussed below.
 
 \subsection{Transverse Momentum Measurement \label{sec:PMeasurement}}
 A muon passing through CMS will likely be reconstructed three times~\cite{2012JInst...7P0002T}; once only in the silicon tracker, referred to as a tracker track;
@@ -21,11 +21,15 @@ than tracker muons at high momentum at 6\% in the central region.
 The \muononly\ analysis uses the $p_T$ measurement coming from the stand-alone muon while the rest of the analyses use the measurement from the tracker track.
 The tracker track momentum is used even when the global muon is available due to issues specific to $R$-hadrons.
 $R$-hadrons are unlikely to undergo a nuclear interaction while traversing the silicon tracker so they would have the same electric charge at all points in the tracker.
-While passing through the muon system however, $R$-hadrons will often undergo a nuclear interaction with the steel return yoke located between the muon stations
-possibly causing the electric charge to change in the middle of the muon system. This behavior affects the momentum measurement of the HSCP track in the muon system.
+However, $R$-hadrons will often undergo a nuclear interaction with other parts of CMS while they pass through the detector. 
+The parts of CMS
+where this is most likely to happen are the calorimeter, magnet coil  and cryostat, and the steel return yoke in the muon system.
+This makes their tracks curve differently inside of CMS than muons and has the possibility for the $R$-hadron's momentum to be misreconstructed.
 
-To convert the measured $Q/p_T$ to $p_T$, a charge of $Q=1e$ is assumed.
-For $R$-hadrons that can change their charge inside of CMS it can be the case that the average value of $Q$ during their passage through the muon system does not equal $1e$.
+The \pt\ measurement by the stand-alone muon is especially sensitive to the $R$-hadron interacting with the steel return yoke.
+Interacting with the steel return yoke allows for the electric charge of $R$-hadrons to change in the middle of the muon system.
+This means that the average value of $Q$ during their passage through the muon system may not equal $1e$.
+This affects the momentum measurement as a charge of $Q=1e$ is assumed when converting the measured $Q/p_T$ to $p_T$.
 This effect has different consequences for the stop and gluino samples.
 
 A stop particle, specifically not an anti-stop, has a charge of $+(2/3)e$ and forms an $R$-hadron with either an anti-quark ($\tilde{t} \bar{q}$) or
@@ -41,10 +45,10 @@ allowing the charge of the $R$-hadron to range from $-2e$ to $+2e$. This leads t
 average charge of the $R$-hadron as it traverses the muon system to often be less than $1e$ and the $p_T$ value to be overestimated allowing for further separation
 between HSCP and SM particles.
 
-To observe this effect the function
+To observe this effect the unitless function
 $\Delta(Q/p_T)$ is defined in Equation~\ref{eq:deltaqopt}
 \begin{equation}
-\Delta(Q/p_T) = ((Q/p_T)_{SA} - (Q/p_T)_{Tk})/(Q/p_T)_{Tk}
+\Delta(Q/p_T) = \frac{((Q/p_T)_{SA} - (Q/p_T)_{Tk})}{(Q/p_T)_{Tk}}
 \label{eq:deltaqopt}
 \end{equation}
 where ``SA'' refers to stand-alone muon qualities and ``Tk'' refers to
@@ -67,10 +71,10 @@ to a very large degree. This increases the differences between gluino HSCPs and 
 
 \begin{figure}
  \begin{center}
-  \includegraphics[width=0.44\textwidth]{figures/muonly/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS}
+  \includegraphics[width=0.7\textwidth]{figures/muonly/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS}
  \end{center}
  \caption{Distribution of $\Delta(Q/p_T)$
-    for data, 500 GeV gluino, 500 GeV stop, and 494 GeV CD stau.
+    for data, 500 GeV gluino, 500 GeV stop, and 494 GeV CD stau. The $y$-axis is in log scale.
     \label{fig:MuOnlyInvPtDiff}}
 \end{figure}
 
@@ -89,9 +93,9 @@ This effect can be seen in Figure~\ref{fig:RecoGenPt}.
 \end{figure}
 
 \subsection{Energy Loss Measurement \label{sec:DedxMeasurement}}
-The amount of ionization energy a particle looses while traversing CMS can be measured by the silicon tracker.
+The amount of ionization energy a particle loses while traversing CMS can be measured by the silicon tracker.
 %that a slow moving HSCP will have a larger ionization energy loss in the silicon tracker than SM particles will.
-For paticles with 0.1 $\gtrsim \beta \gamma \lesssim$ 1000, where $\gamma$ is $1/\sqrt{1 - \beta^2}$,
+For particles with 0.1 $\lesssim \beta \gamma \lesssim$ 1000, where $\gamma$ is $1/\sqrt{1 - \beta^2}$,
 the average amount of the ionization energy loss per unit length in a given material, \dedx, is to a large degree dependent only on the velocity of the particle
 and its charge as described by the Bethe-Bloch formula~\cite{PDG}.
 The dependence of \dedx\  on charge varies approximately as $Q^2$, meaning that even a $Q=2e$ HSCP will have almost four times as much energy loss as a SM particle. 
@@ -106,7 +110,11 @@ Techniques described below are used to help mitigate the effect of this radiativ
 
 A short description of the \dedx\ measurement is included here, a more detailed description can be found in~\cite{2010EPJC...70.1165K, Khachatryan:2011ts, Quertenmont:1361029}.
 As in~\cite{Chatrchyan:2012sp}, two variables related to \dedx\ are calculated for each track. 
-The first is a harmonic mean of the \dedx\ measurements along the track;
+The first, \ih, is an estimator of the average \dedx\ of the track. It can be used in combination with the momentum measurement to estimate the mass of a particle.
+The second, \ias, is a discriminant that is designed to give the best separation between MIPs and high-ionizing particles.
+The same measurements are used to determine \ih\ and \ias\ so the variables are not independent.
+
+\ih\ is calcualted as the harmonic mean of the \dedx\ measurements along the track;
 \begin{equation}
  I_h= \biggl( \cfrac{1}{N} \sum_i c_{i}^{-2} \biggr)^{-1/2},
  \label{eq:HarmonicEstimator}
@@ -114,7 +122,7 @@ The first is a harmonic mean of the \dedx\ measurements along the track;
 where $N$ is the number of measurements in the silicon-strip tracker and $c_{i}$ is the energy loss per unit path length
 of the $i$th measurement. The use of a harmonic mean greatly reduces the impact of the rare radiative losses as the highest energy
 losses are effectively given less weight than lower energy losses. This leads to all
-SM particles produced at the LHC with momentum above 10~GeV on average having \ih\ values close to the minimum value ($\approx$ 3MeV/cm). 
+SM particles produced at the LHC with momentum above 10~GeV on average having \ih\ values close to the minimum value ($\approx$ 2.8~MeV/cm). 
 HSCP will have high \ih\ as their energy loss is consistently large.
 
 The second variable is \ias\ which is a modified version of the Smirnov-Cramer-von Mises~\cite{Eadie, James} discriminant.
@@ -129,9 +137,8 @@ where $P_i$ is the probability for a MIP to
 produce a charge smaller or equal to that of the $i$th measurement in the silicon-strip tracker
 for the observed path length in the detector, and the sum is over the
 measurements ordered in terms of increasing $P_i$. The probabilities are found from tracks with momentum greater than five~GeV collected with a trigger requiring only
-that a proton collision occured inside CMS. The discriminant is designed to give the best separation between MIPs and high-ionizing particles.
+that a proton collision occured inside CMS.
 The discriminant is peaked at zero for MIPs and approaches one for high-ionizing particles.
-The same measurements are used to determine \ih\ and \ias\ so the variables are not independent. 
 
 An estimate of the mass $m$, assuming Q=1$e$, of a particle can be made from \ih\ and the momentum $p$ of a track. This is done by using Eq.~\ref{eq:MassFromHarmonicEstimator};
 \begin{equation}
@@ -139,3 +146,4 @@ I_h= K\cfrac{m^2}{p^2}+C.
 \label{eq:MassFromHarmonicEstimator}
 \end{equation}
 with  $K=2.559 \pm 0.001$ MeV cm$^{-1}$ $c^2$ and $C=2.772 \pm 0.001$ MeV cm$^{-1}$ as determined from low momentum protons~\cite{Khachatryan:2011ts}.
+Eq.~\ref{eq:MassFromHarmonicEstimator} is an approximation that works well over the range $0.1 < \beta < 0.9$~\cite{PDG}.

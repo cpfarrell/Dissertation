@@ -4,9 +4,9 @@
 
 The apparatus used for this paper is a combination of a large particle accelerator complex and a detector used to measure the results of particle collisions.
 %r than how the term is normally used.  
-Protons are accelerated and brought to a collision by the Large Hadron Collider (LHC)
+Protons are accelerated and brought to collision by the Large Hadron Collider (LHC)
 located outside Geneva, Switzerland spanning the Swiss-French border. The protons are accelerated in smaller linear and cyclical accelerators before being injected
-into the LHC. The protons are brought to a collision at four spots along the LHC. Surrounding one of these spots is the Compact Muon Solenoid (CMS) detector. The CMS
+into the LHC. The protons are brought to collision at four spots along the LHC. Surrounding one of these spots is the Compact Muon Solenoid (CMS) detector. The CMS
 detector consists of multiple subsystems which work together to identify signatures of different types of particles.
 
 \section{Large Hadron Collider \label{sec:LHC}}
@@ -16,16 +16,16 @@ to collide particles at high energy and high luminosity. It sits in a 26.7~km tu
 The LHC can create collisions with either protons or heavier ions. This leads to three possible operational modes, proton-proton, ion-ion, and proton-ion.
 Only in proton-proton operational mode is there a possibility to discover HSCPs and it is the only mode discussed in this paper.
 
-The LHC was designed to accelerate protons to an energy of seven TeV and collide them at a center of mass energy ($\sqrt{s}$) of 
+The LHC was designed to accelerate protons to an energy of seven TeV and collide them at a center--of--mass energy ($\sqrt{s}$) of 
 fourteen TeV. The protons are brought
 to a collision at four points along the LHC beam line. Surrounding two of these interaction points sit the general purpose detectors of CMS and ATLAS. These detectors are 
-designed to receive the highest instantaneous luminosity the LHC can supply, the design value is $10^{34}$~cm$^{-2}$~s$^{-1}$.
+designed to receive the highest instantaneous luminosity the LHC can supply: the design value is $10^{34}$~cm$^{-2}$~s$^{-1}$.
 The other interaction points are surrounded by the special purpose detectors LHCb and ALICE and
 are designed to have instantaneous luminosities of $2\times10^{29}$~cm$^{-2}$~s$^{-1}$ and $10^{27}$~cm$^{-2}$~s$^{-1}$, respectively. This paper considers data collected by the
 CMS detector.
 
 The acceleration of protons to their final energy of 7 TeV is done in series of steps employing smaller accelerators located on the CERN campus. 
-The protons originate in the linear accelerator Linac2 which accelerates them to an energy of 50~GeV.
+The protons originate in the linear accelerator Linac2 which accelerates them to an energy of 50~MeV.
 From there, they are passed through a series of synchrotron accelerators: the Proton Synchrotron Booster, the Proton Synchrotron,
 and the Super Proton Synchrotron, with their energy raised to 1.4~GeV, 25~GeV, and 450~GeV, respectively. After passing through the Super Proton Synchrotron the protons
 are passed into the LHC. The design specification then have the LHC accelerating the protons to their final design energy of 7~TeV, however only an energy of 4~TeV
@@ -44,9 +44,9 @@ This results in the collisions in a bunch crossing being spread over a time peri
 %The effect of this on the search for HSCPs is discussed in Section~\ref{sec:SystUnc}.
 
 The commissioning of the LHC saw it run at progressively higher energies building towards the design energy. In 2008, the LHC ran at
-$\sqrt{s}=900$~GeV and for a short period at 2.36~TeV. Then after further work on the LHC, the center of mass energy was raised 
+$\sqrt{s}=900$~GeV and for a short period at 2.36~TeV. Then after further work on the LHC, the center--of--mass energy was raised 
 to 7~TeV for both 2010 and 2011 and then to 8~TeV in 2012.
-This paper only covers the data collected at 7 and 8~TeV in 2011 and 2012. It is planned to raise the center of mass energy to its 
+This paper only covers the data collected at 7 and 8~TeV in 2011 and 2012. It is planned to raise the center--of--mass energy to its 
 design goal of 14~TeV through additional work on the LHC and the injector system.
 
 Similarly, the instantaneous luminosity was ramped up during the commissioning phase. In 2010, the maximum instantaneous luminosity achieved~\cite{PublicLumi}
@@ -64,11 +64,11 @@ references~\cite{Chatrchyan:2008zzk, Bayatian:922757}.
 CMS was designed to be a general purpose detector that would have sensitivity to a wide range of physics. This is important for a search for HSCP as the detector
 is used in ways not typically done in most CMS analyses.
 The central feature of CMS is a superconducting solenoid magnet with a 6~m diameter and 13~m length that provides a 3.8~T magnetic field. The return field from the solenoid
-is powerful enough to saturate 1.5~m of steel, which allows for a strong magnetic field to be present outside of the solenoid.
+is powerful enough to saturate 1.5~m of steel, which is used to guide the return magnetic field.
 CMS has a cylindrical shape with an onion like design where inner subdetectors are nested inside of outer ones. From inside out, these subdetectors are an all silicon
 tracker, an electromagnetic calorimeter, a hadronic calorimeter, the magnet, and finally the muon system. 
 Figure~\ref{fig:CMSPart} shows a cross-sectional quarter view of the CMS detector.
-The signatures of SM particles in CMS is shown in Fig.~\ref{fig:CMSSlice}.
+The signatures of SM particles in CMS are shown in Fig.~\ref{fig:CMSSlice}.
 %The various subdetectors and their role in identifying
 %SM particles can be seen in Figs~\ref{fig:CMSPart} and~\ref{fig:CMSSlice}.
 
@@ -81,7 +81,7 @@ upward (downward) has a $\phi$ value of $\pi/2$ ($-\pi/2$).
   \begin{center}
       \includegraphics[clip=true, trim=0.0cm 0cm 3.0cm 0cm, width=0.9\textwidth]{figures/apparatus/CMS_LongView_noME42.pdf}
         \caption[Cross-section view of CMS detector]
-        {Cross-sectional view of a quarter of the CMS detector. Protons enter CMS along the bottom of the figure and are brought to a collision in the bottom right corner.
+        {Cross-sectional view in $r$-$z$ of a quarter of the CMS detector. Protons enter CMS along the bottom of the figure and are brought to a collision in the bottom right corner.
 The inner silicon tracker is in the bottom right in green. The electromagnetic calorimeter and hadronic calorimeter are outside of the silicon tracker
 in light gray and yellow, respectively.
 The muon detectors are located on the outside of the detector and are in blue.
@@ -94,7 +94,7 @@ The muon detectors are located on the outside of the detector and are in blue.
   \begin{center}
       \includegraphics[clip=true, trim=0.0cm 0cm 3.0cm 0cm, width=\textwidth]{figures/apparatus/CMS_Slice.png}
         \caption[A drawing of a cross section of CMS along with the expected interactions of SM particles as they propagate through CMS.]
-	    {A drawing of a cross section of CMS along with the expected interactions of SM particles as they propagate through CMS.
+	    {A drawing of a $r$-$\phi$ cross section of CMS at $\eta$=0 along with the expected interactions of SM particles as they propagate through CMS.
 Shown are a muon as solid line in light blue, an electron as solid line in red, a charged hadron as a solid line in green, a neutral hadron as a dashed green line,
 and a photon as a dashed line in dark blue.
         }
@@ -148,10 +148,11 @@ particles at different points in the calorimeter.  The calorimeter is split into
 The ECAL is made of 75,848 lead tungstate ($PbWO_4$) crystals split between the barrel and endcap. As particles lose energy in the ECAL
 the crystals emit scintillation light which is collected by photodetectors. The HCAL consists of plates of brass absorbers interleaved with scintillator
 detectors.  Electrons and photons are likely to stop in the ECAL where they deposit all of their energies. Hadrons, electrically charged or neutral, will
-deposit some energy in the ECAL but will deposit most in the HCAL where they are very likely to come to a rest. Muons will deposit of the order of two GeV of energy in
-the calorimeter and are generally the only charged SM particles that are able to exit the calorimeter.
+deposit some energy in the ECAL but will deposit most in the HCAL where they are very likely to come to a rest. High-momentum muons will 
+deposit of the order of two GeV of energy in the calorimeter and are generally the only charged SM particles that are able to exit the calorimeter.
 
-The outermost part of the detector is the muon system which is split into three parts: Cathode Strip Chambers (CSC), Drift Tubes (DT), and Resistive Plate Chambers (RPC).
+The outermost part of the detector is the muon system~\cite{CMSMuonTDR} which is split into three parts:
+Cathode Strip Chambers (CSC), Drift Tubes (DT), and Resistive Plate Chambers (RPC).
 The CSC cover the forward part of the detector with $|\eta|>0.9$ while the DT and the RPC cover the barrel portion extending up to $|\eta|$ of 1.2 and 1.6, respectively.
 The muon system consists of four stations of chambers with the steel for the magnet return yoke located between the stations. The magnet return yoke provides a magnetic field
 in the muon system.
@@ -164,8 +165,9 @@ by charge interpolation of adjacent strips. Charge collected on the wires
 is passed to a constant fraction discriminator which outputs a 40~ns pulse. The pulse is sampled every 25~ns and this sampling is readout.
 The CSCs are laid out with four stations with increasing $z$ from the interaction point and rings of increasing radial distance from the beam line.
 
-The DT chambers have two or three superlayers which themselves are composed of four layers of drift cells which are staggered by half a cell. All of the DT chambers have
-two superlayers oriented parallel to the beam line, these superlayers measure the position of particles in the $r-\phi$ plane.
+Each DT chamber has two or three superlayers which themselves are composed of four layers of drift cells which are staggered by half a cell.
+Each cell reads out a time measurement. The ensemble of time measurements can be converted into a position measurement and time of particle passage.
+All of the DT chambers have two superlayers oriented parallel to the beam line, these superlayers measure the position of particles in the $r-\phi$ plane.
 The three inner stations additionally have a superlayer running perpendicular to the beam line to measure the position of particles in the $r-z$ plane.
 
 The RPC chambers are gaseous parallel plate detectors that can provide a time resolution of 2~ns, which is much smaller than the design LHC bunch spacing of 25~ns allowing for
@@ -178,7 +180,7 @@ that selects interesting events online.
 The level one (L1) trigger must reduce the rate of events readout to less than 100~kHz in less than 3.2~$\mu s$
 requiring a completely electronics based approach. 
 Events are selected by a variety of algorithms but most of them look for a high momentum track in the muon
-system, large amount of energy in the ECAL or HCAL, or a combination of these. Signals from these systems trigger the readout of the rest of detector through
+system, large amount of energy in the ECAL or HCAL, or a combination of these. Signals from these systems trigger the readout of data from the entire detector through
 the data acquisition system. 
 
 As the LHC was designed to operate with 25~ns bunch spacing, many of the subsystems, the tracker especially, only readout
@@ -190,11 +192,12 @@ A slow moving HSCP may have the signals from some stations associated with the c
 This leads to a potential loss in efficiency to trigger events containing an HSCP due to the mismatched time windows.
 However, a special configuration of the RPC trigger exploits the fact that current running of the LHC has been done with at least 50ns spacing.
 
-All hits in the RPC are sent to the trigger electronics twice, once for the bunch crossing window they are associated with and also for the one proceeding it.
-From there, the trigger electronics treat the time advanced RPC hits in the same manner as they do all other hits. 
+In this special configuration, all hits in the RPC are sent to the trigger electronics twice,
+once for the bunch crossing window they are associated with and also for the one proceeding it.
+From there, the trigger electronics treat the time-advanced RPC hits in the same manner as they do all other hits. 
 This allows the RPCs to trigger the readout of the event preceding the arrival of the particle in the RPCs.
 This means that HSCP which arrive to the muon system up to 37.5ns after
-a muon is expected to, could still trigger the readout of the correct data in the rest of the detector.
+a muon is expected to could still trigger the readout of the correct data in the rest of the detector.
 % corresponding with the bunch crossing window it was created in.
 
 %Despite the RPC signaling to readout two events only one will ever be actually collected as readout of consecutive events is forbidden by the DAQ. 

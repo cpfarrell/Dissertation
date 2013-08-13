@@ -1,55 +1,53 @@
 \chapter{Searches for Heavy Stable Charged Particles \label{sec:search}}
 
-\section{Foreword}
-The contents of this chapter are included in a paper authored by the CMS collaboration that has been accepted for publication in the Journal of High Energy Physics.
-The work was done in a small group within the CMS collaboration with me being one of the central analyzers.
-Other major contributors to the work were Loic Quertenmont, Todd Adams, Giacomo Bruno, Jie Chen, and Venkatesh Veeraraghavan.
-The paper includes five searches for HSCPs in data collected by CMS during 2011 running at $\sqrt{s}=7$~TeV and 2012 running at 8~TeV.
-Each search is designed to have sensitivity for various different signatures of HSCP. 
-The five searches are all done in the same framework
-so most of my work was applied to all five analyses. The five searches are labelled \muononly, \tktof, \tkonly, \multi, and \fract. 
-
-For parts of the searches that were different between the five searches,
-I was essentially the only person to work on the \muononly\ search and contributed largely to the \tktof\ search.
-I worked on the \tkonly\ and \multi\ searches to a slightly smaller degree. My work on the \fract\ search was mostly limited to work that was applied across all five searches. 
-Therefore this chapter mostly focuses on the \muononly\ and \tktof\ searches, while the \tkonly\ and \multi\ searches are presented
-with the specific parts that I worked on highlighted. The \fract\ search is not presented here.
-
-The journal paper includes both the 2011 and 2012 data taking periods for all the analyses except for the \muononly\ search which uses the 2012 data only. 
-As the \muononly\ search is the major focus of this chapter, it was decided to focus on the data collected in 2012 for this chapter.
-Additionally, the 2012 dataset was taken at a higher energy and includes approximately four times the integrated luminosity as the 2011 dataset,
-making the sensitivity of the searches determined to a large degree by the data collected in 2012.
-The procedure for analyzing the data from the two periods is identical.
-A statistical combination of the 2011 and 2012 dataset for all the analyses except for \muononly\ is presented at the end of the chapter. 
-%The procedure for analyzing the 2011 data is the same as for the 2012 data.
-
 \section{Introduction}
 As discussed in section~\ref{sec:BSM}, new heavy long-lived charged particles are predicted in many extensions to the SM. HSCPs with
 lifetimes $\gtrsim 40$~ns are likely to traverse the entire CMS detector before decaying and will thus be directly detectable.
 Some of the HSCP combine with SM particles to form composite objects that can be electrically charged or neutral.
 Interactions with the CMS detector may change the SM constituents of the particles and through this their electric charge.
 The HSCPs will be produced with high momentum but their large mass means that
-a majority will have a velocity, $\beta \equiv v/c,$ less than 0.9. 
+a majority will have a velocity, $\beta \equiv v/c,$ less than 0.9.
 As no heavy long-lived SM particles are expected to be produced at the LHC, HSCPs would be the only high-momentum particles with $\beta$ not very close to one.
-Detector signatures unique to slow-moving particles are exploited to search for HSCP. 
+Detector signatures unique to slow-moving particles are exploited to search for HSCP.
 The backgrounds to the searches are SM particles with detector mismeasurement and in some cases
-muons coming from cosmic rays.
+muons coming from cosmic rays. This chapter details multiple searches for HSCP.
 
-Previous collider searches for HSCPs have been performed at LEP~\cite{Barate:1997dr, Abreu:2000tn, Achard:2001qw, Abbiendi:2003yd}, HERA~\cite{Aktas:2004pq},
-the Tevatron~\cite{Abazov:2008qu, Aaltonen:2009kea, Abazov:2011pf,Abazov:2012ab},
-and the LHC~\cite{Khachatryan:2011ts, Aad:2011mb,  Aad:2011yf, Aad:2011hz, CMS:2012xi, Chatrchyan:2012sp, Aad:2012vd, Aad:2013pqd}.
-The results from such searches have placed important bounds on BSM theories~\cite{Berger:2008cq, CahillRowley:2012kx}, such as lower limits on the
-mass of gluinos, stops, and staus at 1098,
-737, and 223 GeV/$c^2$, respectively.
+The contents of this chapter are included in a paper authored by the CMS collaboration~\cite{Chatrchyan:2013oca}.
+The work was done in a small group within the CMS collaboration with me being one of the central analyzers.
+Other major contributors to the work were Loic Quertenmont, Todd Adams, Giacomo Bruno, Jie Chen, Venkatesh Veeraraghavan, and Wells Wulsin.
+The paper includes five searches for HSCPs in data collected by CMS during 2011 running at $\sqrt{s}=7$~TeV and 2012 running at 8~TeV.
+Each search is designed to have sensitivity for various different signatures of HSCP. 
+The five searches are all done in the same framework,
+so most of my work was applied to all five analyses. The five searches are labelled \muononly, \tktof, \tkonly, \multi, and \fract. 
 
-Four different searches are presented here. The \muononly\ analysis requires only that a track be found in the muon system.
+The \muononly\ analysis requires only that a track be found in the muon system of CMS.
 This analysis is expected to still have sensitivity when all particles are produced electrically neutral. The
 \tktof\ analysis requires that the muon system track be matched to a track in the inner tracker. This analysis is especially
 powerful for lepton-like HSCP. The third analysis is the \tkonly\ analysis that only requires a track be found in the inner tracker so that it can be sensitive to particles
 becoming neutral in the calorimeter and leaving no hits in the muon system. The \multi\ analysis looks 
-for particles with $Q > 1e$ and reconstructed like in the \tktof\ analysis.
-% and the \fract\ analysis which looks for fractionally charged analysis with
-%a reconstruction signature like the \tkonly\ analysis.
+for particles with $Q > 1e$ and reconstructed like in the \tktof\ analysis. The \fract\ analysis searches for particles with $Q < 1e$ and only
+requires the particles to be found in the inner tracker.
+
+For parts of the searches that were different between the five searches,
+I was essentially the only person to work on the \muononly\ search and contributed largely to the \tktof\ search.
+I worked on the \tkonly\ and \multi\ searches to a slightly smaller degree. My work on the \fract\ search was mostly limited those aspects 
+that were applied across all five searches. 
+Therefore this chapter mostly focuses on the \muononly\ and \tktof\ searches, while the \tkonly\ and \multi\ searches are presented
+with the specific parts that I worked on highlighted. The \fract\ search is not presented here.
+
+The CMS paper includes both the 2011 and 2012 data taking periods for all the analyses except for the \muononly\ search which uses the 2012 data only. 
+As the \muononly\ search is the major focus of this chapter, it was decided to focus on the data collected in 2012 for this chapter.
+Additionally, the 2012 dataset was taken at a higher energy and includes approximately four times the integrated luminosity as the 2011 dataset,
+making the sensitivity of the searches determined to a large degree by the data collected in 2012.
+The procedure for analyzing the data from the two periods is identical.
+A statistical combination of the 2011 and 2012 dataset for all the analyses except for \muononly\ is presented at the end of the chapter. 
+
+Previous collider searches for HSCPs have been performed at LEP~\cite{Barate:1997dr, Abreu:2000tn, Achard:2001qw, Abbiendi:2003yd}, HERA~\cite{Aktas:2004pq},
+the Tevatron~\cite{Abazov:2008qu, Aaltonen:2009kea, Abazov:2011pf,Abazov:2012ab},
+and the LHC~\cite{Khachatryan:2011ts, Aad:2011mb,  Aad:2011yf, Aad:2011hz, CMS:2012xi, Chatrchyan:2012sp, Aad:2012vd, Aad:2013pqd}.
+The results from such searches have placed important bounds on BSM theories~\cite{Berger:2008cq, CahillRowley:2012kx}. 
+The most stringent limits have come from previous LHC searches that placed limits on the mass of gluinos, stops, and staus at 1098,
+737, and 223 GeV/$c^2$~\cite{Chatrchyan:2012sp}, respectively.
 
 For all plots in this chapter, the first and last bins contain the underflow and overflow, respectively.
 

@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {3.2}Large Hadron Collider }{13}{section.3.2}
 \contentsline {section}{\numberline {3.3}Compact Muon Solenoid}{15}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Subdetectors }{19}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Trigger and Computing }{22}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Trigger and Computing }{23}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Muon System Timing }{26}{chapter.4}
 \contentsline {section}{\numberline {4.1}Foreword}{26}{section.4.1}
 \contentsline {section}{\numberline {4.2}Introduction }{26}{section.4.2}
@@ -17,32 +17,31 @@
 \contentsline {section}{\numberline {4.5}DT Timing}{36}{section.4.5}
 \contentsline {section}{\numberline {4.6}Offline Muon Track Timing}{37}{section.4.6}
 \contentsline {chapter}{\numberline {5}Searches for Heavy Stable Charged Particles }{46}{chapter.5}
-\contentsline {section}{\numberline {5.1}Foreword}{46}{section.5.1}
-\contentsline {section}{\numberline {5.2}Introduction}{47}{section.5.2}
-\contentsline {section}{\numberline {5.3}Samples }{48}{section.5.3}
-\contentsline {section}{\numberline {5.4}Trigger }{57}{section.5.4}
-\contentsline {section}{\numberline {5.5}Selection Variables }{66}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Transverse Momentum Measurement }{67}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Energy Loss Measurement }{70}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Preselection }{72}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Preselection for {\em muon only}\ }{72}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Preselection for {\em muon+track}\ }{73}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Preselection for {\em track only}\ and {\em multiple charge}\ }{79}{subsection.5.6.3}
-\contentsline {subsection}{\numberline {5.6.4}Summary of Preselection }{81}{subsection.5.6.4}
-\contentsline {subsection}{\numberline {5.6.5}Tag and Probe Studies }{85}{subsection.5.6.5}
-\contentsline {section}{\numberline {5.7}Background Predictions }{88}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Prediction for {\em muon only}\ analysis }{93}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Prediction for {\em muon+track}\ analysis}{100}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}Prediction for {\em track only}\ analysis}{112}{subsection.5.7.3}
-\contentsline {subsection}{\numberline {5.7.4}Prediction for {\em multiple charge}\ analysis}{112}{subsection.5.7.4}
-\contentsline {section}{\numberline {5.8}Statistical Technique }{116}{section.5.8}
-\contentsline {section}{\numberline {5.9}Cut Optimization }{117}{section.5.9}
-\contentsline {section}{\numberline {5.10}Signal Efficiency Systematic Uncertainties }{123}{section.5.10}
-\contentsline {subsection}{\numberline {5.10.1}Trigger Efficiency Uncertainty}{123}{subsection.5.10.1}
-\contentsline {subsection}{\numberline {5.10.2}Uncertainty on Selection Variables}{125}{subsection.5.10.2}
-\contentsline {subsection}{\numberline {5.10.3}Other Uncertainties on Signal Efficiency}{127}{subsection.5.10.3}
-\contentsline {subsection}{\numberline {5.10.4}Total Signal Efficiency Uncertainty}{128}{subsection.5.10.4}
-\contentsline {section}{\numberline {5.11}Final Results}{128}{section.5.11}
-\contentsline {section}{\numberline {5.12}Summary of Results}{143}{section.5.12}
-\contentsline {chapter}{\numberline {6}Conclusion }{155}{chapter.6}
-\contentsline {chapter}{References}{157}{chapter*.4}
+\contentsline {section}{\numberline {5.1}Introduction}{46}{section.5.1}
+\contentsline {section}{\numberline {5.2}Samples }{48}{section.5.2}
+\contentsline {section}{\numberline {5.3}Trigger }{57}{section.5.3}
+\contentsline {section}{\numberline {5.4}Selection Variables }{66}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Transverse Momentum Measurement }{67}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Energy Loss Measurement }{69}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Preselection }{73}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Preselection for {\em muon only}\ }{73}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Preselection for {\em muon+track}\ }{74}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Preselection for {\em track only}\ and {\em multiple charge}\ }{80}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Summary of Preselection }{82}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Tag and Probe Studies }{86}{subsection.5.5.5}
+\contentsline {section}{\numberline {5.6}Background Predictions }{89}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Prediction for {\em muon only}\ analysis }{94}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Prediction for {\em muon+track}\ analysis}{101}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Prediction for {\em track only}\ analysis}{113}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Prediction for {\em multiple charge}\ analysis}{113}{subsection.5.6.4}
+\contentsline {section}{\numberline {5.7}Statistical Technique }{117}{section.5.7}
+\contentsline {section}{\numberline {5.8}Cut Optimization }{118}{section.5.8}
+\contentsline {section}{\numberline {5.9}Signal Efficiency Systematic Uncertainties }{124}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Trigger Efficiency Uncertainty}{124}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}Uncertainty on Selection Variables}{126}{subsection.5.9.2}
+\contentsline {subsection}{\numberline {5.9.3}Other Uncertainties on Signal Efficiency}{128}{subsection.5.9.3}
+\contentsline {subsection}{\numberline {5.9.4}Total Signal Efficiency Uncertainty}{129}{subsection.5.9.4}
+\contentsline {section}{\numberline {5.10}Final Results}{129}{section.5.10}
+\contentsline {section}{\numberline {5.11}Summary of Results}{144}{section.5.11}
+\contentsline {chapter}{\numberline {6}Conclusion }{156}{chapter.6}
+\contentsline {chapter}{References}{158}{chapter*.4}

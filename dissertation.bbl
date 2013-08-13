@@ -8,11 +8,11 @@ D.~Griffiths, {\em Introduction to Elementary Particles}.
 L.~Evans and P.~Bryant, {\it Lhc machine},  {\em Journal of Instrumentation}
   {\bf 3} (2008), no.~08 S08001.
 
-\bibitem{Chatrchyan:2013lba}
+\bibitem{Chatrchyan:2012ufa}
 {\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Observation of a new boson
-  with mass near 125 GeV in pp collisions at $\sqrt{s}$ = 7 and 8 TeV}},  {\em
-  JHEP} {\bf 06} (2013) 081, [\href{http://xxx.lanl.gov/abs/1303.4571}{{\tt
-  arXiv:1303.4571}}].
+  at a mass of 125 GeV with the CMS experiment at the LHC}},  {\em Phys.\
+  Lett.} {\bf B716} (2012) 30--61,
+  [\href{http://xxx.lanl.gov/abs/1207.7235}{{\tt arXiv:1207.7235}}].
 
 \bibitem{Aad:2012tfa}
 {\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Observation of a new particle
@@ -41,17 +41,15 @@ P.~W. Higgs, {\it Broken symmetries and the masses of gauge bosons},  {\em
 F.~Englert and R.~Brout, {\it Broken symmetry and the mass of gauge vector
   mesons},  {\em Phys. Rev. Lett.} {\bf 13} (Aug, 1964) 321--323.
 
-\bibitem{Chatrchyan:2012ufa}
-{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Observation of a new boson
-  at a mass of 125 GeV with the CMS experiment at the LHC}},  {\em Phys.\
-  Lett.} {\bf B716} (2012) 30--61,
-  [\href{http://xxx.lanl.gov/abs/1207.7235}{{\tt arXiv:1207.7235}}].
-
 \bibitem{Fairbairn:2006gg}
 M.~Fairbairn, A.~Kraan, D.~Milstead, T.~Sjostrand, P.~Z. Skands, et~al., {\it
   {Stable massive particles at colliders}},  {\em Phys.\ Rept.} {\bf 438}
   (2007) 1--63, [\href{http://xxx.lanl.gov/abs/hep-ph/0611040}{{\tt
   hep-ph/0611040}}].
+
+\bibitem{1983SciAm.248...96R}
+V.~C. {Rubin}, {\it {Dark matter in spiral galaxies}},  {\em Scientific
+  American} {\bf 248} (June, 1983) 96--106.
 
 \bibitem{Mackeprang:2009ad}
 R.~Mackeprang and D.~Milstead, {\it {An Updated Description of Heavy-Hadron
@@ -97,6 +95,10 @@ G.~Bayatian et~al., {\em {CMS Physics: Technical Design Report Volume 1:
 \newblock Technical Design Report CMS. CERN, Geneva, 2006.
 \newblock There is an error on cover due to a technical problem for some items.
 
+\bibitem{CMSMuonTDR}
+{\em The CMS muon project: Technical Design Report}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
 \bibitem{2012JInst...7P0002T}
 {\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Performance of CMS muon
   reconstruction in $pp$ collision events at $\sqrt{s}=7$ TeV}},  {\em JINST}
@@ -126,6 +128,11 @@ V.~Lefebure, S.~Banerjee, and I.~Gonzalez, ``{CMS Simulation Software Using
 \bibitem{2007AN049}
 A.~Rizzi et~al., ``Search for heavy stable charged particles with 100 pb$^{-1}$
   and 1 fb$^{-1}$ at cms experiment.'' CMS-AN2007/049, 2007.
+
+\bibitem{Chatrchyan:2013oca}
+{\bf CMS Collaboration} Collaboration, S.~Chatrchyan et~al., {\it {Searches for
+  long-lived charged particles in pp collisions at $\sqrt{s}$=7 and 8 TeV}},
+  \href{http://xxx.lanl.gov/abs/1305.0491}{{\tt arXiv:1305.0491}}.
 
 \bibitem{Barate:1997dr}
 {\bf ALEPH} Collaboration, R.~Barate et~al., {\it {Search for pair production
@@ -297,6 +304,12 @@ W.~T. Eadie, D.~Drijard, F.~E. James, M.~Roos, and B.~Sadoulet, {\em
 \bibitem{James}
 F.~James, {\em Statistical methods in experimental physics}.
 \newblock World Scientific, Singapore, 2006.
+
+\bibitem{Chatrchyan:2013lba}
+{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Observation of a new boson
+  with mass near 125 GeV in pp collisions at $\sqrt{s}$ = 7 and 8 TeV}},  {\em
+  JHEP} {\bf 06} (2013) 081, [\href{http://xxx.lanl.gov/abs/1303.4571}{{\tt
+  arXiv:1303.4571}}].
 
 \bibitem{Read:451614}
 A.~L. Read, {\it {Modified frequentist analysis of search results (The CL(s)

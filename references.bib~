@@ -1,3 +1,24 @@
+@book{CMSMuonTDR,
+      title        = "The CMS muon project: Technical Design Report",
+      publisher    = "CERN",
+      address      = "Geneva",
+      series       = "Technical Design Report CMS",
+      year         = "1997",
+}
+
+@article{1983SciAm.248...96R,
+   author = {{Rubin}, V.~C.},
+    title = "{Dark matter in spiral galaxies}",
+  journal = {Scientific American},
+     year = 1983,
+    month = jun,
+   volume = 248,
+    pages = {96-106},
+      doi = {10.1038/scientificamerican0683-96},
+   adsurl = {http://adsabs.harvard.edu/abs/1983SciAm.248...96R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 @article{PhysRevLett.13.508,
   title = {Broken Symmetries and the Masses of Gauge Bosons},
   author = {Higgs, Peter W.},
@@ -69,7 +90,7 @@
 
 @unpublished{2008AN097,
    author = "Abbiendi, G and others",
-   title = {Muon Reconstruction in the CMS Detector},
+   title = "{Muon Reconstruction in the CMS Detector}",
    year = 2008,
    note = {CMS-AN2008/097}
 }
