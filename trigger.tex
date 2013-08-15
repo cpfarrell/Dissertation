@@ -24,12 +24,12 @@ would only have a track in the muon system and as such would not be included in 
 The second type is tracks produced charged but becoming neutral as they propagate through CMS.
 The particle flow algorithm rejects tracks reconstructed only in the inner tracker that have a track $p_T$ much larger
 than the associated energy deposited in the calorimeter as this indicates the track has been misreconstructed.
-As an HSCP only deposits approximately 10~GeV of energy in the calorimeter and normally has $>$ 100~GeV of momentum, HSCP neutral in the muon system will likely be rejected. 
+As an HSCP only deposits approximately 10~GeV of energy in the calorimeter and normally has $>$ 100~GeV/$c$ of momentum, HSCP neutral in the muon system will likely be rejected. 
 
 These two effects lead to PFMET in HSCP events to be roughly equal to the vector sum of any $R$--hadrons neutral in
 either the muon system or the inner tracker, less however much energy they deposit in the calorimeter. This effect is illustrated in Figures~\ref{fig:SystPtTrigger} 
 and~\ref{fig:SystPtTriggerN} which compare the di-HSCP system with the measurement of PFMET
-in gluino pair events with at least 150~GeV of PFMET. For all instances of PFMET the value is the one determined by the trigger.
+in gluino pair events with at least 150~GeV/$c$ of PFMET. For all instances of PFMET the value is the one determined by the trigger.
 
 \begin{figure}
   \begin{center}
@@ -37,13 +37,13 @@ in gluino pair events with at least 150~GeV of PFMET. For all instances of PFMET
       \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.49\textwidth]{figures/search/Gluino_8TeV_M1200_f100SystPtMET} \\
       \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.49\textwidth]{figures/search/Gluino_8TeV_M1200_f100SystPtDiffMET}
       \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.49\textwidth]{figures/search/Gluino_8TeV_M1200_f100SystPtEff}
-      \caption[Comparison of di-HSCP system $\phi$ and \pt\ with PFMET for a 1200~GeV 
-gluino $f=1.0$ sample in events with at least 150~GeV of PFMET.]
-              {Comparison of di-HSCP system with PFMET for a 1200~GeV gluino $f=1.0$ sample. For all instancesof PFMET the value is the one determined by thetrigger.
-		All figures but the bottom right one only consider events with at least 150~GeV of PFMET. 
+      \caption[Comparison of di-HSCP system $\phi$ and \pt\ with PFMET for a 1200~GeV/$c^2$ 
+gluino $f=1.0$ sample in events with at least 150~GeV/$c$ of PFMET.]
+              {Comparison of di-HSCP system with PFMET for a 1200~GeV/$c^2$ gluino $f=1.0$ sample. For all instancesof PFMET the value is the one determined by thetrigger.
+		All figures but the bottom right one only consider events with at least 150~GeV/$c$ of PFMET. 
          Top Left: PFMET $\phi$ versus di-HSCP system $\phi.$ Top Right: PFMET value versus di-HSCP system $p_T$. 
          Bottom Left: Difference between di-HSCP system $p_T$ and PFMET value.
-         Bottom Right: Probability to have PFMET greater than 150~GeV versus di-HSCP system $p_T$. A horizontal dashed line is drawn at one.
+         Bottom Right: Probability to have PFMET greater than 150~GeV/$c$ versus di-HSCP system $p_T$. A horizontal dashed line is drawn at one.
         }
       \label{fig:SystPtTrigger}
   \end{center}
@@ -55,9 +55,9 @@ gluino $f=1.0$ sample in events with at least 150~GeV of PFMET.]
       \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.49\textwidth]{figures/search/Gluino_8TeV_M1200N_f10SystPtMET} \\
       \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.49\textwidth]{figures/search/Gluino_8TeV_M1200N_f10SystPtDiffMET}
       \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.49\textwidth]{figures/search/Gluino_8TeV_M1200N_f10SystPtEff}
-      \caption[Comparison of di-HSCP system $\phi$ and \pt\ with PFMET for a 1200~GeV
-gluino $f=0.1$ charge suppressed sample in events with at least 150~GeV of PFMET]
-      {Same as Fig.~\ref{fig:SystPtTrigger} but the sample used is 1200~GeV $f=0.1$ charge suppressed gluino.
+      \caption[Comparison of di-HSCP system $\phi$ and \pt\ with PFMET for a 1200~GeV/$c^2$
+gluino $f=0.1$ charge suppressed sample in events with at least 150~GeV/$c$ of PFMET]
+      {Same as Fig.~\ref{fig:SystPtTrigger} but the sample used is 1200~GeV/$c^2$ $f=0.1$ charge suppressed gluino.
         }
       \label{fig:SystPtTriggerN}
   \end{center}
@@ -77,12 +77,12 @@ This configuration is discussed in Sec.~\ref{sec:computing}.
 %The configuration is described in more detail in Sec.~\ref{sec:computing}.
 
 The first trigger used, L2Mu+MET, requires both a high-momentum track to be found in the muon system and large PFMET.
-The algorithm starts at the L1 step where a track must be found in the muon system by the detector electronics with a momentum greater than 16~GeV and $|\eta|$ less than 2.1 
+The algorithm starts at the L1 step where a track must be found in the muon system by the detector electronics with a momentum greater than 16~GeV/$c$ and $|\eta|$ less than 2.1 
 in order to trigger the readout of the event to the computing farm.
 There, the L1 track is used to seed the reconstruction of the track in the L2 step using only data readout from the muon system.
-The track is required to have $p_T > 70$~GeV, $|\eta| < 2.1$, and hits in at least two muon stations.
-In the L3 step, the particle flow algorithm is run and the calculated PFMET must be greater than 55 GeV.
-For the first 0.7~fb$^{-1}$ of 2012 running the threshold on PFMET was at 65~GeV. The signal samples are weighted
+The track is required to have $p_T > 70$~GeV/$c$, $|\eta| < 2.1$, and hits in at least two muon stations.
+In the L3 step, the particle flow algorithm is run and the calculated PFMET must be greater than 55 GeV/$c$.
+For the first 0.7~fb$^{-1}$ of 2012 running the threshold on PFMET was at 65~GeV/$c$. The signal samples are weighted
 to account for the amount of data taken at each threshold.
 The lack of a requirement that the track be found in the silicon tracker allows the trigger to be sensitive to $R$-hadrons produced neutral and only later becoming charged.
 The main objective of the PFMET requirement is to reduce the rate of events collected by the trigger.
@@ -92,15 +92,15 @@ Events collected with this trigger are only used in the \muononly\ analysis.
 
 The second trigger used, Mu40, requires a high momentum track matched in both the silicon tracker and muon system be found.
 During the L1 and L2 steps, the algorithm follows the same procedure as the L2Mu+MET trigger, with the only difference being the $p_T$ threshold on the L2 track
-is reduced to 16~GeV and only one muon station is required to have hits.
+is reduced to 16~GeV/$c$ and only one muon station is required to have hits.
 During the L3 step, the L2 track is used to seed the reconstruction of tracks that span from the silicon tracker to the muon system.
-A track must be found with momentum greater than 40~GeV and $|\eta|$ less than 2.1. The very good resolution of the silicon tracker allows for an acceptable trigger rate
+A track must be found with momentum greater than 40~GeV/$c$ and $|\eta|$ less than 2.1. The very good resolution of the silicon tracker allows for an acceptable trigger rate
 without any further requirements. 
 The cross-section of the trigger is approximately 3.5~$\mu$b.
 Events collected with this trigger are used in all analyses.
 
-The third trigger used, PFMET150, requires at least 150~GeV of PFMET be found at the L3 step. The L1 and L2 steps of the trigger calculate the MET in the event using
-only the energy deposits in the calorimeter, a faster method than particle flow, and apply looser requirements on the MET of 40 and 80~GeV, respectively.
+The third trigger used, PFMET150, requires at least 150~GeV/$c$ of PFMET be found at the L3 step. The L1 and L2 steps of the trigger calculate the MET in the event using
+only the energy deposits in the calorimeter, a faster method than particle flow, and apply looser requirements on the MET of 40 and 80~GeV/$c$, respectively.
 The cross-section of the trigger is approximately 0.6~$\mu$b.
 Events collected with this trigger are used in all analyses.
 
@@ -129,7 +129,7 @@ It can be seen that using the pure PFMET trigger allows the search to probe lowe
 and additionally including the PFMET trigger.]
 {Trigger efficiency as a function of the $\beta$ of the fastest HSCP reconstructed offline in the muon system with only the muon triggers
 and additionally including the pure PFMET trigger.
-The samples are 1200~GeV Gluino $f=0.1$ (left) and 800~GeV stop (right).}
+The samples are 1200~GeV/$c^2$ Gluino $f=0.1$ (left) and 800~GeV/$c^2$ stop (right).}
     \label{fig:TriggerEffVsBetaGl}
 \end{figure}
 
@@ -148,7 +148,7 @@ Further discussion of possible residual differences between simulation and data 
 The efficiencies are with respect to events with at least one HSCP reconstructed in the muon system.}
      \label{tab:triggEffSA}
   \begin{tabular}{|l|c|c|c|c|c|} \hline
-      Model     & Mass (GeV) &L2Mu+MET & Mu40       & PFMET150   & Total   \\ \hline
+      Model     & Mass (GeV/$c^2$) &L2Mu+MET & Mu40       & PFMET150   & Total   \\ \hline
  Gluino $f=0.1$ &  400       & 34.3    & 35.6       & 19.4       & 58.6    \\
  Gluino $f=0.1$ &  800       & 31.2    & 31.6       & 22.6       & 54.9    \\
  Gluino $f=0.1$ & 1200       & 24.6    & 26.6       & 20.5       & 47.5    \\
@@ -169,7 +169,7 @@ The efficiencies are with respect to events with at least one HSCP reconstructed
 The efficiencies are with respect to events with at least one HSCP reconstructed in both the muon system and inner tracker.}
      \label{tab:triggEffGl}
   \begin{tabular}{|l|c|c|c|c|} \hline
-      Model     & Mass (GeV) & Mu40       & PFMET150   & Total                 \\ \hline
+      Model     & Mass (GeV/$c^2$) & Mu40       & PFMET150   & Total                 \\ \hline
  Gluino $f=0.1$ &  400       & 51.87      & 16.06      & 59.09    \\
  Gluino $f=0.1$ &  800       & 46.50      & 20.50      & 56.42    \\
  Gluino $f=0.1$ & 1200       & 38.96      & 19.56      & 49.95    \\
@@ -187,7 +187,7 @@ The efficiencies are with respect to events with at least one HSCP reconstructed
 \end{table}
 
 Muons from cosmic rays are an important background for the \muononly\ analysis. To study and predict them, a trigger that selects events when no beams are passing through
-CMS is used. The trigger requires the presence of a muon system track with $p_T > 20$~GeV, no proton bunches passing through CMS within 50ns,
+CMS is used. The trigger requires the presence of a muon system track with $p_T > 20$~GeV/$c$, no proton bunches passing through CMS within 50ns,
 and for the event not to be flagged as beam halo~\cite{wangler2000beam}.
 The muon system track reconstruction used for the cosmic ray muon trigger is slightly different than for the collision trigger.
 However both reconstructions are required offline as discussed in section~\ref{sec:preselection} so no bias is introduced.

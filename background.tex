@@ -13,7 +13,7 @@ with a high \dedx\ value. Detector resolution can also contribute to muons with 
 Additionally, collision muons can have large reconstructed momentum, either due to true high momentum or detector mismeasurement
 promoting a low momentum muon to a high reconstructed momentum. Detector mismeasurement is especially important for the momentum measured in the muon system.
 
-Collision muons are predicted by exploiting the lack of correlation between the selection variables for muons through the $ABCD$ method.
+The number of collision muons to pass the thresholds is predicted by exploiting the lack of correlation between the selection variables for muons through the $ABCD$ method.
 In the $ABCD$ method, multiple bins are defined by whether the track passes thresholds on the selection variables. In the normal two dimensional version
 of the $ABCD$ method, two selection variables are used and four regions are defined. The $A$ region has tracks failing both of the thresholds on the selection
 variables, the $B$ ($C$) region fails only the threshold on the first (second) of the selection variables, and the $D$ region,
@@ -21,7 +21,7 @@ the signal region, passes the threshold on both selection
 variables. The number of background muons in the $D$ region can be predicted as $B \times C / A$, where the letters represent the number of tracks in the regions.
 This prediction holds as long as the probability for a background
 muon to pass the threshold on one of the variables is independent of whether it passes the threshold of the other. Tests of the correlation between the selection variables are
-given below.
+discussed below.
 
 The four different analyses use different combinations of the selection variables defined in Sec.~\ref{sec:SelVar}. 
 With three different selection variables (\pt, \invbeta, \dedx), eight different bins are defined.
@@ -30,7 +30,7 @@ defines the names of the bins (ranging from $A$-$H$) and whether they pass or fa
 the selection variables passing means having a value above the threshold. If a selection variable
 is not used in an analysis then it is taken to have passed. 
 
-Only the \tktof\ analysis applies a threshold on all three selection variables and as such is the only one to use all eight bins.
+Only the \tktof\ analysis applies a threshold on all three selection variables, and as such is the only one to use all eight bins.
 An extended three-dimensional version of the $ABCD$ method is then used to make the prediction as is described in the \tktof\ subsection below.
 The other three analyses use only the four bins where the unused variable is said to have passed. These analyses use the traditional two-dimensional $ABCD$ method
 though the names of the bins may be different.
@@ -49,7 +49,7 @@ be referred to as $D^{\prime}$.
 {Bin naming convention.  The signal region is always the D region.}
      \label{tab:BinNames}
   \begin{tabular}{|c|c|c|c|} \hline
-   Name & $p_T$ & \invbeta\   & \dedx\  \\ \hline
+   Name & $p_T$ & \invbeta\   & \ias\  \\ \hline
    A    & Fail      & Fail            & Pass           \\ \hline
    B    & Fail      & Pass            & Pass           \\ \hline
    C    & Pass      & Fail            & Pass           \\ \hline
@@ -72,11 +72,13 @@ The distribution of $p_T$ for cosmic-ray muons falls off at high momentum slower
 As cosmic-ray muons have different \invbeta and \pt\ distributions than collision muons they will not be accurately predicted with the same method used to predict
 the collision-muon background in the \muononly\ analysis. A dedicated method using the cosmic-ray muon control sample is described below.
 
-Cosmic-ray muons are not considered for the analyses that look for high-ionizing tracks as
+Cosmic-ray muons are not a background for the analyses that look for high-ionizing tracks as
 out-of-time particles are not centered in the tracker's charge collection window.
 This results in only a portion of their ionization energy loss being collected and their reconstructed \dedx\ being smaller than a collision muon.
-Thus, cosmics have the signature of anomalously low reconstructed \dedx~\cite{CMS:2012xi} opposite of the signature for an HSCP.
-%This combined with the impact parameter requirements applied at preselection makes cosmic-ray muons negligible for the analyses looking for high \dedx\ in the tracker.
+Thus, cosmics have the signature of anomalously low reconstructed \dedx~\cite{CMS:2012xi}, opposite of the signature for an HSCP.
+Additionally, the impact parameter cuts applied on the tracker track greatly reduce the number of cosmic-ray muons passing the preselection.
+Either of these requirements on their own is enough to make the cosmic-ray muon background very small for the analyses looking for high \dedx\ in the tracker,
+with both applied the background is completely negligible.
 
 For all the analyses, the expected background in the signal region is estimated by multiple different predictions.
 The details on how the different predictions are found for each analysis are given in the corresponding subsection below.
@@ -181,7 +183,7 @@ P_{Cosmic} = N \times R.
 \end{split}
 \label{eq:CosmicPred}
 \end{equation}
-Numerous effects cancel in this ratio making the prediction robust. The number of cosmic-ray muons in any of the regions can be expressed as 
+Numerous effects cancel in this ratio, making the prediction robust. The number of cosmic-ray muons in any of the regions can be expressed as 
 $C = F \times T \times \epsilon$, where C is the number of cosmic-ray muons observed, F is the flux of cosmic-ray muons per second, T is the amount of time that CMS was collecting data, and $\epsilon$ is the efficiency of the detector to reconstruct and select cosmic-ray muons in the region including detector acceptance effects. 
 
 The number of cosmic-ray muons expected in the signal region can be written as
@@ -253,12 +255,12 @@ Good agreement is seen between the observed and predicted number of tracks.
   \caption[Number of predicted and observed tracks in the \invbeta\ $<$ 1 region in the \muononly\ analysis]
 {Number of predicted and observed tracks passing thresholds on \pt\ and \invbeta. The tracks are required to be above the \pt\ threshold and below the \invbeta\ threshold.
 Two representative $p_T$ thresholds are shown. Threshold for \invbeta\ set by x-axis.
-Figure is cumulative as tracks passing the selection with tight thresholds will also pass for loose thresholds.}
+Figure is cumulative, as tracks passing the selection with tight thresholds will also pass for loose thresholds.}
     \label{fig:PredFlipPt230}
 \end{figure}
 
-To determine the systematic uncertainty on the predicted collision background, the \invbeta\ less than one region is used once again. The predicted number of tracks
-in the signal region D can be predicted by three different formulae, the main one of $B \times C/A$ as well as 
+To determine the systematic uncertainty on the predicted collision background, the \invbeta\ $<$ 1 region is used once again. The predicted number of tracks
+in the signal region D can be predicted by three different formulae: the main one of $B \times C/A$, as well as 
 $B \times C^{\prime}/A^{\prime}$ and $B \times D^{\prime}/B^{\prime}$. The $B$ region contains tracks with \invbeta\ above the final selection threshold and
 \pt\ below its threshold. The ratios $C/A$, $C^{\prime}/A^{\prime}$, and $D^{\prime}/B^{\prime}$ give the fraction of tracks to be above the threshold on \pt\
 in the region with \invbeta\ between one and the final threshold; the region with \invbeta\ between a value less than one, for example 0.8, and one;
@@ -276,7 +278,7 @@ Figure~\ref{fig:MuOnlycorrelation} shows the number of predicted tracks from the
 \caption[Distributions of the number of predicted tracks with different prediction formulae for different sets of thresholds in the \muononly\ analysis.]
 {Distributions of the number of predicted tracks and their statistical uncertainty with different prediction formulae for different sets of thresholds.
 The $p_{T}$ threshold is defined by the x-axis.
-Figures are cumulative as tracks passing the selection with tight thresholds will also pass for loose thresholds.
+Figures are cumulative, as tracks passing the selection with tight thresholds will also pass for loose thresholds.
 Left: $1/\beta>1.1$ ($<0.9$ for low $1/\beta$ regions). Right: $1/\beta>1.2$ ($<0.8$ for low $1/\beta$ regions).}
 \label{fig:MuOnlycorrelation}
 \end{center}
@@ -285,11 +287,11 @@ Left: $1/\beta>1.1$ ($<0.9$ for low $1/\beta$ regions). Right: $1/\beta>1.2$ ($<
 The systematic uncertainty is extracted from the three predictions
 through Eq.~\ref{eq:variance} with N=3.
 Fig.~\ref{fig:MuOnlyUnc} shows the variation of
-$S_{syst+stat}/\langle x \rangle $, $S_{stat}/ \langle x \rangle $ and $S_{syst}/ \langle x \rangle $
+$S_{syst+stat}/\langle x \rangle $, $S_{stat}/ \langle x \rangle $ and the extracted $S_{syst}/ \langle x \rangle $
 as a function of the $p_T$ threshold. The statistical uncertainty due to the number of tracks in the $B$ group is not subtracted as it is completely correlated
 between the three predictions. From the last plot
 the systematic uncertainty on the expected background in the signal
-region is estimated to be 20\%.
+region is placed at 20\%.
 
 \begin{figure}
 \begin{center}
@@ -319,16 +321,19 @@ The systematic uncertainty on the cosmic-ray-muon background is determined by
 modifying the $d_z$ range used to define the control sample.  Predictions
 can also be made from tracks with $30 < |d_z| < 50$~cm, $50 < |d_z| < 70$~cm, and
 120~cm~$< |d_z|$.  Table~\ref{tab:CosmicPred} shows the number of predicted cosmic-ray muons
-for each $|d_z|$ region using the final selection defined in Section~\ref{sec:Optim}
+for each $|d_z|$ region using the final selection defined in Section~\ref{sec:Optim}.
 The statistical uncertainty from the number of tracks in the signal region in the
 pure cosmic-ray muon sample is not included in the uncertainties listed as it is correlated
 between the three predictions.
 Equation~\ref{eq:variance} with N=4 is used to calculate the systematic uncertainty.
-The relative systematic uncertainty is found to be 80\%.
+The observed $S^{stat}$ is larged than the observed $S^{syst+stat}$, meaning the agreement between the measurements is better than
+would be expected based on their statistical uncertainties alone.
+This indicates that the uncertainty on the cosmic-ray muon background prediction is dominated by the statistical uncertainty, however, an 80\% relative systematic uncertainty 
+is placed on the prediction to be conservative.
 
 \begin{table}
  \begin{center}
-  \caption{Predicted numbers of cosmic-ray muon tracks for the \muononly\ analysis.}
+  \caption{Predicted numbers of cosmic-ray muon tracks for the \muononly\ analysis for various choices of control region.}
      \label{tab:CosmicPred}
   \begin{tabular}{|l|c|c|} \hline
    $|d_z|$ Region            & Prediction  \\ \hline
@@ -346,7 +351,7 @@ The \tktof\ analysis uses three selection variables, $p_T$, \invbeta, and \ias. 
 $ABCD$ method is used to predict the collision-muon background. An additional requirement on the reconstructed mass of the track
 is also applied and the prediction of the background mass spectrum is described below. 
 For each signal point, the reconstructed mass of tracks must be above the average reconstructed mass of the signal minus two sigma of the mass
-distribution (both determined from MC) and below 2 TeV.
+distribution (both determined from MC) and below 2 TeV/$c^2$.
 As discussed above, the cosmic-ray-muon background is negligible
 for the \tktof\ analysis. 
 
@@ -376,25 +381,25 @@ The predictions can be divided into three groups characterized by the amount of 
 The prediction $A\times F\times G/E^2$ has the smallest statistical uncertainty as it uses only the bins with at most one of the selection thresholds being passed.
 For this reason it is selected to determine the background estimate in the search.
 The predictions $A\times H / E$, $G\times B / E$, and $F\times C / E$ all use one of the bins where two of the thresholds have been passed.
-This results in them having a slightly larger statistical unceretainty (approximately a factor of 2--5 depending on the thresholds used).
+This results in them having a slightly larger statistical uncertainty (approximately a factor of 2--5 depending on the thresholds used).
 These predictions are used to determine the systematic uncertainty on the background prediction.
 The predictions $H\times C / G$, $C\times B / A$, and $H\times B / F$ include two of the bins that have tracks passing two of the thresholds giving it a much larger
 statistical uncertainty (factor of ten larger). These predictions are not used in the analysis.
 
-As with the \muononly\ analysis the prediction is checked with tracks in the \invbeta\ less than one region. Again the predicted number of tracks in
+As with the \muononly\ analysis the background prediction is additionally checked with tracks in the \invbeta\ less than one region. Again the predicted number of tracks in
 $D^{\prime}$ is estimated following the same procedure as for the signal region except changing the \invbeta\ requirement to be lower than some threshold,
 i.e. $D^{\prime} = A^{\prime}\times F^{\prime}\times G^{\prime} / E^{\prime 2}$.
-Figure~\ref{fig:PredFlipTkTOF} shows the predicted and observed number of tracks in the $D^{\prime}$ region for various thresholds. Good agreement is seen
-even with a tight selection.
+Figure~\ref{fig:PredFlipTkTOF} shows the predicted and observed number of tracks in the $D^{\prime}$ region for representative loose and tight thresholds. 
+Good agreement is seen even with a tight selection.
 
 \begin{figure}
 \begin{center}
 \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Pred_Flip_I010_Pt55_Data8TeV}
 \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Pred_Flip_I020_Pt85_Data8TeV}
 \caption[Number of observed and predicted tracks in the \invbeta\ $<$ 1 region in the \tktof\ analysis.]
-{Number of observed and predicted tracks and their statistical error in the $D^\prime$ region for $p_T>55$~GeV, $I_{as}>0.1$ (left)
-and $p_T>85$~GeV, $I_{as}>0.2$ (right) in the \tktof\ analysis. Threshold on $1/\beta$ defined by the x-axis.
-Figures are cumulative as tracks passing the selection with tight thresholds will also pass for loose thresholds.}
+{Number of observed and predicted tracks and their statistical error in the $D^\prime$ region for a loose selection of $p_T>55$~GeV/$c$, $I_{as}>0.1$ (left)
+and a tight selection of $p_T>85$~GeV/$c$, $I_{as}>0.2$ (right) in the \tktof\ analysis. The threshold on $1/\beta$ is defined by the x-axis.
+Figures are cumulative, as tracks passing the selection with tight thresholds will also pass for loose thresholds.}
 \label{fig:PredFlipTkTOF}
 \end{center}
 \end{figure}
@@ -409,6 +414,13 @@ The probability to pass the \invbeta\ threshold has a small $\eta$
 dependence while the probability to pass the $p_T$ threshold has almost no $\eta$ dependence. These effects can be seen in Figure~\ref{fig:etacorrelation} which shows the $\eta$
 distribution of tracks which
 pass or fail the various thresholds. 
+This is found to have only a small effect on the total number of predicted tracks but does bias the predicted mass spectrum which uses $p$ instead of \pt.
+%As discussed above the
+%\dedx\ variables have a strong $\eta$ dependence. While this issue does not have a large effect on the total number of predicted tracks is does affect the mass distribution.
+The $p_T$ distribution of background tracks is roughly the same for different values of $\eta$ 
+however this implies that the $p$ distribution does vary, as momentum can be written
+as a function of only $p_T$ and $\eta$. To correct for this a reweighting procedure is done such that the tracks
+used to determine the $p$ distribution match the $\eta$ distribution of tracks used to obtain the $I_h$ distribution.
 
 \begin{figure}
 \begin{center}
@@ -418,19 +430,11 @@ pass or fail the various thresholds.
 \end{center}
 \caption[Distribution for data of the track $\eta$ for various combinations of being above or below selection thresholds in the \tktof\ analysis]
 {Distribution for data of the track $\eta$ for various combinations of being above or below selection thresholds of
-50 GeV for $p_T$, 1.05 for \invbeta, and 0.05 for \ias.
+50 GeV/$c$ for $p_T$, 1.05 for \invbeta, and 0.05 for \ias.
 Top left: Combinations of flipping $p_T$ and \invbeta\ thresholds. Top Right: Combinations of flipping \invbeta\ and \ias\ thresholds.
 Bottom: Combinations of flipping $p_T$ and \ias\ thresholds. For all plots the variable not flipped is required to be below the threshold.}
 \label{fig:etacorrelation}
 \end{figure}
-
-This is found to have only a small effect on the total number of predicted tracks but does bias the predicted mass spectrum which uses $p$ instead of \pt.
-%As discussed above the
-%\dedx\ variables have a strong $\eta$ dependence. While this issue does not have a large effect on the total number of predicted tracks is does affect the mass distribution.
-The $p_T$ distribution of background tracks is roughly the same for different values of $\eta$ 
-however this implies that the $p$ distribution does vary, as momentum can be written
-as a function of only $p_T$ and $\eta$. To correct for this a reweighting procedure is done such that the tracks
-used to determine the $p$ distribution match the $\eta$ distribution of tracks used to obtain the $I_h$ distribution.
 
 %The prescription for determining the predicted background mass shape was done by another scientist working on CMS and is simply reproduced here.
 The $p$ (\ih) distribution
@@ -439,9 +443,10 @@ approximately 100 pseudo-experiments. The $i^{th}$ pseudo-experiment is done thr
 distribution with a mean equal to the observed number of tracks in the $E$ ($F$) regions in data.
 Next, a binned distribution is created from the $p$ of tracks in the $G$ region. A value of $n_{ij}$, where j represents the bin of the $p$ distribution, is drawn for
 each $p$ bin from a Poisson distribution with mean equal to the number of tracks observed in that bin in data. A value of $G_i$ is then found as the sum over j of the
-$n_{ij}$. A similar procedure is done in the $A$ region for determining the \ih\ distribution. Before the distribution is found, weight factors are attached to all of
-the tracks in the $A$ region so that the $\eta$ distribution of tracks in the $A$ region matches that observed in the $G$ region as necessitated by the conversation
-above. Next, a value of $m_{ik}$ is found for each bin of the reweighted \ih\ distribution. A value of $A_i$ is then found by summing $m_{ik}$ over k.
+$n_{ij}$. A similar procedure is done in the $A$ region for determining the \ih\ distribution. Before the distribution is found, 
+the tracks in the $A$ region are binned by $\eta$ using a bin width of 0.1. Weights are attached to the tracks in a bin equal to the number of tracks in the
+same $\eta$ bin in the $G$ region divided by the number of tracks in the bin in the $A$ region. This corrects for the $\eta$ dependence discussed above.
+Next, a value of $m_{ik}$ is found for each bin of the reweighted \ih\ distribution. A value of $A_i$ is then found by summing $m_{ik}$ over k.
 The predicted number of background tracks in the signal region for a given j--k bin in the $p$ -- \dedx\ plane, $D_{ijk}$, is then found via the relation
 
 \begin{equation}
@@ -468,8 +473,8 @@ Figure~\ref{fig:FlipMassDistribution} with both loose and tight thresholds on th
  \end{center}
  \caption[Observed and predicted mass spectrum for tracks in the \invbeta\ $<$ 1 region in the \tktof\ analysis.]
 {Observed and predicted mass spectrum for tracks in the $D^\prime$ region in the \tktof\ analysis.
-Left: Thresholds of $p_T > 55$ GeV, $I_{as} > 0.1$ and $1/\beta < 0.95$.
-Right: Thresholds of $p_T > 85$ GeV, $I_{as} > 0.1$ and $1/\beta < 0.8$.
+Left: Thresholds of $p_T > 55$ GeV/$c$, $I_{as} > 0.1$ and $1/\beta < 0.95$.
+Right: Thresholds of $p_T > 85$ GeV/$c$, $I_{as} > 0.1$ and $1/\beta < 0.8$.
 The error bands are only statistical.}
 \label{fig:FlipMassDistribution}
 \end{figure}
@@ -501,10 +506,10 @@ and the agreement in the predicted mass spectrum a conservative systematic uncer
  \end{center}
  \caption[Number of predicted tracks from four different background predictions in the \tktof\ analysis]
 {Number of predicted tracks from four different background predictions in the \tktof\ analysis. 
-Figures are cumulative as tracks passing the selection with tight thresholds will also pass for loose thresholds.
-Top Left: $p_T$ and \ias\ threshold of 50 GeV and 0.05, respectively.
+Figures are cumulative, as tracks passing the selection with tight thresholds will also pass for loose thresholds.
+Top Left: $p_T$ and \ias\ threshold of 50 GeV/$c$ and 0.05, respectively.
 Threshold on \invbeta\ set by x-axis. Top Right: Threshold on \invbeta\  and \ias\ of 1.05 and 0.05, respectively. Threshold on $p_T$ set by x-axis.
-Bottom: Threshold on \invbeta\ and $p_T$ of 1.05 and 50 GeV, respectively. Threshold on \ias\ set by x-axis. }
+Bottom: Threshold on \invbeta\ and $p_T$ of 1.05 and 50 GeV/$c$, respectively. Threshold on \ias\ set by x-axis. }
 \label{fig:TkMuMultPred}
 \end{figure}
 
@@ -539,7 +544,9 @@ The uncertainty variables are defined in Equation~\ref{eq:variance}.
 The prediction for the \tkonly\ analysis is the same as the \tktof\ analysis except only the variables $p_T$ and \ias\ are used in a traditional two
 dimensional ABCD method. 
 The signal region, $D$, is predicted as $H \times B / F$ (see Table~\ref{tab:BinNames}).
-The systematic uncertainty on the background prediction for the \tkonly\ analysis is taken as the same as in the \tktof\ analysis.
+The systematic uncertainty on the background prediction for the \tkonly\ analysis is taken as the same 20\% as in the \tktof\ analysis.
+This is a conservative estimate as the \tkonly\ analysis uses only two of the three variables used in the \tktof\ analysis
+and the correlation between three variables should be larger than for a subset of two of them.
 
 \subsection{Prediction for \multi\ analysis}
 
@@ -562,7 +569,7 @@ Figure~\ref{fig:MultiPred} shows the predicted and observed number of tracks for
  \end{center}
  \caption[Predicted and observed number of tracks in the \invbeta\ $<$ 1 region for different sets of thresholds in the \multi\ analysis.]
 {Predicted and observed number of tracks in the \multi\ analysis in the $D^{\prime}$ region for different \invbeta\ thresholds with the x-axis indicating the \ias\ threshold.
-Figure is cumulative as tracks passing the selection with tight thresholds will also pass for loose thresholds.
+Figure is cumulative, as tracks passing the selection with tight thresholds will also pass for loose thresholds.
 }
 \label{fig:MultiPred}
 \end{figure}
@@ -580,7 +587,7 @@ Figure~\ref{fig:mCHAMPcorr} shows the predicted number of tracks for various \in
 {Distribution of the number of predicted tracks and their
    statistical error computed for the \multi\ analysis using
    different regions for two values of the $1/\beta$ threshold. The \ias\ threshold is defined by the x-axis.
-Figures are cumulative as tracks passing the selection with tight thresholds will also pass for loose thresholds.
+Figures are cumulative, as tracks passing the selection with tight thresholds will also pass for loose thresholds.
 Left: $1/\beta>1.05$ ($<0.95$ for low $1/\beta$ regions). Right: $1/\beta>1.15$ ($<0.85$ for low $1/\beta$ regions).}
  \label{fig:mCHAMPcorr}
 \end{figure}

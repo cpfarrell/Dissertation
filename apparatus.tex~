@@ -203,7 +203,7 @@ a muon is expected to could still trigger the readout of the correct data in the
 %Despite the RPC signaling to readout two events only one will ever be actually collected as readout of consecutive events is forbidden by the DAQ. 
 To ensure collision muons still maintain the correct behavior, accept signals sent for the bunch crossing window immediately
 preceding a bunch crossing window with protons passing through CMS are rejected. 
-So signals from collision muons will attempt to pre-trigger but this will be vetoed and the following event will be correctly readout.
+So while signals from collision muons will attempt to pre-trigger and be vetoed, the following event will be correctly readout.
 %A schema illustrating this behavior is shown in~\ref{fig:RPC_HSCP}. 
 This configuration is only possible  when collisions are spaced by at least 50ns so that accept signals from successive 25ns
 bunch crossing windows can be unambiguously classified.
@@ -239,12 +239,12 @@ bunch crossing windows can be unambiguously classified.
 
 Once the data are readout by the data acquisition system after an L1 trigger, it is passed to a computing farm located above CMS.
 The next step in the trigger, the High Level Trigger (HLT), then runs on the computing farm.
-The HLT must reduce the number of events to a few hundred Hertz on the order of a second. 
+The HLT must reduce the number of events to a few hundred Hertz.
 %The HLT is software based and there are a wide variety of algorithms used to identify interesting events and store them for offline analysis. 
 The HLT is split into two different
 phases, Level 2 (L2), and Level 3 (L3). The L2 step is mostly concerned with confirming the L1 decision using more robust algorithms
 and reducing the rate so that more complex and time consuming reconstruction can be performed in the L3 step within the time restrictions.
-The L3 step will reconstruct tracks in the inner silicon tracker and match them
+The L3 step reconstructs tracks in the inner silicon tracker and match them
 to objects in other parts of the detector, such as tracks found in the muon system. The momentum resolution of tracks reconstructed in both the muon system and silicon tracker
 is much better than those reconstructed only in the muon system. The relative uncertainty on the momentum of muon tracks reconstructed in both systems is approximately
 2\% in the central region of CMS and up to 6\% in the forward region~\cite{2012JInst...7P0002T}. For muons reconstructed only in the muon system the 
@@ -259,8 +259,8 @@ This includes applying calibration constants, finding tracks, and identifying pa
 %attempts to reconstruct the particles in the event, identify them as one of the long-lived SM particles, give 
 %a multitude of information about the particle, and apply any necessary calibration constants. 
 %The code also calculates event level quantities such as the total momentum of all the particles in the event. 
-After this reconstruction, the data size is at the scale of petabytes which is too large for offline analyzers to run over frequently. 
-To deal with this copies of the data are produced dropping lower level quantities and selecting only events that a particular analysis is interested in studying.
+After this reconstruction, the data size is at the scale of petabytes, which is too large for offline analyzers to run over frequently. 
+To deal with this skims of the data are produced, dropping lower level quantities and selecting only events that a particular analysis is interested in studying.
 
 CMSSW is also tasked with simulating how particles, coming from both SM processes and new physics, would interact with the detector so that this can be used to
 compare against data. A few steps are performed before the simulation has the same format as data readout from the detector, at that

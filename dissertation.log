@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2012.11.26)  12 AUG 2013 21:58
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2012.11.26)  15 AUG 2013 17:34
 entering extended mode
 **dissertation.tex
 (./dissertation.tex
@@ -385,7 +385,14 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
  [5] (./dissertation.lof
 [6
 
-] [7]
+]
+Overfull \hbox (8.5452pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/m/n/12 1200 GeV/$\OML/cmm/m/it/12 c[]$ \OT1/cmr/m/n/12 gluino $\OML/c
+mm/m/it/12 f \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0$ sam-ple in
+ events with at least 150 GeV/$\OML/cmm/m/it/12 c$ 
+ []
+
+[7]
 Overfull \hbox (6.59227pt too wide) in paragraph at lines 33--33
  \OT1/cmr/m/n/12 tracker hits, and num-ber of $\OML/cmm/m/it/12 dE=dx$ \OT1/cmr
 /m/n/12 mea-sure-ments in the \OT1/cmr/m/it/12 muon+track 
@@ -517,15 +524,15 @@ as been already used, duplicate ignored
                    \penalty 
 l.74 
       [15]
-<figures/apparatus/CMS_LongView_noME42.pdf, id=606, 656.03395pt x 368.2558pt>
+<figures/apparatus/CMS_LongView_noME42.pdf, id=609, 656.03395pt x 368.2558pt>
 File: figures/apparatus/CMS_LongView_noME42.pdf Graphic file (type pdf)
 
 <use figures/apparatus/CMS_LongView_noME42.pdf>
-<figures/apparatus/CMS_Slice.png, id=608, 995.72pt x 511.9125pt>
+<figures/apparatus/CMS_Slice.png, id=611, 995.72pt x 511.9125pt>
 File: figures/apparatus/CMS_Slice.png Graphic file (type png)
 
 <use figures/apparatus/CMS_Slice.png>
-<figures/apparatus/ParticleInCMS_0009_Becoming_Charged.png, id=610, 1203.49625p
+<figures/apparatus/ParticleInCMS_0009_Becoming_Charged.png, id=613, 1203.49625p
 t x 701.62125pt>
 File: figures/apparatus/ParticleInCMS_0009_Becoming_Charged.png Graphic file (t
 ype png)
@@ -538,7 +545,7 @@ as been already used, duplicate ignored
 l.124 \end{figure}
                    [16] [17 <./figures/apparatus/CMS_LongView_noME42.pdf>]
 [18 <./figures/apparatus/CMS_Slice.png>]
-<figures/apparatus/ParticleInCMS_0000_HSCP-(becoming-neutral).png, id=645, 1202
+<figures/apparatus/ParticleInCMS_0000_HSCP-(becoming-neutral).png, id=648, 1202
 .4925pt x 701.62125pt>
 File: figures/apparatus/ParticleInCMS_0000_HSCP-(becoming-neutral).png Graphic 
 file (type png)
@@ -550,27 +557,27 @@ atus/ParticleInCMS_0000_HSCP-(becoming-neutral).png>] [21] [22] [23] [24])
 CHAPTER 4.
 [26
 
-] [27] <figures/timing/CathodeTime.pdf, id=702, 569.12625pt x 546.04pt>
+] [27] <figures/timing/CathodeTime.pdf, id=705, 569.12625pt x 546.04pt>
 File: figures/timing/CathodeTime.pdf Graphic file (type pdf)
 
 <use figures/timing/CathodeTime.pdf>
-<figures/timing/AnodeTime.pdf, id=704, 569.12625pt x 546.04pt>
+<figures/timing/AnodeTime.pdf, id=707, 569.12625pt x 546.04pt>
 File: figures/timing/AnodeTime.pdf Graphic file (type pdf)
 
 <use figures/timing/AnodeTime.pdf>
-<figures/timing/CathodeTimeLog.pdf, id=706, 569.12625pt x 546.04pt>
+<figures/timing/CathodeTimeLog.pdf, id=709, 569.12625pt x 546.04pt>
 File: figures/timing/CathodeTimeLog.pdf Graphic file (type pdf)
 
 <use figures/timing/CathodeTimeLog.pdf>
-<figures/timing/AnodeTimeLog.pdf, id=708, 569.12625pt x 546.04pt>
+<figures/timing/AnodeTimeLog.pdf, id=711, 569.12625pt x 546.04pt>
 File: figures/timing/AnodeTimeLog.pdf Graphic file (type pdf)
 
 <use figures/timing/AnodeTimeLog.pdf> [28]
-<figures/timing/StripAndWireSegmentTime.pdf, id=716, 569.12625pt x 546.04pt>
+<figures/timing/StripAndWireSegmentTime.pdf, id=719, 569.12625pt x 546.04pt>
 File: figures/timing/StripAndWireSegmentTime.pdf Graphic file (type pdf)
 
 <use figures/timing/StripAndWireSegmentTime.pdf>
-<figures/timing/StripAndWireSegmentTimeLog.pdf, id=717, 569.12625pt x 546.04pt>
+<figures/timing/StripAndWireSegmentTimeLog.pdf, id=720, 569.12625pt x 546.04pt>
 File: figures/timing/StripAndWireSegmentTimeLog.pdf Graphic file (type pdf)
 <use figures/timing/StripAndWireSegmentTimeLog.pdf> [29] [30 <./figures/timing/
 CathodeTime.pdf, page is rotated 90 degrees> <./figures/timing/AnodeTime.pdf, p
@@ -578,26 +585,26 @@ age is rotated 90 degrees> <./figures/timing/CathodeTimeLog.pdf, page is rotate
 d 90 degrees> <./figures/timing/AnodeTimeLog.pdf, page is rotated 90 degrees>]
 [31 <./figures/timing/StripAndWireSegmentTime.pdf, page is rotated 90 degrees> 
 <./figures/timing/StripAndWireSegmentTimeLog.pdf, page is rotated 90 degrees>]
-<figures/timing/ME11_Anode_vs_all3.pdf, id=1002, 569.12625pt x 546.04pt>
+<figures/timing/ME11_Anode_vs_all3.pdf, id=1005, 569.12625pt x 546.04pt>
 File: figures/timing/ME11_Anode_vs_all3.pdf Graphic file (type pdf)
 
 <use figures/timing/ME11_Anode_vs_all3.pdf>
-<figures/timing/Ring1_not11_Anode_vs_all3.pdf, id=1004, 569.12625pt x 546.04pt>
+<figures/timing/Ring1_not11_Anode_vs_all3.pdf, id=1007, 569.12625pt x 546.04pt>
 File: figures/timing/Ring1_not11_Anode_vs_all3.pdf Graphic file (type pdf)
 <use figures/timing/Ring1_not11_Anode_vs_all3.pdf>
-<figures/timing/Ring2_Anode_vs_all3.pdf, id=1006, 569.12625pt x 546.04pt>
+<figures/timing/Ring2_Anode_vs_all3.pdf, id=1009, 569.12625pt x 546.04pt>
 File: figures/timing/Ring2_Anode_vs_all3.pdf Graphic file (type pdf)
 
 <use figures/timing/Ring2_Anode_vs_all3.pdf>
-<figures/timing/ME11_Anode_vs_TF_all.pdf, id=1008, 569.12625pt x 546.04pt>
+<figures/timing/ME11_Anode_vs_TF_all.pdf, id=1011, 569.12625pt x 546.04pt>
 File: figures/timing/ME11_Anode_vs_TF_all.pdf Graphic file (type pdf)
 
 <use figures/timing/ME11_Anode_vs_TF_all.pdf>
-<figures/timing/Ring1_not11_Anode_vs_TF_all.pdf, id=1010, 569.12625pt x 546.04p
+<figures/timing/Ring1_not11_Anode_vs_TF_all.pdf, id=1013, 569.12625pt x 546.04p
 t>
 File: figures/timing/Ring1_not11_Anode_vs_TF_all.pdf Graphic file (type pdf)
  <use figures/timing/Ring1_not11_Anode_vs_TF_all.pdf>
-<figures/timing/Ring2_Anode_vs_TF_all.pdf, id=1012, 569.12625pt x 546.04pt>
+<figures/timing/Ring2_Anode_vs_TF_all.pdf, id=1015, 569.12625pt x 546.04pt>
 File: figures/timing/Ring2_Anode_vs_TF_all.pdf Graphic file (type pdf)
 
 <use figures/timing/Ring2_Anode_vs_TF_all.pdf> [32] [33 <./figures/timing/ME11_
@@ -607,44 +614,44 @@ ll3.pdf, page is rotated 90 degrees>] [34 <./figures/timing/ME11_Anode_vs_TF_al
 l.pdf, page is rotated 90 degrees> <./figures/timing/Ring1_not11_Anode_vs_TF_al
 l.pdf, page is rotated 90 degrees> <./figures/timing/Ring2_Anode_vs_TF_all.pdf,
  page is rotated 90 degrees>]
-<figures/timing/average_anodes.pdf, id=1299, 569.12625pt x 546.04pt>
+<figures/timing/average_anodes.pdf, id=1302, 569.12625pt x 546.04pt>
 File: figures/timing/average_anodes.pdf Graphic file (type pdf)
 
 <use figures/timing/average_anodes.pdf> [35]
-<figures/timing/ALCT_Bx.pdf, id=1307, 569.12625pt x 546.04pt>
+<figures/timing/ALCT_Bx.pdf, id=1310, 569.12625pt x 546.04pt>
 File: figures/timing/ALCT_Bx.pdf Graphic file (type pdf)
 
 <use figures/timing/ALCT_Bx.pdf> [36 <./figures/timing/average_anodes.pdf, page
  is rotated 90 degrees>] [37 <./figures/timing/ALCT_Bx.pdf, page is rotated 90 
-degrees>] [38] [39] <figures/timing/TOF.pdf, id=1430, 569.12625pt x 546.04pt>
+degrees>] [38] [39] <figures/timing/TOF.pdf, id=1433, 569.12625pt x 546.04pt>
 File: figures/timing/TOF.pdf Graphic file (type pdf)
 
 <use figures/timing/TOF.pdf>
-<figures/timing/TOFLog.pdf, id=1431, 569.12625pt x 546.04pt>
+<figures/timing/TOFLog.pdf, id=1434, 569.12625pt x 546.04pt>
 File: figures/timing/TOFLog.pdf Graphic file (type pdf)
 
 <use figures/timing/TOFLog.pdf>
-<figures/timing/TOFErr.pdf, id=1432, 569.12625pt x 546.04pt>
+<figures/timing/TOFErr.pdf, id=1435, 569.12625pt x 546.04pt>
 File: figures/timing/TOFErr.pdf Graphic file (type pdf)
 
 <use figures/timing/TOFErr.pdf>
-<figures/timing/TOFNDof.pdf, id=1433, 569.12625pt x 546.04pt>
+<figures/timing/TOFNDof.pdf, id=1436, 569.12625pt x 546.04pt>
 File: figures/timing/TOFNDof.pdf Graphic file (type pdf)
 
 <use figures/timing/TOFNDof.pdf> [40]
-<figures/timing/TOFQual.pdf, id=1442, 569.12625pt x 546.04pt>
+<figures/timing/TOFQual.pdf, id=1445, 569.12625pt x 546.04pt>
 File: figures/timing/TOFQual.pdf Graphic file (type pdf)
 
 <use figures/timing/TOFQual.pdf>
-<figures/timing/TOFQualLog.pdf, id=1443, 569.12625pt x 546.04pt>
+<figures/timing/TOFQualLog.pdf, id=1446, 569.12625pt x 546.04pt>
 File: figures/timing/TOFQualLog.pdf Graphic file (type pdf)
 
 <use figures/timing/TOFQualLog.pdf>
-<figures/timing/TOFVsEta.pdf, id=1444, 569.12625pt x 546.04pt>
+<figures/timing/TOFVsEta.pdf, id=1447, 569.12625pt x 546.04pt>
 File: figures/timing/TOFVsEta.pdf Graphic file (type pdf)
 
 <use figures/timing/TOFVsEta.pdf>
-<figures/timing/TOFVsPt.pdf, id=1445, 569.12625pt x 546.04pt>
+<figures/timing/TOFVsPt.pdf, id=1448, 569.12625pt x 546.04pt>
 File: figures/timing/TOFVsPt.pdf Graphic file (type pdf)
 
 <use figures/timing/TOFVsPt.pdf> [41] [42 <./figures/timing/TOF.pdf, page is ro
@@ -654,19 +661,19 @@ f.pdf, page is rotated 90 degrees>] [43 <./figures/timing/TOFQual.pdf, page is
 rotated 90 degrees> <./figures/timing/TOFQualLog.pdf, page is rotated 90 degree
 s> <./figures/timing/TOFVsEta.pdf, page is rotated 90 degrees> <./figures/timin
 g/TOFVsPt.pdf, page is rotated 90 degrees>]
-<figures/timing/Vertex.pdf, id=1815, 569.12625pt x 546.04pt>
+<figures/timing/Vertex.pdf, id=1818, 569.12625pt x 546.04pt>
 File: figures/timing/Vertex.pdf Graphic file (type pdf)
 
 <use figures/timing/Vertex.pdf>
-<figures/timing/VertexLog.pdf, id=1816, 569.12625pt x 546.04pt>
+<figures/timing/VertexLog.pdf, id=1819, 569.12625pt x 546.04pt>
 File: figures/timing/VertexLog.pdf Graphic file (type pdf)
 
 <use figures/timing/VertexLog.pdf>
-<figures/timing/VertexErr.pdf, id=1817, 569.12625pt x 546.04pt>
+<figures/timing/VertexErr.pdf, id=1820, 569.12625pt x 546.04pt>
 File: figures/timing/VertexErr.pdf Graphic file (type pdf)
 
 <use figures/timing/VertexErr.pdf>
-<figures/timing/VertexNDof.pdf, id=1818, 569.12625pt x 546.04pt>
+<figures/timing/VertexNDof.pdf, id=1821, 569.12625pt x 546.04pt>
 File: figures/timing/VertexNDof.pdf Graphic file (type pdf)
 
 <use figures/timing/VertexNDof.pdf>) (./search.tex [44] [45 <./figures/timing/V
@@ -677,30 +684,30 @@ CHAPTER 5.
 [46
 
 ] [47] (./samples.tex [48] [49]
-<figures/muonly/Selection_Comp_GenGluino_genpT.pdf, id=2073, 569.12625pt x 546.
+<figures/muonly/Selection_Comp_GenGluino_genpT.pdf, id=2077, 569.12625pt x 546.
 04pt>
 File: figures/muonly/Selection_Comp_GenGluino_genpT.pdf Graphic file (type pdf)
 
  <use figures/muonly/Selection_Comp_GenGluino_genpT.pdf>
-<figures/muonly/Selection_Comp_GenGluino_geneta.pdf, id=2074, 569.12625pt x 546
+<figures/muonly/Selection_Comp_GenGluino_geneta.pdf, id=2078, 569.12625pt x 546
 .04pt>
 File: figures/muonly/Selection_Comp_GenGluino_geneta.pdf Graphic file (type pdf
 )
  <use figures/muonly/Selection_Comp_GenGluino_geneta.pdf>
-<figures/muonly/Selection_Comp_GenGluino_genbeta.pdf, id=2075, 569.12625pt x 54
+<figures/muonly/Selection_Comp_GenGluino_genbeta.pdf, id=2079, 569.12625pt x 54
 6.04pt>
 File: figures/muonly/Selection_Comp_GenGluino_genbeta.pdf Graphic file (type pd
 f)
  <use figures/muonly/Selection_Comp_GenGluino_genbeta.pdf>
-<figures/muonly/Selection_Comp_GenStop_genpT.pdf, id=2076, 569.12625pt x 546.04
+<figures/muonly/Selection_Comp_GenStop_genpT.pdf, id=2080, 569.12625pt x 546.04
 pt>
 File: figures/muonly/Selection_Comp_GenStop_genpT.pdf Graphic file (type pdf)
  <use figures/muonly/Selection_Comp_GenStop_genpT.pdf>
-<figures/muonly/Selection_Comp_GenStop_geneta.pdf, id=2077, 569.12625pt x 546.0
+<figures/muonly/Selection_Comp_GenStop_geneta.pdf, id=2081, 569.12625pt x 546.0
 4pt>
 File: figures/muonly/Selection_Comp_GenStop_geneta.pdf Graphic file (type pdf)
  <use figures/muonly/Selection_Comp_GenStop_geneta.pdf>
-<figures/muonly/Selection_Comp_GenStop_genbeta.pdf, id=2078, 569.12625pt x 546.
+<figures/muonly/Selection_Comp_GenStop_genbeta.pdf, id=2082, 569.12625pt x 546.
 04pt>
 File: figures/muonly/Selection_Comp_GenStop_genbeta.pdf Graphic file (type pdf)
 
@@ -712,45 +719,45 @@ ures/muonly/Selection_Comp_GenGluino_genbeta.pdf, page is rotated 90 degrees>]
 ees> <./figures/muonly/Selection_Comp_GenStop_geneta.pdf, page is rotated 90 de
 grees> <./figures/muonly/Selection_Comp_GenStop_genbeta.pdf, page is rotated 90
  degrees>]
-<figures/muonly/Selection_Comp_GenGMStau_genpT.pdf, id=2362, 569.12625pt x 546.
+<figures/muonly/Selection_Comp_GenGMStau_genpT.pdf, id=2366, 569.12625pt x 546.
 04pt>
 File: figures/muonly/Selection_Comp_GenGMStau_genpT.pdf Graphic file (type pdf)
 
  <use figures/muonly/Selection_Comp_GenGMStau_genpT.pdf>
-<figures/muonly/Selection_Comp_GenGMStau_geneta.pdf, id=2363, 569.12625pt x 546
+<figures/muonly/Selection_Comp_GenGMStau_geneta.pdf, id=2367, 569.12625pt x 546
 .04pt>
 File: figures/muonly/Selection_Comp_GenGMStau_geneta.pdf Graphic file (type pdf
 )
  <use figures/muonly/Selection_Comp_GenGMStau_geneta.pdf>
-<figures/muonly/Selection_Comp_GenGMStau_genbeta.pdf, id=2364, 569.12625pt x 54
+<figures/muonly/Selection_Comp_GenGMStau_genbeta.pdf, id=2368, 569.12625pt x 54
 6.04pt>
 File: figures/muonly/Selection_Comp_GenGMStau_genbeta.pdf Graphic file (type pd
 f)
  <use figures/muonly/Selection_Comp_GenGMStau_genbeta.pdf>
-<figures/muonly/Selection_Comp_GenPPStau_genpT.pdf, id=2365, 569.12625pt x 546.
+<figures/muonly/Selection_Comp_GenPPStau_genpT.pdf, id=2369, 569.12625pt x 546.
 04pt>
 File: figures/muonly/Selection_Comp_GenPPStau_genpT.pdf Graphic file (type pdf)
 
  <use figures/muonly/Selection_Comp_GenPPStau_genpT.pdf>
-<figures/muonly/Selection_Comp_GenPPStau_geneta.pdf, id=2366, 569.12625pt x 546
+<figures/muonly/Selection_Comp_GenPPStau_geneta.pdf, id=2370, 569.12625pt x 546
 .04pt>
 File: figures/muonly/Selection_Comp_GenPPStau_geneta.pdf Graphic file (type pdf
 )
  <use figures/muonly/Selection_Comp_GenPPStau_geneta.pdf>
-<figures/muonly/Selection_Comp_GenPPStau_genbeta.pdf, id=2367, 569.12625pt x 54
+<figures/muonly/Selection_Comp_GenPPStau_genbeta.pdf, id=2371, 569.12625pt x 54
 6.04pt>
 File: figures/muonly/Selection_Comp_GenPPStau_genbeta.pdf Graphic file (type pd
 f)
  <use figures/muonly/Selection_Comp_GenPPStau_genbeta.pdf>
-<figures/muonly/Selection_Comp_GenDY_genpT.pdf, id=2368, 569.12625pt x 546.04pt
+<figures/muonly/Selection_Comp_GenDY_genpT.pdf, id=2372, 569.12625pt x 546.04pt
 >
 File: figures/muonly/Selection_Comp_GenDY_genpT.pdf Graphic file (type pdf)
  <use figures/muonly/Selection_Comp_GenDY_genpT.pdf>
-<figures/muonly/Selection_Comp_GenDY_geneta.pdf, id=2369, 569.12625pt x 546.04p
+<figures/muonly/Selection_Comp_GenDY_geneta.pdf, id=2373, 569.12625pt x 546.04p
 t>
 File: figures/muonly/Selection_Comp_GenDY_geneta.pdf Graphic file (type pdf)
  <use figures/muonly/Selection_Comp_GenDY_geneta.pdf>
-<figures/muonly/Selection_Comp_GenDY_genbeta.pdf, id=2370, 569.12625pt x 546.04
+<figures/muonly/Selection_Comp_GenDY_genbeta.pdf, id=2374, 569.12625pt x 546.04
 pt>
 File: figures/muonly/Selection_Comp_GenDY_genbeta.pdf Graphic file (type pdf)
  <use figures/muonly/Selection_Comp_GenDY_genbeta.pdf> [53] [54 <./figures/muon
@@ -764,12 +771,12 @@ d 90 degrees>] [56 <./figures/muonly/Selection_Comp_GenDY_genpT.pdf, page is ro
 tated 90 degrees> <./figures/muonly/Selection_Comp_GenDY_geneta.pdf, page is ro
 tated 90 degrees> <./figures/muonly/Selection_Comp_GenDY_genbeta.pdf, page is r
 otated 90 degrees>]
-<figures/muonly/Selection_Comp_Signal_8TeV_PV_BS.pdf, id=2792, 569.12625pt x 54
+<figures/muonly/Selection_Comp_Signal_8TeV_PV_BS.pdf, id=2795, 569.12625pt x 54
 6.04pt>
 File: figures/muonly/Selection_Comp_Signal_8TeV_PV_BS.pdf Graphic file (type pd
 f)
  <use figures/muonly/Selection_Comp_Signal_8TeV_PV_BS.pdf>
-<figures/muonly/Selection_Comp_Signal_8TeV_PVLog_BS.pdf, id=2793, 569.12625pt x
+<figures/muonly/Selection_Comp_Signal_8TeV_PVLog_BS.pdf, id=2796, 569.12625pt x
  546.04pt>
 File: figures/muonly/Selection_Comp_Signal_8TeV_PVLog_BS.pdf Graphic file (type
  pdf)
@@ -777,42 +784,42 @@ File: figures/muonly/Selection_Comp_Signal_8TeV_PVLog_BS.pdf Graphic file (type
 (./trigger.tex [57 <./figures/muonly/Selection_Comp_Signal_8TeV_PV_BS.pdf, page
  is rotated 90 degrees> <./figures/muonly/Selection_Comp_Signal_8TeV_PVLog_BS.p
 df, page is rotated 90 degrees>] [58]
-<figures/search/Gluino_8TeV_M1200_f100SystPhiMET.pdf, id=2900, 569.12625pt x 54
+<figures/search/Gluino_8TeV_M1200_f100SystPhiMET.pdf, id=2903, 569.12625pt x 54
 6.04pt>
 File: figures/search/Gluino_8TeV_M1200_f100SystPhiMET.pdf Graphic file (type pd
 f)
  <use figures/search/Gluino_8TeV_M1200_f100SystPhiMET.pdf>
-<figures/search/Gluino_8TeV_M1200_f100SystPtMET.pdf, id=2901, 569.12625pt x 546
+<figures/search/Gluino_8TeV_M1200_f100SystPtMET.pdf, id=2904, 569.12625pt x 546
 .04pt>
 File: figures/search/Gluino_8TeV_M1200_f100SystPtMET.pdf Graphic file (type pdf
 )
  <use figures/search/Gluino_8TeV_M1200_f100SystPtMET.pdf>
-<figures/search/Gluino_8TeV_M1200_f100SystPtDiffMET.pdf, id=2902, 569.12625pt x
+<figures/search/Gluino_8TeV_M1200_f100SystPtDiffMET.pdf, id=2905, 569.12625pt x
  546.04pt>
 File: figures/search/Gluino_8TeV_M1200_f100SystPtDiffMET.pdf Graphic file (type
  pdf)
  <use figures/search/Gluino_8TeV_M1200_f100SystPtDiffMET.pdf>
-<figures/search/Gluino_8TeV_M1200_f100SystPtEff.pdf, id=2903, 569.12625pt x 546
+<figures/search/Gluino_8TeV_M1200_f100SystPtEff.pdf, id=2906, 569.12625pt x 546
 .04pt>
 File: figures/search/Gluino_8TeV_M1200_f100SystPtEff.pdf Graphic file (type pdf
 )
  <use figures/search/Gluino_8TeV_M1200_f100SystPtEff.pdf>
-<figures/search/Gluino_8TeV_M1200N_f10SystPhiMET.pdf, id=2904, 569.12625pt x 54
+<figures/search/Gluino_8TeV_M1200N_f10SystPhiMET.pdf, id=2907, 569.12625pt x 54
 6.04pt>
 File: figures/search/Gluino_8TeV_M1200N_f10SystPhiMET.pdf Graphic file (type pd
 f)
  <use figures/search/Gluino_8TeV_M1200N_f10SystPhiMET.pdf>
-<figures/search/Gluino_8TeV_M1200N_f10SystPtMET.pdf, id=2905, 569.12625pt x 546
+<figures/search/Gluino_8TeV_M1200N_f10SystPtMET.pdf, id=2908, 569.12625pt x 546
 .04pt>
 File: figures/search/Gluino_8TeV_M1200N_f10SystPtMET.pdf Graphic file (type pdf
 )
  <use figures/search/Gluino_8TeV_M1200N_f10SystPtMET.pdf>
-<figures/search/Gluino_8TeV_M1200N_f10SystPtDiffMET.pdf, id=2906, 569.12625pt x
+<figures/search/Gluino_8TeV_M1200N_f10SystPtDiffMET.pdf, id=2909, 569.12625pt x
  546.04pt>
 File: figures/search/Gluino_8TeV_M1200N_f10SystPtDiffMET.pdf Graphic file (type
  pdf)
  <use figures/search/Gluino_8TeV_M1200N_f10SystPtDiffMET.pdf>
-<figures/search/Gluino_8TeV_M1200N_f10SystPtEff.pdf, id=2907, 569.12625pt x 546
+<figures/search/Gluino_8TeV_M1200N_f10SystPtEff.pdf, id=2910, 569.12625pt x 546
 .04pt>
 File: figures/search/Gluino_8TeV_M1200N_f10SystPtEff.pdf Graphic file (type pdf
 )
@@ -826,12 +833,12 @@ otated 90 degrees> <./figures/search/Gluino_8TeV_M1200N_f10SystPtMET.pdf, page
 is rotated 90 degrees> <./figures/search/Gluino_8TeV_M1200N_f10SystPtDiffMET.pd
 f, page is rotated 90 degrees> <./figures/search/Gluino_8TeV_M1200N_f10SystPtEf
 f.pdf, page is rotated 90 degrees>] [62]
-<figures/search/Gluino_8TeV_M1200_f10MatchedSA.pdf, id=3281, 569.12625pt x 546.
+<figures/search/Gluino_8TeV_M1200_f10MatchedSA.pdf, id=3284, 569.12625pt x 546.
 04pt>
 File: figures/search/Gluino_8TeV_M1200_f10MatchedSA.pdf Graphic file (type pdf)
 
  <use figures/search/Gluino_8TeV_M1200_f10MatchedSA.pdf>
-<figures/search/Stop_8TeV_M800MatchedSA.pdf, id=3282, 569.12625pt x 546.04pt>
+<figures/search/Stop_8TeV_M800MatchedSA.pdf, id=3285, 569.12625pt x 546.04pt>
 File: figures/search/Stop_8TeV_M800MatchedSA.pdf Graphic file (type pdf)
 
 <use figures/search/Stop_8TeV_M800MatchedSA.pdf> [63 <./figures/search/Gluino_8
@@ -844,103 +851,103 @@ state-ment does not hold true. Gluinos can hadronize
  []
 
 [68]
-<figures/muonly/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS.pdf, id=3413, 569.
+<figures/muonly/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS.pdf, id=3414, 569.
 12625pt x 546.04pt>
 File: figures/muonly/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS.pdf Graphic f
 ile (type pdf)
 
 <use figures/muonly/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS.pdf>
-<figures/tkonly/SIM_Validation_Pt.pdf, id=3414, 569.12625pt x 546.04pt>
+<figures/tkonly/SIM_Validation_Pt.pdf, id=3415, 569.12625pt x 546.04pt>
 File: figures/tkonly/SIM_Validation_Pt.pdf Graphic file (type pdf)
 
 <use figures/tkonly/SIM_Validation_Pt.pdf> [69] [70 <./figures/muonly/Selection
 _Comp_Signal_8TeV_InnerInvPtDiff_BS.pdf, page is rotated 90 degrees>] [71 <./fi
 gures/tkonly/SIM_Validation_Pt.pdf, page is rotated 90 degrees>] [72])
 (./preselection.tex [73]
-<figures/muonly/Selection_Comp_8TeV_Cosmic_Eta_BS.pdf, id=3545, 569.12625pt x 5
+<figures/muonly/Selection_Comp_8TeV_Cosmic_Eta_BS.pdf, id=3548, 569.12625pt x 5
 46.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_Eta_BS.pdf Graphic file (type p
 df)
  <use figures/muonly/Selection_Comp_8TeV_Cosmic_Eta_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_MatchedStations_BS.pdf, id=3546, 569
+<figures/muonly/Selection_Comp_8TeV_Cosmic_MatchedStations_BS.pdf, id=3549, 569
 .12625pt x 546.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_MatchedStations_BS.pdf Graphic 
 file (type pdf)
 
 <use figures/muonly/Selection_Comp_8TeV_Cosmic_MatchedStations_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_nDof_BS.pdf, id=3547, 569.12625pt x 
+<figures/muonly/Selection_Comp_8TeV_Cosmic_nDof_BS.pdf, id=3550, 569.12625pt x 
 546.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_nDof_BS.pdf Graphic file (type 
 pdf)
  <use figures/muonly/Selection_Comp_8TeV_Cosmic_nDof_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_TOFError_BS.pdf, id=3548, 569.12625p
+<figures/muonly/Selection_Comp_8TeV_Cosmic_TOFError_BS.pdf, id=3551, 569.12625p
 t x 546.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_TOFError_BS.pdf Graphic file (t
 ype pdf)
  <use figures/muonly/Selection_Comp_8TeV_Cosmic_TOFError_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_TimeAtIP_BS.pdf, id=3549, 569.12625p
+<figures/muonly/Selection_Comp_8TeV_Cosmic_TimeAtIP_BS.pdf, id=3552, 569.12625p
 t x 546.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_TimeAtIP_BS.pdf Graphic file (t
 ype pdf)
  <use figures/muonly/Selection_Comp_8TeV_Cosmic_TimeAtIP_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_Dxy_BS.pdf, id=3550, 569.12625pt x 5
+<figures/muonly/Selection_Comp_8TeV_Cosmic_Dxy_BS.pdf, id=3553, 569.12625pt x 5
 46.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_Dxy_BS.pdf Graphic file (type p
 df)
  <use figures/muonly/Selection_Comp_8TeV_Cosmic_Dxy_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_Dz_BS.pdf, id=3551, 569.12625pt x 54
+<figures/muonly/Selection_Comp_8TeV_Cosmic_Dz_BS.pdf, id=3554, 569.12625pt x 54
 6.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_Dz_BS.pdf Graphic file (type pd
 f)
  <use figures/muonly/Selection_Comp_8TeV_Cosmic_Dz_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_Phi_BS.pdf, id=3552, 569.12625pt x 5
+<figures/muonly/Selection_Comp_8TeV_Cosmic_Phi_BS.pdf, id=3555, 569.12625pt x 5
 46.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_Phi_BS.pdf Graphic file (type p
 df)
  <use figures/muonly/Selection_Comp_8TeV_Cosmic_Phi_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_SegMinEtaSep_BS.pdf, id=3553, 569.12
+<figures/muonly/Selection_Comp_8TeV_Cosmic_SegMinEtaSep_BS.pdf, id=3556, 569.12
 625pt x 546.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_SegMinEtaSep_BS.pdf Graphic fil
 e (type pdf)
 
 <use figures/muonly/Selection_Comp_8TeV_Cosmic_SegMinEtaSep_BS.pdf> [74]
-<figures/tkmu/Selection_Comp_8TeV_GMStau_NOH_BS.pdf, id=3562, 569.12625pt x 546
+<figures/tkmu/Selection_Comp_8TeV_GMStau_NOH_BS.pdf, id=3565, 569.12625pt x 546
 .04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_NOH_BS.pdf Graphic file (type pdf
 )
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_NOH_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_NOPH_BS.pdf, id=3563, 569.12625pt x 54
+<figures/tkmu/Selection_Comp_8TeV_GMStau_NOPH_BS.pdf, id=3566, 569.12625pt x 54
 6.04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_NOPH_BS.pdf Graphic file (type pd
 f)
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_NOPH_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_NOHFraction_BS.pdf, id=3564, 569.12625
+<figures/tkmu/Selection_Comp_8TeV_GMStau_NOHFraction_BS.pdf, id=3567, 569.12625
 pt x 546.04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_NOHFraction_BS.pdf Graphic file (
 type pdf)
 
 <use figures/tkmu/Selection_Comp_8TeV_GMStau_NOHFraction_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_NOM_BS.pdf, id=3565, 569.12625pt x 546
+<figures/tkmu/Selection_Comp_8TeV_GMStau_NOM_BS.pdf, id=3568, 569.12625pt x 546
 .04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_NOM_BS.pdf Graphic file (type pdf
 )
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_NOM_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_Pterr_BS.pdf, id=3566, 569.12625pt x 5
+<figures/tkmu/Selection_Comp_8TeV_GMStau_Pterr_BS.pdf, id=3569, 569.12625pt x 5
 46.04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_Pterr_BS.pdf Graphic file (type p
 df)
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_Pterr_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_Chi2_BS.pdf, id=3567, 569.12625pt x 54
+<figures/tkmu/Selection_Comp_8TeV_GMStau_Chi2_BS.pdf, id=3570, 569.12625pt x 54
 6.04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_Chi2_BS.pdf Graphic file (type pd
 f)
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_Chi2_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_Dxy_BS.pdf, id=3568, 569.12625pt x 546
+<figures/tkmu/Selection_Comp_8TeV_GMStau_Dxy_BS.pdf, id=3571, 569.12625pt x 546
 .04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_Dxy_BS.pdf Graphic file (type pdf
 )
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_Dxy_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_Dz_BS.pdf, id=3569, 569.12625pt x 546.
+<figures/tkmu/Selection_Comp_8TeV_GMStau_Dz_BS.pdf, id=3572, 569.12625pt x 546.
 04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_Dz_BS.pdf Graphic file (type pdf)
 
@@ -959,27 +966,23 @@ tion_Comp_8TeV_Cosmic_Phi_BS.pdf, page is rotated 90 degrees> <./figures/muonly
 grees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_NOPH_BS.pdf, page is rotated 
 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_NOHFraction_BS.pdf, page
  is rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_NOM_BS.pdf, 
-page is rotated 90 degrees>] [79 <./figures/tkmu/Selection_Comp_8TeV_GMStau_Pte
-rr_BS.pdf, page is rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMSt
-au_Chi2_BS.pdf, page is rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV
-_GMStau_Dxy_BS.pdf, page is rotated 90 degrees> <./figures/tkmu/Selection_Comp_
-8TeV_GMStau_Dz_BS.pdf, page is rotated 90 degrees>]
-<figures/tkmu/Selection_Comp_8TeV_GMStau_IsolT_BS.pdf, id=4344, 569.12625pt x 5
+page is rotated 90 degrees>]
+<figures/tkmu/Selection_Comp_8TeV_GMStau_IsolT_BS.pdf, id=4167, 569.12625pt x 5
 46.04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_IsolT_BS.pdf Graphic file (type p
 df)
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_IsolT_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_IsolE_BS.pdf, id=4345, 569.12625pt x 5
+<figures/tkmu/Selection_Comp_8TeV_GMStau_IsolE_BS.pdf, id=4168, 569.12625pt x 5
 46.04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_IsolE_BS.pdf Graphic file (type p
 df)
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_IsolE_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_TOFError_BS.pdf, id=4346, 569.12625pt 
+<figures/tkmu/Selection_Comp_8TeV_GMStau_TOFError_BS.pdf, id=4169, 569.12625pt 
 x 546.04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_TOFError_BS.pdf Graphic file (typ
 e pdf)
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_TOFError_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_nDof_BS.pdf, id=4347, 569.12625pt x 54
+<figures/tkmu/Selection_Comp_8TeV_GMStau_nDof_BS.pdf, id=4170, 569.12625pt x 54
 6.04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_nDof_BS.pdf Graphic file (type pd
 f)
@@ -990,44 +993,48 @@ Overfull \hbox (15.5526pt too wide) in paragraph at lines 147--155
 k
  []
 
-[80] [81 <./figures/tkmu/Selection_Comp_8TeV_GMStau_IsolT_BS.pdf, page is rotat
-ed 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_IsolE_BS.pdf, page is
- rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_TOFError_BS.pdf
-, page is rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_nDof_B
-S.pdf, page is rotated 90 degrees>]
-<figures/multi/Selection_Comp_8TeV_DY_QG_NOM_BS.pdf, id=4536, 569.12625pt x 546
+[79] [80 <./figures/tkmu/Selection_Comp_8TeV_GMStau_Pterr_BS.pdf, page is rotat
+ed 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_Chi2_BS.pdf, page is 
+rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_Dxy_BS.pdf, page
+ is rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_Dz_BS.pdf, p
+age is rotated 90 degrees>] [81 <./figures/tkmu/Selection_Comp_8TeV_GMStau_Isol
+T_BS.pdf, page is rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMSta
+u_IsolE_BS.pdf, page is rotated 90 degrees> <./figures/tkmu/Selection_Comp_8TeV
+_GMStau_TOFError_BS.pdf, page is rotated 90 degrees> <./figures/tkmu/Selection_
+Comp_8TeV_GMStau_nDof_BS.pdf, page is rotated 90 degrees>]
+<figures/multi/Selection_Comp_8TeV_DY_QG_NOM_BS.pdf, id=4539, 569.12625pt x 546
 .04pt>
 File: figures/multi/Selection_Comp_8TeV_DY_QG_NOM_BS.pdf Graphic file (type pdf
 )
  <use figures/multi/Selection_Comp_8TeV_DY_QG_NOM_BS.pdf> [82 <./figures/multi/
 Selection_Comp_8TeV_DY_QG_NOM_BS.pdf, page is rotated 90 degrees>]
-[83] [84]
-<figures/muonly/Selection_Comp_8TeV_Cosmic_Pt_BS.pdf, id=4598, 569.12625pt x 54
+[83] [84] [85]
+<figures/muonly/Selection_Comp_8TeV_Cosmic_Pt_BS.pdf, id=4607, 569.12625pt x 54
 6.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_Pt_BS.pdf Graphic file (type pd
 f)
  <use figures/muonly/Selection_Comp_8TeV_Cosmic_Pt_BS.pdf>
-<figures/muonly/Selection_Comp_8TeV_Cosmic_TOF_BS.pdf, id=4599, 569.12625pt x 5
+<figures/muonly/Selection_Comp_8TeV_Cosmic_TOF_BS.pdf, id=4608, 569.12625pt x 5
 46.04pt>
 File: figures/muonly/Selection_Comp_8TeV_Cosmic_TOF_BS.pdf Graphic file (type p
 df)
- <use figures/muonly/Selection_Comp_8TeV_Cosmic_TOF_BS.pdf> [85]
-<figures/tkmu/Selection_Comp_8TeV_GMStau_Pt_BS.pdf, id=4606, 569.12625pt x 546.
+ <use figures/muonly/Selection_Comp_8TeV_Cosmic_TOF_BS.pdf>
+<figures/tkmu/Selection_Comp_8TeV_GMStau_Pt_BS.pdf, id=4609, 569.12625pt x 546.
 04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_Pt_BS.pdf Graphic file (type pdf)
 
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_Pt_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_TOF_BS.pdf, id=4607, 569.12625pt x 546
+<figures/tkmu/Selection_Comp_8TeV_GMStau_TOF_BS.pdf, id=4610, 569.12625pt x 546
 .04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_TOF_BS.pdf Graphic file (type pdf
 )
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_TOF_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_Is_BS.pdf, id=4608, 569.12625pt x 546.
+<figures/tkmu/Selection_Comp_8TeV_GMStau_Is_BS.pdf, id=4611, 569.12625pt x 546.
 04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_Is_BS.pdf Graphic file (type pdf)
 
  <use figures/tkmu/Selection_Comp_8TeV_GMStau_Is_BS.pdf>
-<figures/tkmu/Selection_Comp_8TeV_GMStau_Im_BS.pdf, id=4609, 569.12625pt x 546.
+<figures/tkmu/Selection_Comp_8TeV_GMStau_Im_BS.pdf, id=4612, 569.12625pt x 546.
 04pt>
 File: figures/tkmu/Selection_Comp_8TeV_GMStau_Im_BS.pdf Graphic file (type pdf)
 
@@ -1039,61 +1046,61 @@ rees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_TOF_BS.pdf, page is rotated 90
  degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_Is_BS.pdf, page is rotated
  90 degrees> <./figures/tkmu/Selection_Comp_8TeV_GMStau_Im_BS.pdf, page is rota
 ted 90 degrees>]
-<figures/muonly/pteff_Comp.pdf, id=4890, 439.6425pt x 569.12625pt>
+<figures/muonly/pteff_Comp.pdf, id=4893, 439.6425pt x 569.12625pt>
 File: figures/muonly/pteff_Comp.pdf Graphic file (type pdf)
 
 <use figures/muonly/pteff_Comp.pdf>
-<figures/muonly/etaeff_Comp.pdf, id=4891, 439.6425pt x 569.12625pt>
+<figures/muonly/etaeff_Comp.pdf, id=4894, 439.6425pt x 569.12625pt>
 File: figures/muonly/etaeff_Comp.pdf Graphic file (type pdf)
 
 <use figures/muonly/etaeff_Comp.pdf>
-<figures/muonly/PVeff_Comp.pdf, id=4892, 439.6425pt x 569.12625pt>
+<figures/muonly/PVeff_Comp.pdf, id=4895, 439.6425pt x 569.12625pt>
 File: figures/muonly/PVeff_Comp.pdf Graphic file (type pdf)
 
 <use figures/muonly/PVeff_Comp.pdf>) (./background.tex [89] [90 <./figures/muon
 ly/pteff_Comp.pdf> <./figures/muonly/etaeff_Comp.pdf> <./figures/muonly/PVeff_C
 omp.pdf>] [91] [92] [93] [94]
-<figures/muonly/Selection_Data8TeV_Pt_Binned_BS.pdf, id=5060, 569.12625pt x 546
+<figures/muonly/Selection_Data8TeV_Pt_Binned_BS.pdf, id=5062, 569.12625pt x 546
 .04pt>
 File: figures/muonly/Selection_Data8TeV_Pt_Binned_BS.pdf Graphic file (type pdf
 )
  <use figures/muonly/Selection_Data8TeV_Pt_Binned_BS.pdf>
-<figures/muonly/Selection_Data8TeV_TOF_Binned_BS.pdf, id=5061, 569.12625pt x 54
+<figures/muonly/Selection_Data8TeV_TOF_Binned_BS.pdf, id=5063, 569.12625pt x 54
 6.04pt>
 File: figures/muonly/Selection_Data8TeV_TOF_Binned_BS.pdf Graphic file (type pd
 f)
  <use figures/muonly/Selection_Data8TeV_TOF_Binned_BS.pdf>
-<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_0.pdf, id=5062, 569.1262
+<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_0.pdf, id=5064, 569.1262
 5pt x 546.04pt>
 File: figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_0.pdf Graphic file 
 (type pdf)
 
 <use figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_0.pdf>
-<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_3.pdf, id=5063, 569.1262
+<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_3.pdf, id=5065, 569.1262
 5pt x 546.04pt>
 File: figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_3.pdf Graphic file 
 (type pdf)
 
 <use figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_3.pdf>
-<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_1.pdf, id=5064, 569.1262
+<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_1.pdf, id=5066, 569.1262
 5pt x 546.04pt>
 File: figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_1.pdf Graphic file 
 (type pdf)
 
 <use figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_1.pdf>
-<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_4.pdf, id=5065, 569.1262
+<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_4.pdf, id=5067, 569.1262
 5pt x 546.04pt>
 File: figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_4.pdf Graphic file 
 (type pdf)
 
 <use figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_4.pdf>
-<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_2.pdf, id=5066, 569.1262
+<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_2.pdf, id=5068, 569.1262
 5pt x 546.04pt>
 File: figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_2.pdf Graphic file 
 (type pdf)
 
 <use figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_2.pdf>
-<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_5.pdf, id=5067, 569.1262
+<figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_5.pdf, id=5069, 569.1262
 5pt x 546.04pt>
 File: figures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_5.pdf Graphic file 
 (type pdf)
@@ -1109,463 +1116,465 @@ t_TOFSpectrum_Binned_4.pdf, page is rotated 90 degrees>] [97 <./figures/muonly/
 Control_Data8TeV_Pt_TOFSpectrum_Binned_2.pdf, page is rotated 90 degrees> <./fi
 gures/muonly/Control_Data8TeV_Pt_TOFSpectrum_Binned_5.pdf, page is rotated 90 d
 egrees>] [98]
-<figures/muonly/Prediction_Data8TeV_NPredVsNObs_Flip.pdf, id=5447, 569.12625pt 
+<figures/muonly/Prediction_Data8TeV_NPredVsNObs_Flip.pdf, id=5450, 569.12625pt 
 x 546.04pt>
 File: figures/muonly/Prediction_Data8TeV_NPredVsNObs_Flip.pdf Graphic file (typ
 e pdf)
  <use figures/muonly/Prediction_Data8TeV_NPredVsNObs_Flip.pdf>
-[99 <./figures/muonly/Prediction_Data8TeV_NPredVsNObs_Flip.pdf, page is rotated
- 90 degrees>]
-<figures/muonly/Data8TeVCollisionPrediction_TOF110.pdf, id=5497, 569.12625pt x 
+[99] [100 <./figures/muonly/Prediction_Data8TeV_NPredVsNObs_Flip.pdf, page is r
+otated 90 degrees>]
+<figures/muonly/Data8TeVCollisionPrediction_TOF110.pdf, id=5504, 569.12625pt x 
 546.04pt>
 File: figures/muonly/Data8TeVCollisionPrediction_TOF110.pdf Graphic file (type 
 pdf)
  <use figures/muonly/Data8TeVCollisionPrediction_TOF110.pdf>
-<figures/muonly/Data8TeVCollisionPrediction_TOF120.pdf, id=5498, 569.12625pt x 
+<figures/muonly/Data8TeVCollisionPrediction_TOF120.pdf, id=5505, 569.12625pt x 
 546.04pt>
 File: figures/muonly/Data8TeVCollisionPrediction_TOF120.pdf Graphic file (type 
 pdf)
- <use figures/muonly/Data8TeVCollisionPrediction_TOF120.pdf> [100 <./figures/mu
+ <use figures/muonly/Data8TeVCollisionPrediction_TOF120.pdf> [101 <./figures/mu
 only/Data8TeVCollisionPrediction_TOF110.pdf, page is rotated 90 degrees> <./fig
 ures/muonly/Data8TeVCollisionPrediction_TOF120.pdf, page is rotated 90 degrees>
 ]
-<figures/muonly/Data8TeVCollisionStat.pdf, id=5592, 569.12625pt x 546.04pt>
+<figures/muonly/Data8TeVCollisionStat.pdf, id=5601, 569.12625pt x 546.04pt>
 File: figures/muonly/Data8TeVCollisionStat.pdf Graphic file (type pdf)
 
 <use figures/muonly/Data8TeVCollisionStat.pdf>
-<figures/muonly/Data8TeVCollisionStatSyst.pdf, id=5593, 569.12625pt x 546.04pt>
+<figures/muonly/Data8TeVCollisionStatSyst.pdf, id=5602, 569.12625pt x 546.04pt>
 File: figures/muonly/Data8TeVCollisionStatSyst.pdf Graphic file (type pdf)
 <use figures/muonly/Data8TeVCollisionStatSyst.pdf>
-<figures/muonly/Data8TeVCollisionSyst.pdf, id=5594, 569.12625pt x 546.04pt>
+<figures/muonly/Data8TeVCollisionSyst.pdf, id=5603, 569.12625pt x 546.04pt>
 File: figures/muonly/Data8TeVCollisionSyst.pdf Graphic file (type pdf)
 
-<use figures/muonly/Data8TeVCollisionSyst.pdf> [101] [102 <./figures/muonly/Dat
+<use figures/muonly/Data8TeVCollisionSyst.pdf> [102] [103 <./figures/muonly/Dat
 a8TeVCollisionStat.pdf, page is rotated 90 degrees> <./figures/muonly/Data8TeVC
 ollisionStatSyst.pdf, page is rotated 90 degrees> <./figures/muonly/Data8TeVCol
 lisionSyst.pdf, page is rotated 90 degrees>]
-<figures/tkmu/Control_Data8TeV_Pt_TOFSpectrum.pdf, id=5742, 569.12625pt x 546.0
+<figures/tkmu/Control_Data8TeV_Pt_TOFSpectrum.pdf, id=5748, 569.12625pt x 546.0
 4pt>
 File: figures/tkmu/Control_Data8TeV_Pt_TOFSpectrum.pdf Graphic file (type pdf)
  <use figures/tkmu/Control_Data8TeV_Pt_TOFSpectrum.pdf>
-<figures/tkmu/Control_Data8TeV_Is_TOFSpectrumLog.pdf, id=5743, 569.12625pt x 54
+<figures/tkmu/Control_Data8TeV_Is_TOFSpectrumLog.pdf, id=5749, 569.12625pt x 54
 6.04pt>
 File: figures/tkmu/Control_Data8TeV_Is_TOFSpectrumLog.pdf Graphic file (type pd
 f)
  <use figures/tkmu/Control_Data8TeV_Is_TOFSpectrumLog.pdf>
-<figures/tkmu/Control_Data8TeV_Pt_IsSpectrum.pdf, id=5744, 569.12625pt x 546.04
+<figures/tkmu/Control_Data8TeV_Pt_IsSpectrum.pdf, id=5750, 569.12625pt x 546.04
 pt>
 File: figures/tkmu/Control_Data8TeV_Pt_IsSpectrum.pdf Graphic file (type pdf)
- <use figures/tkmu/Control_Data8TeV_Pt_IsSpectrum.pdf> [103] [104 <./figures/tk
+ <use figures/tkmu/Control_Data8TeV_Pt_IsSpectrum.pdf> [104] [105 <./figures/tk
 mu/Control_Data8TeV_Pt_TOFSpectrum.pdf, page is rotated 90 degrees> <./figures/
 tkmu/Control_Data8TeV_Is_TOFSpectrumLog.pdf, page is rotated 90 degrees> <./fig
 ures/tkmu/Control_Data8TeV_Pt_IsSpectrum.pdf, page is rotated 90 degrees>]
-<figures/tkmu/Pred_Flip_I010_Pt55_Data8TeV.pdf, id=5888, 569.12625pt x 546.04pt
+<figures/tkmu/Pred_Flip_I010_Pt55_Data8TeV.pdf, id=5895, 569.12625pt x 546.04pt
 >
 File: figures/tkmu/Pred_Flip_I010_Pt55_Data8TeV.pdf Graphic file (type pdf)
  <use figures/tkmu/Pred_Flip_I010_Pt55_Data8TeV.pdf>
-<figures/tkmu/Pred_Flip_I020_Pt85_Data8TeV.pdf, id=5889, 569.12625pt x 546.04pt
+<figures/tkmu/Pred_Flip_I020_Pt85_Data8TeV.pdf, id=5896, 569.12625pt x 546.04pt
 >
 File: figures/tkmu/Pred_Flip_I020_Pt85_Data8TeV.pdf Graphic file (type pdf)
- <use figures/tkmu/Pred_Flip_I020_Pt85_Data8TeV.pdf> [105 <./figures/tkmu/Pred_
+ <use figures/tkmu/Pred_Flip_I020_Pt85_Data8TeV.pdf> [106 <./figures/tkmu/Pred_
 Flip_I010_Pt55_Data8TeV.pdf, page is rotated 90 degrees> <./figures/tkmu/Pred_F
 lip_I020_Pt85_Data8TeV.pdf, page is rotated 90 degrees>]
-<figures/tkmu/Selection_Data8TeV_EtaRegionsPtTOF_016.pdf, id=5984, 569.12625pt 
+<figures/tkmu/Selection_Data8TeV_EtaRegionsPtTOF_016.pdf, id=5990, 569.12625pt 
 x 546.04pt>
 File: figures/tkmu/Selection_Data8TeV_EtaRegionsPtTOF_016.pdf Graphic file (typ
 e pdf)
  <use figures/tkmu/Selection_Data8TeV_EtaRegionsPtTOF_016.pdf>
-<figures/tkmu/Selection_Data8TeV_EtaRegionsTOFdEdx_016.pdf, id=5985, 569.12625p
+<figures/tkmu/Selection_Data8TeV_EtaRegionsTOFdEdx_016.pdf, id=5991, 569.12625p
 t x 546.04pt>
 File: figures/tkmu/Selection_Data8TeV_EtaRegionsTOFdEdx_016.pdf Graphic file (t
 ype pdf)
  <use figures/tkmu/Selection_Data8TeV_EtaRegionsTOFdEdx_016.pdf>
-<figures/tkmu/Selection_Data8TeV_EtaRegionsPtdEdx_016.pdf, id=5986, 569.12625pt
+<figures/tkmu/Selection_Data8TeV_EtaRegionsPtdEdx_016.pdf, id=5992, 569.12625pt
  x 546.04pt>
 File: figures/tkmu/Selection_Data8TeV_EtaRegionsPtdEdx_016.pdf Graphic file (ty
 pe pdf)
  <use figures/tkmu/Selection_Data8TeV_EtaRegionsPtdEdx_016.pdf>
-[106] [107 <./figures/tkmu/Selection_Data8TeV_EtaRegionsPtTOF_016.pdf, page is 
+[107] [108 <./figures/tkmu/Selection_Data8TeV_EtaRegionsPtTOF_016.pdf, page is 
 rotated 90 degrees> <./figures/tkmu/Selection_Data8TeV_EtaRegionsTOFdEdx_016.pd
 f, page is rotated 90 degrees> <./figures/tkmu/Selection_Data8TeV_EtaRegionsPtd
-Edx_016.pdf, page is rotated 90 degrees>]
-<figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_LooseNoSMMC.pdf, id=6128, 569.12625
+Edx_016.pdf, page is rotated 90 degrees>] [109]
+<figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_LooseNoSMMC.pdf, id=6141, 569.12625
 pt x 546.04pt>
 File: figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_LooseNoSMMC.pdf Graphic file (
 type pdf)
 
 <use figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_LooseNoSMMC.pdf>
-<figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_TightNoSMMC.pdf, id=6129, 569.12625
+<figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_TightNoSMMC.pdf, id=6142, 569.12625
 pt x 546.04pt>
 File: figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_TightNoSMMC.pdf Graphic file (
 type pdf)
 
-<use figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_TightNoSMMC.pdf> [108] [109 <./
-figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_LooseNoSMMC.pdf, page is rotated 90 
-degrees> <./figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_TightNoSMMC.pdf, page is
- rotated 90 degrees>]
-<figures/tkmu/Systematics_Data8TeV_TOF_Value.pdf, id=6229, 569.12625pt x 546.04
+<use figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_TightNoSMMC.pdf> [110 <./figure
+s/tkmu/RescaleNoRatio_Mass_Flip_8TeV_LooseNoSMMC.pdf, page is rotated 90 degree
+s> <./figures/tkmu/RescaleNoRatio_Mass_Flip_8TeV_TightNoSMMC.pdf, page is rotat
+ed 90 degrees>]
+<figures/tkmu/Systematics_Data8TeV_TOF_Value.pdf, id=6237, 569.12625pt x 546.04
 pt>
 File: figures/tkmu/Systematics_Data8TeV_TOF_Value.pdf Graphic file (type pdf)
  <use figures/tkmu/Systematics_Data8TeV_TOF_Value.pdf>
-<figures/tkmu/Systematics_Data8TeV_P_Value.pdf, id=6230, 569.12625pt x 546.04pt
+<figures/tkmu/Systematics_Data8TeV_P_Value.pdf, id=6238, 569.12625pt x 546.04pt
 >
 File: figures/tkmu/Systematics_Data8TeV_P_Value.pdf Graphic file (type pdf)
  <use figures/tkmu/Systematics_Data8TeV_P_Value.pdf>
-<figures/tkmu/Systematics_Data8TeV_I_Value.pdf, id=6231, 569.12625pt x 546.04pt
+<figures/tkmu/Systematics_Data8TeV_I_Value.pdf, id=6239, 569.12625pt x 546.04pt
 >
 File: figures/tkmu/Systematics_Data8TeV_I_Value.pdf Graphic file (type pdf)
  <use figures/tkmu/Systematics_Data8TeV_I_Value.pdf>
-<figures/tkmu/Systematics_Data8TeV_pT_Stat.pdf, id=6232, 569.12625pt x 546.04pt
+<figures/tkmu/Systematics_Data8TeV_pT_Stat.pdf, id=6240, 569.12625pt x 546.04pt
 >
 File: figures/tkmu/Systematics_Data8TeV_pT_Stat.pdf Graphic file (type pdf)
  <use figures/tkmu/Systematics_Data8TeV_pT_Stat.pdf>
-<figures/tkmu/Systematics_Data8TeV_pT_Sum.pdf, id=6233, 569.12625pt x 546.04pt>
+<figures/tkmu/Systematics_Data8TeV_pT_Sum.pdf, id=6241, 569.12625pt x 546.04pt>
 File: figures/tkmu/Systematics_Data8TeV_pT_Sum.pdf Graphic file (type pdf)
 <use figures/tkmu/Systematics_Data8TeV_pT_Sum.pdf>
-<figures/tkmu/Systematics_Data8TeV_pT_Syst.pdf, id=6234, 569.12625pt x 546.04pt
+<figures/tkmu/Systematics_Data8TeV_pT_Syst.pdf, id=6242, 569.12625pt x 546.04pt
 >
 File: figures/tkmu/Systematics_Data8TeV_pT_Syst.pdf Graphic file (type pdf)
  <use figures/tkmu/Systematics_Data8TeV_pT_Syst.pdf>
-Underfull \hbox (badness 1107) in paragraph at lines 532--532
+Underfull \hbox (badness 1107) in paragraph at lines 537--537
 []\OT1/cmr/m/n/12 Figure 5.33: [] Rel-a-tive un-cer-tainty on the back-ground p
 re-dic-tion in the
  []
 
-[110] [111 <./figures/tkmu/Systematics_Data8TeV_TOF_Value.pdf, page is rotated 
+[111] [112 <./figures/tkmu/Systematics_Data8TeV_TOF_Value.pdf, page is rotated 
 90 degrees> <./figures/tkmu/Systematics_Data8TeV_P_Value.pdf, page is rotated 9
 0 degrees> <./figures/tkmu/Systematics_Data8TeV_I_Value.pdf, page is rotated 90
- degrees>] [112 <./figures/tkmu/Systematics_Data8TeV_pT_Stat.pdf, page is rotat
+ degrees>] [113 <./figures/tkmu/Systematics_Data8TeV_pT_Stat.pdf, page is rotat
 ed 90 degrees> <./figures/tkmu/Systematics_Data8TeV_pT_Sum.pdf, page is rotated
  90 degrees> <./figures/tkmu/Systematics_Data8TeV_pT_Syst.pdf, page is rotated 
 90 degrees>]
-<figures/multi/Prediction_Data8TeV_NPredVsNObs_Flip.pdf, id=6516, 569.12625pt x
+<figures/multi/Prediction_Data8TeV_NPredVsNObs_Flip.pdf, id=6525, 569.12625pt x
  546.04pt>
 File: figures/multi/Prediction_Data8TeV_NPredVsNObs_Flip.pdf Graphic file (type
  pdf)
  <use figures/multi/Prediction_Data8TeV_NPredVsNObs_Flip.pdf>
-[113] [114 <./figures/multi/Prediction_Data8TeV_NPredVsNObs_Flip.pdf, page is r
-otated 90 degrees>]
-<figures/multi/Data8TeVCollisionPrediction_TOF105.pdf, id=6576, 569.12625pt x 5
+<figures/multi/Data8TeVCollisionPrediction_TOF105.pdf, id=6526, 569.12625pt x 5
 46.04pt>
 File: figures/multi/Data8TeVCollisionPrediction_TOF105.pdf Graphic file (type p
 df)
  <use figures/multi/Data8TeVCollisionPrediction_TOF105.pdf>
-<figures/multi/Data8TeVCollisionPrediction_TOF115.pdf, id=6577, 569.12625pt x 5
+<figures/multi/Data8TeVCollisionPrediction_TOF115.pdf, id=6527, 569.12625pt x 5
 46.04pt>
 File: figures/multi/Data8TeVCollisionPrediction_TOF115.pdf Graphic file (type p
 df)
  <use figures/multi/Data8TeVCollisionPrediction_TOF115.pdf>
-<figures/multi/Data8TeVCollisionStat.pdf, id=6578, 569.12625pt x 546.04pt>
+<figures/multi/Data8TeVCollisionStat.pdf, id=6528, 569.12625pt x 546.04pt>
 File: figures/multi/Data8TeVCollisionStat.pdf Graphic file (type pdf)
 
 <use figures/multi/Data8TeVCollisionStat.pdf>
-<figures/multi/Data8TeVCollisionStatSyst.pdf, id=6579, 569.12625pt x 546.04pt>
+<figures/multi/Data8TeVCollisionStatSyst.pdf, id=6529, 569.12625pt x 546.04pt>
 File: figures/multi/Data8TeVCollisionStatSyst.pdf Graphic file (type pdf)
 
 <use figures/multi/Data8TeVCollisionStatSyst.pdf>
-<figures/multi/Data8TeVCollisionSyst.pdf, id=6580, 569.12625pt x 546.04pt>
+<figures/multi/Data8TeVCollisionSyst.pdf, id=6530, 569.12625pt x 546.04pt>
 File: figures/multi/Data8TeVCollisionSyst.pdf Graphic file (type pdf)
 
-<use figures/multi/Data8TeVCollisionSyst.pdf>) (./stat.tex [115 <./figures/mult
-i/Data8TeVCollisionPrediction_TOF105.pdf, page is rotated 90 degrees> <./figure
-s/multi/Data8TeVCollisionPrediction_TOF115.pdf, page is rotated 90 degrees>]
-[116 <./figures/multi/Data8TeVCollisionStat.pdf, page is rotated 90 degrees> <.
-/figures/multi/Data8TeVCollisionStatSyst.pdf, page is rotated 90 degrees> <./fi
-gures/multi/Data8TeVCollisionSyst.pdf, page is rotated 90 degrees>] [117])
-(./optimization.tex [118]
-<figures/muonly/Prediction_Data8TeV_NPredVsNObs.pdf, id=6843, 569.12625pt x 546
+<use figures/multi/Data8TeVCollisionSyst.pdf>) (./stat.tex [114] [115 <./figure
+s/multi/Prediction_Data8TeV_NPredVsNObs_Flip.pdf, page is rotated 90 degrees>]
+[116 <./figures/multi/Data8TeVCollisionPrediction_TOF105.pdf, page is rotated 9
+0 degrees> <./figures/multi/Data8TeVCollisionPrediction_TOF115.pdf, page is rot
+ated 90 degrees>] [117 <./figures/multi/Data8TeVCollisionStat.pdf, page is rota
+ted 90 degrees> <./figures/multi/Data8TeVCollisionStatSyst.pdf, page is rotated
+ 90 degrees> <./figures/multi/Data8TeVCollisionSyst.pdf, page is rotated 90 deg
+rees>] [118]) (./optimization.tex [119]
+<figures/muonly/Prediction_Data8TeV_NPredVsNObs.pdf, id=6852, 569.12625pt x 546
 .04pt>
 File: figures/muonly/Prediction_Data8TeV_NPredVsNObs.pdf Graphic file (type pdf
 )
  <use figures/muonly/Prediction_Data8TeV_NPredVsNObs.pdf>
-<figures/tkmu/Prediction_Data8TeV_NPredVsNObs.pdf, id=6844, 569.12625pt x 546.0
+<figures/tkmu/Prediction_Data8TeV_NPredVsNObs.pdf, id=6853, 569.12625pt x 546.0
 4pt>
 File: figures/tkmu/Prediction_Data8TeV_NPredVsNObs.pdf Graphic file (type pdf)
  <use figures/tkmu/Prediction_Data8TeV_NPredVsNObs.pdf>
-<figures/tkonly/Prediction_Data8TeV_NPredVsNObs.pdf, id=6845, 569.12625pt x 546
+<figures/tkonly/Prediction_Data8TeV_NPredVsNObs.pdf, id=6854, 569.12625pt x 546
 .04pt>
 File: figures/tkonly/Prediction_Data8TeV_NPredVsNObs.pdf Graphic file (type pdf
 )
  <use figures/tkonly/Prediction_Data8TeV_NPredVsNObs.pdf>
-<figures/multi/Prediction_Data8TeV_NPredVsNObs.pdf, id=6846, 569.12625pt x 546.
+<figures/multi/Prediction_Data8TeV_NPredVsNObs.pdf, id=6855, 569.12625pt x 546.
 04pt>
 File: figures/multi/Prediction_Data8TeV_NPredVsNObs.pdf Graphic file (type pdf)
 
  <use figures/multi/Prediction_Data8TeV_NPredVsNObs.pdf>
-<figures/tkmu/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf, id=6847, 569.12625pt x 
+<figures/tkmu/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf, id=6856, 569.12625pt x 
 546.04pt>
 File: figures/tkmu/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf Graphic file (type 
 pdf)
  <use figures/tkmu/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf>
-<figures/tkonly/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf, id=6848, 569.12625pt 
+<figures/tkonly/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf, id=6857, 569.12625pt 
 x 546.04pt>
 File: figures/tkonly/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf Graphic file (typ
 e pdf)
  <use figures/tkonly/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pdf>
-[119 <./figures/muonly/Prediction_Data8TeV_NPredVsNObs.pdf, page is rotated 90 
+[120 <./figures/muonly/Prediction_Data8TeV_NPredVsNObs.pdf, page is rotated 90 
 degrees> <./figures/tkmu/Prediction_Data8TeV_NPredVsNObs.pdf, page is rotated 9
-0 degrees>] [120 <./figures/tkonly/Prediction_Data8TeV_NPredVsNObs.pdf, page is
+0 degrees>] [121 <./figures/tkonly/Prediction_Data8TeV_NPredVsNObs.pdf, page is
  rotated 90 degrees> <./figures/multi/Prediction_Data8TeV_NPredVsNObs.pdf, page
- is rotated 90 degrees> <./figures/tkmu/RescaleNoRatio_Mass_8TeV_LooseNoSMMC.pd
-f, page is rotated 90 degrees> <./figures/tkonly/RescaleNoRatio_Mass_8TeV_Loose
-NoSMMC.pdf, page is rotated 90 degrees>] [121] [122]
-<figures/tkmu/RescaleNoRatio_Mass_8TeV_TightNoSMMC.pdf, id=7131, 569.12625pt x 
+ is rotated 90 degrees>] [122 <./figures/tkmu/RescaleNoRatio_Mass_8TeV_LooseNoS
+MMC.pdf, page is rotated 90 degrees> <./figures/tkonly/RescaleNoRatio_Mass_8TeV
+_LooseNoSMMC.pdf, page is rotated 90 degrees>] [123]
+<figures/tkmu/RescaleNoRatio_Mass_8TeV_TightNoSMMC.pdf, id=7143, 569.12625pt x 
 546.04pt>
 File: figures/tkmu/RescaleNoRatio_Mass_8TeV_TightNoSMMC.pdf Graphic file (type 
 pdf)
  <use figures/tkmu/RescaleNoRatio_Mass_8TeV_TightNoSMMC.pdf>
-<figures/tkonly/RescaleNoRatio_Mass_8TeV_TightNoSMMC.pdf, id=7132, 569.12625pt 
+<figures/tkonly/RescaleNoRatio_Mass_8TeV_TightNoSMMC.pdf, id=7144, 569.12625pt 
 x 546.04pt>
 File: figures/tkonly/RescaleNoRatio_Mass_8TeV_TightNoSMMC.pdf Graphic file (typ
 e pdf)
  <use figures/tkonly/RescaleNoRatio_Mass_8TeV_TightNoSMMC.pdf>)
-(./systematics.tex [123] [124 <./figures/tkmu/RescaleNoRatio_Mass_8TeV_TightNoS
-MMC.pdf, page is rotated 90 degrees> <./figures/tkonly/RescaleNoRatio_Mass_8TeV
-_TightNoSMMC.pdf, page is rotated 90 degrees>] [125] [126] [127]
-Overfull \hbox (14.64708pt too wide) in paragraph at lines 105--107
+(./systematics.tex [124] [125] [126 <./figures/tkmu/RescaleNoRatio_Mass_8TeV_Ti
+ghtNoSMMC.pdf, page is rotated 90 degrees> <./figures/tkonly/RescaleNoRatio_Mas
+s_8TeV_TightNoSMMC.pdf, page is rotated 90 degrees>] [127] [128] [129]
+Overfull \hbox (14.64708pt too wide) in paragraph at lines 92--94
 \OT1/cmr/m/n/12 The sys-tem-atic un-cer-tainty on the ef-fi-ciency to re-con-st
 ruct muons [[]] and tracks [[]]
  []
 
-[128]
-<figures/muonly/MoGluino_f100Uncertainty.pdf, id=7265, 569.12625pt x 546.04pt>
+[130]
+<figures/muonly/MoGluino_f100Uncertainty.pdf, id=7279, 569.12625pt x 546.04pt>
 File: figures/muonly/MoGluino_f100Uncertainty.pdf Graphic file (type pdf)
 
 <use figures/muonly/MoGluino_f100Uncertainty.pdf>
-<figures/muonly/MoGluino_f50Uncertainty.pdf, id=7266, 569.12625pt x 546.04pt>
+<figures/muonly/MoGluino_f50Uncertainty.pdf, id=7280, 569.12625pt x 546.04pt>
 File: figures/muonly/MoGluino_f50Uncertainty.pdf Graphic file (type pdf)
 
 <use figures/muonly/MoGluino_f50Uncertainty.pdf>
-<figures/muonly/MoGluino_f10Uncertainty.pdf, id=7267, 569.12625pt x 546.04pt>
+<figures/muonly/MoGluino_f10Uncertainty.pdf, id=7281, 569.12625pt x 546.04pt>
 File: figures/muonly/MoGluino_f10Uncertainty.pdf Graphic file (type pdf)
 
 <use figures/muonly/MoGluino_f10Uncertainty.pdf>
-<figures/muonly/MoStopUncertainty.pdf, id=7268, 569.12625pt x 546.04pt>
+<figures/muonly/MoStopUncertainty.pdf, id=7282, 569.12625pt x 546.04pt>
 File: figures/muonly/MoStopUncertainty.pdf Graphic file (type pdf)
 
 <use figures/muonly/MoStopUncertainty.pdf>
-<figures/tkmu/MuGMStauUncertainty.pdf, id=7269, 569.12625pt x 546.04pt>
+<figures/tkmu/MuGMStauUncertainty.pdf, id=7283, 569.12625pt x 546.04pt>
 File: figures/tkmu/MuGMStauUncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuGMStauUncertainty.pdf>
-<figures/tkmu/MuPPStauUncertainty.pdf, id=7270, 569.12625pt x 546.04pt>
+<figures/tkmu/MuPPStauUncertainty.pdf, id=7284, 569.12625pt x 546.04pt>
 File: figures/tkmu/MuPPStauUncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuPPStauUncertainty.pdf>
-<figures/tkmu/MuGluino_f50Uncertainty.pdf, id=7271, 569.12625pt x 546.04pt>
+<figures/tkmu/MuGluino_f50Uncertainty.pdf, id=7285, 569.12625pt x 546.04pt>
 File: figures/tkmu/MuGluino_f50Uncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuGluino_f50Uncertainty.pdf>
-<figures/tkmu/MuGluino_f10Uncertainty.pdf, id=7272, 569.12625pt x 546.04pt>
+<figures/tkmu/MuGluino_f10Uncertainty.pdf, id=7286, 569.12625pt x 546.04pt>
 File: figures/tkmu/MuGluino_f10Uncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuGluino_f10Uncertainty.pdf>
-<figures/tkmu/MuStopUncertainty.pdf, id=7273, 569.12625pt x 546.04pt>
+<figures/tkmu/MuStopUncertainty.pdf, id=7287, 569.12625pt x 546.04pt>
 File: figures/tkmu/MuStopUncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuStopUncertainty.pdf>
-<figures/tkonly/TkGluinoN_f10Uncertainty.pdf, id=7274, 569.12625pt x 546.04pt>
+<figures/tkonly/TkGluinoN_f10Uncertainty.pdf, id=7288, 569.12625pt x 546.04pt>
 File: figures/tkonly/TkGluinoN_f10Uncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkonly/TkGluinoN_f10Uncertainty.pdf>
-<figures/tkonly/TkStopNUncertainty.pdf, id=7275, 569.12625pt x 546.04pt>
+<figures/tkonly/TkStopNUncertainty.pdf, id=7289, 569.12625pt x 546.04pt>
 File: figures/tkonly/TkStopNUncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkonly/TkStopNUncertainty.pdf>
-<figures/multi/HQDY_Q4Uncertainty.pdf, id=7276, 569.12625pt x 546.04pt>
+<figures/multi/HQDY_Q4Uncertainty.pdf, id=7290, 569.12625pt x 546.04pt>
 File: figures/multi/HQDY_Q4Uncertainty.pdf Graphic file (type pdf)
 
 <use figures/multi/HQDY_Q4Uncertainty.pdf>
-<figures/multi/HQDY_Q7Uncertainty.pdf, id=7277, 569.12625pt x 546.04pt>
+<figures/multi/HQDY_Q7Uncertainty.pdf, id=7291, 569.12625pt x 546.04pt>
 File: figures/multi/HQDY_Q7Uncertainty.pdf Graphic file (type pdf)
 
-<use figures/multi/HQDY_Q7Uncertainty.pdf>
-<figures/muonly/MOUncertainty.pdf, id=7278, 569.12625pt x 546.04pt>
+<use figures/multi/HQDY_Q7Uncertainty.pdf> [131]
+<figures/muonly/MOUncertainty.pdf, id=7304, 569.12625pt x 546.04pt>
 File: figures/muonly/MOUncertainty.pdf Graphic file (type pdf)
 
 <use figures/muonly/MOUncertainty.pdf>
-<figures/tkmu/MuUncertainty.pdf, id=7279, 569.12625pt x 546.04pt>
+<figures/tkmu/MuUncertainty.pdf, id=7305, 569.12625pt x 546.04pt>
 File: figures/tkmu/MuUncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuUncertainty.pdf>
-<figures/tkonly/TkUncertainty.pdf, id=7280, 569.12625pt x 546.04pt>
+<figures/tkonly/TkUncertainty.pdf, id=7306, 569.12625pt x 546.04pt>
 File: figures/tkonly/TkUncertainty.pdf Graphic file (type pdf)
 
 <use figures/tkonly/TkUncertainty.pdf>
-<figures/multi/HQUncertainty.pdf, id=7281, 569.12625pt x 546.04pt>
+<figures/multi/HQUncertainty.pdf, id=7307, 569.12625pt x 546.04pt>
 File: figures/multi/HQUncertainty.pdf Graphic file (type pdf)
 
 <use figures/multi/HQUncertainty.pdf>) (./results.tex
-<figures/muonly/MOExclusionLog.pdf, id=7282, 569.12625pt x 546.04pt>
+<figures/muonly/MOExclusionLog.pdf, id=7308, 569.12625pt x 546.04pt>
 File: figures/muonly/MOExclusionLog.pdf Graphic file (type pdf)
 
 <use figures/muonly/MOExclusionLog.pdf>
-<figures/tkmu/MuHadExclusionLog.pdf, id=7283, 569.12625pt x 546.04pt>
+<figures/tkmu/MuHadExclusionLog.pdf, id=7309, 569.12625pt x 546.04pt>
 File: figures/tkmu/MuHadExclusionLog.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuHadExclusionLog.pdf>
-<figures/tkmu/MuLepExclusionLog.pdf, id=7284, 569.12625pt x 546.04pt>
+<figures/tkmu/MuLepExclusionLog.pdf, id=7310, 569.12625pt x 546.04pt>
 File: figures/tkmu/MuLepExclusionLog.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuLepExclusionLog.pdf>
-<figures/tkonly/TkExclusionLog.pdf, id=7285, 569.12625pt x 546.04pt>
+<figures/tkonly/TkExclusionLog.pdf, id=7311, 569.12625pt x 546.04pt>
 File: figures/tkonly/TkExclusionLog.pdf Graphic file (type pdf)
 
 <use figures/tkonly/TkExclusionLog.pdf>
-<figures/multi/HQLowExclusionLog.pdf, id=7286, 569.12625pt x 546.04pt>
+<figures/multi/HQLowExclusionLog.pdf, id=7312, 569.12625pt x 546.04pt>
 File: figures/multi/HQLowExclusionLog.pdf Graphic file (type pdf)
 
 <use figures/multi/HQLowExclusionLog.pdf>
-<figures/multi/HQHighExclusionLog.pdf, id=7287, 569.12625pt x 546.04pt>
+<figures/multi/HQHighExclusionLog.pdf, id=7313, 569.12625pt x 546.04pt>
 File: figures/multi/HQHighExclusionLog.pdf Graphic file (type pdf)
 
-<use figures/multi/HQHighExclusionLog.pdf> [129]
-<figures/muonly/MOExclusionRelLog.pdf, id=7302, 554.07pt x 569.12625pt>
+<use figures/multi/HQHighExclusionLog.pdf>
+<figures/muonly/MOExclusionRelLog.pdf, id=7314, 554.07pt x 569.12625pt>
 File: figures/muonly/MOExclusionRelLog.pdf Graphic file (type pdf)
 
 <use figures/muonly/MOExclusionRelLog.pdf>
-<figures/tkmu/MuHadExclusionRelLog.pdf, id=7303, 554.07pt x 569.12625pt>
+<figures/tkmu/MuHadExclusionRelLog.pdf, id=7315, 554.07pt x 569.12625pt>
 File: figures/tkmu/MuHadExclusionRelLog.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuHadExclusionRelLog.pdf>
-<figures/tkmu/MuLepExclusionRelLog.pdf, id=7304, 554.07pt x 569.12625pt>
+<figures/tkmu/MuLepExclusionRelLog.pdf, id=7316, 554.07pt x 569.12625pt>
 File: figures/tkmu/MuLepExclusionRelLog.pdf Graphic file (type pdf)
 
 <use figures/tkmu/MuLepExclusionRelLog.pdf>
-<figures/tkonly/TkExclusionRelLog.pdf, id=7305, 554.07pt x 569.12625pt>
+<figures/tkonly/TkExclusionRelLog.pdf, id=7317, 554.07pt x 569.12625pt>
 File: figures/tkonly/TkExclusionRelLog.pdf Graphic file (type pdf)
 
 <use figures/tkonly/TkExclusionRelLog.pdf>
-<figures/multi/HQLowExclusionRelLog.pdf, id=7306, 554.07pt x 569.12625pt>
+<figures/multi/HQLowExclusionRelLog.pdf, id=7318, 554.07pt x 569.12625pt>
 File: figures/multi/HQLowExclusionRelLog.pdf Graphic file (type pdf)
 
 <use figures/multi/HQLowExclusionRelLog.pdf>
-<figures/multi/HQHighExclusionRelLog.pdf, id=7307, 554.07pt x 569.12625pt>
+<figures/multi/HQHighExclusionRelLog.pdf, id=7319, 554.07pt x 569.12625pt>
 File: figures/multi/HQHighExclusionRelLog.pdf Graphic file (type pdf)
 
-<use figures/multi/HQHighExclusionRelLog.pdf> [130] [131] [132]
-Overfull \hbox (6.13167pt too wide) in alignment at lines 155--166
+<use figures/multi/HQHighExclusionRelLog.pdf> [132] [133] [134]
+Overfull \hbox (6.13167pt too wide) in alignment at lines 157--168
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 166--174
+Overfull \hbox (6.13167pt too wide) in alignment at lines 168--176
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 174--177
+Overfull \hbox (6.13167pt too wide) in alignment at lines 176--179
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 177--178
+Overfull \hbox (6.13167pt too wide) in alignment at lines 179--180
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 178--200
+Overfull \hbox (6.13167pt too wide) in alignment at lines 180--202
+ [] [] [] [] [] [] [] 
+ []
+
+[135]
+Overfull \hbox (6.13167pt too wide) in alignment at lines 202--224
+ [] [] [] [] [] [] [] 
+ []
+
+[136]
+Overfull \hbox (6.13167pt too wide) in alignment at lines 224--245
+ [] [] [] [] [] [] [] 
+ []
+
+[137]
+Overfull \hbox (6.13167pt too wide) in alignment at lines 245--259
+ [] [] [] [] [] [] [] 
+ []
+
+[138]
+Overfull \hbox (6.13167pt too wide) in alignment at lines 265--276
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 200--222
- [] [] [] [] [] [] [] 
- []
-
-[133]
-Overfull \hbox (6.13167pt too wide) in alignment at lines 222--243
- [] [] [] [] [] [] [] 
- []
-
-[134]
-Overfull \hbox (6.13167pt too wide) in alignment at lines 243--257
- [] [] [] [] [] [] [] 
- []
-
-[135] [136]
-Overfull \hbox (6.13167pt too wide) in alignment at lines 263--274
+Overfull \hbox (6.13167pt too wide) in alignment at lines 276--284
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 274--282
+Overfull \hbox (6.13167pt too wide) in alignment at lines 284--287
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 282--285
+Overfull \hbox (6.13167pt too wide) in alignment at lines 287--288
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 285--286
+Overfull \hbox (6.13167pt too wide) in alignment at lines 288--311
  [] [] [] [] [] [] [] 
  []
 
-
-Overfull \hbox (6.13167pt too wide) in alignment at lines 286--309
+[139]
+Overfull \hbox (6.13167pt too wide) in alignment at lines 311--330
  [] [] [] [] [] [] [] 
  []
 
+[140] [141] [142] [143]
 
-Overfull \hbox (6.13167pt too wide) in alignment at lines 309--328
- [] [] [] [] [] [] [] 
- []
+LaTeX Warning: Float too large for page by 6.00764pt on input line 455.
 
-[137] [138] [139] [140] [141]
-<figures/hscp_resultsNov2012.pdf, id=7364, 569.12625pt x 546.04pt>
+[144] [145] <figures/hscp_resultsNov2012.pdf, id=7405, 569.12625pt x 546.04pt>
 File: figures/hscp_resultsNov2012.pdf Graphic file (type pdf)
 
 <use figures/hscp_resultsNov2012.pdf>
-<figures/DYhscp_resultsNov2012.pdf, id=7365, 569.12625pt x 546.04pt>
+<figures/DYhscp_resultsNov2012.pdf, id=7406, 569.12625pt x 546.04pt>
 File: figures/DYhscp_resultsNov2012.pdf Graphic file (type pdf)
 
-<use figures/DYhscp_resultsNov2012.pdf>) [142] [143]) (./conclusion.tex
-[144] [145 <./figures/muonly/MoGluino_f100Uncertainty.pdf, page is rotated 90 d
-egrees> <./figures/muonly/MoGluino_f50Uncertainty.pdf, page is rotated 90 degre
-es> <./figures/muonly/MoGluino_f10Uncertainty.pdf, page is rotated 90 degrees> 
-<./figures/muonly/MoStopUncertainty.pdf, page is rotated 90 degrees>] [146 <./f
-igures/tkmu/MuGMStauUncertainty.pdf, page is rotated 90 degrees> <./figures/tkm
-u/MuPPStauUncertainty.pdf, page is rotated 90 degrees>] [147 <./figures/tkmu/Mu
-Gluino_f50Uncertainty.pdf, page is rotated 90 degrees> <./figures/tkmu/MuGluino
-_f10Uncertainty.pdf, page is rotated 90 degrees> <./figures/tkmu/MuStopUncertai
-nty.pdf, page is rotated 90 degrees>] [148 <./figures/tkonly/TkGluinoN_f10Uncer
-tainty.pdf, page is rotated 90 degrees> <./figures/tkonly/TkStopNUncertainty.pd
-f, page is rotated 90 degrees> <./figures/multi/HQDY_Q4Uncertainty.pdf, page is
- rotated 90 degrees> <./figures/multi/HQDY_Q7Uncertainty.pdf, page is rotated 9
-0 degrees>] [149 <./figures/muonly/MOUncertainty.pdf, page is rotated 90 degree
-s> <./figures/tkmu/MuUncertainty.pdf, page is rotated 90 degrees> <./figures/tk
-only/TkUncertainty.pdf, page is rotated 90 degrees> <./figures/multi/HQUncertai
-nty.pdf, page is rotated 90 degrees>] [150 <./figures/muonly/MOExclusionLog.pdf
-, page is rotated 90 degrees> <./figures/tkmu/MuHadExclusionLog.pdf, page is ro
-tated 90 degrees> <./figures/tkmu/MuLepExclusionLog.pdf, page is rotated 90 deg
-rees>] [151 <./figures/tkonly/TkExclusionLog.pdf, page is rotated 90 degrees> <
-./figures/multi/HQLowExclusionLog.pdf, page is rotated 90 degrees> <./figures/m
-ulti/HQHighExclusionLog.pdf, page is rotated 90 degrees>] [152 <./figures/muonl
-y/MOExclusionRelLog.pdf> <./figures/tkmu/MuHadExclusionRelLog.pdf> <./figures/t
-kmu/MuLepExclusionRelLog.pdf>] [153 <./figures/tkonly/TkExclusionRelLog.pdf> <.
-/figures/multi/HQLowExclusionRelLog.pdf> <./figures/multi/HQHighExclusionRelLog
-.pdf>] [154 <./figures/hscp_resultsNov2012.pdf, page is rotated 90 degrees>]
-[155 <./figures/DYhscp_resultsNov2012.pdf, page is rotated 90 degrees>]
+<use figures/DYhscp_resultsNov2012.pdf>)) (./conclusion.tex [146] [147]
+[148 <./figures/muonly/MoGluino_f100Uncertainty.pdf, page is rotated 90 degrees
+> <./figures/muonly/MoGluino_f50Uncertainty.pdf, page is rotated 90 degrees> <.
+/figures/muonly/MoGluino_f10Uncertainty.pdf, page is rotated 90 degrees> <./fig
+ures/muonly/MoStopUncertainty.pdf, page is rotated 90 degrees>] [149 <./figures
+/tkmu/MuGMStauUncertainty.pdf, page is rotated 90 degrees> <./figures/tkmu/MuPP
+StauUncertainty.pdf, page is rotated 90 degrees>] [150 <./figures/tkmu/MuGluino
+_f50Uncertainty.pdf, page is rotated 90 degrees> <./figures/tkmu/MuGluino_f10Un
+certainty.pdf, page is rotated 90 degrees> <./figures/tkmu/MuStopUncertainty.pd
+f, page is rotated 90 degrees>] [151 <./figures/tkonly/TkGluinoN_f10Uncertainty
+.pdf, page is rotated 90 degrees> <./figures/tkonly/TkStopNUncertainty.pdf, pag
+e is rotated 90 degrees> <./figures/multi/HQDY_Q4Uncertainty.pdf, page is rotat
+ed 90 degrees> <./figures/multi/HQDY_Q7Uncertainty.pdf, page is rotated 90 degr
+ees>] [152 <./figures/muonly/MOUncertainty.pdf, page is rotated 90 degrees> <./
+figures/tkmu/MuUncertainty.pdf, page is rotated 90 degrees> <./figures/tkonly/T
+kUncertainty.pdf, page is rotated 90 degrees> <./figures/multi/HQUncertainty.pd
+f, page is rotated 90 degrees>] [153 <./figures/muonly/MOExclusionLog.pdf, page
+ is rotated 90 degrees> <./figures/tkmu/MuHadExclusionLog.pdf, page is rotated 
+90 degrees> <./figures/tkmu/MuLepExclusionLog.pdf, page is rotated 90 degrees>]
+[154 <./figures/tkonly/TkExclusionLog.pdf, page is rotated 90 degrees> <./figur
+es/multi/HQLowExclusionLog.pdf, page is rotated 90 degrees> <./figures/multi/HQ
+HighExclusionLog.pdf, page is rotated 90 degrees>] [155 <./figures/muonly/MOExc
+lusionRelLog.pdf> <./figures/tkmu/MuHadExclusionRelLog.pdf> <./figures/tkmu/MuL
+epExclusionRelLog.pdf>] [156 <./figures/tkonly/TkExclusionRelLog.pdf> <./figure
+s/multi/HQLowExclusionRelLog.pdf> <./figures/multi/HQHighExclusionRelLog.pdf>]
+[157 <./figures/hscp_resultsNov2012.pdf, page is rotated 90 degrees>] [158 <./f
+igures/DYhscp_resultsNov2012.pdf, page is rotated 90 degrees>]
 CHAPTER 6.
-[156
+[159
 
-]) [157] (./dissertation.bbl [158
+]) [160] (./dissertation.bbl [161
 
-] [159] [160] [161] [162]) [163]
+] [162] [163] [164] [165]) [166]
 (./dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 5411 strings out of 94501
- 95411 string characters out of 1176788
- 161003 words of memory out of 1000000
- 7906 multiletter control sequences out of 10000+50000
+ 5424 strings out of 94501
+ 95603 string characters out of 1176788
+ 160901 words of memory out of 1000000
+ 7911 multiletter control sequences out of 10000+50000
  16161 words of font info for 60 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
  27i,16n,36p,384b,299s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 8879 PDF objects out of 300000
- 378 named destinations out of 131072
+ 8918 PDF objects out of 300000
+ 386 named destinations out of 131072
  1178 words of extra memory for PDF output out of 65536
 </usr/share/texmf/fonts/type1/bluesky/cm/cmtt12.pfb></usr
 /share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/blue
@@ -1579,4 +1588,4 @@ cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmcsc10.pfb></usr/share/tex
 mf/fonts/type1/bluesky/cm/cmsl12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/c
 msy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/
 fonts/type1/bluesky/cm/cmr12.pfb>
-Output written on dissertation.pdf (180 pages, 4056189 bytes).
+Output written on dissertation.pdf (183 pages, 4066938 bytes).

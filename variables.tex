@@ -13,7 +13,7 @@ once only in the muon system, referred to as a stand-alone muon; and once as a c
 to as a global muon. CMS measures the curvature of a track which is proportional to, and can be used to determine, the $Q/p_T$ of the track.
 In the central region of CMS, tracker tracks have a resolution on $Q/p_T$ of 1\% for muons at intermediate momentum and 7\% at
 high momentum with the resolution being approximately
-twice as large in the forward region. Intermediate momentum is defined as 15--100~GeV and high momentum is defined as 400--1000 GeV.
+twice as large in the forward region. Intermediate momentum is defined as 15--100~GeV/$c$ and high momentum is defined as 400--1000 GeV/$c$.
 Stand-alone muons in the central region have a resolution on $Q/p_T$ of 8\% for intermediate momentum and 25\%~\cite{2008AN097} for high momentum with the uncertainty again
 being about twice as large in the forward region. The resolution for global muons is the same as for tracker muons for intermediate momentum and is slightly better
 than tracker muons at high momentum at 6\% in the central region.
@@ -54,7 +54,7 @@ $\Delta(Q/p_T)$ is defined in Equation~\ref{eq:deltaqopt}
 where ``SA'' refers to stand-alone muon qualities and ``Tk'' refers to
 tracker track qualities. As the $p_T$ resolution of tracker tracks is much better than for stand-alone muons, it is a sufficiently good approximation
 of the true particle momentum. Figure~\ref{fig:MuOnlyInvPtDiff} shows the distribution of
-$\Delta(Q/p_T)$ for tracks with inner track $p_T > 200$ GeV
+$\Delta(Q/p_T)$ for tracks with inner track $p_T > 200$ GeV/$c$
 for data and various simulated HSCP signal samples.
 A value of zero in this plot indicates the $p_T$ was reconstructed correctly
 while negative one indicates the reconstructed $p_T$ approaches infinity.
@@ -74,7 +74,7 @@ to a very large degree. This increases the differences between gluino HSCPs and 
   \includegraphics[width=0.7\textwidth]{figures/muonly/Selection_Comp_Signal_8TeV_InnerInvPtDiff_BS}
  \end{center}
  \caption{Distribution of $\Delta(Q/p_T)$
-    for data, 500 GeV gluino, 500 GeV stop, and 494 GeV CD stau. The $y$-axis is in log scale.
+    for data, 500 GeV/$c^2$ gluino, 500 GeV/$c^2$ stop, and 494 GeV/$c^2$ CD stau. The $y$-axis is in log scale.
     \label{fig:MuOnlyInvPtDiff}}
 \end{figure}
 
@@ -122,7 +122,7 @@ The same measurements are used to determine \ih\ and \ias\ so the variables are 
 where $N$ is the number of measurements in the silicon-strip tracker and $c_{i}$ is the energy loss per unit path length
 of the $i$th measurement. The use of a harmonic mean greatly reduces the impact of the rare radiative losses as the highest energy
 losses are effectively given less weight than lower energy losses. This leads to all
-SM particles produced at the LHC with momentum above 10~GeV on average having \ih\ values close to the minimum value ($\approx$ 2.8~MeV/cm). 
+SM particles produced at the LHC with momentum above 10~GeV/$c$ on average having \ih\ values close to the minimum value ($\approx$ 2.8~MeV/cm). 
 HSCP will have high \ih\ as their energy loss is consistently large.
 
 The second variable is \ias\ which is a modified version of the Smirnov-Cramer-von Mises~\cite{Eadie, James} discriminant.
@@ -136,7 +136,7 @@ The discriminant is given by:
 where $P_i$ is the probability for a MIP to
 produce a charge smaller or equal to that of the $i$th measurement in the silicon-strip tracker
 for the observed path length in the detector, and the sum is over the
-measurements ordered in terms of increasing $P_i$. The probabilities are found from tracks with momentum greater than five~GeV collected with a trigger requiring only
+measurements ordered in terms of increasing $P_i$. The probabilities are found from tracks with momentum greater than five~GeV/$c$ collected with a trigger requiring only
 that a proton collision occured inside CMS.
 The discriminant is peaked at zero for MIPs and approaches one for high-ionizing particles.
 

@@ -2,9 +2,13 @@ This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: dissertation.aux
 The style file: JHEP.bst
 Database file #1: references.bib
-Repeated entry---line 358 of file references.bib
+Repeated entry---line 436 of file references.bib
  : @article{Aad:2011hz
  :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 804 of file references.bib
+ : @article{Cowan:2010js
+ :                      ,
 I'm skipping whatever remains of this entry
 Warning--empty author and editor in CMSMuonTDR
 Warning--empty author in CMS-PAS-JME-12-002
@@ -12,45 +16,45 @@ Warning--empty author in SMP-12-008
 Warning--empty institution in SMP-12-008
 Warning--empty author in CMS:2010mua
 Warning--empty institution in CMS:2010mua
-You've used 65 entries,
+You've used 69 entries,
             2195 wiz_defined-function locations,
-            947 strings with 12771 characters,
-and the built_in function-call counts, 18198 in all, are:
-= -- 1910
-> -- 515
+            976 strings with 13362 characters,
+and the built_in function-call counts, 19388 in all, are:
+= -- 2027
+> -- 555
 < -- 1
-+ -- 198
-- -- 133
-* -- 1414
-:= -- 2455
-add.period$ -- 81
-call.type$ -- 65
-change.case$ -- 61
++ -- 213
+- -- 144
+* -- 1514
+:= -- 2620
+add.period$ -- 86
+call.type$ -- 69
+change.case$ -- 65
 chr.to.int$ -- 0
-cite$ -- 71
-duplicate$ -- 1019
-empty$ -- 1771
-format.name$ -- 133
-if$ -- 4708
+cite$ -- 75
+duplicate$ -- 1089
+empty$ -- 1887
+format.name$ -- 144
+if$ -- 5012
 int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 202
-newline$ -- 211
-num.names$ -- 60
-pop$ -- 254
+int.to.str$ -- 69
+missing$ -- 215
+newline$ -- 224
+num.names$ -- 66
+pop$ -- 276
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 689
+skip$ -- 728
 stack$ -- 0
-substring$ -- 872
-swap$ -- 411
+substring$ -- 914
+swap$ -- 437
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 125
-width$ -- 67
-write$ -- 699
-(There was 1 error message)
+while$ -- 134
+width$ -- 71
+write$ -- 745
+(There were 2 error messages)

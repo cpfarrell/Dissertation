@@ -378,7 +378,7 @@ resolution worse by more than an order of magnitude and very little discriminato
 This is because the assumptions in the previous measurements allowed both of them to use information
 related to the beam spot, which is approximately three times as far away from the innermost part of the muon system as the outermost part is to the innermost part.
 The vertex time measurement assumed an error-free propagation of the time in the muon system to the interaction point while the \invbeta\ measurement
-added a new measurement at the interaction point with $t = 0$. This assumption-free measurement is not used for any purpose in CMS.
+added a new measurement at the interaction point with $t = 0$. Because of the poor resolution, this assumption-free measurement is not used for any purpose in CMS.
 
 %\section{Timing in simulation} Maybe
 

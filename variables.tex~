@@ -146,4 +146,4 @@ I_h= K\cfrac{m^2}{p^2}+C.
 \label{eq:MassFromHarmonicEstimator}
 \end{equation}
 with  $K=2.559 \pm 0.001$ MeV cm$^{-1}$ $c^2$ and $C=2.772 \pm 0.001$ MeV cm$^{-1}$ as determined from low momentum protons~\cite{Khachatryan:2011ts}.
-Eq.~\ref{eq:MassFromHarmonicEstimator} is an approximation that works well over the range $0.1 < \beta < 0.9$.
+Eq.~\ref{eq:MassFromHarmonicEstimator} is an approximation that works well over the range $0.1 < \beta < 0.9$~\cite{PDG}.

@@ -95,7 +95,7 @@ allowing the highest-energy cosmic-ray muons to penetrate through large amounts 
 This allows cosmic-ray muons to pass through CMS creating another potential background for searches for new physics.
 
 \section{Beyond Standard Model Theories and Heavy Stable Charged Particles \label{sec:BSM}}
-More information about theories beyond the SM and heavy stable charged particles can be found in~\cite{Martin:1997ns, Tata:1997uf, Fairbairn:2006gg}.
+More information about theories beyond the SM and heavy stable charged particles can be found in~\cite{1998pesu.conf....1M, Tata:1997uf, Fairbairn:2006gg}.
 
 While the SM has proven to be a very robust theory, there are reasons to believe it is not complete. These include runaway
 radiative corrections to the Higgs mass and an inability to explain the astronomically observed dark matter~\cite{1983SciAm.248...96R}.
@@ -168,7 +168,7 @@ The first is the model presented in~\cite{Kraan:2004tz, Mackeprang:2006gx}
 which is referred to as the cloud model and results in a mixture of charged and neutral $R$--hadrons after a nuclear interaction.
 The second model, referred to as charge-suppressed (CS), makes all $R$--hadrons neutral after a nuclear interaction.
 
-The CS model is a somewhat more pessimistic model than the one discussed in~\cite{Mackeprang:2009ad}.
+For discovery at the LHC, the CS model is a somewhat more pessimistic model than the one discussed in~\cite{Mackeprang:2009ad}.
 The model results in all $R$-hadrons becoming electrically neutral due to a combination of baryon exchange with the detector and the $R$-hadron mass spectrum.
 $R$--mesons can interact with protons and neutrons in the detector converting into $R$--baryons and releasing a pion.
 The reverse process is unlikely to occur due to the lack of pions in the detector material and limited phase space.

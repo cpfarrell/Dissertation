@@ -1,20 +1,20 @@
 \section{Cut Optimization \label{sec:Optim}}
 All of the analyses calculate the predicted and observed number of tracks for numerous different sets of thresholds on the selection variables.
 Some of the sets of thresholds have only a small number of tracks in the control regions which are used to make the background prediction.
-Low statistics in the control region can make the background prediction unreliable and potentially biased if signal tracks make up a large portion of the control region.
+Low statistics in the control region can make the background prediction unreliable.
 To prevent this, only thresholds that have at least 25 tracks in all control regions are considered. 
 
 The number of predicted and observed events for a few sets of thresholds for the \muononly\ and \tktof\ analyses are shown in Figure~\ref{fig:PredPt230}. 
 Similar plots are shown for the \tkonly\ and \multi\ analyses in Figure~\ref{fig:PredMF}.
-The observed and predicted mass spectrum with loose thresholds of $p_T > 55$ GeV, $I_{as}>0.05$ and $1/\beta>1.05$ is shown in Figure~\ref{fig:MassDistribution} (left)
-for the \tktof\ analysis. Figure~\ref{fig:MassDistribution} (right) shows the same for the \tkonly\ analysis with thresholds of $p_T > 55$ GeV and $I_{as}>0.1$.
+The observed and predicted mass spectrum with loose thresholds of $p_T > 55$ GeV/$c$, $I_{as}>0.05$ and $1/\beta>1.05$ is shown in Figure~\ref{fig:MassDistribution} (left)
+for the \tktof\ analysis. Figure~\ref{fig:MassDistribution} (right) shows the same for the \tkonly\ analysis with thresholds of $p_T > 55$ GeV/$c$ and $I_{as}>0.1$.
 
 \begin{figure}
 \centering
   \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/muonly/Prediction_Data8TeV_NPredVsNObs}
   \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkmu/Prediction_Data8TeV_NPredVsNObs}
   \caption[Number of predicted and observed events for two different thresholds in the \muononly\ and \tktof\ analyses.]
-{Number of predicted and observed events for two different thresholds. 
+{Number of predicted and observed events for two different thresholds in the \muononly\ and \tktof\ analyses. 
 Left: For the \muononly\ analysis. Threshold for \invbeta\ set by X-axis.
 Right: For the \tktof\ analysis. The loose threshold is defined as \pt\ $>$ 55 GeV/$c$ and \invbeta\ $>$ 1.075.
 The tight threshold is defined as \pt\ $>$ 80 GeV/$c$ and \invbeta\ $>$ 1.125.  Threshold for \ias\ set by X-axis.}
@@ -26,7 +26,7 @@ The tight threshold is defined as \pt\ $>$ 80 GeV/$c$ and \invbeta\ $>$ 1.125.  
   \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/Prediction_Data8TeV_NPredVsNObs}
   \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/multi/Prediction_Data8TeV_NPredVsNObs}
   \caption[Number of predicted and observed events for two different thresholds in the \tkonly\ and \multi\ analyses.]
-{Number of predicted and observed events for two different $p_T$ thresholds. Threshold for \ias\ set by X-axis.
+{Number of predicted and observed events for two different $p_T$ thresholds in the \tkonly\ and \multi\ analyses. Threshold for \ias\ set by X-axis.
 Left: For the \tkonly\ analysis. Right: For the \multi\ analysis.}
     \label{fig:PredMF}
 \end{figure}
@@ -37,9 +37,9 @@ Left: For the \tkonly\ analysis. Right: For the \multi\ analysis.}
   \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/RescaleNoRatio_Mass_8TeV_LooseNoSMMC}
  \end{center}
  \caption[Observed and predicted mass spectrum for tracks in the signal region with loose thresholds in the \tktof\ and \tkonly\ analyses.]
-{Observed and predicted mass spectrum for tracks in the $D$ region with loose thresholds.
-Left: For the \tktof\ analysis with thresholds of $p_T > 55$ GeV, $I_{as}>0.05$ and $1/\beta>1.05$.
-Right: For the \tkonly\ analysis with thresholds of $p_T > 55$ GeV and $I_{as}>0.1$
+{Observed and predicted mass spectrum for tracks in the signal ($D$) region with loose thresholds.
+Left: For the \tktof\ analysis with thresholds of $p_T > 55$ GeV/$c$, $I_{as}>0.05$ and $1/\beta>1.05$.
+Right: For the \tkonly\ analysis with thresholds of $p_T > 55$ GeV/$c$ and $I_{as}>0.1$
 The error bands are only statistical.}
 \label{fig:MassDistribution}
 \end{figure}
@@ -56,15 +56,15 @@ However, a single event is normally not enough to claim discovery of new physics
 To protect against this, the definition of the expected reach is modified to be at least as large as
 the cross-section which is expected to give at least five events, as recommended by the CMS statistics committee.
 
-Most of the time, the two variables agree as to which thresholds are better however in some
+Most of the time, the two variables agree as to which thresholds are better, however, in some
 conditions the variables will disagree. One such case is analyses that have little predicted background and high efficiency for the signal to pass the thresholds on the
 selection variables. This is the case for high mass samples in the \tktof\  and \tkonly\ analyses.
 Once the expected cross-section limit falls below the point where more than 50\% of the time zero events would be observed in the background only hypothesis,
 the expected cross-section limit no longer improves
 by decreasing the expected background. Any loss of efficiency caused by raising the threshold on the selection variables will cause the expected cross-section limit to be optimized
 at this crossover point. The crossover occurs at approximately 0.6 predicted events with the uncertainties used in the analyses. 
-
-The expected reach continues to improve by making the predicted background smaller until a five sigma significance would be found with fewer than five events. At this
+On the other hand, The expected reach continues to improve by making the predicted background smaller until a five sigma 
+significance would be found with fewer than five events. At this
 point the requirement that at least five events be found for a discovery sets the expected reach.
 This occurs at approximately 0.1 predicted events. 
 
@@ -102,7 +102,7 @@ is given to the expected reach when trying to optimize the threshold values.
 The thresholds are optimized in a two step process. First the set of thresholds which give the best expected reach for each mass/model point is determined. However, this leads
 to numerous different selections being used which are often very similar and give about the same discriminating power. This is troublesome for two reasons. 
 
-The first is that using multiple different selections increases the risk of a statistical fluctuation of the background causing a spurious signal. 
+The first reason is that using multiple different selections increases the risk of a statistical fluctuation of the background causing a spurious signal. 
 To account for this a correction
 must be applied to the obtained local significance such that the value is correctly set to the probability of finding the signal in any of the used sets of thresholds. This
 means that the global expected reach could be improved by using fewer sets of thresholds even if it comes with the price of making the local expected reach worse.
@@ -158,7 +158,7 @@ $|Q|>1e$                &           $>45$         &       $> 0.500$            &
   \includegraphics[clip=false, trim=0.0cm 0cm 0.0cm 0cm, width=0.48\textwidth]{figures/tkonly/RescaleNoRatio_Mass_8TeV_TightNoSMMC}
  \end{center}
  \caption[Observed and predicted mass spectrum for tracks in the signal region with the final selection thresholds in the \tktof\ and \tkonly\ analyses.]
-{Observed and predicted mass spectrum for tracks in the $D$ region in the \tktof\ analysis with the tight selection.
+{Observed and predicted mass spectrum for tracks in the signal ($D$) region in the \tktof\ analysis with the tight selection.
 The error bands are only statistical. Left: For the \tktof\ analysis. Right: For the \tkonly\ analysis.}
 \label{fig:TightMassDistribution}
 \end{figure}
